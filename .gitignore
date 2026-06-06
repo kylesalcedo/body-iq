@@ -16,6 +16,7 @@ node_modules/
 .next/
 dist/
 build/
+*.tsbuildinfo
 __pycache__/
 *.pyc
 .venv/

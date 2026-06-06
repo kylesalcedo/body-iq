@@ -292,7 +292,7 @@ async function main() {
   const bundle: Bundle = {
     meta: {
       exportedAt: new Date().toISOString(),
-      sourceRepo: "body-iq-gsd",
+      sourceRepo: "body-iq",
       sourceCommit: commit,
       regionSlug: region.slug,
       counts: {

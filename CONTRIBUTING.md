@@ -77,8 +77,8 @@ This project values **accuracy over volume**. Every contribution must follow the
 # Prerequisites: Node.js 18+, PostgreSQL 14+, pnpm
 
 # Clone and install
-git clone https://github.com/kylesalcedo/body-iq-gsd.git
-cd body-iq-gsd
+git clone https://github.com/kylesalcedo/body-iq.git
+cd body-iq
 pnpm install
 
 # Configure database
