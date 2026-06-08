@@ -8,6 +8,9 @@ import { seedExercises } from "./exercises";
 import { seedSources } from "./sources";
 import { seedGaitAndScapularExtension } from "./extensions/gait-scapular";
 import { seedHandIntrinsicsExtension } from "./extensions/hand-intrinsics";
+import { seedCervicalEvidenceExtension } from "./extensions/cervical-evidence";
+import { seedLowEvidenceUpgradesExtension } from "./extensions/low-evidence-upgrades";
+import { seedThinModalitiesExtension } from "./extensions/thin-modalities";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -31,6 +34,9 @@ async function main() {
   // Extensions (additive — new regions, movements, gait phases, exercises)
   await seedGaitAndScapularExtension();
   await seedHandIntrinsicsExtension();
+  await seedCervicalEvidenceExtension();
+  await seedLowEvidenceUpgradesExtension();
+  await seedThinModalitiesExtension();
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
