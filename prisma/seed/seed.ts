@@ -13,6 +13,7 @@ import { seedLowEvidenceUpgradesExtension } from "./extensions/low-evidence-upgr
 import { seedThinModalitiesExtension } from "./extensions/thin-modalities";
 import { seedUseCaseEssentialsExtension } from "./extensions/use-case-essentials";
 import { seedOccupationEssentialsExtension } from "./extensions/occupation-essentials";
+import { seedPrimitivesAndPfmExtension } from "./extensions/primitives-and-pfm";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -41,6 +42,7 @@ async function main() {
   await seedThinModalitiesExtension();
   await seedUseCaseEssentialsExtension();
   await seedOccupationEssentialsExtension();
+  await seedPrimitivesAndPfmExtension();
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
