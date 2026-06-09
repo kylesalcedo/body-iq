@@ -12,6 +12,7 @@ import { seedCervicalEvidenceExtension } from "./extensions/cervical-evidence";
 import { seedLowEvidenceUpgradesExtension } from "./extensions/low-evidence-upgrades";
 import { seedThinModalitiesExtension } from "./extensions/thin-modalities";
 import { seedUseCaseEssentialsExtension } from "./extensions/use-case-essentials";
+import { seedOccupationEssentialsExtension } from "./extensions/occupation-essentials";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -39,6 +40,7 @@ async function main() {
   await seedLowEvidenceUpgradesExtension();
   await seedThinModalitiesExtension();
   await seedUseCaseEssentialsExtension();
+  await seedOccupationEssentialsExtension();
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
