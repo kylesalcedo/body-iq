@@ -11,10 +11,11 @@
  */
 
 import { prisma } from "../src/lib/prisma";
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readdirSync, readFileSync, unlinkSync } from "node:fs";
 import { join } from "node:path";
 
 const OUT_DIR = join(process.cwd(), "prompts");
+const COMPLETED_DIR = join(OUT_DIR, "completed");
 const MAX_AUTO_PROMPTS = 5;
 
 // ─── Gap scans ───────────────────────────────────────────────────────────────
@@ -27,16 +28,22 @@ type RegionMovementGap = {
 };
 
 async function findSparseMovements(): Promise<RegionMovementGap[]> {
+  // Movements tagged `evidence-gap-accepted` have been reviewed — the sparse
+  // exercise count is the intended state (e.g. cervical-protraction is a
+  // postural observation, not a training target) and we don't want to re-emit
+  // OpenEvidence prompts for them on every scan.
   const rows = await prisma.movement.findMany({
     select: {
       slug: true,
       name: true,
       joint: { select: { region: { select: { name: true, sortOrder: true } } } },
       _count: { select: { exercises: true } },
+      tags: { select: { tag: { select: { slug: true } } } },
     },
   });
 
   return rows
+    .filter((r) => !r.tags.some((t) => t.tag.slug === "evidence-gap-accepted"))
     .map((r) => ({
       region: r.joint.region.name,
       movement: r.name,
@@ -290,6 +297,52 @@ function writePrompt(name: string, body: string) {
   return path;
 }
 
+/**
+ * Move any auto-*.md files in prompts/ that are NOT in the current emit set
+ * to prompts/completed/. The signal is "this gap was a prompt last run, but
+ * is no longer one — either it got ingested or its movement was tagged
+ * evidence-gap-accepted." Appends an archive footer with the date.
+ */
+function archiveStalePrompts(currentlyEmitted: Set<string>): string[] {
+  mkdirSync(COMPLETED_DIR, { recursive: true });
+
+  let entries: string[] = [];
+  try {
+    entries = readdirSync(OUT_DIR);
+  } catch {
+    return [];
+  }
+
+  const today = new Date().toISOString().slice(0, 10);
+  const archived: string[] = [];
+
+  for (const file of entries) {
+    if (!file.startsWith("auto-") || !file.endsWith(".md")) continue;
+    if (currentlyEmitted.has(file)) continue;
+
+    const src = join(OUT_DIR, file);
+    const dest = join(COMPLETED_DIR, file);
+
+    let body: string;
+    try {
+      body = readFileSync(src, "utf8");
+    } catch {
+      continue;
+    }
+    const footer = `\n\n---\n\n_Archived ${today} — no longer in current gap report. Check \`research/${file.replace(/\.md$/, "-response.md")}\` for the OpenEvidence answer (if processed)._\n`;
+    const out = body.includes("_Archived ") ? body : body + footer;
+    writeFileSync(dest, out);
+    try {
+      unlinkSync(src);
+    } catch {
+      // ignore
+    }
+    archived.push(dest);
+  }
+
+  return archived;
+}
+
 async function main() {
   console.log("🔍 Scanning knowledge graph for coverage gaps...\n");
 
@@ -367,6 +420,10 @@ async function main() {
     );
   }
 
+  // ─── Archive stale prompts no longer in the current emit set ──────────────
+  const emittedFilenames = new Set(emitted.map((p) => p.split("/").pop()!));
+  const archived = archiveStalePrompts(emittedFilenames);
+
   console.log(`✅ Gap report: prompts/.gaps-report.md`);
   console.log(`   Sparse (region × movement) combos: ${sparseMoves.length}`);
   console.log(`   Low-evidence exercises:            ${weakEvidence.length}`);
@@ -374,6 +431,10 @@ async function main() {
   console.log(`   Sparse functional tasks:           ${taskGaps.length}`);
   console.log(`\n✏️  Emitted ${emitted.length} auto-prompts:`);
   for (const p of emitted) console.log(`   - ${p.replace(process.cwd() + "/", "")}`);
+  if (archived.length) {
+    console.log(`\n📦 Archived ${archived.length} stale prompt${archived.length === 1 ? "" : "s"} → prompts/completed/:`);
+    for (const p of archived) console.log(`   - ${p.replace(process.cwd() + "/", "")}`);
+  }
   console.log(
     `\nEdit any prompt before sending, or paste straight into OpenEvidence. Responses go in research/ (also gitignored).`
   );

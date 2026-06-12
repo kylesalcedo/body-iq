@@ -29,6 +29,15 @@ export default async function MovementDetailPage({ params }: { params: { slug: s
         </Card>
       )}
 
+      {movement.notes && (
+        <Card className="mb-6 border-l-4 border-l-amber-400 bg-amber-50/50">
+          <div className="text-xs font-semibold uppercase tracking-wide text-amber-800">
+            Clinical context
+          </div>
+          <p className="mt-1 text-sm leading-relaxed text-gray-700">{movement.notes}</p>
+        </Card>
+      )}
+
       {/* Range of Motion */}
       <RomCard movement={movement} />
 

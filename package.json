@@ -14,7 +14,9 @@
     "validate:schemas": "tsx src/lib/schemas/validate.ts",
     "contract:test": "tsx src/lib/schemas/contract-test.ts",
     "data:quality": "tsx scripts/data-quality.ts",
-    "prompts:gaps": "tsx scripts/prompt-gaps.ts"
+    "prompts:gaps": "tsx scripts/prompt-gaps.ts",
+    "cue:audit": "tsx scripts/cue-quality.ts",
+    "cue:prompts": "tsx scripts/cue-rewrite-prompts.ts"
   },
   "dependencies": {
     "next": "^14.2.0",
