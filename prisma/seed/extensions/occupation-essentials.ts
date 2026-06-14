@@ -3,9 +3,9 @@ import { MuscleRole } from "@prisma/client"
 
 /**
  * Occupation-stack essentials — supporting exercises for the 9
- * occupation-specific stacks (OpenEvidence response 2026-06-08, Task 3).
+ * occupation-specific stacks (literature review response 2026-06-08, Task 3).
  *
- * Source: research/oe-occupation-stacks-2026-06-08-response.md
+ * Source: research/evidence-occupation-stacks-2026-06-08-response.md
  *
  * Adds 10 exercises that the occupation stacks reference but the
  * catalog was missing. Most other components (Pallof press, farmer's
@@ -253,7 +253,7 @@ const exercises: ExerciseSpec[] = [
 ]
 
 export async function seedOccupationEssentialsExtension() {
-  logSection("Occupation stack essentials (OE 2026-06-08 — Task 3)")
+  logSection("Occupation stack essentials (literature review 2026-06-08 — Task 3)")
 
   const [movs, muscs] = await Promise.all([
     prisma.movement.findMany({ select: { id: true, slug: true } }),

@@ -1,7 +1,7 @@
 import { prisma, logSection, logCount } from "../client";
 
 /**
- * Cervical evidence reconciliation — OpenEvidence responses (2026-04-20).
+ * Cervical evidence reconciliation — literature review responses (2026-04-20).
  *
  * The literature does not support "Cervical Protraction" or "Cervical Retraction"
  * as isolated therapeutic movements. Retraction is studied as **craniocervical
@@ -80,7 +80,7 @@ async function updateMovementNotes() {
   logCount("cervical movements updated", count);
 
   // Tag movements where the evidence gap has been reviewed and accepted so the
-  // prompt-gaps scanner stops re-emitting OpenEvidence prompts for them.
+  // prompt-gaps scanner stops re-emitting literature review prompts for them.
   const gapTag = await prisma.tag.upsert({
     where: { slug: "evidence-gap-accepted" },
     update: {},

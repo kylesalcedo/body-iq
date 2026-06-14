@@ -2,15 +2,15 @@ import { prisma, logSection, logCount } from "../client"
 import { MuscleRole } from "@prisma/client"
 
 /**
- * Movement primitives + Pelvic floor — OpenEvidence responses
+ * Movement primitives + Pelvic floor — literature review responses
  * 2026-06-09 (Task 4 + Task 5).
  *
  * Sources:
- *   research/oe-movement-primitives-2026-06-09-response.md
- *   research/oe-pelvic-floor-2026-06-09-response.md
+ *   research/evidence-movement-primitives-2026-06-09-response.md
+ *   research/evidence-pelvic-floor-2026-06-09-response.md
  *
  * Task 4 adds 5 movement primitives whose corrective exercises
- * weren't yet in the catalog. The remaining 7 primitives in the OE
+ * weren't yet in the catalog. The remaining 7 primitives in the literature review
  * response map to existing entries (deep-neck-flexor-training,
  * push-up-plus, sleeper-stretch, half-kneeling-hip-flexor-stretch,
  * arch-doming, diaphragmatic-breathing-with-bracing, scapular-
@@ -317,7 +317,7 @@ const exercises: ExerciseSpec[] = [
 ]
 
 export async function seedPrimitivesAndPfmExtension() {
-  logSection("Movement primitives + Pelvic floor (OE 2026-06-09)")
+  logSection("Movement primitives + Pelvic floor (literature review 2026-06-09)")
 
   const [movs, muscs] = await Promise.all([
     prisma.movement.findMany({ select: { id: true, slug: true } }),

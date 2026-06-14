@@ -3992,7 +3992,7 @@ const exercises: ExerciseDef[] = [
       },
     ],
   },
-  // ── Batch 2 OpenEvidence: Additional Exercises ────────────────────────────
+  // ── Batch 2 literature review: Additional Exercises ────────────────────────────
   {
     slug: "turkish-get-up",
     name: "Turkish Get-Up",

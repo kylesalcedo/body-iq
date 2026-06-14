@@ -314,7 +314,7 @@ export async function seedSources() {
       doi: "10.2165/00007256-200939080-00004",
       pmid: "19769415",
     },
-    // ── Shoulder Anatomy & Biomechanics Evidence (OpenEvidence verified) ──
+    // ── Shoulder Anatomy & Biomechanics Evidence (literature-verified) ──
     {
       slug: "axford-shoulder-moment-arms-2025",
       title: "Three-Dimensional Continuous Muscle Moment Arm Maps for the Anatomical Shoulder",
@@ -475,7 +475,7 @@ export async function seedSources() {
       confidence: 0.9,
       doi: "10.1177/03635465211025002",
     },
-    // ── Knee Anatomy & Biomechanics Evidence (OpenEvidence verified) ──────
+    // ── Knee Anatomy & Biomechanics Evidence (literature-verified) ──────
     {
       slug: "waligora-quadriceps-anatomy-2009",
       title: "Clinical Anatomy of the Quadriceps Femoris and Extensor Apparatus of the Knee",
@@ -710,7 +710,7 @@ export async function seedSources() {
       doi: "10.1111/sms.13303",
       pmid: "30230042",
     },
-    // ── Lumbar Spine Anatomy & Biomechanics Evidence (OpenEvidence verified) ──
+    // ── Lumbar Spine Anatomy & Biomechanics Evidence (literature-verified) ──
     {
       slug: "harano-multifidus-reappraisal-2026",
       title: "An Insertion-Based Anatomical Reappraisal of the Lumbar Multifidus",
@@ -894,7 +894,7 @@ export async function seedSources() {
       doi: "10.1002/(SICI)1098-2353(1999)12:4<264::AID-CA4>3.0.CO;2-L",
       pmid: "10398385",
     },
-    // ── Hip Anatomy & Biomechanics Evidence (OpenEvidence verified) ───────
+    // ── Hip Anatomy & Biomechanics Evidence (literature-verified) ───────
     {
       slug: "anetai-glut-max-structure-2025",
       title: "Structural Re-Evaluation of the Human Gluteus Maximus",
@@ -1028,7 +1028,7 @@ export async function seedSources() {
       doi: "10.21203/rs.3.rs-1809492/v1",
       fulltextUrl: "https://figshare.com/articles/journal_contribution/Effects_of_a_targeted_resistance_intervention_compared_to_a_sham_intervention_on_gluteal_muscle_hypertrophy_fatty_infiltration_and_strength_in_people_with_hip_osteoarthritis_analysis_of_secondary_outcomes_from_a_randomised_clinical_trial/21443844",
     },
-    // ── Cervical Spine Anatomy & Biomechanics Evidence (OpenEvidence verified) ──
+    // ── Cervical Spine Anatomy & Biomechanics Evidence (literature-verified) ──
     {
       slug: "kennedy-dcf-fascicular-anatomy-2017",
       title: "Do Longus Capitis and Colli Really Stabilise the Cervical Spine? A Study of Their Fascicular Anatomy and Peak Force Capabilities",
@@ -1330,7 +1330,7 @@ export async function seedSources() {
       fulltextUrl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12857311/",
       pdfUrl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12857311/pdf/",
     },
-    // ── Ankle Evidence (OpenEvidence verified) ────────────────────────────
+    // ── Ankle Evidence (literature-verified) ────────────────────────────
     {
       slug: "mullaney-triceps-surae-emg-2011",
       title: "EMG Analysis of the Triceps Surae Muscle Complex During Achilles Tendon Rehabilitation Program Exercises",
@@ -1372,7 +1372,7 @@ export async function seedSources() {
       fulltextUrl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8824326/",
       pdfUrl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8824326/pdf/",
     },
-    // ── Elbow Evidence (OpenEvidence verified) ────────────────────────────
+    // ── Elbow Evidence (literature-verified) ────────────────────────────
     {
       slug: "buchanan-elbow-strategies-1989",
       title: "Strategies for Muscle Activation During Isometric Torque Generation at the Human Elbow",
@@ -1413,7 +1413,7 @@ export async function seedSources() {
       doi: "10.1136/bjsports-2020-102525",
       pmid: "33148599",
     },
-    // ── Wrist Evidence (OpenEvidence verified) ────────────────────────────
+    // ── Wrist Evidence (literature-verified) ────────────────────────────
     {
       slug: "forman-wrist-flexion-extension-emg-2020",
       title: "Characterizing Forearm Muscle Activity During Dynamic Wrist Flexion-Extension Movement",
@@ -1438,7 +1438,7 @@ export async function seedSources() {
       doi: "10.1007/s00421-010-1675-4",
       pmid: "20931218",
     },
-    // ── Hand Evidence (OpenEvidence verified) ─────────────────────────────
+    // ── Hand Evidence (literature-verified) ─────────────────────────────
     {
       slug: "akbas-grip-strength-meta-2025",
       title: "Hand-Focused Strength and Proprioceptive Training for Improving Grip Strength and Manual Dexterity: A Systematic Review and Meta-Analysis",
@@ -1465,7 +1465,7 @@ export async function seedSources() {
       doi: "10.1177/0269215518780973",
       pmid: "29911409",
     },
-    // ── Thoracic Spine Evidence (OpenEvidence verified) ───────────────────
+    // ── Thoracic Spine Evidence (literature-verified) ───────────────────
     {
       slug: "de-ridder-trunk-extension-emg-2013",
       title: "Posterior Muscle Chain Activity During Various Extension Exercises: An Observational Study",
@@ -1517,7 +1517,7 @@ export async function seedSources() {
       doi: "10.1152/physrev.00007.2004",
       pmid: "15788709",
     },
-    // ── EMG Verification of Exercise Muscle Roles (OpenEvidence 2026-03-29) ──
+    // ── EMG Verification of Exercise Muscle Roles (literature review 2026-03-29) ──
     // File 1: exercise-muscle-role-audit-response.md
     {
       slug: "hirose-bridge-emg-2018",
@@ -2161,7 +2161,7 @@ export async function seedSources() {
       pmid: "9502361",
       fulltextUrl: "https://journals.lww.com/acsm-msse/Fulltext/1998/02000/Quantitative_intramuscular_myoelectric_activity_of.20.aspx",
     },
-    // ── Functional Task Biomechanics (OpenEvidence 2026-03-29) ──
+    // ── Functional Task Biomechanics (literature review 2026-03-29) ──
     // File 2: functional-task-biomechanics-response.md
     {
       slug: "dogan-functional-rom-upper-extremity-2019",
@@ -2668,7 +2668,7 @@ export async function seedSources() {
       confidence: 0.85,
       doi: "10.1097/00130561-200015020-00005",
     },
-    // ── Low-Confidence Exercise Evidence (OpenEvidence 2026-03-29) ──
+    // ── Low-Confidence Exercise Evidence (literature review 2026-03-29) ──
     // File 3: low-confidence-exercise-evidence-response.md
     {
       slug: "alonso-fernandez-copenhagen-2022",
@@ -3089,7 +3089,7 @@ export async function seedSources() {
       doi: "10.1016/S0736-0266(03)00115-3",
       pmid: "14656682",
     },
-    // ── Hand Intrinsics & Movement Roles Evidence (OpenEvidence 2026-03-29) ──
+    // ── Hand Intrinsics & Movement Roles Evidence (literature review 2026-03-29) ──
     {
       slug: "eladoumikdachi-interossei-anatomy-2002",
       title: "Anatomy of the Intrinsic Hand Muscles Revisited: Part I. Interossei",
@@ -3209,7 +3209,7 @@ export async function seedSources() {
       doi: "10.1097/BRS.0b013e3181dc844a",
       pmid: "21178840",
     },
-    // ── Condition-Specific Exercise Evidence (Batch 5 — OpenEvidence 2026-03-29) ──
+    // ── Condition-Specific Exercise Evidence (Batch 5 — literature review 2026-03-29) ──
     // Rotator Cuff / Shoulder Impingement
     {
       slug: "reinold-supraspinatus-deltoid-2008",
@@ -4133,7 +4133,7 @@ export async function seedSources() {
       "wu-ankle-sprain-2025", "zeng-exercise-knee-oa-2022",
       "hebert-losier-heel-raise-2012", "hali-triceps-surae-motor-units-2019",
     ],
-    // ── New exercise-source mappings from OpenEvidence responses (2026-03-29) ──
+    // ── New exercise-source mappings from literature review responses (2026-03-29) ──
     "bridge": [
       "hirose-bridge-emg-2018", "khosrokiani-core-stabilization-2021",
       "ekstrom-core-rehab-emg-2007", "luk-bridge-suspension-2021",
@@ -4202,7 +4202,7 @@ export async function seedSources() {
       "hoogvliet-epicondylitis-2013", "stasinopoulos-lateral-elbow-2005",
       "coombes-lateral-epicondylalgia-2013", "mcqueen-lateral-elbow-strengthening-2020",
     ],
-    // ── Condition-Specific Exercise Mappings (Batch 5 — OpenEvidence 2026-03-29) ──
+    // ── Condition-Specific Exercise Mappings (Batch 5 — literature review 2026-03-29) ──
     "full-can-exercise": [
       "reinold-supraspinatus-deltoid-2008", "kijkunasathian-supraspinatus-isolation-2023",
       "holmgren-subacromial-exercise-2012", "dube-fitt-rotator-cuff-2024",

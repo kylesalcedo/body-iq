@@ -2,7 +2,7 @@
 /**
  * Scan the knowledge graph for coverage gaps and emit:
  *   1. prompts/.gaps-report.md     — human-readable gap audit
- *   2. prompts/auto-<slug>.md      — copy-paste-ready OpenEvidence prompts
+ *   2. prompts/auto-<slug>.md      — copy-paste-ready literature review prompts
  *                                    for the top gaps, following CONVENTIONS.md
  *
  * Run with: pnpm prompts:gaps
@@ -31,7 +31,7 @@ async function findSparseMovements(): Promise<RegionMovementGap[]> {
   // Movements tagged `evidence-gap-accepted` have been reviewed — the sparse
   // exercise count is the intended state (e.g. cervical-protraction is a
   // postural observation, not a training target) and we don't want to re-emit
-  // OpenEvidence prompts for them on every scan.
+  // literature review prompts for them on every scan.
   const rows = await prisma.movement.findMany({
     select: {
       slug: true,
@@ -329,7 +329,7 @@ function archiveStalePrompts(currentlyEmitted: Set<string>): string[] {
     } catch {
       continue;
     }
-    const footer = `\n\n---\n\n_Archived ${today} — no longer in current gap report. Check \`research/${file.replace(/\.md$/, "-response.md")}\` for the OpenEvidence answer (if processed)._\n`;
+    const footer = `\n\n---\n\n_Archived ${today} — no longer in current gap report. Check \`research/${file.replace(/\.md$/, "-response.md")}\` for the literature review answer (if processed)._\n`;
     const out = body.includes("_Archived ") ? body : body + footer;
     writeFileSync(dest, out);
     try {
@@ -436,7 +436,7 @@ async function main() {
     for (const p of archived) console.log(`   - ${p.replace(process.cwd() + "/", "")}`);
   }
   console.log(
-    `\nEdit any prompt before sending, or paste straight into OpenEvidence. Responses go in research/ (also gitignored).`
+    `\nEdit any prompt before sending, or paste straight into your evidence tool. Responses go in research/ (also gitignored).`
   );
 }
 

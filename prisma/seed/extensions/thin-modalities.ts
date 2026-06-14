@@ -2,15 +2,15 @@ import { prisma, logSection, logCount } from "../client"
 import { MuscleRole } from "@prisma/client"
 
 /**
- * Thin-modality coverage — OpenEvidence response 2026-06-08.
+ * Thin-modality coverage — literature review response 2026-06-08.
  *
- * Source: research/oe-thin-modalities-2026-06-08-response.md
+ * Source: research/evidence-thin-modalities-2026-06-08-response.md
  *
  * Adds discrete oculomotor, vestibular, breathing-variety, somatic/
  * interoceptive, and mindfulness-of-movement exercises that the
  * pre-existing catalog lacked (each region had <10 entries pre-sync).
  *
- * Several entries from the OE response — Microbreak protocols,
+ * Several entries from the literature review response — Microbreak protocols,
  * Postural shifts, Attention-redirection patterns, Web-based active
  * break programs — were SKIPPED here because they describe protocol
  * patterns rather than discrete exercises and are better surfaced as
@@ -703,7 +703,7 @@ const exercises: ExerciseSpec[] = [
 ]
 
 export async function seedThinModalitiesExtension() {
-  logSection("Thin-modality additions (OE 2026-06-08)")
+  logSection("Thin-modality additions (literature review 2026-06-08)")
 
   const [movs, muscs] = await Promise.all([
     prisma.movement.findMany({ select: { id: true, slug: true } }),

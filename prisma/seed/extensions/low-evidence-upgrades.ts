@@ -1,7 +1,7 @@
 import { prisma, logSection, logCount } from "../client";
 
 /**
- * Low-evidence exercise reconciliation — OpenEvidence response (2026-04-20).
+ * Low-evidence exercise reconciliation — literature review response (2026-04-20).
  *
  * Upgrades Bicep Curl evidence level, adds cross-reference note to Sidelying
  * Hip Adduction pointing at Copenhagen Adduction (the strong-evidence analog,

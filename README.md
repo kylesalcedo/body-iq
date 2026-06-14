@@ -162,7 +162,7 @@ Uses PubMed, CrossRef, and Europe PMC APIs (no auth required). Results cached in
 The standard workflow for adding exercises:
 
 1. **Create a research prompt** in `prompts/` listing the exercises with specific questions about EMG data, dosing, clinical indications, and citations
-2. **Run the prompt** through OpenEvidence or a similar clinical evidence tool
+2. **Run the prompt** through a clinical evidence tool
 3. **Save the response** in `research/` for reference
 4. **Add exercises** to `prisma/seed/exercises.ts` following the existing format (slug, name, description, muscles, movements, cues, regressions, progressions, sources)
 5. **Add new sources** to `prisma/seed/sources.ts` with citation metadata

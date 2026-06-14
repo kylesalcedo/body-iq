@@ -3,16 +3,16 @@ import { MuscleRole } from "@prisma/client"
 
 /**
  * Use-case stack essentials — supporting exercises for the 9 use-case
- * stacks authored from OpenEvidence response 2026-06-08 (Task 2).
+ * stacks authored from literature review response 2026-06-08 (Task 2).
  *
- * Source: research/oe-use-case-stacks-2026-06-08-response.md
+ * Source: research/evidence-use-case-stacks-2026-06-08-response.md
  *
  * Each stack composes 7 exercises that need to exist as discrete
  * library entries. Most components were already in the catalog —
  * this file adds the 17 missing pieces so every stack item resolves
  * to a real exercises_v2 slug after sync.
  *
- * These are programming-grade entries — OE flagged this batch as
+ * These are programming-grade entries — literature review flagged this batch as
  * "programming-based, no novel research." Evidence levels reflect
  * clinical/expert consensus rather than RCT depth.
  */
@@ -402,7 +402,7 @@ const exercises: ExerciseSpec[] = [
 ]
 
 export async function seedUseCaseEssentialsExtension() {
-  logSection("Use-case stack essentials (OE 2026-06-08 — Task 2)")
+  logSection("Use-case stack essentials (literature review 2026-06-08 — Task 2)")
 
   const [movs, muscs] = await Promise.all([
     prisma.movement.findMany({ select: { id: true, slug: true } }),

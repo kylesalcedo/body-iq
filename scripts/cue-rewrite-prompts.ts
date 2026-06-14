@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Generate region-batched OpenEvidence prompts asking for evidence-based cue
+ * Generate region-batched literature review prompts asking for evidence-based cue
  * rewrites across the exercise library, structured Wulf-style:
  *
  *   1 internal (mechanism)  →  2 external (task / outcome / object)  →  1 tactile/imagery
@@ -213,7 +213,7 @@ async function main() {
   }
   console.log(`\nTotal exercises covered: ${emitted.reduce((s, e) => s + e.count, 0)}`);
   console.log(
-    `\nPaste each prompt into OpenEvidence one at a time. Save responses to research/<filename>-response.md. A separate importer will parse the responses and write a seed extension.`,
+    `\nPaste each prompt into your evidence tool one at a time. Save responses to research/<filename>-response.md. A separate importer will parse the responses and write a seed extension.`,
   );
 }
 
