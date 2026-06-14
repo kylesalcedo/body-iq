@@ -330,7 +330,9 @@ model ExerciseFunctionalTask {
 model Cue {
   id         String   @id @default(cuid())
   text       String
-  cueType    String?  // e.g. "verbal", "tactile", "visual"
+  cueType    String?  // delivery modality: "verbal", "tactile", "visual"
+  focus      String?  // attentional focus (Wulf): "internal", "external", "tactile", "imagery"
+  citation   String?  // evidence reference anchoring the cue, when literature-reviewed
   order      Int      @default(0)
   exerciseId String
   exercise   Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)

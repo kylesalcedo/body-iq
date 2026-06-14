@@ -14,6 +14,7 @@ import { seedThinModalitiesExtension } from "./extensions/thin-modalities";
 import { seedUseCaseEssentialsExtension } from "./extensions/use-case-essentials";
 import { seedOccupationEssentialsExtension } from "./extensions/occupation-essentials";
 import { seedPrimitivesAndPfmExtension } from "./extensions/primitives-and-pfm";
+import { seedCueRewritesExtension } from "./extensions/cue-rewrites";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -43,6 +44,9 @@ async function main() {
   await seedUseCaseEssentialsExtension();
   await seedOccupationEssentialsExtension();
   await seedPrimitivesAndPfmExtension();
+
+  // Cue rewrites run LAST so they override cues created by any earlier step.
+  await seedCueRewritesExtension();
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
