@@ -61,6 +61,10 @@ const INSTRUCTION_PATTERNS = [
   /\bevery 1[-–]2 weeks\b/i,
 ];
 
+// Focus values the cue-rewrite importer stores on Cue.focus. When present we
+// trust them over the text heuristic.
+const STORED_FOCUS = new Set(["internal", "external", "tactile", "imagery"]);
+
 function classify(text: string, cueType: string | null): FocusType {
   if (cueType === "tactile") return "tactile";
   if (cueType === "imagery") return "imagery";
@@ -79,6 +83,7 @@ interface ExerciseAudit {
   totalCues: number;
   counts: Record<FocusType, number>;
   cues: { text: string; cueType: string | null; focus: FocusType }[];
+  reviewed: boolean;
   problems: string[];
 }
 
@@ -114,7 +119,7 @@ async function main() {
       slug: true,
       name: true,
       cues: {
-        select: { text: true, cueType: true },
+        select: { text: true, cueType: true, focus: true },
         orderBy: { order: "asc" },
       },
     },
@@ -129,8 +134,15 @@ async function main() {
       imagery: 0,
       instruction: 0,
     };
+    let reviewed = false;
     const cues = ex.cues.map((c) => {
-      const focus = classify(c.text, c.cueType);
+      // Prefer the stored Wulf focus (set by the cue-rewrite importer); fall
+      // back to the text heuristic for cues that predate it.
+      const focus =
+        c.focus && STORED_FOCUS.has(c.focus)
+          ? (c.focus as FocusType)
+          : classify(c.text, c.cueType);
+      if (c.focus && STORED_FOCUS.has(c.focus)) reviewed = true;
       counts[focus] += 1;
       return { text: c.text, cueType: c.cueType, focus };
     });
@@ -140,6 +152,7 @@ async function main() {
       totalCues: cues.length,
       counts,
       cues,
+      reviewed,
       problems: [],
     };
     audit.problems = diagnose(audit);
@@ -148,7 +161,9 @@ async function main() {
 
   // ─── Aggregates ────────────────────────────────────────────────────────────
   const total = audits.length;
+  const reviewed = audits.filter((a) => a.reviewed).length;
   const flagged = audits.filter((a) => a.problems.length > 0);
+  const flaggedReviewed = flagged.filter((a) => a.reviewed).length;
   const noExternal = audits.filter((a) => a.counts.external === 0 && a.totalCues > 0).length;
   const noTactile = audits.filter(
     (a) => a.counts.tactile === 0 && a.counts.imagery === 0 && a.totalCues > 0,
@@ -165,7 +180,8 @@ async function main() {
     "",
     "## Summary",
     "",
-    `- Exercises flagged with at least one problem: **${flagged.length} / ${total}**`,
+    `- Exercises with literature-reviewed (focus-tagged) cues: **${reviewed} / ${total}**`,
+    `- Exercises flagged with at least one problem: **${flagged.length} / ${total}** (${flaggedReviewed} of them literature-reviewed)`,
     `- Exercises with zero external-focus cues: **${noExternal}**`,
     `- Exercises with no tactile or imagery cue: **${noTactile}**`,
     `- Exercises where internal-focus dominates: **${internalDominant}**`,
@@ -185,7 +201,7 @@ async function main() {
         b.counts.internal - a.counts.internal,
     );
     for (const a of flagged) {
-      lines.push(`### [${a.slug}] ${a.name}`);
+      lines.push(`### [${a.slug}] ${a.name}${a.reviewed ? " · 📚 literature-reviewed" : ""}`);
       lines.push("");
       lines.push(
         `Counts — internal: ${a.counts.internal}, external: ${a.counts.external}, tactile: ${a.counts.tactile}, imagery: ${a.counts.imagery}, instruction: ${a.counts.instruction}`,
@@ -208,7 +224,8 @@ async function main() {
 
   console.log(`✅ Cue audit: prompts/.cue-audit.md`);
   console.log(`   Total exercises:                  ${total}`);
-  console.log(`   Flagged with at least 1 problem:  ${flagged.length}`);
+  console.log(`   Literature-reviewed (focus-tagged): ${reviewed}`);
+  console.log(`   Flagged with at least 1 problem:  ${flagged.length}  (${flaggedReviewed} reviewed)`);
   console.log(`   No external-focus cues:           ${noExternal}`);
   console.log(`   No tactile/imagery cue:           ${noTactile}`);
   console.log(`   Internal-focus dominant:          ${internalDominant}`);
