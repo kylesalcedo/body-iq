@@ -195,3 +195,5 @@ function RomCard({ movement }: { movement: any }) {
     </Card>
   );
 }
+
+export { allMovementSlugs as generateStaticParams } from "@/lib/queries";

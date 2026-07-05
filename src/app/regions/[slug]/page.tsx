@@ -70,3 +70,5 @@ export default async function RegionDetailPage({ params }: { params: { slug: str
     </div>
   );
 }
+
+export { allRegionSlugs as generateStaticParams } from "@/lib/queries";

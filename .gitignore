@@ -24,12 +24,16 @@ venv/
 target/
 vendor/
 *.log
-coverage/
+/coverage/
 .cache/
 tmp/
 
 # Runtime state
 .bg-shell/
+
+# Wiki raw sources — third-party PDFs, PRDs, transcripts (no redistribution rights).
+# The wiki/ itself IS committed; only its raw source drops are ignored.
+raw/
 
 # Private working notes — research prompts, raw LLM responses, internal docs
 private/
@@ -74,3 +78,6 @@ service-account*.json
 gcp-*.json
 .envrc
 exports/
+
+# Static export output (GitHub Pages)
+out/

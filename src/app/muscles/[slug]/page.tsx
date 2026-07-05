@@ -136,3 +136,5 @@ export default async function MuscleDetailPage({ params }: { params: { slug: str
     </div>
   );
 }
+
+export { allMuscleSlugs as generateStaticParams } from "@/lib/queries";

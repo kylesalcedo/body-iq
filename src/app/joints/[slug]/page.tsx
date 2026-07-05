@@ -58,3 +58,5 @@ export default async function JointDetailPage({ params }: { params: { slug: stri
     </div>
   );
 }
+
+export { allJointSlugs as generateStaticParams } from "@/lib/queries";

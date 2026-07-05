@@ -69,3 +69,5 @@ export default async function TaskDetailPage({ params }: { params: { slug: strin
     </div>
   );
 }
+
+export { allTaskSlugs as generateStaticParams } from "@/lib/queries";

@@ -1,0 +1,83 @@
+name: Deploy static demo to GitHub Pages
+
+# Builds a fully static version of the Body IQ explorer and publishes it to
+# GitHub Pages. Postgres is provisioned *in CI* and seeded from the repo, so
+# nobody needs a local database to produce the demo. The live-API features
+# (global search, the API "Try it" explorer) are inert in the static build;
+# everything else — body map, progression ladders, coverage heatmap, all the
+# anatomy/exercise pages — works. See wiki/concepts/static-demo.md.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: bodyiq
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s --health-timeout 5s --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/bodyiq?schema=public
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm db:generate
+      - run: pnpm db:push
+      - run: pnpm db:seed
+
+      # API route handlers can't be statically exported — the static demo has
+      # no server, so drop them before building. (CI checkout is disposable.)
+      - name: Remove server-only code for static export
+        # API route handlers can't be statically exported, and the contract
+        # test imports them (Next typechecks every file at build).
+        run: rm -rf src/app/api src/app/api-docs src/lib/schemas/contract-test.ts
+
+      - name: Build static export
+        env:
+          STATIC_EXPORT: "1"
+          PAGES_BASE_PATH: /${{ github.event.repository.name }}
+        run: pnpm build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
