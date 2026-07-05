@@ -801,6 +801,85 @@ export async function getCoverageData(): Promise<CoverageData> {
   };
 }
 
+// ─── Exercise Finder (build-time data for client-side filtering) ─────────────
+// Bundles filter options + the full exercise list so the finder works with no
+// API backend (the static GitHub Pages demo). Mirrors the shapes previously
+// served by /api/exercises/filters and /api/exercises.
+
+export async function getFinderData() {
+  const [regions, joints, movements, muscles, tasks, exercises] = await Promise.all([
+    prisma.region.findMany({ orderBy: { name: "asc" }, select: { slug: true, name: true } }),
+    prisma.joint.findMany({
+      orderBy: { name: "asc" },
+      select: { slug: true, name: true, region: { select: { slug: true, name: true } } },
+    }),
+    prisma.movement.findMany({
+      orderBy: { name: "asc" },
+      select: {
+        slug: true,
+        name: true,
+        joint: { select: { slug: true, name: true, region: { select: { slug: true } } } },
+      },
+    }),
+    prisma.muscle.findMany({ orderBy: { name: "asc" }, select: { slug: true, name: true } }),
+    prisma.functionalTask.findMany({
+      orderBy: { name: "asc" },
+      select: { slug: true, name: true, category: true },
+    }),
+    prisma.exercise.findMany({
+      orderBy: { name: "asc" },
+      select: {
+        slug: true,
+        name: true,
+        description: true,
+        status: true,
+        confidence: true,
+        notes: true,
+        muscles: {
+          select: { role: true, notes: true, muscle: { select: { slug: true, name: true } } },
+          orderBy: { role: "asc" },
+        },
+        movements: {
+          select: {
+            movement: {
+              select: {
+                slug: true,
+                name: true,
+                joint: {
+                  select: {
+                    slug: true,
+                    name: true,
+                    region: { select: { slug: true, name: true } },
+                  },
+                },
+              },
+            },
+          },
+        },
+        functionalTasks: {
+          select: { functionalTask: { select: { slug: true, name: true, category: true } } },
+        },
+        cues: { select: { text: true, cueType: true }, orderBy: { order: "asc" } },
+        regressions: { select: { name: true, description: true }, orderBy: { order: "asc" } },
+        progressions: { select: { name: true, description: true }, orderBy: { order: "asc" } },
+      },
+    }),
+  ]);
+
+  return {
+    filters: {
+      regions,
+      joints,
+      movements,
+      muscles,
+      tasks,
+      roles: ["primary", "secondary", "stabilizer", "synergist", "common_association"],
+      statuses: ["draft", "needs_review", "reviewed", "verified", "disputed"],
+    },
+    exercises,
+  };
+}
+
 // ─── Static-export slug lists (generateStaticParams) ─────────────────────────
 // Each returns `{ slug }[]` so a page can do:
 //   export const generateStaticParams = allRegionSlugs;
