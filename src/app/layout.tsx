@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Sidebar } from "@/components/sidebar";
+import { DemoBanner } from "@/components/demo-banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-gray-50`}>
         <Sidebar />
         <main className="ml-64 min-h-screen p-6">
+          <DemoBanner />
           {children}
         </main>
       </body>
