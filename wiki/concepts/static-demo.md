@@ -36,6 +36,12 @@ Everything else works client-side: body map, progression stepper, coverage
 heatmap + copy-prompt buttons, collapsible nav, and all anatomy/exercise/source
 pages.
 
+**Exercise Finder** used to fetch `/api/exercises/filters` + `/api/exercises`
+(so it hung on "Loading filters…" statically). It now loads filter options and
+the full exercise list at build time via `getFinderData` (server component) and
+filters entirely client-side, so it works with no backend. This is the model
+for making the remaining API-dependent surfaces (search) static later.
+
 ## Gotchas encoded here
 - Raw `<img src>` and metadata `icon` are **not** rewritten by `basePath` —
   they're prefixed manually with `NEXT_PUBLIC_BASE_PATH` (sidebar icons, favicon).
