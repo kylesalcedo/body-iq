@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   title: "Body IQ — Movement Knowledge Engine",
   description: "Validation-first biomechanics and physical therapy knowledge system",
   icons: {
-    icon: "/favicon.svg",
+    // basePath isn't applied to metadata icons automatically — prefix for Pages.
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/icons/favicon.png`,
   },
 };
 

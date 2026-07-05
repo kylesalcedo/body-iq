@@ -78,6 +78,20 @@ export function SearchBar() {
     return () => clearTimeout(timerRef.current);
   }, [query]);
 
+  // The static GitHub Pages demo has no /api backend — live search would 404,
+  // so render a disabled hint instead.
+  if (process.env.NEXT_PUBLIC_STATIC === "1") {
+    return (
+      <input
+        type="text"
+        disabled
+        placeholder="Search (full app only)"
+        title="Live search runs against the API, which isn't part of the static demo."
+        className="w-full cursor-not-allowed rounded-md border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-400 placeholder:text-gray-400"
+      />
+    );
+  }
+
   return (
     <div ref={containerRef} className="relative w-full">
       <input
