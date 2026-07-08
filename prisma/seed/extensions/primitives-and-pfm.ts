@@ -118,10 +118,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "active-hallux-extension",
     name: "Active Hallux Extension (Big Toe Lifts)",
-    description:
-      "Sitting or standing with feet flat. Lift ONLY the big toe (hallux) while keeping the lesser four toes pressed firmly into the floor. Hold 3 s at top. Distinct from toe yoga's alternating drill — this is hallux-isolated extension training for first-MTP function.",
-    dosing: "15 reps × 2–3 sets per foot, daily.",
-    evidenceLevel: "moderate",
+    description: "Sitting or standing with feet flat, lift ONLY the big toe (hallux) while keeping the lesser four toes pressed firmly into the floor. This is hallux-isolated first-MTP extension training, distinct from toe yoga's alternating drill."idenceLevel: "moderate",
     difficulty: "intermediate",
     equipment: [],
     bodyPosition: "seated",
@@ -164,9 +161,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "pfm-sustained-hold",
     name: "Pelvic Floor Sustained Contraction (Kegel — Endurance)",
-    description:
-      "Contract the pelvic floor muscles as if stopping urine flow AND lifting the perineum upward toward the head. Hold 6–10 seconds, then fully relax for equal time. Progress hold time and positions over 12 weeks (supine → sitting → standing).",
-    dosing: "8–12 reps × 3 sets/day. Progress hold to 10 s over 12 wk.",
+    description: "Contract the pelvic floor as if stopping the flow of urine and lifting the perineum upward toward the head, hold, then fully relax for an equal amount of time. An endurance-focused Kegel progressed across positions from lying to sitting to standing."
     evidenceLevel: "strong",
     difficulty: "beginner",
     equipment: [],
@@ -192,9 +187,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "pfm-quick-flick",
     name: "Pelvic Floor Quick Flicks (Power Contractions)",
-    description:
-      "Rapid maximal pelvic floor contractions held 1–2 seconds each. Targets Type II fast-twitch fibers needed for cough/sneeze/laugh continence. Perform after each sustained-hold set.",
-    dosing: "10 rapid reps after each set of sustained Kegels.",
+    description: "Rapid, maximal pelvic floor contractions with full relaxation between each rep, training the fast-twitch (Type II) fibers needed for continence during a cough, sneeze, or laugh."
     evidenceLevel: "moderate",
     difficulty: "intermediate",
     equipment: [],
@@ -242,11 +235,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "pfm-diaphragmatic-release",
     name: "Diaphragmatic Breathing with Pelvic Floor Release",
-    description:
-      "Slow 360° diaphragmatic inhale (4–6 s) while consciously letting the pelvic floor descend with the breath — NO active contraction. Gentle exhale; pelvic floor passively recoils. Re-trains downtrain in chronic PF tension.",
-    dosing: "10 minutes, 1–2×/day.",
-    evidenceLevel: "strong",
-    difficulty: "beginner",
+    description: "Take a slow 360° diaphragmatic inhale while consciously letting the pelvic floor descend with the breath, with no active contraction, then exhale gently and allow the pelvic floor to passively recoil. Used to downtrain chronic pelvic floor tension."   difficulty: "beginner",
     equipment: [],
     bodyPosition: "supine",
     confidence: 0.85,
@@ -292,9 +281,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "pfm-lengthening-positions",
     name: "Supported Pelvic Floor Lengthening Positions",
-    description:
-      "Static holds in gravity-assisted positions that passively lengthen the pelvic floor. Modified butterfly (supine, soles together, knees apart) was most effective for PFM relaxation on sEMG, followed by deep squat with yoga block and child's pose. Hold 60–90 s with diaphragmatic breathing.",
-    dosing: "60–90 s hold × 3–5 cycles per position, 1×/day.",
+    description: "Static holds in gravity-assisted positions that passively lengthen the pelvic floor, such as a modified butterfly (supine, soles together, knees apart), a supported deep squat, and child's pose, each paired with slow diaphragmatic breathing."
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: ["yoga-block"],

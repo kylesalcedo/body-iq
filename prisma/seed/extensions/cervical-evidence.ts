@@ -190,10 +190,7 @@ async function addSittingCcfObliqueBand() {
     where: { slug: "sitting-ccf-oblique-band" },
     update: {
       name: "Sitting Craniocervical Flexion with Oblique Band Resistance",
-      description:
-        "Seated craniocervical flexion performed against an elastic band anchored to the ipsilateral side in an oblique plane (combining lateral flexion with extension resistance). Ipsilateral oblique resistance preferentially activates longus colli compared to straight lateral or contralateral forces.",
-      notes:
-        "Evidence: Prodoehl 2025, Musculoskeletal Science & Practice (PMID 39862671). Ipsilateral oblique resistance produces significantly higher longus colli activation than contralateral oblique (p=0.002, Cohen's d = -0.84). Sitting version activates longus colli equivalent to supine CCF (p=0.758). Useful when patients cannot tolerate supine positioning or need upright functional progressions.",
+      description: "Seated craniocervical flexion (chin tuck) performed against an elastic band anchored on the same side in a diagonal line of pull. Tuck the chin and resist the diagonal pull without letting the head drift forward, keeping the shoulders relaxed and the SCM soft, to target the deep neck flexors.". Ipsilateral oblique resistance produces significantly higher longus colli activation than contralateral oblique (p=0.002, Cohen's d = -0.84). Sitting version activates longus colli equivalent to supine CCF (p=0.758). Useful when patients cannot tolerate supine positioning or need upright functional progressions.",
       dosing:
         "10 reps × 10-sec holds, 2×/day for 6 weeks. Moderate elastic band tension, anchored at shoulder height on the ipsilateral side.",
       emgNotes:

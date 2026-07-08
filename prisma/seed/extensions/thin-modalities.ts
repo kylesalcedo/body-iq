@@ -75,9 +75,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "smooth-pursuit-tracking",
     name: "Smooth Pursuit Tracking",
-    description:
-      "Follow a near target with both eyes as it moves slowly and steadily through ~160° horizontally and ~120° vertically, 1–2 ft from the face. Pursuit should be smooth — no jerks, no head turn.",
-    dosing: "2–3 horizontal sweeps + 2–3 vertical sweeps, 1–2×/day.",
+    description: "Follow a near target with both eyes as it moves slowly and steadily through a wide horizontal and vertical range, held close to the face. Keep the head still and the pursuit smooth, no jerks and no head turning."vertical sweeps, 1–2×/day.",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -178,9 +176,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "brock-string",
     name: "Brock String",
-    description:
-      "A string with 3–5 colored beads is held from the bridge of the nose to a fixed point. The user fixates each bead in sequence; correct fixation produces a single bead with two strings crossing through it (physiological diplopia of the un-fixated beads).",
-    dosing: "5–10 minutes/day as part of an office-based vergence program (CITT pattern).",
+    description: "A string with several colored beads is held from the bridge of the nose to a fixed point. The user fixates each bead in sequence; correct fixation makes the fixated bead appear single while the un-fixated beads appear doubled (physiological diplopia)."as part of an office-based vergence program (CITT pattern).",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: ["brock-string"],
@@ -348,9 +344,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "box-breathing",
     name: "Box Breathing (4-4-4-4)",
-    description:
-      "Equal-ratio breathing: 4 s inhale → 4 s hold → 4 s exhale → 4 s hold. Repeat. Useful for acute anxiety reduction and attention regulation.",
-    dosing: "1 minute minimum (effective); 5–10 min for sustained effect.",
+    description: "Equal-ratio breathing in which the inhale, an end-inhale hold, the exhale, and an end-exhale hold are each held for the same count. Useful for acute anxiety reduction and attention regulation."; 5–10 min for sustained effect.",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -532,10 +526,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "supine-90-90-with-breath",
     name: "Supine 90-90 with Breath Pacing",
-    description:
-      "Lie supine with hips and knees flexed to 90° (calves on a chair, ottoman, or wall). Place hands on belly. Breathe slow diaphragmatic breaths (~6/min). Optimizes zone of apposition for the diaphragm and provides maximal somatosensory grounding.",
-    dosing: "5–10 minutes, 1–2×/day.",
-    evidenceLevel: "moderate",
+    description: "Lie supine with hips and knees supported at 90/90 (calves on a chair, ottoman, or wall) and hands on the belly. Breathe slow, diaphragmatic breaths, letting the belly rise before the chest, to settle the ribcage over the pelvis."ceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
     bodyPosition: "supine",
@@ -609,9 +600,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "limbic-downregulation-pendulation",
     name: "Limbic Downregulation — Pendulation",
-    description:
-      "Alternate attention between an area of body comfort (e.g. warm feet, soft hands) and an area of mild discomfort/activation (e.g. tight shoulders, held breath). Spend 30–60 s on each, oscillating. Trains capacity to stay present with dysregulation without overwhelm.",
-    dosing: "5–10 minutes, 1×/day or before stress-loading tasks.",
+    description: "A nervous-system regulation practice: alternate attention between an area of body comfort (e.g. warm feet, soft hands) and an area of mild discomfort or activation (e.g. tight shoulders, held breath), oscillating between the two. Trains the capacity to stay present with dysregulation without becoming overwhelmed."ading tasks.",
     evidenceLevel: "limited",
     difficulty: "intermediate",
     equipment: [],
@@ -655,9 +644,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "single-task-posture-awareness",
     name: "Single-Task Posture Awareness Drill",
-    description:
-      "During a routine task (typing, reading, drinking water), pick ONE postural element to attend to — foot contact, ribcage stack, shoulder position. Hold deliberate attention on that single element for ~30 s without trying to change it, then for ~30 s while gently adjusting.",
-    dosing: "30–60 s, 3–5×/day. Cycle through different postural elements across the week.",
+    description: "During a routine task (typing, reading, drinking water), pick one postural element to attend to, foot contact, ribcage stack, or shoulder position. Hold deliberate attention on that single element first without trying to change it, then while gently adjusting it."nt postural elements across the week.",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -677,9 +664,7 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "mindfulness-integrated-stretching",
     name: "Mindfulness-Integrated Stretching",
-    description:
-      "Static or dynamic stretches paired with mindful body awareness. Hold 20–30 s, rest 10–15 s, transition slowly between poses, breathe through the nose at a slow pace. Attention stays on the sensations in the stretched tissue and the breath.",
-    dosing: "30 min/session, 2–3×/week (Terzioğlu 2025 RCT protocol).",
+    description: "Static or dynamic stretches paired with mindful body awareness, transitioning slowly between poses and breathing slowly through the nose. Keep attention on the sensations in the stretched tissue and on the breath."025 RCT protocol).",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],

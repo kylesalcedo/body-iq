@@ -378,9 +378,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "terminal-knee-extension",
     name: "Terminal Knee Extension (TKE)",
-    description: "Standing with resistance band behind knee. Extend the last 30° of knee extension against band resistance. Targets VMO and full knee extension.",
-    confidence: 0.95,
-    notes: "EMG: VM and VL significantly more active during last 15° of extension [Gryzlo 1994]. Short-arc extension specifically targets vasti. OKC knee extension: highest neuromuscular activation (67-79% MVIC) [Andersen 2006]. For ACL protection: perform in 50-100° range or use short-arc only [Escamilla 2012].",
+    description: "Standing with a resistance band behind the knee, straighten the knee fully against the band's resistance, emphasizing the final range of extension. Targets the VMO and full knee lockout."L significantly more active during last 15° of extension [Gryzlo 1994]. Short-arc extension specifically targets vasti. OKC knee extension: highest neuromuscular activation (67-79% MVIC) [Andersen 2006]. For ACL protection: perform in 50-100° range or use short-arc only [Escamilla 2012].",
     dosing: "3×15-20 reps; focus on last 15° of extension",
     difficulty: "beginner",
     equipment: ["resistance-band"],
@@ -772,9 +770,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "deep-neck-flexor-training",
     name: "Deep Neck Flexor Training (Chin Tucks with Pressure Biofeedback)",
-    description: "Craniocervical flexion exercise targeting the deep cervical flexors (longus colli, longus capitis). Patient lies supine with a pressure biofeedback unit behind the neck and performs graded chin tuck contractions (22-30 mmHg). Improves neck pain, posture, and muscle endurance while increasing deep flexor cross-sectional area.",
-    confidence: 0.9,
-    notes: "Addresses forward head posture and hypertonic superficial neck muscles common in sedentary workers. With biofeedback, enhances motor control. Evidence: craniocervical flexion exercises improve pain, posture, and deep flexor muscle cross-sectional area [Amiri Arimi 2017, Sun 2024].",
+    description: "Craniocervical flexion exercise targeting the deep cervical flexors (longus colli, longus capitis). Lie supine with a pressure biofeedback unit behind the neck and perform gentle graded chin nods (a small double chin) without lifting the head, lengthening the back of the neck against the surface. Builds deep flexor endurance for neck pain and posture."erficial neck muscles common in sedentary workers. With biofeedback, enhances motor control. Evidence: craniocervical flexion exercises improve pain, posture, and deep flexor muscle cross-sectional area [Amiri Arimi 2017, Sun 2024].",
     dosing: "10 reps × 10-second holds at each pressure level (22-30 mmHg), 2x daily for 6 weeks minimum",
     difficulty: "beginner",
     equipment: ["pressure-biofeedback-unit"],
@@ -805,9 +801,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "scapular-stability-rows",
     name: "Scapular Stability Exercises (Rows / Scapular Retraction)",
-    description: "Cervico-scapulothoracic strengthening targeting middle and lower trapezius activation. Performed as seated or standing rows with resistance band, focusing on scapular retraction and depression. Improves pain and function in chronic neck pain by coordinating shoulder-neck movement patterns and counteracting rounded shoulder postures.",
-    confidence: 0.85,
-    notes: "Evidence: cervico-scapulothoracic strengthening improves pain and function in chronic neck pain [Gross 2015, Mueller 2023]. Coordinates shoulder-neck movement patterns and counteracts prolonged-sitting postures [Cho 2017].",
+    description: "Seated or standing rows with a resistance band, retracting and depressing the shoulder blades to strengthen the middle and lower trapezius. Coordinates shoulder-neck movement and counteracts rounded-shoulder posture."hening improves pain and function in chronic neck pain [Gross 2015, Mueller 2023]. Coordinates shoulder-neck movement patterns and counteracts prolonged-sitting postures [Cho 2017].",
     dosing: "3×10-15 reps, 2-3x/week",
     difficulty: "beginner",
     equipment: ["resistance-band"],
@@ -839,9 +833,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "cervicothoracic-self-mobilization",
     name: "Cervicothoracic Self-Mobilization",
-    description: "Combined cervical and thoracic spine mobility exercises using foam roller or towel roll. Patient performs supine thoracic extension over a roll positioned at the cervicothoracic junction, combined with active cervical range of motion. Demonstrates superior outcomes for pain reduction and ROM compared to cervical exercises alone.",
-    confidence: 0.85,
-    notes: "Evidence: combined cervical and thoracic mobility exercises show superior outcomes vs cervical exercises alone [Sun 2024, Cho 2017]. Addresses the kinetic chain relationship between thoracic stiffness and neck dysfunction.",
+    description: "Combined cervical and thoracic mobility work using a foam roller or towel roll: lying supine, perform thoracic extension over the roll positioned at the cervicothoracic junction while adding active cervical range of motion, working segment by segment up the spine."d cervical and thoracic mobility exercises show superior outcomes vs cervical exercises alone [Sun 2024, Cho 2017]. Addresses the kinetic chain relationship between thoracic stiffness and neck dysfunction.",
     dosing: "5-10 reps per segment, daily",
     difficulty: "intermediate",
     equipment: ["foam-roller"],
@@ -873,9 +865,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "thoracic-extension-rotation-mobilization",
     name: "Thoracic Extension/Rotation Mobilization",
-    description: "Active mobility exercises targeting thoracic spine extension and rotation. Includes open book rotations in sidelying, quadruped thoracic rotation, and seated rotation with overpressure. Significantly improves thoracic kyphosis angle, cervical extension, and pain. More effective than cervical-only interventions for forward head posture.",
-    confidence: 0.85,
-    notes: "Evidence: thoracic mobilization significantly improves kyphosis angle, cervical extension, and pain [Cho 2017, Feng 2018]. More effective than cervical-only interventions for forward head posture [Cho 2017].",
+    description: "Active mobility drills for thoracic extension and rotation, including sidelying open-book rotations, quadruped thoracic rotation, and seated rotation with overpressure."ization significantly improves kyphosis angle, cervical extension, and pain [Cho 2017, Feng 2018]. More effective than cervical-only interventions for forward head posture [Cho 2017].",
     dosing: "3×10 reps each direction, daily",
     difficulty: "beginner",
     equipment: [],
@@ -906,9 +896,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "schroth-three-dimensional-exercises",
     name: "Schroth-Based Three-Dimensional Exercises",
-    description: "Functional exercises addressing postural kyphosis through three-dimensional corrective movements. Combines elongation, deflection, derotation, and facilitated breathing. Demonstrates large effect sizes for improving thoracic kyphosis (mean reduction of 14.76°), lumbar lordosis, balance, and quality of life.",
-    confidence: 0.85,
-    notes: "Evidence: large effect sizes for kyphosis reduction (14.76°), lumbar lordosis improvement, balance, and QOL [Özdemir Görgü 2023]. Requires trained instruction initially.",
+    description: "Three-dimensional corrective exercises for postural kyphosis that combine spinal elongation, trunk deflection toward midline, derotation, and breathing directed into the collapsed (concave) side of the ribcage, holding the corrected posture while breathing."zes for kyphosis reduction (14.76°), lumbar lordosis improvement, balance, and QOL [Özdemir Görgü 2023]. Requires trained instruction initially.",
     dosing: "2x/week for 8 weeks under supervision; ≤3 months program",
     difficulty: "intermediate",
     equipment: [],
@@ -940,9 +928,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "diaphragmatic-breathing",
     name: "Diaphragmatic / Rib Expansion Breathing Exercises",
-    description: "Physiotherapeutic breathing exercises targeting diaphragmatic excursion and rib cage expansion. Patient practices belly breathing in supine progressing to seated and standing. Significantly improves chest expansion, spinal mobility (especially lateral flexion), and posture. Equally effective as yoga and Pilates for improving spinal mobility while enhancing respiratory function.",
-    confidence: 0.85,
-    notes: "Evidence: breathing exercises significantly improve chest expansion, spinal mobility (especially lateral flexion), and posture [Csepregi 2022, Eftekhari 2024]. Equally effective as yoga/Pilates for spinal mobility [Csepregi 2022].",
+    description: "Breathing exercise targeting diaphragmatic excursion and rib cage expansion. Practice belly breathing, one hand on the chest, one on the belly, with the belly hand rising first, expanding the ribcage laterally on a slow nasal inhale and letting the belly fall on a pursed-lip exhale; progress from supine to seated to standing. A band around the lower ribs can add resistance for rib expansion."nificantly improve chest expansion, spinal mobility (especially lateral flexion), and posture [Csepregi 2022, Eftekhari 2024]. Equally effective as yoga/Pilates for spinal mobility [Csepregi 2022].",
     dosing: "10 breaths × 3 sets, 2-3x daily; 4-count inhale, 6-8 count exhale",
     difficulty: "beginner",
     equipment: [],
@@ -977,9 +963,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "core-stabilization-adim",
     name: "Core Stabilization with Abdominal Drawing-In Maneuver (ADIM)",
-    description: "Core stabilization exercise targeting deep trunk muscles (transversus abdominis, multifidus). Patient draws the navel toward the spine without moving the pelvis, then maintains the contraction during limb movements. Reduces lumbar segmental translation and pain more effectively than general strengthening. Fundamental for lumbar instability and chronic low back pain.",
-    confidence: 0.95,
-    notes: "ADIM produces significantly reduced sagittal translation at L4-L5 and L5-S1 at 10 weeks [Puntumetakul 2021]. Greater improvement in abdominal muscle activity ratio at 10 weeks and 12 months [Puntumetakul 2021]. Superior improvements in proprioception, balance, and muscle thickness of TrA and LM vs general strengthening [Hlaing 2021]. Dosing: 30 min, 3x/week, 4 weeks minimum; initially 8-10 reps every 2 hours [Hegmann 2020]. Note: abdominal bracing generates IAP 116.4 mmHg vs hollowing 9.9 mmHg [Tayashiki 2016] — both approaches have clinical utility.",
+    description: "Core stabilization exercise targeting the deep trunk muscles (transversus abdominis, multifidus). Lying down, gently draw the navel toward the spine without moving the pelvis, then maintain that low-level contraction while adding limb movements. Used for lumbar instability and chronic low back pain." translation at L4-L5 and L5-S1 at 10 weeks [Puntumetakul 2021]. Greater improvement in abdominal muscle activity ratio at 10 weeks and 12 months [Puntumetakul 2021]. Superior improvements in proprioception, balance, and muscle thickness of TrA and LM vs general strengthening [Hlaing 2021]. Dosing: 30 min, 3x/week, 4 weeks minimum; initially 8-10 reps every 2 hours [Hegmann 2020]. Note: abdominal bracing generates IAP 116.4 mmHg vs hollowing 9.9 mmHg [Tayashiki 2016] — both approaches have clinical utility.",
     dosing: "8-10 reps every 2 hours initially; 30 min 3x/week, 4 weeks minimum",
     difficulty: "beginner",
     equipment: [],
@@ -1013,9 +997,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "bird-dog",
     name: "Bird Dog Exercise",
-    description: "Quadruped exercise: simultaneously extend opposite arm and leg while maintaining a neutral spine. Activates lumbar erector spinae (29% nEMG) and multifidus while promoting anti-rotation core stability. Well-tolerated, functional, and progresses from basic to advanced levels.",
-    confidence: 0.95,
-    notes: "EMG: lumbar erector spinae 29% nEMG (27-46%) [Calatayud 2019]. Produces higher amplitudes across all muscle groups compared to hip abduction exercises (14±3% to 53±4%) [Mueller 2018]. 5 intensity levels available; muscle activity increases significantly with each level (p<0.05) [Kim 2016]. Well-tolerated in chronic LBP patients [Calatayud 2019].",
+    description: "Quadruped exercise: from hands and knees, simultaneously extend the opposite arm and leg while maintaining a neutral spine. Trains the lumbar erector spinae and multifidus and promotes anti-rotation core stability, progressing from basic to more advanced variations."MG: lumbar erector spinae 29% nEMG (27-46%) [Calatayud 2019]. Produces higher amplitudes across all muscle groups compared to hip abduction exercises (14±3% to 53±4%) [Mueller 2018]. 5 intensity levels available; muscle activity increases significantly with each level (p<0.05) [Kim 2016]. Well-tolerated in chronic LBP patients [Calatayud 2019].",
     dosing: "3×8-10 reps per side with 5-10 second holds",
     difficulty: "beginner",
     equipment: [],
@@ -1051,9 +1033,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "modified-curl-up-dead-bug",
     name: "Modified Curl-Up / Dead Bug",
-    description: "Two complementary anterior core exercises. Modified curl-up: supine with one knee bent, hands under lumbar spine, lift head and shoulders minimally. Dead bug: supine with arms and legs at 90°, lower opposite arm and leg while maintaining lumbar contact. Effectively activate rectus abdominis (50% nEMG) and external obliques while minimizing lumbar compression. Safe and well-tolerated in patients with low back pain.",
-    confidence: 0.95,
-    notes: "Modified curl-up: rectus abdominis 50% nEMG (28-65%) [Calatayud 2019]. Dead bug: peak RA and EO amplitudes increase significantly with intensity (p=0.008 and p<0.001) [Kim 2016]. 5 graded intensity levels available [Kim 2016]. Plank with brace: EO 77% nEMG [Calatayud 2019]. Plank with hollowing significantly increases all oblique activation (IO: ES=2.0-2.3, EO: ES=1.0-1.4, lumbar ES: ES=0.6) [García-Jaén 2020]. Well-tolerated in chronic LBP; lateral plank mostly non-tolerated [Calatayud 2019].",
+    description: "Two complementary anterior-core exercises. Modified curl-up: lie supine with one knee bent and hands under the lumbar spine, then lift the head and shoulders minimally. Dead bug: lie supine with arms reaching toward the ceiling and hips/knees bent, then lower the opposite arm and leg while keeping the low back pressed to the floor."rl-up: rectus abdominis 50% nEMG (28-65%) [Calatayud 2019]. Dead bug: peak RA and EO amplitudes increase significantly with intensity (p=0.008 and p<0.001) [Kim 2016]. 5 graded intensity levels available [Kim 2016]. Plank with brace: EO 77% nEMG [Calatayud 2019]. Plank with hollowing significantly increases all oblique activation (IO: ES=2.0-2.3, EO: ES=1.0-1.4, lumbar ES: ES=0.6) [García-Jaén 2020]. Well-tolerated in chronic LBP; lateral plank mostly non-tolerated [Calatayud 2019].",
     dosing: "3×8-12 reps; 5 graded intensity levels available",
     difficulty: "beginner",
     equipment: [],
@@ -1089,9 +1069,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "prone-horizontal-abduction-er",
     name: "Prone Horizontal Abduction with External Rotation (Prone Y/T)",
-    description: "Lying face down, lift arms in a Y or T position with thumbs pointing up (external rotation). Demonstrates optimal scapular neuromuscular control with excellent UT/MT ratio (0.43) and UT/LT ratio (0.30). Activates middle and lower trapezius at >50% MVIC while keeping upper trapezius <20%.",
-    confidence: 0.95,
-    notes: "EMG data at 100° abduction: supraspinatus 82% MVIC, middle deltoid 87% MVIC, posterior deltoid 88% MVIC, MT >50% MVIC, LT >50% MVIC [Reinold 2004, Mendez-Rebolledo 2024]. Optimal UT/MT (0.43) and UT/LT (0.30) ratios. Early scapular stabilizer activation (-474.7 to 89.9 ms relative to UT) [Mendez-Rebolledo 2024]. Dosing: 3×8-15 reps, 3 days/week [Mulroy 2020].",
+    description: "Lying face down, lift the arms into a Y or T position with thumbs pointing up (external rotation), squeezing the shoulder blades down and together. Targets the middle and lower trapezius for scapular control while minimizing upper trapezius involvement." MVIC, middle deltoid 87% MVIC, posterior deltoid 88% MVIC, MT >50% MVIC, LT >50% MVIC [Reinold 2004, Mendez-Rebolledo 2024]. Optimal UT/MT (0.43) and UT/LT (0.30) ratios. Early scapular stabilizer activation (-474.7 to 89.9 ms relative to UT) [Mendez-Rebolledo 2024]. Dosing: 3×8-15 reps, 3 days/week [Mulroy 2020].",
     dosing: "3×8-15 reps, 3 days/week",
     difficulty: "intermediate",
     equipment: [],
@@ -1125,9 +1103,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "push-up-plus",
     name: "Push-Up Plus",
-    description: "Standard push-up with an additional scapular protraction at the top (the 'plus'). Activates serratus anterior at high amplitude and lower trapezius over upper trapezius. Ideal for scapular stabilization. Addresses scapular winging and promotes upward rotation essential for overhead activities.",
-    confidence: 0.95,
-    notes: "EMG: high serratus anterior activation, favorable LT/UT ratio [Andersen 2012, Kibler 2008]. Addresses scapular winging and promotes upward rotation [Kibler 2008]. Dosing: 3×8 at 8-RM, 3 days/week [Mulroy 2020]. Closed-chain exercises like planks appropriate after 12+ weeks post-surgery [Kennedy 2020].",
+    description: "A standard push-up with an added scapular protraction at the top (the 'plus'), push the floor away to spread the shoulder blades. Emphasizes the serratus anterior for scapular stabilization, addressing scapular winging and promoting the upward rotation needed for overhead activities."s: "EMG: high serratus anterior activation, favorable LT/UT ratio [Andersen 2012, Kibler 2008]. Addresses scapular winging and promotes upward rotation [Kibler 2008]. Dosing: 3×8 at 8-RM, 3 days/week [Mulroy 2020]. Closed-chain exercises like planks appropriate after 12+ weeks post-surgery [Kennedy 2020].",
     dosing: "3×8 at 8-RM, 3 days/week",
     difficulty: "intermediate",
     equipment: [],
@@ -1160,9 +1136,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "external-rotation-0-abduction",
     name: "External Rotation at 0° Abduction (Side-Lying or Band)",
-    description: "Rotator cuff strengthening targeting infraspinatus through external rotation with the arm at the side. Side-lying or standing with resistance band. Prevents superior humeral head migration and reduces impingement risk. Foundational for shoulder stability, progressible with resistance bands.",
-    confidence: 0.95,
-    notes: "EMG data: infraspinatus 62% MVIC, teres minor 67% MVIC, supraspinatus 24-37% MVIC [Reinold 2004]. Dosing: 3×8 at 8-RM, 3 days/week [Mulroy 2020]. Motor control exercises superior to nonspecific (SMD: -0.29 short, -0.33 medium term) [Lafrance 2024]. Perform in scapular plane to minimize superior humeral head migration [Mulroy 2020]. Control eccentric phase 2 seconds [Rodrigues da Silva Barros 2023].",
+    description: "Rotator cuff strengthening for the infraspinatus: with the elbow pinned to the side, rotate the forearm outward against a resistance band (or lift it upward in side-lying), then control the return, keeping the shoulder from hiking or the trunk from twisting."s minor 67% MVIC, supraspinatus 24-37% MVIC [Reinold 2004]. Dosing: 3×8 at 8-RM, 3 days/week [Mulroy 2020]. Motor control exercises superior to nonspecific (SMD: -0.29 short, -0.33 medium term) [Lafrance 2024]. Perform in scapular plane to minimize superior humeral head migration [Mulroy 2020]. Control eccentric phase 2 seconds [Rodrigues da Silva Barros 2023].",
     dosing: "3×8 at 8-RM, 3 days/week; 2-second eccentric",
     difficulty: "beginner",
     equipment: ["resistance-band"],
@@ -1262,9 +1236,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "pelvic-tilt-realignment",
     name: "Pelvic Realignment Exercises (Pelvic Tilts)",
-    description: "Supine pelvic tilt exercises for lumbopelvic awareness and motor control. Patient alternates between anterior and posterior pelvic tilts, then practices holding neutral. Part of pericapsular soft tissue and realignment (PSTR) approach. Significantly improves pain (NRS) and function (Harris Hip Score) in hip OA. Enhances lumbopelvic awareness and reduces hypertonic guarding in low back pain.",
-    confidence: 0.85,
-    notes: "Evidence: PSTR exercises including pelvic tilts significantly improve pain and function even in severe hip OA [Hayashi 2022]. Enhance lumbopelvic awareness and reduce guarding in LBP.",
+    description: "Lying supine with knees bent, alternate between anterior and posterior pelvic tilts, then practice finding and holding a neutral spine. Builds lumbopelvic awareness and motor control."cluding pelvic tilts significantly improve pain and function even in severe hip OA [Hayashi 2022]. Enhance lumbopelvic awareness and reduce guarding in LBP.",
     dosing: "3×10-15 reps each direction; find neutral and hold 10 seconds",
     difficulty: "beginner",
     equipment: [],
@@ -1459,9 +1431,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "single-leg-balance-star-excursion",
     name: "Single-Leg Balance Exercises (Star Excursion Balance Test)",
-    description: "Balance exercises progressing from firm to unstable surfaces. Includes single-leg stance, star excursion balance test (reaching in 8 directions while standing on one leg), and eyes-closed balance. Enhances proprioception, ankle strength, and postural control. Long-term multifaceted exercise including proprioceptive training demonstrates superior rehabilitation efficacy for chronic ankle instability.",
-    confidence: 0.85,
-    notes: "Evidence: balance exercises on firm/unstable surfaces enhance proprioception and postural control [Wu 2025, Zhang 2025]. Multifaceted proprioceptive training shows superior efficacy for chronic ankle instability [Zhang 2025].",
+    description: "Single-leg balance training that progresses from firm to unstable surfaces. Includes single-leg stance, the star excursion reach (reaching the free leg as far as possible in several directions while balancing on one leg), and eyes-closed balance to challenge proprioception, ankle strength, and postural control."le surfaces enhance proprioception and postural control [Wu 2025, Zhang 2025]. Multifaceted proprioceptive training shows superior efficacy for chronic ankle instability [Zhang 2025].",
     dosing: "3×30 seconds per leg; progress from firm → foam → eyes closed",
     difficulty: "intermediate",
     equipment: [],
@@ -1499,11 +1469,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "full-can-exercise",
     name: "Full Can Exercise (Scaption with Thumbs Up)",
-    description:
-      "Standing shoulder elevation in the scapular plane (30-45° anterior to coronal plane) with thumbs up. Targets supraspinatus with superior supraspinatus-to-deltoid ratio compared to empty can. Reduces subacromial impingement risk by promoting scapular upward rotation and posterior tilt. Holmgren et al. found 69% successful outcomes vs 24% controls, with only 20% proceeding to surgery vs 63%.",
-    confidence: 0.95,
-    dosing:
-      "3×15 reps, 1-2x daily for 12 weeks; or progressive resistance 5 days/week over 12-16 weeks [Holmgren 2012, GRASP 2021]",
+    description: "Standing shoulder elevation in the scapular plane (slightly forward of straight out to the side) with the thumb pointing up. Targets the supraspinatus while promoting scapular upward rotation and posterior tilt, which reduces subacromial impingement risk compared with the empty can position."y for 12 weeks; or progressive resistance 5 days/week over 12-16 weeks [Holmgren 2012, GRASP 2021]",
     emgNotes:
       "Supraspinatus: similar to empty can; middle deltoid: 52±27% MVIC (vs 77±44% in empty can, p=0.001). Superior supraspinatus-to-deltoid ratio [Reinold 2008]",
     evidenceLevel: "strong",
@@ -1557,11 +1523,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "empty-can-exercise",
     name: "Empty Can Exercise (Scaption with Thumbs Down)",
-    description:
-      "Shoulder elevation in the scapular plane with thumbs down (internal rotation). Classic supraspinatus test position but does NOT selectively isolate supraspinatus — 9 other shoulder muscles are equally activated. The internally rotated position narrows subacromial space. Full can has largely replaced this for rehabilitation, though it may be useful for middle deltoid recruitment.",
-    confidence: 0.85,
-    dosing:
-      "3×15 reps; use primarily as assessment, not primary rehabilitation exercise [Reinold 2008, Boettcher 2009]",
+    description: "Raise the arm in the scapular plane with the thumb pointing down (internally rotated). Because this position narrows the subacromial space, the full-can (thumb-up) variation is generally preferred for rehab."y as assessment, not primary rehabilitation exercise [Reinold 2008, Boettcher 2009]",
     emgNotes:
       "Middle deltoid 77±44% MVIC, posterior deltoid 54±24% MVIC. Smallest supraspinatus-to-deltoid ratio (0.8). Does not selectively activate supraspinatus [Boettcher 2009]",
     evidenceLevel: "moderate",
@@ -1615,11 +1577,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "prone-er-90-abduction",
     name: "Prone External Rotation at 90° Abduction",
-    description:
-      "Lying prone with shoulder at 90° abduction off edge of table, externally rotating a light weight. Produces the greatest supraspinatus (82% MVIC), middle deltoid (87%), and posterior deltoid (88%) activation among ER exercises. Teres minor becomes more important as ER at 90° ABD (TM:infraspinatus ratio 1.21). Late-stage exercise requiring adequate scapular stability and pain-free 90° ABD.",
-    confidence: 0.9,
-    dosing:
-      "3×8-15 reps, 3 days/week; late-stage exercise — introduce after pain-free 90° ABD achieved [Reinold 2004]",
+    description: "Lying prone with the shoulder abducted to 90° and the arm hanging off the edge of a table, externally rotate a light weight, raising the forearm toward the ceiling while keeping the elbow bent. A late-stage rotator cuff exercise requiring adequate scapular stability and pain-free abduction."s/week; late-stage exercise — introduce after pain-free 90° ABD achieved [Reinold 2004]",
     emgNotes:
       "Supraspinatus 82% MVIC, middle deltoid 87%, posterior deltoid 88% [Reinold 2004]. Teres minor-to-infraspinatus ratio 1.21±0.23 at 90° ABD [Kurokawa 2014]",
     evidenceLevel: "strong",
@@ -1691,10 +1649,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "spanish-squat",
     name: "Spanish Squat (Belt-Assisted)",
-    description:
-      "Squat performed with a belt or strap around the knees anchored to a fixed point, allowing posterior lean to reduce patellofemoral load. Limits knee flexion to 0-60° range where PF forces are lowest. VMO:VL ratios approach 1:1 in closed kinetic chain. APTA guidelines recommend high-volume protocols (3×30+ reps) as most effective for patellofemoral pain.",
-    confidence: 0.8,
-    dosing: "3×15-30 reps, 0-60° knee flexion, 3-5 days/week for 6-12 weeks [APTA 2020, Neal 2024]",
+    description: "A squat performed with a belt or strap looped behind the knees and anchored to a fixed point, allowing a backward lean that keeps the shins vertical and reduces patellofemoral load by limiting deep knee flexion. Lean back into the belt, keep the knees tracking over the toes, and avoid squatting deep." 0-60° knee flexion, 3-5 days/week for 6-12 weeks [APTA 2020, Neal 2024]",
     emgNotes:
       "No specific Spanish squat EMG data. General CKC squats: VMO:VL approaching 1:1 [Chen 2018]. PF forces reduced 14.4% with decreased knee flexion [Kernozek 2020]",
     evidenceLevel: "limited",
@@ -1749,11 +1704,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "leg-press-limited-rom",
     name: "Leg Press (Limited ROM, 0-60°)",
-    description:
-      "Leg press machine restricted to 0-60° knee flexion to minimize patellofemoral stress. Maximum VMO:VL ratio occurs at 60° in CKC exercises. Appropriate for early-stage patellofemoral pain when full-depth squats are too provocative. Adding isometric hip adduction increases VMO activation without increasing VL.",
-    confidence: 0.85,
-    dosing:
-      "3×15-30 reps, 0-60° knee flexion, 3-5 days/week; progress depth as tolerated [APTA 2020, Neal 2024]",
+    description: "A leg press performed through a limited, early range of knee flexion to minimize patellofemoral joint stress. Push evenly through both feet with slow, controlled motion; squeezing a ball between the knees biases activation toward the VMO." reps, 0-60° knee flexion, 3-5 days/week; progress depth as tolerated [APTA 2020, Neal 2024]",
     emgNotes:
       "CKC exercises: VMO:VL approaching 1:1 [Chen 2018]. Max VMO:VL at 60° knee flexion [Tang 2001]. Hip adduction during press: VMO:VL 1.14:1 [Irish 2010]",
     evidenceLevel: "moderate",
@@ -1807,11 +1758,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "alfredson-eccentric-heel-drops",
     name: "Alfredson Protocol — Eccentric Heel Drops",
-    description:
-      "Standing on a step edge, performing slow eccentric heel lowering on the affected leg. Both straight-knee (gastrocnemius bias) and bent-knee (soleus bias) versions. The gold standard for midportion Achilles tendinopathy. VISA-A improves from 49.2 to 83.6 at 5 years. 'Do-as-tolerated' protocol (avg 112 reps/day) produces similar outcomes to full 180 reps/day.",
-    confidence: 0.95,
-    dosing:
-      "3×15 reps both straight-knee and bent-knee, 2x daily (180 total reps/day), 7 days/week, 12 weeks. Progress load when pain-free. 'Do-as-tolerated' alternative: avg 112 reps/day [Alfredson, Stevens 2014]",
+    description: "Standing on a step edge, slowly lower the heel below the edge on the affected leg, then use the unaffected leg to rise back up. Performed in both straight-knee (gastrocnemius bias) and bent-knee (soleus bias) versions; a gold-standard loading exercise for midportion Achilles tendinopathy."aight-knee and bent-knee, 2x daily (180 total reps/day), 7 days/week, 12 weeks. Progress load when pain-free. 'Do-as-tolerated' alternative: avg 112 reps/day [Alfredson, Stevens 2014]",
     emgNotes:
       "Improved neuromuscular performance (torque, work, endurance) is the only mechanism consistently associated with clinical improvement [Malliaras 2013]",
     evidenceLevel: "strong",
@@ -1885,11 +1832,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "heavy-slow-resistance-achilles",
     name: "Heavy Slow Resistance (HSR) for Achilles Tendinopathy",
-    description:
-      "Progressive heavy resistance training including seated calf raise (bent knee), standing barbell calf raise (straight knee), and leg press calf raise (straight knee). 6 seconds per rep. 12-week progression from 3×15 to 4×6 with increasing load. Equivalent clinical outcomes to Alfredson with superior compliance (92% vs 78%) and patient satisfaction (100% vs 0% at 12 weeks).",
-    confidence: 0.95,
-    dosing:
-      "12-week progression: Wk1 3×15, Wk2-3 3×12, Wk4-5 4×10, Wk6-8 4×8, Wk9-12 4×6. 6 seconds per rep. 3 exercises per session [Beyer 2015]",
+    description: "Progressive heavy, slow resistance training for the calf, performed as seated calf raise (bent knee), standing barbell calf raise (straight knee), and leg-press calf raise (straight knee). Each repetition is moved slowly through full range, heels dropped below the platform and raised to full plantarflexion, with load increased gradually as tolerated." Wk2-3 3×12, Wk4-5 4×10, Wk6-8 4×8, Wk9-12 4×6. 6 seconds per rep. 3 exercises per session [Beyer 2015]",
     emgNotes:
       "Both HSR and eccentric reduce tendon thickness and neovascularization. HSR shows greater collagen turnover evidence and may be more likely to produce tendon adaptation [Malliaras 2013]",
     evidenceLevel: "strong",
@@ -2114,11 +2057,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "nerve-tendon-gliding-cts",
     name: "Nerve and Tendon Gliding Exercises (Carpal Tunnel)",
-    description:
-      "Combined program of median nerve glides and tendon gliding for carpal tunnel syndrome. Nerve glides: sequential shoulder ABD → elbow extension → wrist/finger extension → cervical lateral flexion. Tendon glides: straight → hook fist → full fist → tabletop → straight fist. Proposed mechanisms include reducing intraneural pressure, improving nerve excursion, and preventing adhesion formation.",
-    confidence: 0.75,
-    dosing:
-      "5-10 reps of each position, 3-5x daily, 6-12 weeks; combine with nighttime neutral wrist splinting [Akalin 2002, Baysal 2006]",
+    description: "A combined program of median nerve glides and tendon glides for carpal tunnel syndrome. Nerve glides move sequentially through shoulder abduction, elbow extension, wrist/finger extension, and cervical lateral flexion. Tendon glides move the hand through straight, hook fist, full fist, tabletop, and straight-fist positions." 3-5x daily, 6-12 weeks; combine with nighttime neutral wrist splinting [Akalin 2002, Baysal 2006]",
     emgNotes:
       "Historical studies show modest improvements when combined with splinting. May help delay or reduce need for surgical intervention in mild-moderate CTS.",
     evidenceLevel: "moderate",
@@ -2192,11 +2131,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "wrist-splinting-exercise-cts",
     name: "Wrist Neutral Splinting + Exercise Protocol (CTS)",
-    description:
-      "Combined conservative management protocol for carpal tunnel syndrome: nighttime neutral wrist splinting (0-20° extension) plus daytime nerve and tendon gliding exercises. First-line non-surgical treatment. Consider surgical referral if severe symptoms persist >6 months, thenar atrophy develops, persistent numbness occurs, or 3-6 months conservative management fails.",
-    confidence: 0.75,
-    dosing:
-      "Splint: worn nightly for 6-12 weeks, neutral position (0-20° extension). Exercises: nerve and tendon glides 3-5x daily during waking hours [clinical consensus]",
+    description: "A conservative program for carpal tunnel syndrome combining a nighttime splint that holds the wrist in a neutral position with daytime nerve and tendon gliding exercises. Used as a first-line non-surgical approach to relieve median nerve symptoms."-12 weeks, neutral position (0-20° extension). Exercises: nerve and tendon glides 3-5x daily during waking hours [clinical consensus]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: ["wrist-splint"],
@@ -2273,10 +2208,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "isometric-neck-strengthening",
     name: "Isometric Neck Strengthening (4 Directions)",
-    description:
-      "Manual resistance or hand-resisted cervical flexion, extension, lateral flexion, and rotation without movement. Thera-Band resistance produces 3.8-15.7% MVIC flexion and 20.2-34.8% MVIC extension. Programs >20 reps/session and >8 weeks duration show significant pain and disability improvements.",
-    confidence: 0.9,
-    dosing: "3×10 reps each direction with 5-10 second holds, >20 reps/session, >8 weeks duration [Yang 2022]",
+    description: "Cervical isometrics in four directions, flexion, extension, and lateral flexion to each side, using the hand or a band as resistance while the head stays still."th 5-10 second holds, >20 reps/session, >8 weeks duration [Yang 2022]",
     emgNotes:
       "Thera-Band: flexion 3.8-15.7% MVIC, extension 20.2-34.8% MVIC. Cybex: flexion 20.9-83.5%, extension 40.6-95.8% [Burnett 2008]",
     evidenceLevel: "strong",
@@ -2325,10 +2257,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "upper-trapezius-stretch",
     name: "Upper Trapezius Stretch",
-    description:
-      "Seated or standing, laterally flex the cervical spine away from the target side while gently depressing the ipsilateral shoulder. Stretching 2x daily, 5 days/week for 4 weeks significantly reduces pain (VAS -1.4) and improves function in office workers.",
-    confidence: 0.85,
-    dosing: "30-60 seconds per side, 2x daily, 5 days/week for 4+ weeks [Tunwattanapong 2016]",
+    description: "Seated or standing, laterally flex the neck away from the target side while gently depressing the same-side shoulder with the hand to stretch the upper trapezius."seconds per side, 2x daily, 5 days/week for 4+ weeks [Tunwattanapong 2016]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -2360,10 +2289,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "levator-scapulae-stretch",
     name: "Levator Scapulae Stretch",
-    description:
-      "Similar to upper trap stretch but with cervical rotation toward the target side to bias levator scapulae over upper trapezius. Flexion + contralateral bending + ipsilateral rotation produces highest shear moduli indicating maximum elongation.",
-    confidence: 0.85,
-    dosing: "30-60 seconds per side, 2x daily, 5 days/week [Tunwattanapong 2016]",
+    description: "A neck stretch that biases the levator scapulae over the upper trapezius by adding cervical rotation toward the target side. Turn the chin toward the opposite armpit, tilt the ear down toward that armpit, and apply gentle overpressure with the hand on top of the head."econds per side, 2x daily, 5 days/week [Tunwattanapong 2016]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -2399,10 +2325,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "tyler-twist-eccentric-wrist",
     name: "Tyler Twist — Eccentric Wrist Extension (FlexBar)",
-    description:
-      "Using a Thera-Band FlexBar, perform eccentric wrist extension for lateral epicondylalgia. The landmark Tyler et al. (2010) RCT showed DASH improved 76% vs 13% (p=0.01), VAS improved 81% vs 22% (p=0.002), and strength improved 79% vs 15% (p=0.011) over 7-8 weeks.",
-    confidence: 0.95,
-    dosing: "3×15 reps daily, 7-8 weeks. Progress FlexBar resistance (green → blue → black) [Tyler 2010]",
+    description: "Using a Thera-Band FlexBar, load the wrist extensors eccentrically for lateral epicondylalgia (tennis elbow). Grip the bar with the affected hand at the bottom and the other hand on top, twist it with the top hand, then slowly control the untwist with the bottom wrist."ress FlexBar resistance (green → blue → black) [Tyler 2010]",
     emgNotes: "Large effect sizes: pain reduction ES 1.12, function improvement ES 1.22 [Chen 2020]",
     evidenceLevel: "strong",
     difficulty: "beginner",
@@ -2439,10 +2362,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "wrist-curls-flexion-extension",
     name: "Wrist Curls (Flexion/Extension)",
-    description:
-      "Seated forearm-on-thigh wrist curls in both flexion and extension directions with light dumbbells. Wrist extensors function as primary stabilizers during dynamic movements with co-contraction ratios of 2.28 during flexion.",
-    confidence: 0.8,
-    dosing: "3×10-15 reps each direction, 3x/week",
+    description: "Seated with the forearm resting on the thigh and the wrist hanging off the knee, curl the wrist up and down with a light dumbbell, training both wrist flexion and extension."ch direction, 3x/week",
     emgNotes:
       "Wrist extensors co-contraction ratio 2.28 during flexion vs 0.32 during extension — extensors highly active as stabilizers [Forman 2020]",
     evidenceLevel: "limited",
@@ -2518,10 +2438,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "tendon-gliding-exercises",
     name: "Tendon Gliding Exercises (Finger)",
-    description:
-      "Systematic progression through hand positions to maximize differential tendon excursion: straight → hook fist → full fist → tabletop → straight fist. Active four-finger mobilization produces 23.4 mm median FDP excursion vs 10.0 mm for modified Kleinert. Very low-certainty evidence for all flexor tendon rehab protocols.",
-    confidence: 0.8,
-    dosing: "40-80 cycles per session, 4-6 sessions daily in early post-repair protocol [Tang 2021]",
+    description: "Move the fingers through a systematic sequence of positions, straight, hook fist, full fist, tabletop, straight fist, to maximize differential gliding of the flexor tendons through their sheaths."session, 4-6 sessions daily in early post-repair protocol [Tang 2021]",
     emgNotes:
       "FDP excursion: 23.4 mm active 4-finger mobilization vs 10.0 mm modified Kleinert [Korstanje 2012]",
     evidenceLevel: "moderate",
@@ -2568,10 +2485,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "side-plank",
     name: "Side Plank (Lateral Bridge)",
-    description:
-      "Sidelying forearm plank for lateral core stability. Produces high quadratus lumborum activation (121.62% MVIC) and gluteus medius activation (66.67% MVIC). Rotational side-bridge variant: RA 43.9%, EO 62.8%, glute med >69% MVIC. May not be well-tolerated in acute LBP patients.",
-    confidence: 0.9,
-    dosing: "3×15-30 second holds per side, progress to 45-60 seconds; 2-3x/week",
+    description: "A side-lying forearm plank for lateral core stability: with the forearm under the shoulder and feet stacked or staggered, lift the hips into a straight line from head to feet and hold without sagging or piking. A rotational side-bridge variant adds trunk rotation to increase oblique demand."ond holds per side, progress to 45-60 seconds; 2-3x/week",
     emgNotes:
       "QL 121.62% MVIC, glute med 66.67% MVIC [Nam 2025]. Rotational variant: EO 62.8%, RA 43.9%, glute med >69% [Youdas 2014]",
     evidenceLevel: "strong",
@@ -2627,10 +2541,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "mcgill-curl-up",
     name: "McGill Curl-Up",
-    description:
-      "Modified curl-up with hands under lumbar spine to maintain lordosis, one knee bent, one straight. Minimal spinal flexion range. Produces RA 50% MVIC while minimizing spinal compression. Partial curl-ups generate the highest muscle challenge-to-spine cost index, optimizing abdominal activation while minimizing spinal loading.",
-    confidence: 0.95,
-    dosing: "3×8-10 reps; focus on quality over quantity — minimal spinal flexion",
+    description: "A modified curl-up performed with the hands under the lumbar spine to preserve its natural curve, one knee bent and one straight. Lift only the head and shoulders slightly off the floor through a minimal range to challenge the abdominals while minimizing spinal compression.": "3×8-10 reps; focus on quality over quantity — minimal spinal flexion",
     emgNotes:
       "RA 48-50% nEMG [Calatayud 2019]. Highest muscle challenge-to-spine cost ratio among abdominal exercises [Axler 1997]",
     evidenceLevel: "strong",
@@ -2670,10 +2581,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "pallof-press",
     name: "Pallof Press (Anti-Rotation)",
-    description:
-      "Standing perpendicular to a cable or band anchor, pressing arms straight forward against rotational pull. Anti-rotation core exercise targeting obliques and deep core stabilizers. Motor control exercises including anti-rotation show low to moderate evidence for chronic LBP pain reduction.",
-    confidence: 0.8,
-    dosing: "3×10-12 reps per side with 3-5 second holds at full extension",
+    description: "Standing perpendicular to a cable or band anchor, press both arms straight forward and resist the band's pull to rotate you. An anti-rotation core exercise targeting the obliques and deep trunk stabilizers." per side with 3-5 second holds at full extension",
     emgNotes:
       "Limited specific EMG data. General anti-rotation exercises activate obliques and core stabilizers. Motor control exercise SMD -0.33 for pain [Gross 2015]",
     evidenceLevel: "moderate",
@@ -2720,10 +2628,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "hip-hinge-deadlift",
     name: "Hip Hinge / Deadlift Pattern",
-    description:
-      "Standing hip hinge with bodyweight or light load emphasizing posterior chain loading while maintaining neutral spine. RDL produces the greatest peak hamstring force (1.6 BW BFlh, 1.9 BW SM) and greatest peak hamstring stretch among common exercises, exceeding sprinting demands. Eccentric training including RDL reduces hamstring injury by 56.8-70%.",
-    confidence: 0.9,
-    dosing: "3×8-12 reps; 60-80% 1RM for strengthening; bodyweight for learning pattern",
+    description: "Standing hip hinge (Romanian deadlift pattern) with bodyweight or a barbell, emphasizing posterior chain loading through the hamstrings and glutes while maintaining a neutral spine. The hips travel back as the torso hinges forward, then drive forward to stand tall." 60-80% 1RM for strengthening; bodyweight for learning pattern",
     emgNotes:
       "Step-RDL at 80% 1RM: glute max ES=1.70, semitendinosus ES=0.82, erector spinae longissimus ES=2.12 vs standard RDL [Coratella 2022]. Single-leg RDL: glute max 105-169% MVIC, BF 70-122% MVIC [Mo 2023]",
     evidenceLevel: "strong",
@@ -2789,10 +2694,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "split-squat-bulgarian",
     name: "Split Squat / Bulgarian Split Squat",
-    description:
-      "Staggered stance squat with rear foot on ground or elevated on bench. RFESS produces BF 76.1% MVIC (vs 62.3% standard), glute med 54.9% MVIC, and H/Q ratio of 0.83 (vs 0.69 standard). ACL-reconstructed limbs show 7.3% lower vGRF, 12.8% reduced knee contribution, and 9.8% increased hip contribution.",
-    confidence: 0.9,
-    dosing: "3×8-12 reps per leg at 60-80% 1RM, 2-3x/week [Mausehund 2019]",
+    description: "A staggered-stance squat with the rear foot on the ground (split squat) or elevated on a bench behind (Bulgarian). Lower straight down until the front thigh is roughly parallel to the floor while keeping the torso upright, then push through the front heel to return, training unilateral quad, hamstring, and glute strength." at 60-80% 1RM, 2-3x/week [Mausehund 2019]",
     emgNotes:
       "RFESS: BF 76.1% MVIC, glute med 54.9% MVIC, H/Q ratio 0.83 [Mausehund 2019]. Muscle forces scale more with load in split squat vs bilateral squat [Kipp 2022]",
     evidenceLevel: "strong",
@@ -2850,11 +2752,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "copenhagen-adduction",
     name: "Copenhagen Adduction Exercise",
-    description:
-      "Side-lying with top leg on a bench, performing hip adduction by lifting body with the bottom leg. Produces 108% MVIC adductor longus — the highest among all adduction exercises. The Adductor Strengthening Programme reduced groin problems by 41% (OR 0.59, p=0.008) in 652 football players. 8 weeks training increases muscle thickness 17-18%.",
-    confidence: 0.95,
-    dosing:
-      "Preseason: 3x/week for 6-8 weeks. In-season: 1x/week for 28 weeks. Three progression levels. High volume (2x/week) produces 24% greater strength than 1x/week [Harøy 2019, Quintana-Cepedal 2024]",
+    description: "Side-lying with the top leg supported on a bench and the bottom leg hanging free. Lift the body by adducting the bottom leg up toward the bench, keeping the body straight without letting the hips sag, then lower slowly with control. A high-intensity adductor strengthening exercise that emphasizes the eccentric."son: 3x/week for 6-8 weeks. In-season: 1x/week for 28 weeks. Three progression levels. High volume (2x/week) produces 24% greater strength than 1x/week [Harøy 2019, Quintana-Cepedal 2024]",
     emgNotes:
       "Adductor longus 108% MVIC (highest of all adduction exercises). Ankle support: 1.54 Nm/kg hip adductor moment vs 0.93 knee support [Serner 2014, Dæhlin 2025]",
     evidenceLevel: "strong",
@@ -2903,11 +2801,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "nordic-hamstring-exercise",
     name: "Nordic Hamstring Exercise",
-    description:
-      "Kneeling with ankles anchored, eccentrically lowering body forward using hamstring control. Produces highest hamstring activation among eccentric exercises (BF 64.5% MVIC). Eccentric training reduces hamstring injury by 56.8-70%. Increases BF long head fascicle length (MD 0.90 cm), a key adaptation for injury prevention. Semitendinosus preferentially recruited over biceps femoris.",
-    confidence: 0.95,
-    dosing:
-      "Progressive: start 1×5, build to 3×12 over 10 weeks. 1-2 sessions/week. Part of FIFA 11+ programs [Rudisill 2023, Ripley 2023]",
+    description: "A kneeling eccentric hamstring exercise: with the ankles anchored, keep the hips extended and lower the body forward as slowly as possible using hamstring control, catching with the hands at the bottom before returning to the start."ogressive: start 1×5, build to 3×12 over 10 weeks. 1-2 sessions/week. Part of FIFA 11+ programs [Rudisill 2023, Ripley 2023]",
     emgNotes:
       "BF 64.5% MVIC, ST > BF > SM activation. Distal BF long head shows higher activation than proximal [Li 2023]. Fascicle length increase MD 0.90 cm [Rudisill 2023]",
     evidenceLevel: "strong",
@@ -2970,11 +2864,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "box-jump",
     name: "Box Jump (Bilateral)",
-    description:
-      "Jumping from floor onto a box/platform. Peak GRF 3.34 BW takeoff to 4.22 BW landing. Sequential proximal-to-distal muscle activation during propulsion: VL, glute max, soleus, gastrocnemius. Requires bilateral squat strength 1.25-1.5x BW and adequate ankle dorsiflexion (>36-38°) before progressing.",
-    confidence: 0.85,
-    dosing:
-      "3×5-8 reps, 2-3x/week for 8 weeks. Box height 20-40 cm rehab, 40-60 cm performance [Peng 2019]",
+    description: "A bilateral jump from the floor up onto a box or raised platform, using an explosive arm swing and hip and knee extension to propel upward, then landing softly in a partial squat. Requires adequate lower-body strength and ankle mobility before progressing."  "3×5-8 reps, 2-3x/week for 8 weeks. Box height 20-40 cm rehab, 40-60 cm performance [Peng 2019]",
     emgNotes:
       "Sequential VL → glute max → soleus → gastroc activation. Trunk extensors and flexors show reciprocal activation for impact absorption [Iida 2012]",
     evidenceLevel: "moderate",
@@ -3022,11 +2912,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "depth-jump",
     name: "Depth Jump (Drop Jump)",
-    description:
-      "Step off a box, land, and immediately jump vertically. Peak impact forces 4.93-5.39 BW. Optimal drop height is 75-100% of squat jump height for bounce drop jumps. Training at optimal height produces 10-20% vertical jump improvement and 20-34% reactive strength index gains. Requires squat strength 1.5x BW.",
-    confidence: 0.85,
-    dosing:
-      "1-2 sessions/week, 3×5 reps, 8 weeks. Drop height 75-100% of squat jump height [Yue 2025, Sotiropoulos 2023]",
+    description: "Step off a box (don't jump off), land, and immediately explode upward into a vertical jump while minimizing ground contact time. Land softly with the knees tracking over the toes, avoiding knee valgus. A reactive plyometric drill that trains the stretch-shortening cycle.""1-2 sessions/week, 3×5 reps, 8 weeks. Drop height 75-100% of squat jump height [Yue 2025, Sotiropoulos 2023]",
     emgNotes:
       "GRF 4.93-5.39 BW. VL-BF, VM-BF, and RF-BF coactivation increases with height (ES 0.45-0.90) [Di Giminiani 2020]",
     evidenceLevel: "moderate",
@@ -3079,11 +2965,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "lateral-bounds",
     name: "Lateral Bounds (Single-Leg)",
-    description:
-      "Single-leg lateral hops for frontal plane power and dynamic stability. Peak forces 3.31 BW with 0.45s ground contact time. Gluteus medius, soleus, vasti, and gluteus maximus produce greatest forces during single-leg landing. Critical for ACL prevention — excessive knee valgus during lateral movements associated with injury risk.",
-    confidence: 0.85,
-    dosing:
-      "2-3×6-10 reps per leg, 2x/week. Progress distance, height, and direction changes [Wong 2012]",
+    description: "Single-leg lateral hops, push off sideways from one leg and stick the landing on the opposite leg, training frontal-plane power and dynamic stability. Emphasizes controlled landings without knee valgus collapse, which is key for ACL injury prevention."6-10 reps per leg, 2x/week. Progress distance, height, and direction changes [Wong 2012]",
     emgNotes:
       "Peak forces 3.31 BW, RFD 0.94 BW/s [Wong 2012]. Glute med critical for frontal plane control [Maniar 2022]",
     evidenceLevel: "moderate",
@@ -3136,11 +3018,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "power-clean",
     name: "Power Clean (Hang Variation)",
-    description:
-      "Explosive triple extension (ankle, knee, hip) pulling a barbell from hang position. Produces greatest rate of force development (17,254 N/s) compared to CMJ (3,836 N/s) and jump squat (3,517 N/s). Higher EMG in BF, gastroc, VL, and glute max. Requires technical proficiency in hang pulls and front squats.",
-    confidence: 0.85,
-    dosing:
-      "3-5×2-5 reps at 70-90% 1RM, 2-3x/week. Heavier loads (≥70% 1RM) optimize peak power [Soriano 2015]",
+    description: "Explosive triple extension of the ankles, knees, and hips to pull a barbell from the hang position (bar at mid-thigh) into a front-rack catch. A high-power Olympic-lift variation demanding technical proficiency in hang pulls and front squats."-5 reps at 70-90% 1RM, 2-3x/week. Heavier loads (≥70% 1RM) optimize peak power [Soriano 2015]",
     emgNotes:
       "RFD 17,254 N/s (vs CMJ 3,836 N/s). Peak power 3,566W, peak force 2,814N at 60% 1RM [Comfort 2011, MacKenzie 2014]",
     evidenceLevel: "moderate",
@@ -3193,11 +3071,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "overhead-squat",
     name: "Overhead Squat (Assessment & Training)",
-    description:
-      "Full squat with arms extended overhead holding a barbell or dowel. Requires ankle dorsiflexion ≥36-38°, hip flexion >110°, thoracic extension, and shoulder flexion >170°. Greater rectus abdominis and external oblique activity (2-7% higher) than back squat. Primarily used as a movement screening tool with limited predictive validity for injury when used in isolation.",
-    confidence: 0.8,
-    dosing:
-      "2-3×8-12 reps with light load (PVC pipe to 20% 1RM). Primarily assessment — not heavy training [Aspe 2014]",
+    description: "Full squat performed with the arms extended overhead holding a barbell or dowel, requiring good ankle, hip, thoracic, and shoulder mobility to keep the bar over the midfoot. Used primarily as a whole-body movement screen."th light load (PVC pipe to 20% 1RM). Primarily assessment — not heavy training [Aspe 2014]",
     emgNotes:
       "RA and EO 2-7% higher than back squat during eccentric phase. Lower erector spinae and lower-body activity during concentric [Aspe 2014]",
     evidenceLevel: "moderate",
@@ -3269,10 +3143,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "landmine-press",
     name: "Landmine Press",
-    description:
-      "Pressing a barbell anchored at one end in an arced bar path. Theoretically reduces subacromial stress by avoiding the impingement zone (60-120° elevation). May be appropriate for athletes with impingement who cannot tolerate vertical pressing. Standing position increases core and lower body stability demands.",
-    confidence: 0.75,
-    dosing: "3-4×8-12 reps at 60-80% estimated 1RM, 2-3x/week",
+    description: "Pressing a barbell anchored at one end, following an arced (diagonal) bar path rather than straight overhead. The arc keeps the press out of the shoulder impingement range, which may suit athletes who cannot tolerate vertical pressing; the standing position also challenges core and lower-body stability.": "3-4×8-12 reps at 60-80% estimated 1RM, 2-3x/week",
     evidenceLevel: "limited",
     difficulty: "intermediate",
     equipment: ["barbell", "landmine-attachment"],
@@ -3380,11 +3251,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "single-leg-hop-tests",
     name: "Single-Leg Hop Tests (Return-to-Sport Battery)",
-    description:
-      "Standardized hop test battery: single hop for distance, triple hop, crossover hop, and 6-meter timed hop. ≥90% LSI on single-forward hop associated with reduced knee OA odds (OR 0.46) and higher RTS odds (OR 2.15). However, symmetry in distance may mask knee function asymmetries — triple hop at 97% LSI showed only 51-66% knee work symmetry.",
-    confidence: 0.9,
-    dosing:
-      "Assessment: 3 trials per leg, best trial recorded. Training: 3×5 reps per leg, 2x/week. Return at ≥90% LSI [West 2023]",
+    description: "A standardized single-leg hop battery used in return-to-sport testing: single hop for distance, triple hop, crossover hop, and a timed hop over a set distance. Hop on one leg and stick each landing, comparing the injured and uninjured legs for symmetry." leg, best trial recorded. Training: 3×5 reps per leg, 2x/week. Return at ≥90% LSI [West 2023]",
     emgNotes:
       "During single-leg landing: vasti, soleus, glute max, and glute med produce greatest forces [Maniar 2022]. Crossover hop and 6m timed hop strongest predictors of 1-year function [Logerstedt 2012]",
     evidenceLevel: "strong",
@@ -3449,10 +3316,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "ninety-ninety-hip-stretch",
     name: "90/90 Hip Stretch (Shinbox)",
-    description:
-      "Seated with both hips at 90° flexion and 90° rotation — front leg in external rotation, back leg in internal rotation. Targets hip capsule, gluteals, and deep rotators. Myofascial stretching improved hip rotation by up to 56% over 6 weeks. No evidence of fascicle lengthening from stretching — improvements come from decreased stiffness (g=0.37) and increased stretch tolerance (g=0.74).",
-    confidence: 0.8,
-    dosing: "2-4 reps of 30-60 seconds per side, 5-7 days/week, ≥5 minutes total weekly [Thomas 2018]",
+    description: "A seated 'shinbox' stretch with both hips bent to 90°, the front leg in external rotation and the back leg in internal rotation, targeting the hip capsule, gluteals, and deep rotators. Sit tall and lean gently over the front hip, then sweep both legs across to switch to the opposite side." 30-60 seconds per side, 5-7 days/week, ≥5 minutes total weekly [Thomas 2018]",
     evidenceLevel: "moderate",
     difficulty: "intermediate",
     equipment: [],
@@ -3494,10 +3358,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "pigeon-stretch",
     name: "Pigeon Stretch (Modified)",
-    description:
-      "Modified pigeon pose: front leg bent across the body, back leg extended behind. Targets piriformis, obturator internus, gluteus maximus, and posterior hip capsule. Optimized positioning (120° hip flexion, 50° ER, 30° adduction) increases piriformis length by 15.1-15.3% vs conventional stretches.",
-    confidence: 0.8,
-    dosing: "3×30 seconds per side, daily for 4-6 weeks [Gulledge 2014]",
+    description: "Modified pigeon pose with the front leg bent across the body and the back leg extended straight behind, hips squared toward the floor. Stretches the piriformis, obturator internus, gluteus maximus, and posterior hip capsule."nds per side, daily for 4-6 weeks [Gulledge 2014]",
     evidenceLevel: "moderate",
     difficulty: "intermediate",
     equipment: [],
@@ -3538,10 +3399,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "couch-stretch",
     name: "Couch Stretch (Rectus Femoris / Hip Flexor)",
-    description:
-      "Half-kneeling with rear foot elevated against a wall or couch. Combines hip extension with knee flexion to maximally stretch the biarticular rectus femoris. Posterior pelvic tilt stretching reduces reactive hip flexor force by 4.85 N·m vs standard stretching. Stretching up to 120 seconds has no negative performance effect.",
-    confidence: 0.85,
-    dosing: "30-120 seconds per side, 1-3 sets, 3-5 days/week [Konrad 2021]",
+    description: "Half-kneeling with the rear foot elevated against a wall or couch, combining hip extension with knee flexion to stretch the biarticular rectus femoris. Tuck the tailbone under into a posterior pelvic tilt first, then lean to feel the stretch across the front of the hip and thigh, without arching the low back."-3 sets, 3-5 days/week [Konrad 2021]",
     emgNotes:
       "Posterior pelvic tilt stretching: 4.85 N·m greater reactive hip flexor force reduction vs standard [González-de-la-Flor 2024]",
     evidenceLevel: "moderate",
@@ -3585,11 +3443,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "banded-ankle-df-mobilization",
     name: "Banded Ankle Dorsiflexion Mobilization",
-    description:
-      "Standing lunge with resistance band around distal tibia pulling posteriorly. Knee drives forward over toes. Facilitates posterior talar glide. Joint mobilizations produce ES 0.34-0.41 for DF ROM in chronic ankle instability. Combined Mulligan and Maitland mobilizations show Cohen's d=1.45 for functional performance.",
-    confidence: 0.85,
-    dosing:
-      "3-4×6-10 reps per ankle, daily. 6 sessions of manual therapy needed for significant strength/balance/function improvements [Martin 2021]",
+    description: "Standing lunge with a resistance band looped around the distal tibia and anchored behind, pulling the tibia posteriorly while the knee drives forward over the toes. Facilitates a posterior talar glide to improve ankle dorsiflexion."er ankle, daily. 6 sessions of manual therapy needed for significant strength/balance/function improvements [Martin 2021]",
     emgNotes:
       "Mechanism: posterior talar glide increases joint space and reduces mechanical restriction. Short-term ROM improvements documented [Vallandingham 2019]",
     evidenceLevel: "moderate",
@@ -3632,11 +3486,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "thoracic-foam-rolling",
     name: "Thoracic Spine Foam Rolling",
-    description:
-      "Supine on foam roller at mid-thoracic level, arms crossed or overhead, extending segmentally over roller. Large positive ROM effects (SMD 0.74). Foam rolling >4 weeks is more effective than ≤4 weeks. Mechanical massage significantly improves thoracic extension and reduces kyphosis angle.",
-    confidence: 0.85,
-    dosing:
-      "1-3 sets of 30-120 seconds total, 2-4 second rep frequency. >4 weeks training for ROM gains [Konrad 2022]",
+    description: "Lie supine with a foam roller across the mid-thoracic spine, arms crossed or overhead, and extend segmentally back over the roller to mobilize the thoracic spine into extension."sets of 30-120 seconds total, 2-4 second rep frequency. >4 weeks training for ROM gains [Konrad 2022]",
     emgNotes:
       "ROM effects SMD 0.74 (95% CI 0.42-1.01) vs no exercise [Wilke 2020]. No structural changes — mechanism is increased stretch tolerance and decreased stiffness [Konrad 2022]",
     evidenceLevel: "moderate",
@@ -3672,10 +3522,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "open-book-stretch",
     name: "Open Book Stretch (Thoracic Rotation)",
-    description:
-      "Sidelying with hips and knees at 90°, rotating top arm and thorax open toward ceiling. Thoracic rotation ROM averages 10-12° per segment (T1-T10) and 7-8° in lower thoracic. Emphasizes thoracic rotation while stabilizing pelvis.",
-    confidence: 0.8,
-    dosing: "2-4 reps of 30-60 seconds per side, 5-7 days/week [Thomas 2018]",
+    description: "Lie on your side with hips and knees stacked and bent, then rotate your top arm and upper back open toward the ceiling while keeping the pelvis still. Emphasizes thoracic rotation mobility with a stable pelvis."onds per side, 5-7 days/week [Thomas 2018]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -3717,10 +3564,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "sleeper-stretch",
     name: "Sleeper Stretch (Posterior Shoulder)",
-    description:
-      "Sidelying on target shoulder at 90° forward flexion, passively rotating forearm toward floor. Reduces GIRD by 14.69° and pain by 2.17 points over 4 weeks. Decreases posterior capsule shear modulus at both middle and inferior regions. Risk of suprascapular nerve compression with excessive force.",
-    confidence: 0.9,
-    dosing: "3-5 reps of 30 seconds, daily for 4-6 weeks [Maenhout 2012, Iida 2025]",
+    description: "Lying on the side of the shoulder being stretched with the shoulder and elbow both bent to a right angle, use the other hand to gently rotate the forearm toward the floor. Stretches the posterior shoulder to improve internal rotation range. Stop at a mild stretch and never force through sharp pain."ds, daily for 4-6 weeks [Maenhout 2012, Iida 2025]",
     emgNotes:
       "IR improvement: 13.5° ± 0.8° over 6 weeks [Maenhout 2012]. Meta-analysis: IR ROM MD 7° (95% CI 1-13°) [Iida 2025]. Decreases infraspinatus stiffness [Yamauchi 2016]",
     evidenceLevel: "strong",
@@ -3757,10 +3601,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "cross-body-shoulder-stretch",
     name: "Cross-Body Shoulder Stretch (Horizontal Adduction)",
-    description:
-      "Standing or seated, pulling arm across body. Reduces GIRD by 14.77° and pain by 1.54 points — equivalent to sleeper stretch. Modified version increased IR ROM by 89.52% in tennis players. Reduces inferior posterior capsule shear modulus only (vs sleeper which affects both middle and inferior).",
-    confidence: 0.9,
-    dosing: "3-5 reps of 30 seconds per side, daily for 4 weeks [de Araújo 2026]",
+    description: "Standing or seated, pull the arm across the body at chest height with the opposite hand, keeping the arm straight and the shoulder relaxed (no shrug). Stretches the posterior shoulder capsule, felt in the back of the shoulder."aily for 4 weeks [de Araújo 2026]",
     emgNotes:
       "GIRD reduction 14.77° (95% CI -19.70 to -9.84). Modified version: 89.52% IR ROM increase in tennis players [D 2023]",
     evidenceLevel: "strong",
@@ -3797,11 +3638,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "doorway-pec-stretch",
     name: "Doorway Pectoralis Stretch",
-    description:
-      "Standing in doorway with forearm on frame, leaning forward. Arm height changes which portion is stretched: 45° ABD targets clavicular, 90° targets sternal, 135° targets abdominal portion. 8 weeks of pectoralis stretching (15 min/day, 4 days/week) produces ROM, strength, and muscle thickness gains comparable to resistance training.",
-    confidence: 0.85,
-    dosing:
-      "2-4 reps of 30-60 seconds at each arm position (45°, 90°, 135°), 4+ days/week [Wohlann 2024]",
+    description: "Standing in a doorway with the forearm resting on the frame, step through and lean forward gently to stretch the pectoralis, keeping the core braced without arching the back. Raising or lowering the arm on the frame shifts the stretch between the upper, middle, and lower portions of the pec." reps of 30-60 seconds at each arm position (45°, 90°, 135°), 4+ days/week [Wohlann 2024]",
     emgNotes:
       "Sternocostal region shows greater slack stiffness than abdominal [Wolfram 2023]. 8 weeks stretching: comparable to resistance training for ROM/strength/thickness [Wohlann 2024]",
     evidenceLevel: "moderate",
@@ -3846,11 +3683,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "median-nerve-glide",
     name: "Median Nerve Glide",
-    description:
-      "Sequential movements to mobilize the median nerve: shoulder ABD → elbow extension → wrist/finger extension → cervical lateral flexion. Neurodynamic mobilization: 100% subjective improvement vs 0% controls (RR 15.00). Significantly reduces CTS symptom severity (MD -1.20) and functional severity (MD -1.06). Most effective combined with splinting.",
-    confidence: 0.85,
-    dosing:
-      "5-10 reps of sequence, 3-5x daily for 6-12 weeks. Combine with nighttime neutral wrist splinting [Zaheer 2023, Ijaz 2022]",
+    description: "A neurodynamic mobilization for the median nerve using a sequence of shoulder abduction, elbow extension, wrist and finger extension, then cervical lateral flexion away from the arm. Move gently through the sequence to glide the nerve, easing off if tingling worsens."    "5-10 reps of sequence, 3-5x daily for 6-12 weeks. Combine with nighttime neutral wrist splinting [Zaheer 2023, Ijaz 2022]",
     emgNotes:
       "CTS symptom severity MD -1.20 (95% CI -1.72 to -0.67), functional severity MD -1.06 (95% CI -1.53 to -0.60) [Zaheer 2023]",
     evidenceLevel: "moderate",
@@ -3896,10 +3729,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "ulnar-nerve-glide",
     name: "Ulnar Nerve Glide",
-    description:
-      "Sequential movements to mobilize the ulnar nerve: shoulder ABD → elbow flexion → wrist extension → cervical lateral flexion. Very low-certainty evidence for mild-moderate ulnar neuropathy at elbow. Nerve gliding may not add benefit beyond patient education for cubital tunnel. 89.5% improved at 6 months with conservative management.",
-    confidence: 0.75,
-    dosing: "5-10 reps of sequence, 2-3x daily for 6-8 weeks. Combine with elbow positioning education [Svernlöv 2009]",
+    description: "A sequence of joint movements that tension and glide the ulnar nerve, shoulder abduction, elbow flexion, wrist extension, and cervical lateral flexion, used for ulnar neuropathy at the elbow (cubital tunnel). Move gently and avoid reproducing tingling in the ring and little fingers."5-10 reps of sequence, 2-3x daily for 6-8 weeks. Combine with elbow positioning education [Svernlöv 2009]",
     evidenceLevel: "limited",
     difficulty: "beginner",
     equipment: [],
@@ -3943,11 +3773,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "radial-nerve-glide",
     name: "Radial Nerve Glide",
-    description:
-      "Sequential movements to mobilize the radial nerve: shoulder depression → elbow extension → forearm pronation → wrist flexion. Significantly decreased pain at rest (ES 0.84), at night (ES 0.91), and during activity (ES 1.06) in lateral epicondylitis patients after 6 weeks. Addresses neural component of lateral elbow pain.",
-    confidence: 0.8,
-    dosing:
-      "5-10 reps of sequence, 2x/week for 6 weeks. Combine with conservative lateral elbow rehab [Yilmaz 2022]",
+    description: "Sequential movements that mobilize the radial nerve: shoulder depression → elbow extension → forearm pronation → wrist flexion. Addresses the neural component of lateral elbow pain, producing a gentle stretch along the back of the forearm."   "5-10 reps of sequence, 2x/week for 6 weeks. Combine with conservative lateral elbow rehab [Yilmaz 2022]",
     emgNotes:
       "Pain reduction: rest ES=0.84, night ES=0.91, activity ES=1.06 in lateral epicondylitis [Yilmaz 2022]",
     evidenceLevel: "moderate",
@@ -3996,10 +3822,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "turkish-get-up",
     name: "Turkish Get-Up",
-    description:
-      "Multi-phase exercise transitioning from supine to standing while holding a weight overhead. Phases: roll, bridge, sweep, lunge, stand. Closed-chain shoulder phases show greater infraspinatus, lower trapezius, erector spinae, and external oblique activation vs open-chain.",
-    confidence: 0.75,
-    dosing: "3-5 reps per side with moderate load (8-12 kg KB)",
+    description: "Multi-phase exercise transitioning from supine to standing while holding a weight locked out overhead, progressing through roll, bridge, sweep, lunge, and stand, then reversing back to the floor.": "3-5 reps per side with moderate load (8-12 kg KB)",
     evidenceLevel: "limited",
     difficulty: "advanced",
     equipment: ["kettlebell"],
@@ -4079,10 +3902,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "farmers-carry",
     name: "Farmer's Carry (Loaded Carry)",
-    description:
-      "Walking while holding heavy weights at sides. QL shows substantial activation for lateral trunk stability. Torso cocontraction creates high spine stiffness. Progressive load-carriage training produces very large effects (ES 1.7 SD). Carrying activities inversely associated with low grip strength (AOR 0.63).",
-    confidence: 0.85,
-    dosing: "3-4×30-40 meter walks, 2-3x/week, ≥4 weeks [Knapik 2012]",
+    description: "Walk while holding heavy weights at your sides, standing tall with the shoulders packed down. The loaded carry demands strong trunk cocontraction and grip, training lateral trunk stability and spinal stiffness."ter walks, 2-3x/week, ≥4 weeks [Knapik 2012]",
     emgNotes:
       "QL substantial activation. Glutes ~80% MVC, low back ~50% MVC [McGill 2009, 2012]",
     evidenceLevel: "moderate",
@@ -4145,11 +3965,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "front-plank",
     name: "Front Plank and Variations",
-    description:
-      "Prone forearm plank. RA 46-48% MVIC, EO 77% MVIC with bracing. Scapular adduction + posterior pelvic tilt produces highest overall activation. Adding ankle dorsiflexion increases all abdominals >60% MVIC. Well-tolerated in chronic LBP. Longer holds don't predict lower LBP risk.",
-    confidence: 0.90,
-    dosing:
-      "Endurance: 3-4×30-60s. Strength: harder variations 3-4×15-30s. Rehab: 10-20s holds [Calatayud 2019]",
+    description: "Prone forearm plank held with elbows under the shoulders and a straight line from head to heels. Brace the abdominals and squeeze the glutes to keep the hips from sagging; a slight posterior pelvic tilt and scapular set increase activation. Well-tolerated in chronic low back pain."urance: 3-4×30-60s. Strength: harder variations 3-4×15-30s. Rehab: 10-20s holds [Calatayud 2019]",
     emgNotes:
       "RA 46-48% MVIC. EO 77% with bracing [García-Jaén 2020]. Hollowing: IO ES=2.02-2.27 [García-Jaén 2020]. Scap adduction+PPT: highest overall [Cortell-Tormo 2017]",
     evidenceLevel: "strong",
@@ -4221,10 +4037,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "side-plank-hip-abduction",
     name: "Side Plank with Hip Abduction",
-    description:
-      "Side plank with top leg performing hip abduction. Standard side plank produces highest lumbar ES among plank variations. Adding abduction increases glute med demand (54.9-81.9% MVIC range). Distinct from Copenhagen plank (which is adduction). May not be tolerated in acute LBP.",
-    confidence: 0.80,
-    dosing: "3×8-12 reps per side, or isometric 3×15-30s holds",
+    description: "A side plank in which the top leg is lifted into hip abduction. Set up on the forearm with the hips stacked, raise the top leg toward the ceiling without letting the hips drop or rotate, then lower with control. Adds gluteus medius demand to the standard side plank hold."per side, or isometric 3×15-30s holds",
     emgNotes:
       "Side plank: highest lumbar ES [Calatayud 2017]. Glute med 54.9-81.9% MVIC unilateral exercises [Mausehund 2019]",
     evidenceLevel: "moderate",
@@ -4295,11 +4108,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "step-up-variations",
     name: "Step-Up Variations (Forward, Lateral, Cross-Over)",
-    description:
-      "Stepping onto box from different directions. Lateral at 60% 5RM: VL 52.8%, VM 50.4%, glute med 42.8%. Standard: highest glute max/hamstrings. Crossover: highest glute med concentric. Step height matters: 8-inch VM 60% vs 4-inch 24% MVIC. In elderly, 30 cm step matches 60% 1RM resistance exercise.",
-    confidence: 0.90,
-    dosing:
-      "3×8-12 reps per leg; progress height 4→8→12+ inches [Muyor 2020, Simenz 2012]",
+    description: "Step up onto a box or step and stand to full hip extension, driving through the heel of the stepping leg, then control the descent. Vary the entry direction, forward, lateral, or cross-over, to bias different glute and thigh muscles, and raise step height to increase demand."ess height 4→8→12+ inches [Muyor 2020, Simenz 2012]",
     emgNotes:
       "Lateral: VL 52.8%, VM 50.4%, glute med 42.8% [Muyor 2020]. 8-inch: VM 60% vs 4-inch 24% [Brask 1984]. Crossover: highest glute med [Simenz 2012]",
     evidenceLevel: "strong",
@@ -4378,11 +4187,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "kettlebell-swing",
     name: "Kettlebell Swing (Two-Hand)",
-    description:
-      "Explosive hip hinge swing to chest height. Hip hinge produces greater hamstring activation than squat swing (MD 3.92, p=0.002). Low back ~50% MVC, glutes ~80% MVC, spine compression ~3,200 N at 16 kg. Unique posterior shear L4 on L5. 8-week RCT: neck/shoulder pain -2.1 points, lumbar extensor strength increased. Acute swings increase pressure pain thresholds.",
-    confidence: 0.85,
-    dosing:
-      "Cardio: 15:15 protocol 20 min 3x/week. Strength: 3-5×8-10 at 8-10RM. Pain: 8 rounds 20s swings/10s rest [Falatic 2015, Keilman 2017]",
+    description: "Explosive two-hand hip-hinge swing that snaps the hips forward to drive a kettlebell up to about chest height, with the arms simply guiding the bell. Builds posterior chain power through ballistic hip extension."io: 15:15 protocol 20 min 3x/week. Strength: 3-5×8-10 at 8-10RM. Pain: 8 rounds 20s swings/10s rest [Falatic 2015, Keilman 2017]",
     emgNotes:
       "Hip hinge: hamstrings MD 3.92 vs squat swing (p=0.002). Medial hamstrings > BF (MD 9.93, p=0.022) [Del Monte 2020]. Low back ~50% MVC, glutes ~80% MVC [McGill 2012]",
     evidenceLevel: "moderate",
@@ -4467,9 +4272,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "thumb-ip-mcp-strengthening",
     name: "Thumb IP and MCP Strengthening",
-    description: "Isolated thumb joint exercises targeting FPL (IP flexion), EPL (IP extension), FPB (MCP flexion), and EPB (MCP extension). FPL and EPL are the only two extrinsic thumb muscles capable of sustaining individual activations without significant coactivation.",
-    confidence: 0.80,
-    dosing: "3×10 reps each direction (IP flex/ext, MCP flex/ext), 3x/week. Modified Borg Scale moderate-to-somewhat-hard [Lamb 2015]",
+    description: "Isolated thumb-joint strengthening targeting the FPL (IP flexion), EPL (IP extension), FPB (MCP flexion), and EPB (MCP extension)."h direction (IP flex/ext, MCP flex/ext), 3x/week. Modified Borg Scale moderate-to-somewhat-hard [Lamb 2015]",
     emgNotes: "FPL: linear EMG-force relationship [Cooney 1985]. EPL: independent activation at 20-50% MVC [Birdwell 2013]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
@@ -4499,9 +4302,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "thumb-adduction-key-pinch",
     name: "Thumb Adduction / Key Pinch Exercise",
-    description: "Strengthening the adductor pollicis through key pinch (lateral pinch) tasks. Adductor pollicis shows nearly equal activation to FPL during pinch, with activity increasing proportionally with force. 79% MVC increase demonstrated after training at 50% MVC.",
-    confidence: 0.85,
-    dosing: "3×10 reps key pinch holds (5 seconds each), 3x/week. Train at 50% MVC for strength gains [Lyle 1998]",
+    description: "Strengthens the adductor pollicis through key (lateral) pinch tasks, pinching a key or card between the thumb pad and the side of the index finger." holds (5 seconds each), 3x/week. Train at 50% MVC for strength gains [Lyle 1998]",
     emgNotes: "Adductor pollicis nearly equal to FPL during pinch [Cooney 1985]. 79% MVC increase after training at 50% MVC [Lyle 1998]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
@@ -4529,9 +4330,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "finger-adduction-exercise",
     name: "Finger Adduction Exercise (Palmar Interossei)",
-    description: "Strengthening palmar interossei for finger adduction. Rubber band resistance significantly increases ulnar nerve-innervated intrinsic muscle activation while minimizing extrinsic activation. Finger adduction strength is highly affected in ulnar nerve injuries (75-76% reduction).",
-    confidence: 0.75,
-    dosing: "3×15 reps, 2-3x daily. Brief isometric contractions preferred for partially denervated muscle [Herbison 1983]",
+    description: "Strengthen the palmar interossei by placing a piece of paper between adjacent fingers and squeezing to hold it against a gentle pull, working through each finger pair." isometric contractions preferred for partially denervated muscle [Herbison 1983]",
     emgNotes: "Rubber band resistance: significantly increases intrinsic activation, minimizes extrinsic [Boudreau 2022]. Ulnar nerve injury: 75-76% pinch-to-zoom reduction [Bertelli 2020]",
     evidenceLevel: "limited",
     difficulty: "beginner",
@@ -4558,9 +4357,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "thumb-putty-program",
     name: "Comprehensive Thumb Putty Program",
-    description: "Therapy putty program targeting thumb opposition, abduction, adduction, and pinch strength. Ottawa Panel: 46 grade A recommendations for ROM + isotonic + isometric + functional exercise. Hand exercises reduce short-term pain (SMD -5.0) and improve grip strength (21 lbs). Minimum 12 weeks for sustained benefit.",
-    confidence: 0.90,
-    dosing: "3x/week minimum, 12 weeks for sustained benefit. Progress putty resistance by color. Modified Borg moderate-to-somewhat-hard [Brosseau 2018, Lamb 2015]",
+    description: "Therapy-putty program for the thumb, working opposition, abduction, adduction, and pinch strength by squeezing and pressing the putty in varied positions." 12 weeks for sustained benefit. Progress putty resistance by color. Modified Borg moderate-to-somewhat-hard [Brosseau 2018, Lamb 2015]",
     emgNotes: "CMC OA: short-term pain reduction SMD -5.0, grip strength improvement 21 lbs [Thakker 2025]. Ottawa Panel: 46 grade A recommendations [Brosseau 2018]",
     evidenceLevel: "strong",
     difficulty: "beginner",
@@ -4591,9 +4388,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "suboccipital-exercise",
     name: "Upper Cervical (Suboccipital) Exercise with Release",
-    description: "Craniocervical flexion and extension targeting C0-C2. Five incremental stages using pressure biofeedback (20-30 mmHg). Suboccipital release combined with CCF is superior to CCF alone for improving craniovertebral angle, ROM, and reducing superficial muscle overactivity.",
-    confidence: 0.85,
-    dosing: "12 sessions over 6 weeks. Progress through 5 pressure stages (20-30 mmHg). Combine with suboccipital release [Pardos-Aguilella 2024, Kim 2016]",
+    description: "Craniocervical flexion and extension targeting the upper cervical segments (C0-C2), often preceded by a suboccipital release. Performed as gentle chin-nod stages that progress in depth, optionally guided by pressure biofeedback, followed by controlled upper-cervical rotation." through 5 pressure stages (20-30 mmHg). Combine with suboccipital release [Pardos-Aguilella 2024, Kim 2016]",
     emgNotes: "DCF: linear EMG-pressure relationship [Falla 2003]. Suboccipital release + CCF superior to CCF alone [Kim 2016]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
@@ -4623,9 +4418,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "scapular-shrugs-depression",
     name: "Scapular Elevation and Depression (Shrugs / Reverse Shrugs)",
-    description: "Shrugs for upper trapezius and levator scapulae; reverse shrugs for lower trapezius and serratus anterior. Shrugs at 90° or 150° ABD activate upward rotators and decrease downward rotation. UT 21-36% MVIC, levator scapulae 25-58% MVIC, LT 15-30% MVIC.",
-    confidence: 0.85,
-    dosing: "3×10-15 reps each direction (elevation + depression), 2-3x/week [Kibler 2008, Choi 2015]",
+    description: "Shrugs (lifting the shoulders straight up) target the upper trapezius and levator scapulae; reverse shrugs (actively pushing the shoulders down and slightly back) target the lower trapezius and serratus anterior. Shrugging with the arms abducted biases the scapular upward rotators."epression), 2-3x/week [Kibler 2008, Choi 2015]",
     emgNotes: "UT 21-36% MVIC. Levator scapulae 25-58% MVIC (robbery exercise highest). LT 15-30% MVIC depression [Berckmans 2021, Kibler 2008]",
     evidenceLevel: "moderate",
     difficulty: "beginner",
@@ -4654,9 +4447,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "scapular-downward-rotation-control",
     name: "Scapular Downward Rotation Control (Arm Lowering)",
-    description: "Controlled arm lowering from overhead emphasizing eccentric scapular downward rotation. Rhomboid major 25-45% MVIC, levator scapulae 25-58% MVIC. Clinically relevant for hand-behind-back movements. Downward rotation is primarily addressed through controlled mobility rather than strengthening.",
-    confidence: 0.75,
-    dosing: "3×10 reps slow arm lowering (3-5 second eccentric), 2-3x/week",
+    description: "Controlled arm lowering from overhead, emphasizing slow eccentric scapular downward rotation as the shoulder blade glides smoothly down and in without hiking or dumping. Trains controlled mobility for hand-behind-back reaching." second eccentric), 2-3x/week",
     evidenceLevel: "limited",
     difficulty: "beginner",
     equipment: [],
@@ -4794,9 +4585,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "thoracic-extension-wall",
     name: "Thoracic Extension with Hip Hinge on Wall",
-    description: "Wall-based thoracic extension stretch. Patient stands at arm's length from a wall, hinges at the hips, and places hands on the wall while sinking the chest through the arms. Targets upper thoracic extension and reduces kyphosis angle. Often called the wall prayer stretch.",
-    confidence: 0.78,
-    notes: "Reduces kyphosis angle and improves upper thoracic extension ROM [Calik 2025]. Combines hip hinge pattern with gravity-assisted thoracic extension. Useful for desk workers and those with postural kyphosis.",
+    description: "Wall-based thoracic extension stretch. Stand about arm's length from a wall, hinge at the hips, place the hands on the wall, and sink the chest down between the arms. Targets upper thoracic extension. Often called the wall prayer stretch."d improves upper thoracic extension ROM [Calik 2025]. Combines hip hinge pattern with gravity-assisted thoracic extension. Useful for desk workers and those with postural kyphosis.",
     dosing: "3×30-60s holds, 2-3x/week",
     difficulty: "beginner",
     equipment: [],
@@ -4829,9 +4618,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "supine-chin-tuck-liftoff",
     name: "Supine Chin Tuck with Liftoff",
-    description: "Deep cervical flexor endurance exercise. Patient lies supine, performs a chin tuck (craniocervical flexion), then lifts the head slightly off the surface maintaining the tucked position. Targets longus colli/capitis endurance with minimal sternocleidomastoid activation. Normative hold times: men 38.9±20.1s, women 29.4±13.7s.",
-    confidence: 0.85,
-    notes: "DCF endurance norms: men 38.9±20.1s, women 29.4±13.7s [Domenech 2011]. Craniocervical flexion (CCF) component ensures preferential deep cervical flexor activation with less SCM activation compared to head-lift alone [O'Leary 2007].",
+    description: "A deep cervical flexor endurance exercise. Lie supine, tuck the chin (craniocervical flexion), then lift the head slightly off the surface while holding the tucked position. Trains the deep neck flexors with minimal sternocleidomastoid activation." norms: men 38.9±20.1s, women 29.4±13.7s [Domenech 2011]. Craniocervical flexion (CCF) component ensures preferential deep cervical flexor activation with less SCM activation compared to head-lift alone [O'Leary 2007].",
     dosing: "5-10 reps × 10s holds, progress hold duration toward normative values, 2-3x/week",
     difficulty: "beginner-intermediate",
     equipment: [],
@@ -4864,9 +4651,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "foam-roller-bridge",
     name: "Foam Roller Bridge",
-    description: "Hip extension bridge with feet elevated on a foam roller. The unstable surface increases proprioceptive demand and alters muscle recruitment. Back bridge with leg lift on unstable surface produces L/G ratio of 3.35, indicating high lumbar-to-gluteal muscle challenge. Adding external rotation during bridging increases gluteus maximus and multifidus activation.",
-    confidence: 0.82,
-    notes: "Back bridge with leg lift: L/G ratio 3.35 — high lumbar stabilizer demand [Khosrokiani 2021]. Bridge with external rotation increases glute max and multifidus activation [El Melhat 2022]. Foam roller adds proprioceptive challenge beyond standard bridge.",
+    description: "Lie on your back with both feet on a foam roller and knees bent, then squeeze the glutes and lift the hips into a bridge, keeping the hips level on the unstable surface before lowering under control. Turning the toes slightly outward increases gluteal recruitment."ck bridge with leg lift: L/G ratio 3.35 — high lumbar stabilizer demand [Khosrokiani 2021]. Bridge with external rotation increases glute max and multifidus activation [El Melhat 2022]. Foam roller adds proprioceptive challenge beyond standard bridge.",
     dosing: "3×10-15 reps with 5-10s holds at top, 2-3x/week",
     difficulty: "beginner-intermediate",
     equipment: ["foam-roller"],
@@ -4902,9 +4687,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "kettlebell-good-morning",
     name: "Kettlebell Good Morning",
-    description: "Standing hip hinge exercise with a kettlebell held at the chest (goblet) or behind the neck. Loads the posterior chain through a controlled hip hinge pattern. Generates substantial erector spinae and gluteus maximus activation, making it an effective intermediate-level posterior chain strengthener.",
-    confidence: 0.82,
-    notes: "ES ~50% MVIC and glute max ~80% MVIC reported with 16kg kettlebell [McGill 2012]. Hip hinge pattern is foundational for safe lifting mechanics. Kettlebell position allows self-limiting load.",
+    description: "Standing hip hinge holding a kettlebell at the chest (goblet) or behind the neck, loading the posterior chain, erector spinae and glutes, through a controlled hinge. Hinge until you feel a hamstring stretch, then drive the hips forward to stand and squeeze the glutes. An effective intermediate-level posterior chain strengthener." MVIC and glute max ~80% MVIC reported with 16kg kettlebell [McGill 2012]. Hip hinge pattern is foundational for safe lifting mechanics. Kettlebell position allows self-limiting load.",
     dosing: "3×8-12 reps, 2-3x/week",
     difficulty: "intermediate",
     equipment: ["kettlebell"],
@@ -5014,9 +4797,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "single-leg-squat-pistol",
     name: "Single Leg Squat / Pistol Squat",
-    description: "Monopodal squat where patient squats to full depth on one leg. The most demanding single-leg strength exercise for quadriceps, glutes, and hip stabilizers. Produces the highest lower extremity EMG values compared to lunges and step-ups. Patients with patellofemoral pain show reduced gluteus medius and maximus activation during this task.",
-    confidence: 0.85,
-    notes: "Monopodal squat shows highest EMG activity across lower extremity muscles vs lunge and step-up [Muyor 2020]. PFP patients demonstrate reduced glute med/max activation during single-leg squat [Glaviano 2022]. Useful as both assessment and training tool.",
+    description: "A full-depth squat performed on one leg while the other leg is held out in front. It is the most demanding single-leg strength exercise for the quadriceps, glutes, and hip stabilizers. Lower slowly with the knee tracking over the toes, descend as far as control allows, then drive back up." shows highest EMG activity across lower extremity muscles vs lunge and step-up [Muyor 2020]. PFP patients demonstrate reduced glute med/max activation during single-leg squat [Glaviano 2022]. Useful as both assessment and training tool.",
     dosing: "3×6-10 reps per side, 3-5s eccentric, 2-3x/week",
     difficulty: "intermediate-advanced",
     equipment: [],
@@ -5052,9 +4833,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "knee-split-squat-isometric",
     name: "Knee Split Squat Isometric Holds",
-    description: "Sustained isometric split squat position for ligament and tendon conditioning. Patient holds a split squat at target knee flexion angle for extended durations. The sustained tensile loading promotes collagen adaptation in ligaments and tendons. Progresses toward 5×45-second holds.",
-    confidence: 0.78,
-    notes: "Isometric loading at specific joint angles promotes collagen synthesis and tendon/ligament adaptation. Protocol: progress toward 5×45s holds. Sustained loading is distinct from dynamic training — targets tissue remodeling rather than muscle hypertrophy.",
+    description: "Sustained isometric hold in a split-squat position at a target knee flexion angle for ligament and tendon conditioning. The prolonged tensile load promotes collagen adaptation in the knee's ligaments and tendons."g at specific joint angles promotes collagen synthesis and tendon/ligament adaptation. Protocol: progress toward 5×45s holds. Sustained loading is distinct from dynamic training — targets tissue remodeling rather than muscle hypertrophy.",
     dosing: "Progress to 5×45s holds, 2-3x/week",
     difficulty: "intermediate",
     equipment: [],
@@ -5127,9 +4906,7 @@ const exercises: ExerciseDef[] = [
   {
     slug: "backwards-walking",
     name: "Backwards Walking",
-    description: "Retrograde gait training. Patient walks backwards in a controlled environment. Increases quadriceps demand due to reversed gait mechanics, improves proprioception, and reduces knee joint loading. A 6-week program showed significantly greater pain reduction and quadriceps strength improvement in knee osteoarthritis patients.",
-    confidence: 0.85,
-    notes: "6-week backwards walking program: pain VAS reduction 1.8 vs 1.0 (p=0.01), significant quadriceps strength improvement compared to forward walking [Alghadir 2019]. Effective for knee OA rehabilitation.",
+    description: "Retrograde gait training, walking backwards in a clear, controlled environment. The reversed gait mechanics increase quadriceps demand, improve proprioception, and reduce knee-joint loading."-week backwards walking program: pain VAS reduction 1.8 vs 1.0 (p=0.01), significant quadriceps strength improvement compared to forward walking [Alghadir 2019]. Effective for knee OA rehabilitation.",
     dosing: "10 minutes per session, 3x/week for at least 6 weeks",
     difficulty: "beginner",
     equipment: [],

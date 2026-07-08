@@ -359,10 +359,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "scaption-with-external-rotation",
     name: "Scaption with External Rotation",
-    description:
-      "Standing with arms elevated in the scapular plane (30–45° anterior to coronal), thumbs up, externally rotate to bias posterior rotator cuff.",
-    dosing: "3×10–12, 3×/week × 12 weeks",
-    emgNotes:
+    description: "Standing, raise both arms in the scapular plane (angled slightly forward of straight out to the side) with thumbs pointing up, then externally rotate the shoulders to bias the posterior rotator cuff."gNotes:
       "Activates all three upward-rotation force couple components (UT, LT, SA) [Castelein 2016; Decker 1999].",
     evidenceLevel: "moderate",
     difficulty: "intermediate",
@@ -397,9 +394,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "dynamic-hug",
     name: "Dynamic Hug",
-    description:
-      "Standing with resistance band or cable behind you, arms forward at 90° flexion. Horizontally adduct arms across body while maintaining scapular protraction.",
-    dosing: "3×12–15, 3×/week × 8–12 weeks",
+    description: "Standing with a resistance band or cable anchored behind you and the arms extended forward, sweep the arms across the body in a hugging motion while keeping the shoulder blades spread apart (protracted)." × 8–12 weeks",
     emgNotes: "Serratus anterior >20% MVIC; upper trap low [Decker 1999].",
     evidenceLevel: "moderate",
     difficulty: "intermediate",
@@ -428,9 +423,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "supine-scapular-punch",
     name: "Supine Scapular Punch",
-    description:
-      "Supine holding a light dumbbell, arm pointing toward ceiling with elbow locked. Punch toward ceiling by protracting scapula 2–3 inches off the table.",
-    dosing: "3×10–15 daily (early rehabilitation). 1–5 lb.",
+    description: "Supine holding a light dumbbell, arm pointing toward the ceiling with the elbow locked. Punch toward the ceiling by protracting the shoulder blade off the table, then return."ilitation). 1–5 lb.",
     emgNotes:
       "Serratus anterior 28.9–44.3% MVIC; upper trap <6%; UT:SA ratio 0.09–0.18 [Intelangelo 2022].",
     evidenceLevel: "strong",
@@ -460,9 +453,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "side-lying-external-rotation",
     name: "Side-Lying External Rotation",
-    description:
-      "Side-lying on uninvolved side with a towel roll under the working elbow. Elbow at 90°, externally rotate shoulder against light resistance.",
-    dosing: "3×12–15, 3×/week × 6–12 weeks. 1–5 lb.",
+    description: "Lie on your uninvolved side with a towel roll under the working elbow and the elbow bent at your side. Externally rotate the shoulder against light resistance, keeping the shoulder blade from rolling forward."5 lb.",
     emgNotes:
       "Lower trap moderate; serratus anterior moderate; upper trap low. UT:SA 0.26, UT:LT 0.21 [Mendez-Rebolledo 2024; Cools 2007].",
     evidenceLevel: "strong",
@@ -635,9 +626,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "eccentric-step-down",
     name: "Eccentric Step-Down",
-    description:
-      "Stand on a step on the working leg; slowly lower the non-working heel toward the floor, then return. Progress height 4\" → 8\" → 12\".",
-    dosing: "3×10, 2–3×/week. Progress step height.",
+    description: "Stand on a step on the working leg and slowly lower the opposite heel toward the floor under control, then return, keeping the knee tracking over the toes and the hips level."s step height.",
     emgNotes:
       "Produces highest hip flexion and adduction moment impulses among stepping tasks; effective for hip strengthening [Hatfield 2017].",
     evidenceLevel: "strong",
@@ -707,9 +696,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "heel-raise-eccentric",
     name: "Heel Raise (Eccentric Emphasis)",
-    description:
-      "Standing heel raise with slow eccentric lowering (4 seconds). Progress from bilateral to unilateral.",
-    dosing: "3×15 bilateral → 3×10 unilateral, 3×/week.",
+    description: "Standing heel raise with a slow, controlled eccentric lowering to emphasize the calf's eccentric contraction. Progress from bilateral to unilateral as tolerated."/week.",
     emgNotes:
       "Ankle plantarflexor strengthening improves PF strength SMD=0.35 and balance SMD=0.41 [Liang 2025].",
     evidenceLevel: "strong",
@@ -851,9 +838,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "calf-raise-explosive",
     name: "Calf Raise (Explosive Concentric)",
-    description:
-      "Heel raise with a 1-second explosive concentric and 3-second controlled eccentric. Progress to single-leg with load.",
-    dosing: "3×12, 3×/week. 70–80% 1RM when loaded.",
+    description: "A heel raise performed with a fast, explosive push up onto the balls of the feet followed by a slow, controlled lowering."",
     emgNotes:
       "Progressive resistance at 70–80% 1RM improves gait speed MD=0.13 m/s [Van Abbema 2015].",
     evidenceLevel: "strong",
@@ -887,10 +872,7 @@ const newExercises: ExerciseSpec[] = [
   {
     slug: "active-straight-leg-raise",
     name: "Active Straight Leg Raise (ASLR)",
-    description:
-      "Supine, lift a straight leg to approximately 60° hip flexion while keeping the opposite leg flat.",
-    dosing: "3×10/leg, 2–3×/week.",
-    emgNotes: "Iliopsoas >60% MVIC at 60° hip flexion [Juan 2024].",
+    description: "Supine, lift one straight leg toward the ceiling while keeping the opposite leg flat on the floor and the pelvis level.""Iliopsoas >60% MVIC at 60° hip flexion [Juan 2024].",
     evidenceLevel: "strong",
     difficulty: "beginner",
     equipment: [],
