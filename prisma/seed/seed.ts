@@ -23,6 +23,7 @@ import { seedCategoriesPositionsExtension } from "./extensions/categories-positi
 import { seedBackfillLinksExtension } from "./extensions/backfill-links";
 import { seedNormalizeBodyPositionExtension } from "./extensions/normalize-body-position";
 import { seedMovementRomExtension } from "./extensions/movement-rom";
+import { seedCoverageExercisesExtension } from "./extensions/coverage-exercises";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -63,6 +64,7 @@ async function main() {
   await seedBackfillLinksExtension();
   await seedNormalizeBodyPositionExtension();
   await seedMovementRomExtension();
+  await seedCoverageExercisesExtension();
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);

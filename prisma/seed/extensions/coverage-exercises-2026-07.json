@@ -1,0 +1,606 @@
+[
+ {
+  "slug": "copenhagen-adduction",
+  "name": "Copenhagen Adduction",
+  "description": "A side-plank-based hip adduction exercise in which the top leg is supported on a bench (or held by a partner) while the athlete lifts the pelvis and bottom leg upward, loading the adductors of the top leg through a supporting isometric/eccentric-concentric action and the bottom leg through active adduction. Performed side-lying on the forearm with the body held in a straight line; the pelvis lowers toward the floor and is lifted back up in a controlled rhythm.",
+  "rationale": "The Copenhagen adduction exercise produces high adductor activation and reliably increases eccentric hip adduction strength, a modifiable risk factor for groin injury. A large cluster-randomized trial in male footballers found that adding a progressive Copenhagen adduction program to warm-ups reduced the prevalence and risk of groin problems by roughly 40 percent, and multiple training studies show meaningful eccentric adduction strength gains within 8 weeks. It is included here as the primary loaded exercise targeting adductor brevis: as a short adductor acting across the hip, adductor brevis contributes to the adduction moment throughout the movement, although most EMG and strength research measures the adductor group or adductor longus specifically rather than adductor brevis in isolation.",
+  "category": "strength",
+  "difficulty": "advanced",
+  "bodyPosition": "sidelying",
+  "equipment": [
+   "bench (or box/partner support)",
+   "exercise mat (optional, forearm padding)"
+  ],
+  "movementSlugs": [
+   "hip-adduction",
+   "lumbar-lateral-flexion",
+   "lateral-pelvic-tilt"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "adductor-longus",
+    "role": "primary",
+    "notes": "Prime mover: highest measured activation among adductors in Copenhagen EMG studies; drives the adduction moment holding the pelvis/top leg up."
+   },
+   {
+    "muscleSlug": "adductor-brevis",
+    "role": "secondary",
+    "notes": "Downgraded from primary. Deep short adductor loaded near neutral hip; a genuine contributor but never a measured prime mover, so it sits with the assisting adductors rather than co-primary."
+   },
+   {
+    "muscleSlug": "adductor-magnus",
+    "role": "secondary",
+    "notes": "Large adductor assisting the adduction moment and controlling pelvic drop, especially in the lowered eccentric portion."
+   },
+   {
+    "muscleSlug": "gracilis",
+    "role": "secondary",
+    "notes": "Two-joint adductor contributing across the range; shows substantial activity in adduction-loading exercises."
+   },
+   {
+    "muscleSlug": "pectineus",
+    "role": "secondary",
+    "notes": "Assists adduction with the hip near neutral flexion-extension."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Down-side QL resists lateral trunk sag in the side-plank posture."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Maintains the rigid side-plank trunk position and resists rotation."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Works with internal oblique to prevent trunk rotation and sag."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Controls frontal-plane pelvic position on the supporting side."
+   }
+  ],
+  "cues": [
+   {
+    "text": "Keep your body in one straight line from head to top ankle throughout the set.",
+    "cueType": "internal-alignment"
+   },
+   {
+    "text": "Squeeze the top leg down into the bench as if trying to pinch the bench and your bottom leg together.",
+    "cueType": "external-focus"
+   },
+   {
+    "text": "Lift the pelvis and bottom leg up toward the bench, then lower slowly with control over 2 to 3 seconds.",
+    "cueType": "tempo"
+   },
+   {
+    "text": "Do not let the hips sag toward the floor or roll forward or backward.",
+    "cueType": "error-correction"
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Short-lever Copenhagen (knee on bench)",
+    "description": "Support the top leg on the bench at the knee instead of the ankle, shortening the lever arm and substantially reducing adductor load while keeping the same movement pattern."
+   },
+   {
+    "name": "Isometric Copenhagen hold",
+    "description": "Lift into the top side-plank position (short or long lever) and hold 5 to 10 seconds without lowering, removing the eccentric-concentric cycling for better tolerance in irritable or deconditioned adductors."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Slow-eccentric long-lever Copenhagen",
+    "description": "Full ankle-supported version with a deliberate 4 to 5 second lowering phase to emphasize eccentric adductor loading."
+   },
+   {
+    "name": "Weighted or dynamic-bottom-leg Copenhagen",
+    "description": "Add a cuff weight to the bottom leg or sweep the bottom leg forward and back under the bench during the hold, increasing adduction demand and time under tension."
+   }
+  ],
+  "dosing": "Begin with 2 sets of 3 to 5 controlled reps per side, 2 to 3 sessions per week, progressing over 6 to 8 weeks toward 3 sets of 8 to 12 reps (or 15 to 30 second holds for isometric variants) per the published progressive protocols. Allow at least 48 hours between sessions early on, as delayed-onset adductor soreness is common in the first 2 weeks.",
+  "startPosition": "Side-lying, propped on the down-side forearm with elbow under the shoulder; top leg extended with the ankle and lower leg resting on a bench, bottom leg extended underneath the bench with the pelvis resting on or near the floor.",
+  "endPosition": "Body held in a straight rigid line from head to top ankle in a side-plank supported only by the forearm and the top leg on the bench, with the bottom leg lifted to touch or approach the underside of the bench.",
+  "rom": "Pelvis travels roughly 20 to 40 cm vertically between the lowered and lifted positions; the bottom hip moves through approximately 0 to 30 degrees of adduction while the top hip works largely isometrically near neutral adduction.",
+  "emgNotes": "Surface EMG studies of adduction exercises report very high adductor longus activation for the Copenhagen exercise (frequently exceeding 100 percent of maximal voluntary isometric contraction in the supporting leg), higher than sliding or ball-squeeze alternatives. Adductor brevis lies deep to adductor longus and pectineus and is not directly measurable with surface EMG; its contribution is inferred from its shared adduction moment arm and fine-wire data on synergist behavior, so brevis-specific activation claims should be made cautiously.",
+  "evidenceLevel": "strong",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "side-lying-hip-adduction",
+  "name": "Side-Lying Hip Adduction",
+  "description": "Lying on one side with the top leg crossed over and supported in front, the bottom leg is lifted toward the ceiling against gravity, isolating the hip adductor group of the bottom leg. The movement is performed slowly through a short arc, with a controlled lower back to the start.",
+  "rationale": "Side-lying hip adduction is a low-load, gravity-resisted isolation exercise for the medial thigh, commonly used early in groin-injury rehabilitation and adductor-strengthening progressions. Surface EMG studies of adductor exercise batteries in athletes have shown that side-lying (isolated) hip adduction produces high adductor longus activation relative to many functional alternatives, and because adductor brevis shares the adduction moment arm at low hip-flexion angles it is loaded concurrently (fine-wire confirmation for brevis specifically is limited, since its depth makes surface EMG unreliable). Adductor strengthening programs are supported by moderate-quality evidence for reducing groin problems in athletes; the specific superiority of this variant over others is not established, so it is best positioned as an accessible entry-level option that requires no equipment.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "sidelying",
+  "equipment": [
+   "none required",
+   "ankle weight (optional progression)",
+   "mat"
+  ],
+  "movementSlugs": [
+   "hip-adduction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "adductor-longus",
+    "role": "primary",
+    "notes": "Highest surface-EMG activation among the hip adductors in isolated side-lying adduction of the bottom leg; most commonly injured adductor in athletes."
+   },
+   {
+    "muscleSlug": "adductor-brevis",
+    "role": "primary",
+    "notes": "A primary adductor loaded through the adduction arc alongside adductor longus; mechanically advantaged near neutral hip flexion, which this position trains. Deep location limits direct surface-EMG confirmation."
+   },
+   {
+    "muscleSlug": "adductor-magnus",
+    "role": "primary",
+    "notes": "Upgraded from secondary: adductor magnus is the largest and most powerful hip adductor and is a prime mover here. Labeling it below adductor brevis was inconsistent; the adductor portion generates a strong adduction moment in this near-neutral hip position."
+   },
+   {
+    "muscleSlug": "gracilis",
+    "role": "secondary",
+    "notes": "Thin two-joint adductor assisting the movement; contribution is a secondary/accessory one, greatest with the knee extended as positioned here."
+   },
+   {
+    "muscleSlug": "pectineus",
+    "role": "secondary",
+    "notes": "Assists adduction (and flexion) from the neutral/slightly extended hip position of the bottom leg."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Bottom-side QL stabilizes the pelvis and lumbar spine against lateral sag in side-lying."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Maintains trunk and pelvic alignment so the leg, not the trunk, produces the motion."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Stack your hips vertically and keep your bottom leg straight, in line with your trunk \u2014 do not let the top hip roll backward."
+   },
+   {
+    "cueType": "external",
+    "text": "Lead with your inner heel, as if sliding it up along a wall behind you."
+   },
+   {
+    "cueType": "internal",
+    "text": "Feel the squeeze along your inner thigh, not in the front of your hip."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Lift for 2 counts, pause briefly at the top, and lower with control for 3 counts without letting the foot rest between reps."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Isometric adductor squeeze (supine ball squeeze)",
+    "description": "Lying on the back with knees bent, squeeze a ball or pillow between the knees and hold 5-10 seconds. Removes the range-of-motion and side-lying positioning demands while still loading the adductors; useful when concentric lifting is painful."
+   },
+   {
+    "name": "Reduced-range side-lying adduction",
+    "description": "Perform the same side-lying lift but only through the first few inches of range, or with a pillow under the bottom leg to shorten the lowering distance and reduce time under tension."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Ankle-weighted side-lying adduction",
+    "description": "Add a 1-4 kg cuff weight at the bottom ankle to increase external load while keeping the same movement pattern; progress weight when 15 controlled reps become easy."
+   },
+   {
+    "name": "Copenhagen adduction (short-lever)",
+    "description": "Transition to the partner- or bench-supported Copenhagen adduction, which loads the adductors at much higher intensity in a side-plank position and has trial evidence for groin-injury risk reduction in athletes."
+   }
+  ],
+  "dosing": "2-3 sets of 10-15 slow, controlled repetitions per side, 3 sessions per week. Progress by adding an ankle weight or slowing the eccentric phase once 3x15 is achieved without inner-thigh fatigue before rep 12. For early groin rehab, keep pain at or below 3/10 during and after.",
+  "startPosition": "Side-lying on the training side with head supported on the lower arm or a pillow, trunk and bottom leg in a straight line, bottom knee extended and foot in neutral. Top leg is flexed at the hip and knee with the foot planted flat on the floor in front of the bottom thigh (or the top leg rested on a bolster), top hand on the floor in front of the chest for balance. Bottom leg's inner thigh faces the ceiling.",
+  "endPosition": "Bottom leg raised 15-30 cm off the floor (roughly 20-30 degrees of hip adduction relative to the floor), knee straight, toes pointing forward, pelvis still stacked vertically with no trunk lean or backward roll.",
+  "rom": "Approximately 20-30 degrees of hip adduction of the bottom leg, moving from slight relative abduction (leg resting on floor) to adduction past midline against gravity; range is short by design and should stop before the pelvis begins to tilt or roll.",
+  "evidenceLevel": "moderate",
+  "emgNotes": "Surface EMG comparisons of adductor exercises in athletes report high adductor longus activation for isolated side-lying hip adduction, comparable to or exceeding several functional exercises, though below the Copenhagen adduction. Adductor brevis activity is inferred from shared function and moment arm rather than measured directly, because its depth beneath adductor longus and pectineus makes surface EMG recordings unreliable and fine-wire data for this exercise are scarce.",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "thumb-radial-abduction",
+  "name": "Thumb Radial Abduction",
+  "description": "A targeted hand-strengthening exercise in which the thumb is moved away from the index finger within the plane of the palm (radial abduction / extension at the carpometacarpal joint), against gravity or elastic resistance. It isolates the deep radial-side extrinsic thumb muscles that govern the outer edge of the thumb web space and column stability of the first ray.",
+  "rationale": "The abductor pollicis longus (APL) is the prime mover of thumb radial abduction, arising from the dorsal radius/ulna and interosseous membrane and inserting on the base of the first metacarpal; radial abduction is the movement that most specifically recruits it, with the extensor pollicis brevis assisting. Loading this motion is clinically useful for first-ray/CMC stability, thumb web-space opening for grasp, and as a controlled tendon-loading option relevant to de Quervain-type first-dorsal-compartment presentations (the APL and EPB share that compartment). Evidence for isolated thumb-abduction strengthening is largely mechanistic and anatomical rather than from large trials, so the effect is well grounded in muscle action but not backed by high-level RCT data for strength outcomes specifically.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [
+   "small elastic band or hair tie (optional)",
+   "table for forearm support"
+  ],
+  "movementSlugs": [
+   "thumb-abduction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "abductor-pollicis-longus",
+    "role": "primary",
+    "notes": "Prime mover of radial abduction; abducts and extends the first metacarpal at the CMC joint in the plane of the palm."
+   },
+   {
+    "muscleSlug": "extensor-pollicis-brevis",
+    "role": "secondary",
+    "notes": "True radial abductor/extensor sharing the first dorsal compartment with APL; forms the radial border of the anatomical snuffbox and assists the motion."
+   },
+   {
+    "muscleSlug": "abductor-pollicis-brevis",
+    "role": "stabilizer",
+    "notes": "Primary action is PALMAR abduction (perpendicular to the palm), not radial abduction; force line is roughly orthogonal to the target motion. Downgraded from synergist \u2014 it co-activates to open the first web space and stabilize the thenar column rather than driving radial abduction."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Rest your forearm and hand on a table with the thumb side up (neutral wrist), so the thumb can travel outward against gravity."
+   },
+   {
+    "cueType": "external-focus",
+    "text": "Lead with the tip of the thumb and move it toward the ceiling, away from the index finger, as if opening the web space wide."
+   },
+   {
+    "cueType": "form",
+    "text": "Keep the thumb long and the knuckle relatively straight; avoid curling or bending the tip so the motion stays at the base of the thumb."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move up slowly over about two seconds, pause at the top, then lower under control rather than letting it drop."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Gravity-eliminated radial abduction",
+    "description": "Place the hand flat, palm down on the table, and slide the thumb outward along the surface so the movement is unloaded \u2014 useful for pain, weakness, or early tendon loading."
+   },
+   {
+    "name": "Active-assisted abduction",
+    "description": "Use the other hand to gently guide the thumb through the outward range, reducing the demand on the APL while grooving the motion."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Elastic-band resisted abduction",
+    "description": "Loop a small elastic band around both thumbs (or the thumb and a fixed point) and abduct against the band's tension for progressive resistance."
+   },
+   {
+    "name": "Increased resistance and volume",
+    "description": "Advance to a thicker band or add repetitions/sets, and progress toward end-range holds to build tendon capacity of the first dorsal compartment."
+   }
+  ],
+  "dosing": "2-3 sets of 10-15 slow repetitions per hand, 3-5 days per week, with a 1-2 second hold at end range; add a light elastic band once bodyweight/gravity motion is pain-free and easy.",
+  "startPosition": "Seated with the forearm supported on a table in neutral rotation (thumb side up), wrist neutral, thumb resting relaxed alongside the index finger.",
+  "endPosition": "Thumb moved outward and slightly upward away from the palm and index finger into full radial abduction, web space fully opened, without wrist deviation or thumb-tip flexion.",
+  "rom": "Through available thumb CMC radial abduction range, aiming for a wide open web space at end range; typically 0 up to roughly 60-70 degrees of radial abduction.",
+  "evidenceLevel": "limited",
+  "emgNotes": "The abductor pollicis longus is anatomically the prime radial abductor of the thumb, with the extensor pollicis brevis as its main assistant; formal EMG quantification specific to this isolated resisted exercise is limited.",
+  "unmappedWanted": [
+   "thumb-cmc-extension",
+   "thumb-cmc-radial-abduction"
+  ],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "resisted-forearm-pronation",
+  "name": "Resisted Forearm Pronation",
+  "description": "A targeted forearm-strengthening exercise in which the seated athlete rotates the palm from a face-up (supinated) or neutral position toward face-down (pronated) against external resistance, typically an offset load such as a hammer or a dumbbell held at one end, or an elastic band. The elbow is kept flexed to roughly 90 degrees and pinned to the side or supported on a thigh/table so the rotation is isolated to the radioulnar joints rather than the shoulder. It builds concentric and eccentric control of forearm pronation for grip-, tool-, and racquet-based tasks and for rehabilitation after distal radius, elbow, or forearm injury.",
+  "rationale": "Pronator quadratus is the deep, distal prime mover of forearm pronation and, per classic EMG work (e.g., Basmajian and colleagues), is active during pronation regardless of speed or load, whereas pronator teres is recruited more heavily as resistance and velocity increase. Loading pronation therefore directly targets both, making this the appropriate exercise to give pronator quadratus a training stimulus. Isolating the movement with the elbow flexed and stabilized minimizes brachioradialis and shoulder substitution so the radioulnar rotators do the work. The anatomy and EMG basis for muscle selection is well established; however, high-quality randomized trials evaluating this specific exercise as an isolated intervention are limited, so its clinical use rests largely on sound biomechanical rationale and general resistance-training principles rather than strong disease-specific outcome data.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [
+   "dumbbell",
+   "resistance-band",
+   "hammer"
+  ],
+  "movementSlugs": [
+   "forearm-pronation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "pronator-quadratus",
+    "role": "primary",
+    "notes": "Deep distal prime mover of forearm pronation; EMG shows activity across all speeds and loads, a genuine target of resisted pronation."
+   },
+   {
+    "muscleSlug": "pronator-teres",
+    "role": "primary",
+    "notes": "Superficial co-prime mover recruited increasingly with higher resistance and rotational velocity."
+   },
+   {
+    "muscleSlug": "flexor-carpi-radialis",
+    "role": "stabilizer",
+    "notes": "Its pronation contribution is minimal and debated; in resisted pronation its real function is stabilizing the wrist against the offset load, so stabilizer is the honest classification rather than synergist."
+   },
+   {
+    "muscleSlug": "brachioradialis",
+    "role": "synergist",
+    "notes": "Rotates the forearm from full supination toward neutral, contributing early in range; minimized when the elbow is stabilized at 90 degrees."
+   },
+   {
+    "muscleSlug": "supinator",
+    "role": "lengthening",
+    "notes": "Antagonist that lengthens and eccentrically controls the return toward supination."
+   },
+   {
+    "muscleSlug": "biceps-brachii",
+    "role": "lengthening",
+    "notes": "Primary supinator acting as antagonist; eccentrically loaded during the controlled return, minimized by keeping the elbow fixed."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Sit with your elbow bent to about 90 degrees and tucked against your side or resting on your thigh so only your forearm rotates."
+   },
+   {
+    "cueType": "external-focus",
+    "text": "Turn your palm to face the floor, as if slowly pouring water out of a cup, then let it return under control."
+   },
+   {
+    "cueType": "form",
+    "text": "Keep your wrist straight and quiet, and let the rotation come from the forearm rather than swinging the shoulder or flaring the elbow."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Lower back to the start over two to three seconds to train the return phase, not just the turn down."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Unloaded active pronation",
+    "description": "Perform the same rotation with no external load, or with the forearm supported flat on a table, moving only through a comfortable pain-free range to groove the pattern."
+   },
+   {
+    "name": "Neutral-start partial range",
+    "description": "Begin from a neutral (thumb-up) position and pronate only to palm-down, reducing the lever arm and total range before adding the supinated start."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Increased offset load",
+    "description": "Lengthen the lever by holding the hammer or offset dumbbell farther from the weighted end, or add band tension, to raise the pronation torque demand."
+   },
+   {
+    "name": "Eccentric-emphasized and full-range pronation",
+    "description": "Start from full supination and control a slow (4-5 second) eccentric return, and/or add higher-velocity concentric reps to recruit pronator teres more strongly."
+   }
+  ],
+  "dosing": "Strength focus: 2-3 sets of 10-15 controlled reps per arm, 2-3 sessions per week, progressing load as form allows. For tendinopathy or early rehab, use lighter resistance with higher reps (2-3 sets of 15-20) and emphasize the pain-free range and the eccentric phase.",
+  "evidenceLevel": "moderate",
+  "startPosition": "Seated with the working elbow flexed to approximately 90 degrees and stabilized against the trunk or supported on the thigh/table; forearm in full supination (palm up) or neutral, holding an offset weight (hammer or single-end-loaded dumbbell) or anchored band.",
+  "endPosition": "Same seated, elbow-supported posture with the forearm rotated into full pronation (palm down) and the wrist held neutral, before controlled return to the start.",
+  "rom": "Through available radioulnar rotation, up to roughly 80-90 degrees of pronation from a supinated or neutral start; keep within a pain-free arc in rehab settings.",
+  "emgNotes": "Classic EMG work indicates pronator quadratus is active during pronation independent of speed and resistance, while pronator teres contribution rises with increasing load and rotational velocity; brachioradialis participates mainly when moving from full supination toward neutral.",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "prone-cervical-extension",
+  "name": "Prone Cervical Extension",
+  "description": "A prone neck-strengthening exercise in which the client lies face-down with the head off the edge of a table (or over a rolled towel) and lifts the head against gravity into cervical extension, then lowers under control. It loads the posterior cervical extensor chain\u2014especially the deep semispinal and splenius group\u2014through gravity-resisted range, building endurance and strength of the cervical extensors.",
+  "rationale": "Deficits in cervical extensor strength and endurance are common in people with chronic neck pain, cervicogenic headache, and forward-head postures, and the deep extensors (semispinalis cervicis and multifidus) are the primary segmental stabilizers of the cervical spine. Prone extension against gravity is a simple, equipment-light way to progressively load these muscles through range. Evidence for cervical extensor and general neck-strengthening programs in chronic neck pain is moderate\u2014systematic reviews support strengthening/endurance exercise for reducing pain and disability\u2014but head-to-head evidence isolating this specific prone variant is limited, so it is best viewed as one reasonable loading option within a broader neck program rather than a uniquely validated technique. A neutral (chin-tucked) starting position is preferred to bias the deep extensors and avoid dumping the load into upper-cervical hyperextension.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "prone",
+  "equipment": [
+   "mat",
+   "towel roll",
+   "treatment table"
+  ],
+  "movementSlugs": [
+   "cervical-extension",
+   "cervical-extension-upper",
+   "cervical-retraction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "semispinalis-cervicis",
+    "role": "primary",
+    "notes": "Deep cervical extensor and segmental stabilizer; prime target loaded through gravity-resisted extension."
+   },
+   {
+    "muscleSlug": "semispinalis-capitis",
+    "role": "primary",
+    "notes": "Large extensor of the head and upper neck; major contributor to the prone head lift."
+   },
+   {
+    "muscleSlug": "splenius-cervicis",
+    "role": "primary",
+    "notes": "Posterolateral extensor acting on the mid/lower cervical segments."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "primary",
+    "notes": "Major superficial extensor of head/upper neck; upgraded from secondary \u2014 it is a prime mover equal to its cervicis partner, not a minor assist."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "secondary",
+    "notes": "Deep segmental extensor/stabilizer of the cervical vertebrae, co-active during controlled extension."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "secondary",
+    "notes": "Cervical portions (longissimus/iliocostalis cervicis) assist gross cervical extension."
+   },
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "secondary",
+    "notes": "Produce the upper-cervical extension component of the head lift."
+   },
+   {
+    "muscleSlug": "trapezius-upper",
+    "role": "synergist",
+    "notes": "Reclassified from stabilizer \u2014 via its occipital/nuchal attachment the upper trapezius is a genuine cervical extensor that actively assists this lift; a cueing goal of minimizing it does not change its mechanical role."
+   },
+   {
+    "muscleSlug": "levator-scapulae",
+    "role": "stabilizer",
+    "notes": "Provides cervicoscapular fixation during the lift; its direct extension contribution is minor."
+   }
+  ],
+  "cues": [
+   {
+    "text": "Begin with a gentle chin nod (tuck) to lengthen the back of the neck, then lift the head so the neck extends evenly through the whole length rather than cranking the top of the neck backward.",
+    "cueType": "internal"
+   },
+   {
+    "text": "Lift the head as if pointing the crown gently forward and up\u2014leading with a long neck\u2014until your face is roughly parallel with the floor; stop before you feel pinching at the base of the skull.",
+    "cueType": "external"
+   },
+   {
+    "text": "Move slowly: about 2 seconds up, a brief hold, and 3 seconds lowering under control. Keep the shoulders down and relaxed\u2014don't shrug.",
+    "cueType": "tempo"
+   },
+   {
+    "text": "Keep breathing throughout; if you feel strain in the throat or jaw or any dizziness or headache, stop and reduce the range.",
+    "cueType": "safety"
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Supported partial-range holds",
+    "description": "Rest the forehead on stacked hands or a folded towel and lift only a small amount, holding an isometric contraction for 5-10 seconds. Reduces the gravitational lever and range for deconditioned or painful necks."
+   },
+   {
+    "name": "Prone chin tuck without head lift",
+    "description": "Keep the forehead lightly resting on the table and perform only the deep-extensor-biasing chin nod/retraction, activating the target muscles isometrically before adding a head lift against gravity."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Head off the edge of the table",
+    "description": "Position the head and neck beyond the edge of a treatment table so the movement spans a fuller extension-to-flexion arc through gravity, increasing range and eccentric demand."
+   },
+   {
+    "name": "Added external load",
+    "description": "Add light resistance via a weighted head strap, light plate on the back of the head, or a manual/theraband resistance to increase strengthening stimulus once endurance in range is established."
+   }
+  ],
+  "startPosition": "Lying prone on a mat or treatment table with the forehead resting down (or the head just off the edge of the table), arms relaxed at the sides or hands under the forehead, and the cervical spine in a neutral, gently chin-tucked position.",
+  "endPosition": "Head and neck lifted into cervical extension so the face is approximately parallel to the floor, maintaining a long neck and an even extension curve, shoulders relaxed and down, before returning under control to the start.",
+  "rom": "Cervical extension from neutral through mid-range; typically 0-30 degrees of controlled extension, avoiding end-range upper-cervical hyperextension or any pinching at the skull base.",
+  "dosing": "Begin with 1-2 sets of 8-10 slow repetitions or 5-10 second isometric holds, 3-4 days per week. Progress toward endurance emphasis (2-3 sets of 10-15 controlled reps or longer holds) before adding external load. Work in a pain-free to mildly-fatiguing range and avoid provoking headache or dizziness.",
+  "evidenceLevel": "moderate",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "deep-neck-extensor-endurance",
+  "name": "Deep Neck Extensor Endurance",
+  "description": "A low-load motor-control exercise that trains the endurance and tonic activation of the deep cervical extensors \u2014 chiefly semispinalis cervicis and cervical multifidus. In quadruped, the client maintains a gentle craniocervical nod (upper cervical slight flexion) while actively extending the lower and mid cervical spine, then holds. Keeping the head-on-neck segment nodded biases the deeper, segmental extensors over the larger superficial capitis muscles, which is the point of the drill: to restore selective control and endurance rather than raw strength.",
+  "rationale": "The deep cervical extensors (semispinalis cervicis and cervical multifidus) attach segmentally and act as postural stabilizers of the cervical spine; they show altered activation, fatty infiltration, and reduced endurance in people with chronic neck pain, whiplash-associated disorders, and cervicogenic headache. Deep flexor training (craniocervical flexion) is well established, but the extensors are frequently neglected. Work by Schomacher and Falla and colleagues demonstrated that performing cervical extension with the craniocervical region held in a neutral-to-slightly-flexed position preferentially recruits semispinalis cervicis relative to the superficial semispinalis/splenius capitis, providing a rationale for this specific setup. Evidence for improved endurance and reduced pain with deep extensor training is promising but less mature than for the deep flexors, so it is best used as a complement within a broader cervical motor-control program.",
+  "category": "motor-control",
+  "difficulty": "intermediate",
+  "bodyPosition": "quadruped",
+  "equipment": [],
+  "movementSlugs": [
+   "cervical-extension",
+   "cervical-flexion-upper"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "semispinalis-cervicis",
+    "role": "primary",
+    "notes": "Principal deep segmental cervical extensor and the intended target; preferentially recruited when the craniocervical region is held in a nod during lower/mid cervical extension."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "primary",
+    "notes": "Cervical multifidus works with semispinalis cervicis as a deep segmental extensor and stabilizer; a key endurance target of this exercise."
+   },
+   {
+    "muscleSlug": "semispinalis-capitis",
+    "role": "secondary",
+    "notes": "Superficial capitis extensor that assists; the sustained craniocervical nod is used to minimize its dominance so the deeper cervicis fibers do the work."
+   },
+   {
+    "muscleSlug": "splenius-cervicis",
+    "role": "secondary",
+    "notes": "Assists lower cervical extension alongside the deep target muscles."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "secondary",
+    "notes": "Superficial extensor contributing to head/neck extension; kept relatively quiet by the nodded head position."
+   },
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "stabilizer",
+    "notes": "Isometric co-contraction maintains the gentle craniocervical nod (upper cervical flexion) that isolates the deep extensors."
+   },
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "stabilizer",
+    "notes": "Control the head-on-neck (upper cervical) position throughout the hold while the nod is maintained."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "synergist",
+    "notes": "Cervical portions (longissimus/spinalis cervicis) assist extension as synergists to the deeper target muscles."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "On hands and knees, stack shoulders over wrists and hips over knees; let your head hang so your gaze is toward the floor and the back of your neck feels long."
+   },
+   {
+    "cueType": "internal",
+    "text": "First make a subtle nod, as if tucking your chin a fingertip's width \u2014 keep this nod the entire time so the small deep muscles at the base of your neck do the lifting, not the big ones up top."
+   },
+   {
+    "cueType": "external",
+    "text": "Keeping the nod, slowly raise your head until the back of your neck lines up with your upper back \u2014 like lengthening the crown of your head forward and up, not cranking the head back."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly and hold at the top without letting your chin poke forward; breathe normally through the hold, then lower with control."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Supported neutral head holds",
+    "description": "In quadruped or prone-on-elbows, practice only the gentle craniocervical nod and hold the head level with the trunk (no lift into extension), building the endurance and control needed before adding range."
+   },
+   {
+    "name": "Reduced-range, shorter holds",
+    "description": "Extend through only a small portion of available range and hold 3-5 seconds for fewer repetitions, progressing hold time and range as control and endurance improve."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Longer endurance holds and added volume",
+    "description": "Progress toward 10-second holds for 10 or more repetitions, or a sustained low-load hold, emphasizing tonic endurance while keeping the craniocervical nod steady."
+   },
+   {
+    "name": "Light head load or prone-over-edge variation",
+    "description": "Add a light head-weight (e.g., a small weighted cap) or perform prone with the head off the edge of a table so gravity increases the extensor demand, only once form and endurance are solid."
+   }
+  ],
+  "dosing": "Endurance emphasis: 1-3 sets of 8-12 slow repetitions with 5-10 second holds at end position, or a single sustained low-load hold building from 10 seconds. Perform daily or most days. Load stays low; stop the set when the deep muscles fatigue or the chin begins to poke forward (superficial substitution). Progress hold duration and repetitions before adding external load.",
+  "evidenceLevel": "moderate",
+  "startPosition": "Quadruped (four-point kneeling) with shoulders over wrists and hips over knees; head relaxed downward so the neck is long and the craniocervical region is in a gentle nod (upper cervical slight flexion).",
+  "endPosition": "Maintaining the craniocervical nod, the lower and mid cervical spine is extended so the neck aligns with the thoracic spine (head level with the trunk), held without chin poke, then returned under control.",
+  "rom": "Lower/mid cervical extension from a flexed (head-hanging) start to neutral alignment with the thoracic spine, while the upper cervical segment is held in a constant slight-flexion nod throughout; avoid full end-range craniocervical extension.",
+  "emgNotes": "Surface and intramuscular EMG studies indicate that performing cervical extension with the craniocervical region held neutral-to-slightly-flexed increases activation of semispinalis cervicis relative to the superficial capitis muscles; this drives the nodded-head setup. Reported activation ratios vary between studies, so treat specifics as indicative rather than precise.",
+  "unmappedWanted": [
+   "cervical-multifidus (only general \"multifidus\" slug available in roster)",
+   "lower-cervical-extension-isolated (no discrete lower-vs-upper cervical extension movement slug)"
+  ],
+  "provenance": "claude-researched"
+ }
+]
