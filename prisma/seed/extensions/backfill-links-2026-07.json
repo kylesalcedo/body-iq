@@ -1,0 +1,377 @@
+[
+ {
+  "slug": "chin-tuck-with-overpressure",
+  "movementSlugs": [
+   "cervical-retraction",
+   "cervical-flexion-upper"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "primary",
+    "notes": "Longus colli/longus capitis drive craniocervical flexion and the 'chin straight back' retraction \u2014 the target muscles being trained/activated."
+   },
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "lengthening",
+    "notes": "Upper-cervical extensors directly stretched by the overpressure as the base of the skull nods and the back of the neck lengthens."
+   },
+   {
+    "muscleSlug": "semispinalis-capitis",
+    "role": "lengthening",
+    "notes": "Posterior cervical extensor lengthened by retraction/upper-cervical flexion."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "lengthening",
+    "notes": "Posterior cervical extensor stretched as the head glides back and nods."
+   },
+   {
+    "muscleSlug": "levator-scapulae",
+    "role": "lengthening",
+    "notes": "Upper-cervical attachment placed on stretch with retraction."
+   },
+   {
+    "muscleSlug": "upper-trapezius",
+    "role": "lengthening",
+    "notes": "Posterior neck muscle lengthened as the cervical spine straightens and the chin tucks back."
+   }
+  ],
+  "unmappedWanted": []
+ },
+ {
+  "slug": "active-hallux-extension",
+  "movementSlugs": [],
+  "muscleRoles": [
+   {
+    "muscleSlug": "extensor-hallucis-longus",
+    "role": "primary",
+    "notes": "Prime mover: extends the great toe at the first MTP (and IP) joint \u2014 the isolated hallux lift this drill trains."
+   },
+   {
+    "muscleSlug": "flexor-hallucis-longus",
+    "role": "lengthening",
+    "notes": "Antagonist to hallux extension; lengthened/put on stretch as the big toe lifts."
+   },
+   {
+    "muscleSlug": "flexor-digitorum-longus",
+    "role": "stabilizer",
+    "notes": "Holds the lesser four toes pressed firmly into the floor so the hallux can be isolated."
+   },
+   {
+    "muscleSlug": "lumbricals",
+    "role": "stabilizer",
+    "notes": "Intrinsics help keep the lesser toes flexed/planted while the big toe extends independently."
+   },
+   {
+    "muscleSlug": "flexor-digiti-minimi-brevis",
+    "role": "stabilizer",
+    "notes": "Presses the 5th toe down, contributing to keeping the lesser toes anchored."
+   }
+  ],
+  "unmappedWanted": [
+   "extensor-hallucis-brevis (additional prime hallux extensor, not in roster)",
+   "flexor-hallucis-brevis (short hallux flexor, would be lengthening antagonist, not in roster)",
+   "flexor-digitorum-brevis (intrinsic that anchors lesser toes, not in roster)",
+   "first-mtp-extension / hallux-extension movement (joint action producing the lift; no toe/MTP extension movement in roster)"
+  ]
+ },
+ {
+  "slug": "band-pull-apart",
+  "movementSlugs": [
+   "shoulder-horizontal-abduction",
+   "scapular-retraction",
+   "shoulder-external-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "posterior-deltoid",
+    "role": "primary",
+    "notes": "Prime mover for shoulder horizontal abduction, drawing the arms out to the sides against band resistance."
+   },
+   {
+    "muscleSlug": "rhomboid-major",
+    "role": "primary",
+    "notes": "Retracts the scapula, squeezing the shoulder blades together as cued."
+   },
+   {
+    "muscleSlug": "trapezius-middle",
+    "role": "primary",
+    "notes": "Scapular retraction; the target for 'squeeze the shoulder blades, not the upper traps'."
+   },
+   {
+    "muscleSlug": "infraspinatus",
+    "role": "secondary",
+    "notes": "Assists horizontal abduction and provides external rotation of the humerus with palms-down grip."
+   },
+   {
+    "muscleSlug": "teres-minor",
+    "role": "secondary",
+    "notes": "Assists posterior deltoid in horizontal abduction and external rotation."
+   },
+   {
+    "muscleSlug": "trapezius-lower",
+    "role": "secondary",
+    "notes": "Depresses and stabilizes the scapula to keep the shoulder blades down, away from the upper traps."
+   },
+   {
+    "muscleSlug": "serratus-anterior",
+    "role": "stabilizer",
+    "notes": "Stabilizes the scapula against the rib cage during retraction."
+   },
+   {
+    "muscleSlug": "pectoralis-major",
+    "role": "lengthening",
+    "notes": "Antagonist to horizontal abduction; stretched as the arms open out to the end range."
+   },
+   {
+    "muscleSlug": "anterior-deltoid",
+    "role": "lengthening",
+    "notes": "Antagonist stretched as the humerus moves into horizontal abduction."
+   }
+  ],
+  "unmappedWanted": [
+   "rhomboid-minor"
+  ]
+ },
+ {
+  "slug": "glute-bridge-with-march",
+  "movementSlugs": [
+   "hip-extension",
+   "hip-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Prime mover holding hip extension to maintain the bridge at the top throughout the marches."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Assist gluteus maximus in sustaining hip extension of the loaded/supporting leg."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "secondary",
+    "notes": "Drives the march \u2014 hip flexion lifting each knee toward the chest."
+   },
+   {
+    "muscleSlug": "rectus-femoris",
+    "role": "synergist",
+    "notes": "Assists hip flexion of the marching leg."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Keeps the pelvis level when weight shifts to a single support leg during each march (prevents drop/rock)."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "stabilizer",
+    "notes": "Works with gluteus medius for frontal-plane pelvic stability during single-leg loading."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Deep anti-rotation core control keeping the pelvis from rocking as legs alternate."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Resists pelvic/trunk rotation \u2014 the anti-rotation demand of alternating marches."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Resists pelvic/trunk rotation to hold the pelvis level."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Controls lateral pelvic tilt, keeping the hips level ('glass of water on each hip')."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "stabilizer",
+    "notes": "Braces the trunk and helps maintain a level pelvis during the bridge hold."
+   }
+  ],
+  "unmappedWanted": []
+ },
+ {
+  "slug": "isometric-glute-squeeze",
+  "movementSlugs": [
+   "hip-extension",
+   "hip-external-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Target of the maximal isometric squeeze; primary hip extensor and external rotator being reactivated after prolonged sitting."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "synergist",
+    "notes": "Co-contracts during a maximal glute squeeze; upper fibers assist extension and provide pelvic/hip control."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "synergist",
+    "notes": "Deep glute that co-activates with the maximal squeeze contributing to hip stabilization."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Assist hip extension as posterior-chain synergists during the maximal isometric contraction."
+   }
+  ],
+  "unmappedWanted": []
+ },
+ {
+  "slug": "cook-hip-lift",
+  "movementSlugs": [
+   "hip-extension",
+   "posterior-pelvic-tilt"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Prime mover extending the hip of the loaded (heel-on-floor) leg to lift the pelvis; the held-knee-to-chest lock biases work toward the glute rather than the hamstrings."
+   },
+   {
+    "muscleSlug": "adductor-magnus",
+    "role": "synergist",
+    "notes": "Posterior (extensor) fibers assist hip extension of the lifting leg."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "synergist",
+    "notes": "Assist hip extension; deliberately de-emphasized here (hamstring cramp on the lifting leg is the cue to lower the hip)."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Keeps the pelvis level and prevents drop/rotation during the single-leg lift."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "stabilizer",
+    "notes": "Assists frontal/transverse-plane pelvic control on the stance leg."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Provides lumbopelvic bracing to keep the pelvis level and rotation-free."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "stabilizer",
+    "notes": "Holds the posterior pelvic tilt, preventing lumbar hyperextension at the top."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Anti-rotation control so the bilateral pelvis stays square."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Anti-rotation control so the bilateral pelvis stays square."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Resists lateral pelvic drop and keeps the pelvis level on the single-leg base."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "stabilizer",
+    "notes": "On the held leg, sustains hip flexion that locks the opposite hemipelvis and helps maintain the posterior tilt."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Stabilizes the flexed knee of the loaded leg as the hip extends."
+   }
+  ],
+  "unmappedWanted": []
+ },
+ {
+  "slug": "lateral-band-walk",
+  "movementSlugs": [
+   "hip-abduction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "primary",
+    "notes": "Prime hip abductor driving the sideways step against band resistance; the 'stay low' cue targets its work"
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "primary",
+    "notes": "Deep hip abductor working with gluteus medius to move the leg out and stabilize the pelvis"
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "secondary",
+    "notes": "Assists hip abduction with feet pointed forward and helps stabilize the pelvis"
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "secondary",
+    "notes": "Upper fibers assist hip abduction/external rotation and control the trailing leg's return step"
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Isometrically holds the quarter-squat (mini-squat) position throughout the walk"
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Braces the core to keep the hips level and prevent trunk sway during lateral stepping"
+   }
+  ],
+  "unmappedWanted": []
+ },
+ {
+  "slug": "arch-doming",
+  "movementSlugs": [
+   "foot-inversion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "tibialis-posterior",
+    "role": "secondary",
+    "notes": "Primary extrinsic dynamic supporter of the medial longitudinal arch; assists the intrinsics in doming/shortening the foot and supinating."
+   },
+   {
+    "muscleSlug": "peroneus-longus",
+    "role": "secondary",
+    "notes": "Plantarflexes the first ray and locks the midfoot, supporting arch elevation during the short-foot action."
+   },
+   {
+    "muscleSlug": "flexor-hallucis-longus",
+    "role": "synergist",
+    "notes": "Co-activates to stabilize the hallux and support the medial arch, though the cue is to keep toes long and minimize its toe-curling contribution."
+   },
+   {
+    "muscleSlug": "tibialis-anterior",
+    "role": "stabilizer",
+    "notes": "Invertor/dorsiflexor that helps control foot posture and support the medial arch while the toes stay long."
+   }
+  ],
+  "unmappedWanted": [
+   "abductor-hallucis",
+   "flexor-digitorum-brevis",
+   "quadratus-plantae",
+   "plantar-interossei-foot",
+   "lumbricals-foot",
+   "abductor-digiti-minimi-foot"
+  ]
+ }
+]

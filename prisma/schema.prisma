@@ -23,6 +23,7 @@ enum MuscleRole {
   stabilizer
   synergist
   common_association
+  lengthening // muscle is lengthened/stretched by the movement or exercise (antagonist side)
 }
 
 // ─── Anatomy Layer ───────────────────────────────────────────────────────────
@@ -45,6 +46,7 @@ model Region {
   joints      Joint[]
   tags        TagOnEntity[]
   sources     SourceOnEntity[]
+  codes       EntityCode[]
 }
 
 model Joint {
@@ -67,6 +69,7 @@ model Joint {
   movements   Movement[]
   tags        TagOnEntity[]
   sources     SourceOnEntity[]
+  codes       EntityCode[]
 }
 
 model Movement {
@@ -103,6 +106,7 @@ model Movement {
   exercises   ExerciseMovement[]
   tags        TagOnEntity[]
   sources     SourceOnEntity[]
+  codes       EntityCode[]
 }
 
 model Muscle {
@@ -129,6 +133,7 @@ model Muscle {
   exercises   ExerciseMuscle[]
   tags        TagOnEntity[]
   sources     SourceOnEntity[]
+  codes       EntityCode[]
 }
 
 // ─── Weighted Join Tables ────────────────────────────────────────────────────
@@ -180,6 +185,7 @@ model FunctionalTask {
   exercises   ExerciseFunctionalTask[]
   tags        TagOnEntity[]
   sources     SourceOnEntity[]
+  codes       EntityCode[]
 }
 
 model MovementFunctionalTask {
@@ -203,6 +209,7 @@ model Exercise {
   dosing      String?      // e.g. "3x10-15 reps, 2-3x/week" — from RCTs
   emgNotes    String?      // EMG activation summary with citations
   evidenceLevel String?    // e.g. "strong", "moderate", "limited", "expert-opinion"
+  rationale   String?      // evidence-based reason to include it in a routine (clinical indication / benefit)
   // Media (legacy single-video fields — prefer ExerciseVideo going forward)
   imageUrl    String?      // exercise illustration/photo URL
   videoUrl    String?      // exercise demonstration video URL
@@ -213,7 +220,8 @@ model Exercise {
   rom           String?    // e.g. "0-90° hip flexion", "neutral to full pronation"
   cameraView    String?    // preferred camera angle: "lateral", "anterior", "posterior", "3/4"
   videoPrompt   String?    // canonical prompt for AI video generation, filled iteratively
-  // Difficulty & Equipment
+  // Classification & Equipment
+  category    String?      // therapeutic-exercise type: strength | stretch | mobility | balance | motor-control | breathwork | aerobic | sensory | functional
   difficulty  String?      // e.g. "beginner", "intermediate", "advanced"
   equipment   String[]     @default([])  // e.g. ["resistance-band", "foam-roller"]
   bodyPosition String?     // e.g. "supine", "prone", "seated", "standing", "sidelying", "quadruped"
@@ -223,6 +231,11 @@ model Exercise {
   notes       String?
   reviewedBy  String?
   reviewedAt  DateTime?
+  // Quality scoring (multi-validator composite; see scripts/score-exercises.ts)
+  qualityScore    Int?      // 0-100 composite
+  scoreBreakdown  Json?     // per-dimension sub-scores + validator notes
+  provenance      String?   // "literature-seeded" | "claude-researched"
+  scoredAt        DateTime?
   createdAt   DateTime     @default(now())
   updatedAt   DateTime     @updatedAt
   // Relations
@@ -236,6 +249,10 @@ model Exercise {
   gaitPhases  ExerciseGaitPhase[]
   tags        TagOnEntity[]
   sources     SourceOnEntity[]
+  codes       EntityCode[]
+  // Difficulty-graph back-edges (this exercise is the target of another's progression/regression)
+  regressionTargets  Regression[]  @relation("RegressionTarget")
+  progressionTargets Progression[] @relation("ProgressionTarget")
 }
 
 // ─── Gait Cycle Layer ────────────────────────────────────────────────────────
@@ -343,8 +360,14 @@ model Regression {
   name        String
   description String
   order       Int      @default(0)
+  // Difficulty-graph edge: when the regression exists as its own Exercise node
+  criterion        String?   // clinical trigger to regress (e.g. "pain >3/10 during reps")
+  targetExerciseId String?
+  targetExercise   Exercise? @relation("RegressionTarget", fields: [targetExerciseId], references: [id], onDelete: SetNull)
   exerciseId  String
   exercise    Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([targetExerciseId])
 }
 
 model Progression {
@@ -352,8 +375,14 @@ model Progression {
   name        String
   description String
   order       Int      @default(0)
+  // Difficulty-graph edge: when the progression exists as its own Exercise node
+  criterion        String?   // achievement gate to progress (e.g. "3x10 pain-free with 2s holds")
+  targetExerciseId String?
+  targetExercise   Exercise? @relation("ProgressionTarget", fields: [targetExerciseId], references: [id], onDelete: SetNull)
   exerciseId  String
   exercise    Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([targetExerciseId])
 }
 
 // ─── Evidence Layer ──────────────────────────────────────────────────────────
@@ -419,6 +448,40 @@ model Tag {
   name     String
   category String?       // e.g. "body-system", "difficulty", "equipment"
   entities TagOnEntity[]
+}
+
+// ─── Interop Coding Layer ────────────────────────────────────────────────────
+// Standard-terminology mappings (SNOMED CT, UCUM, ICF, ...) per entity, kept
+// separate from internal slugs so the graph stays terminology-agnostic while
+// exports (e.g. FHIR ActivityDefinition) can emit proper codings.
+// Codes are data like everything else: they carry validation status and must
+// be verified against a terminology server before being treated as authoritative.
+
+model EntityCode {
+  id         String       @id @default(cuid())
+  system     String       // e.g. "http://snomed.info/sct", "http://unitsofmeasure.org"
+  code       String
+  display    String?      // human-readable label from the code system
+  entityType String       // "region" | "joint" | "movement" | "muscle" | "functionalTask" | "exercise"
+  // Validation (codes can be wrong; verify against a terminology server)
+  status     EntityStatus @default(needs_review)
+  notes      String?
+  // Optional FKs — exactly one should be non-null (mirrors TagOnEntity)
+  regionId         String?
+  region           Region?         @relation(fields: [regionId], references: [id], onDelete: Cascade)
+  jointId          String?
+  joint            Joint?          @relation(fields: [jointId], references: [id], onDelete: Cascade)
+  movementId       String?
+  movement         Movement?       @relation(fields: [movementId], references: [id], onDelete: Cascade)
+  muscleId         String?
+  muscle           Muscle?         @relation(fields: [muscleId], references: [id], onDelete: Cascade)
+  functionalTaskId String?
+  functionalTask   FunctionalTask? @relation(fields: [functionalTaskId], references: [id], onDelete: Cascade)
+  exerciseId       String?
+  exercise         Exercise?       @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([entityType])
+  @@index([system, code])
 }
 
 model TagOnEntity {

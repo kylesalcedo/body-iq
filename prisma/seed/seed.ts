@@ -15,6 +15,12 @@ import { seedUseCaseEssentialsExtension } from "./extensions/use-case-essentials
 import { seedOccupationEssentialsExtension } from "./extensions/occupation-essentials";
 import { seedPrimitivesAndPfmExtension } from "./extensions/primitives-and-pfm";
 import { seedCueRewritesExtension } from "./extensions/cue-rewrites";
+import { seedHandGripFixesExtension } from "./extensions/hand-grip-fixes";
+import { seedSnomedCodesExtension } from "./extensions/snomed-codes";
+import { seedCommonExercisesExtension } from "./extensions/common-exercises";
+import { seedHomeExercisesExtension } from "./extensions/home-exercises";
+import { seedCategoriesPositionsExtension } from "./extensions/categories-positions";
+import { seedBackfillLinksExtension } from "./extensions/backfill-links";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -47,6 +53,12 @@ async function main() {
 
   // Cue rewrites run LAST so they override cues created by any earlier step.
   await seedCueRewritesExtension();
+  await seedHandGripFixesExtension();
+  await seedSnomedCodesExtension();
+  await seedCommonExercisesExtension();
+  await seedHomeExercisesExtension();
+  await seedCategoriesPositionsExtension();
+  await seedBackfillLinksExtension();
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);

@@ -18,7 +18,11 @@
     "cue:audit": "tsx scripts/cue-quality.ts",
     "cue:prompts": "tsx scripts/cue-rewrite-prompts.ts",
     "cues:import": "tsx scripts/import-cue-rewrites.ts",
-    "pipeline": "tsx scripts/pipeline.ts"
+    "pipeline": "tsx scripts/pipeline.ts",
+    "export:fhir": "tsx scripts/export-fhir.ts",
+    "audit:shards": "tsx scripts/export-audit-shards.ts",
+    "audit:import": "tsx scripts/import-audit.ts",
+    "score": "tsx scripts/score-exercises.ts"
   },
   "dependencies": {
     "next": "^14.2.0",
