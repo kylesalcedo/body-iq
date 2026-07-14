@@ -23,6 +23,7 @@ import { seedCategoriesPositionsExtension } from "./extensions/categories-positi
 import { seedBackfillLinksExtension } from "./extensions/backfill-links";
 import { seedNormalizeBodyPositionExtension } from "./extensions/normalize-body-position";
 import { seedMovementRomExtension } from "./extensions/movement-rom";
+import { seedFootToeMovementsExtension } from "./extensions/foot-toe-movements";
 import { seedCoverageExercisesExtension } from "./extensions/coverage-exercises";
 import { seedRegionExercisesExtension } from "./extensions/region-exercises";
 
@@ -65,6 +66,7 @@ async function main() {
   await seedBackfillLinksExtension();
   await seedNormalizeBodyPositionExtension();
   await seedMovementRomExtension();
+  await seedFootToeMovementsExtension();
   await seedCoverageExercisesExtension();
   await seedRegionExercisesExtension();
 
