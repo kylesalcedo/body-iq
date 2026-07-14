@@ -100,7 +100,10 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "prone-hip-extension-active",
     name: "Prone Hip Extension (Active, Slow Tempo)",
-    description: "Prone with forehead on hands or floor and legs straight, lift one leg toward the ceiling by squeezing the glute, keeping the knee softly straight and avoiding any lumbar arching, then lower with control.""moderate",
+    description:
+      "Prone, forehead on hands or floor, legs straight. Lift one leg toward the ceiling by squeezing the glute — knee stays soft straight, no lumbar arching. Hold 2 s at the top, lower over 3 s.",
+    dosing: "2 × 8–10 reps each leg.",
+    evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
     bodyPosition: "prone",
@@ -139,7 +142,10 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "arch-doming",
     name: "Arch Doming (Short-Foot Exercise)",
-    description: "Seated or standing with the foot flat, draw the ball of the foot toward the heel without curling the toes so the arch lifts and the foot 'shortens.' This isolates the intrinsic foot muscles, distinct from toe yoga."    evidenceLevel: "moderate",
+    description:
+      "Seated or standing with the foot flat. Without curling the toes, draw the ball of the foot toward the heel — the arch lifts as the foot 'shortens'. Hold 5 s. Distinct from toe yoga: this is intrinsic-arch isolation.",
+    dosing: "10 reps × 2–3 sets per foot, daily.",
+    evidenceLevel: "moderate",
     difficulty: "intermediate",
     equipment: [],
     bodyPosition: "seated",
@@ -157,7 +163,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "standing-lumbar-extension-press-up",
     name: "Standing Lumbar Extension",
-    description: "Stand with hands on the low back, fingers pointing down. Lean backward as far as comfortable by extending the lumbar spine, then return to neutral. A McKenzie-style press-up performed standing." frequent if symptoms are flexion-aggravated.",
+    description:
+      "Stand with hands on the low back, fingers pointing down. Lean backward as far as comfortable by extending the lumbar spine. Hold 3 seconds at end-range, return to neutral. McKenzie-style press-up performed standing.",
+    dosing: "5–10 reps × 1–3 sets/day; more frequent if symptoms are flexion-aggravated.",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -197,7 +205,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "diaphragmatic-breathing-with-bracing",
     name: "Diaphragmatic Breathing with Bracing",
-    description: "Hands on the lower abdomen and lateral ribs. Inhale through the nose, expanding 360° into the front, sides, and back. On the exhale, gently brace the abdominal wall (as if expecting a light punch) while continuing to breathe, sustaining intra-abdominal pressure without holding the breath."tasks.",
+    description:
+      "Hands on lower abdomen and lateral ribs. Inhale through the nose, expanding into 360° (front, sides, back). On exhale, gently brace the abdominal wall (~30% of max) while continuing to breathe — sustaining intra-abdominal pressure without breath-holding.",
+    dosing: "5 cycles × 2–3 sets before heavy lifting tasks.",
     evidenceLevel: "moderate",
     difficulty: "intermediate",
     equipment: [],

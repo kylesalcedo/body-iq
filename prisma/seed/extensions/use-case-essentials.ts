@@ -42,7 +42,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "grip-squeeze-and-release",
     name: "Grip Squeeze and Release",
-    description: "Make a firm fist (squeeze a stress ball if available), hold briefly, then fully open the hand with the fingers spread wide. Trains forearm flexor strength and extensor recruitment."during keyboard work.",
+    description:
+      "Make a firm fist (squeeze a stress ball if available), hold 3 seconds, then fully open the hand with fingers spread. Trains forearm flexor strength + extensor recruitment.",
+    dosing: "10 reps × 2–3 sets, 2–3×/day during keyboard work.",
     evidenceLevel: "expert-opinion",
     difficulty: "beginner",
     equipment: [],
@@ -84,7 +86,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "isometric-glute-squeeze",
     name: "Isometric Glute Squeeze",
-    description: "Seated or standing, contract both glutes maximally and hold, with no visible movement, purely isometric. Reactivates the posterior chain during prolonged sitting.".",
+    description:
+      "Seated or standing, contract both glutes maximally and hold 5 seconds. No visible movement — purely isometric. Reactivates posterior chain during prolonged sitting.",
+    dosing: "5 × 5-second holds, 2–3×/day.",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],
@@ -313,7 +317,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "chin-tuck-with-overpressure",
     name: "Chin Tuck with Overpressure",
-    description: "Sitting tall, use two fingers on the chin to gently press it straight back (not down) until you feel the back of the neck lengthen.".",
+    description:
+      "Sitting tall, place 2 fingers on the chin and gently press the chin straight back (not down) until you feel the back of the neck lengthen. Hold 3 seconds.",
+    dosing: "8 reps × 3-second hold, 1–2×/day.",
     evidenceLevel: "moderate",
     difficulty: "beginner",
     equipment: [],

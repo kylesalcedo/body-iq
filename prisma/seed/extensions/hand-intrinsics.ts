@@ -25,7 +25,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "intrinsic-plus-hold",
     name: "Intrinsic-Plus Position Hold",
-    description: "Isometric hold with the knuckles (MCP joints) bent and the fingers held straight (IP extension), forming a tabletop shape. Targets the lumbricals and guards against claw-hand deformity."xtrapolated from general hand protocols).",
+    description:
+      "Isometric hold at MCP flexion 60–90° with simultaneous IP extension. Targets lumbricals; guards against claw-hand deformity.",
+    dosing: "3–10 reps, 5–10 s holds, daily (extrapolated from general hand protocols).",
     emgNotes:
       "No published EMG for isolated lumbrical activation — position is anatomically rational but unvalidated.",
     evidenceLevel: "expert-opinion",
@@ -86,7 +88,9 @@ const exercises: ExerciseSpec[] = [
   {
     slug: "rubber-band-finger-abduction",
     name: "Rubber-Band Finger Abduction",
-    description: "Fingers spread apart (abduct) against an elastic band looped around them, targeting the intrinsic hand muscles, then return with control."; EMG study did not specify dosing).",
+    description:
+      "Fingers abduct against an elastic band. The only intrinsic exercise with direct EMG validation for selective intrinsic activation.",
+    dosing: "10–15 reps, 3×/week (extrapolated; EMG study did not specify dosing).",
     emgNotes:
       "Significantly greater 1st DI and ADM activation vs stress-ball squeeze or baoding balls; minimized EDC substitution [Boudreau 2022].",
     evidenceLevel: "moderate",

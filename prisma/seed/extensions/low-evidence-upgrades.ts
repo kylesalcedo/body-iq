@@ -80,7 +80,10 @@ async function addWristResistance6Direction() {
     where: { slug: "wrist-resistance-6-direction" },
     update: {
       name: "6-Direction Wrist Resistance Training",
-      description: "A resistance program that loads all six wrist and forearm motions, flexion, extension, radial deviation, ulnar deviation, pronation, and supination, using a dumbbell or band. Rest the forearm on a table with the hand off the edge and move only at the wrist and forearm, cycling through each direction." exercises under a single evidence-based protocol. Evidence: Chu 2018 (PMID 28759532) — RCT with objective 1RM and isokinetic outcomes. Moderate evidence.",
+      description:
+        "Comprehensive resistance-training protocol loading all six wrist and forearm motions: flexion, extension, radial deviation, ulnar deviation, pronation, and supination. Performed with dumbbell or band resistance at the forearm/hand. A 6-week RCT showed significant motor-control improvements by week 2 and strength gains (1RM and isokinetic) by week 4 compared to ROM-only training.",
+      notes:
+        "Consolidates isolated wrist curls and wrist-deviation exercises under a single evidence-based protocol. Evidence: Chu 2018 (PMID 28759532) — RCT with objective 1RM and isokinetic outcomes. Moderate evidence.",
       dosing:
         "6 directions × progressive resistance, ~3 sets × 10–15 reps per direction, 2–3×/wk for 6 weeks minimum.",
       emgNotes:
