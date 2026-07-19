@@ -26,6 +26,7 @@ import { seedMovementRomExtension } from "./extensions/movement-rom";
 import { seedFootToeMovementsExtension } from "./extensions/foot-toe-movements";
 import { seedCoverageExercisesExtension } from "./extensions/coverage-exercises";
 import { seedRegionExercisesExtension } from "./extensions/region-exercises";
+import { seedApplyAuditExtension } from "./extensions/apply-audit";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -69,6 +70,7 @@ async function main() {
   await seedFootToeMovementsExtension();
   await seedCoverageExercisesExtension();
   await seedRegionExercisesExtension();
+  await seedApplyAuditExtension(); // LAST: survives reg/prog recreation above
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
