@@ -23,7 +23,8 @@
     "audit:shards": "tsx scripts/export-audit-shards.ts",
     "audit:import": "tsx scripts/import-audit.ts",
     "score": "tsx scripts/score-exercises.ts",
-    "ingest:citations": "tsx scripts/ingest-citations.ts"
+    "ingest:citations": "tsx scripts/ingest-citations.ts",
+    "citations:sync": "tsx scripts/ingest-citations.ts --apply && tsx scripts/resolve-sources.ts && tsx scripts/score-exercises.ts --promote"
   },
   "dependencies": {
     "next": "^14.2.0",

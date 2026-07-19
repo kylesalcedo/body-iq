@@ -16,15 +16,37 @@
  * `npx tsx scripts/resolve-sources.ts` afterwards to fill titles/DOIs/PDF links
  * from PubMed/CrossRef (no fabricated metadata).
  *
- * Usage: tsx scripts/ingest-citations.ts <response.md> [--apply]
+ * Usage:
+ *   tsx scripts/ingest-citations.ts [--apply]                 # scan research/citations/*.md
+ *   tsx scripts/ingest-citations.ts <response.md> [--apply]   # one file
+ *   tsx scripts/ingest-citations.ts <dir> [--apply]           # a folder
+ *
+ * With no path it scans research/citations/. Empty/placeholder files (no DOI or
+ * PMID) are skipped, so you can pre-create blanks and just fill the ones you run.
  */
 import { PrismaClient } from "@prisma/client";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
+import { join } from "node:path";
 
-const FILE = process.argv[2];
 const APPLY = process.argv.includes("--apply");
-if (!FILE) throw new Error("usage: ingest-citations.ts <response.md> [--apply]");
+const PATH_ARG = process.argv.slice(2).find((a) => !a.startsWith("--"));
 const p = new PrismaClient();
+
+const DEFAULT_DIR = join(process.cwd(), "research", "citations");
+const DOI_ANY = /10\.\d{4,9}\//;
+const PMID_ANY = /\bPMID:?\s*\d{6,9}\b/i;
+
+function filesToScan(): string[] {
+  const target = PATH_ARG ? join(process.cwd(), PATH_ARG) : DEFAULT_DIR;
+  if (!existsSync(target)) throw new Error(`not found: ${target}`);
+  if (statSync(target).isDirectory()) {
+    return readdirSync(target).filter((f) => f.endsWith(".md")).map((f) => join(target, f));
+  }
+  return [target];
+}
+function hasContent(text: string): boolean {
+  return DOI_ANY.test(text) || PMID_ANY.test(text);
+}
 
 const DOI_RE = /10\.\d{4,9}\/[-._;()/:A-Za-z0-9]+/;
 const PMID_RE = /\bPMID:?\s*(\d{6,9})\b/i;
@@ -76,14 +98,21 @@ function parse(text: string): Found[] {
 }
 
 async function main() {
-  const text = readFileSync(FILE, "utf8");
-  const found = parse(text);
+  const files = filesToScan();
   const exercises = await p.exercise.findMany({ select: { id: true, slug: true, name: true } });
   const byNorm = new Map(exercises.map((e) => [norm(e.name), e]));
 
-  let matched = 0, unmatched = 0, sourcesNew = 0, linksNew = 0;
+  let matched = 0, unmatched = 0, sourcesNew = 0, linksNew = 0, scanned = 0, skipped = 0;
   const misses: string[] = [];
   let seq = 0;
+
+  const found: Found[] = [];
+  for (const file of files) {
+    const text = readFileSync(file, "utf8");
+    if (!hasContent(text)) { skipped++; continue; }
+    scanned++;
+    found.push(...parse(text).map((f) => ({ ...f, _file: file })));
+  }
 
   for (const f of found) {
     const ex = byNorm.get(norm(f.exerciseName));
@@ -101,7 +130,7 @@ async function main() {
             slug: (await p.researchSource.findUnique({ where: { slug }, select: { id: true } })) ? slugify(f.author || "ref", f.year || "0", ++seq) : slug,
             title: `${f.author ?? "Unknown"} ${f.year ?? ""} — pending resolution`.trim(),
             authors: f.author, year: f.year ? Number(f.year) : null, doi: f.doi ?? null, pmid: f.pmid ?? null,
-            sourceType: "journal", status: "draft", notes: `Ingested from ${FILE}: ${f.raw.slice(0, 160)}`,
+            sourceType: "journal", status: "draft", notes: `Ingested from ${(f as any)._file ?? "response"}: ${f.raw.slice(0, 160)}`,
           },
           select: { id: true },
         });
@@ -117,6 +146,7 @@ async function main() {
   }
 
   console.log(APPLY ? "APPLIED" : "DRY RUN (pass --apply)");
+  console.log(`  files: ${scanned} with content, ${skipped} empty/skipped`);
   console.log(`  citations parsed: ${found.length}`);
   console.log(`  matched to exercises: ${matched} | unmatched: ${unmatched}`);
   console.log(`  new sources: ${sourcesNew} | new exercise links: ${linksNew}`);
