@@ -60,39 +60,43 @@ function slugify(author: string, year: string, seq: number) {
 
 type Found = { exerciseName: string; author?: string; year?: string; doi?: string; pmid?: string; raw: string };
 
-function parse(text: string): Found[] {
+/**
+ * Section the response by exercise-name title lines (a whole line that
+ * normalizes to a known exercise name), then within each section pull every
+ * citation entry. Citation blocks are semicolon-separated
+ * "Author et al., Year, Journal, PMID nnnn" runs; markdown tables and
+ * heading-scoped lines are also handled as fallbacks.
+ */
+function parse(text: string, knownNames: Set<string>): Found[] {
   const found: Found[] = [];
   const lines = text.split(/\r?\n/);
-  // 1) markdown table rows with a DOI/PMID in them
-  for (const line of lines) {
-    if (!line.trim().startsWith("|")) continue;
-    const cols = line.split("|").map((c) => c.trim()).filter(Boolean);
-    if (cols.length < 2) continue;
-    const joined = cols.join("  ");
-    if (!DOI_RE.test(joined) && !PMID_RE.test(joined)) continue;
-    if (/movement|exercise/i.test(cols[0]) && /citation|evidence|level/i.test(joined)) continue; // header
-    const doi = joined.match(DOI_RE)?.[0];
-    const pmid = joined.match(PMID_RE)?.[1];
-    const ay = joined.match(AUTHOR_YEAR_RE);
-    found.push({ exerciseName: cols[0], author: ay?.[1], year: ay?.[2], doi, pmid, raw: line.trim() });
+  let current = "";
+
+  const pushEntry = (chunk: string) => {
+    const doi = chunk.match(DOI_RE)?.[0];
+    const pmid = chunk.match(PMID_RE)?.[1];
+    if (!doi && !pmid) return;
+    const ay = chunk.match(AUTHOR_YEAR_RE);
+    found.push({ exerciseName: current, author: ay?.[1], year: ay?.[2], doi, pmid, raw: chunk.trim().slice(0, 180) });
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    // A title line: strip markdown/numbering, and if it EXACTLY names a known exercise, start its section.
+    const asTitle = line.replace(/^#{1,6}\s*/, "").replace(/^\d+[.)]\s*/, "").replace(/^\*+|\*+$/g, "").trim();
+    if (asTitle.length < 80 && knownNames.has(norm(asTitle))) { current = asTitle; continue; }
+    if (!current) continue; // citations before the first named section are ignored
+    if (!DOI_RE.test(line) && !PMID_RE.test(line)) continue;
+    // split into individual citation entries (semicolons, or table cells)
+    const cells = line.startsWith("|") ? line.split("|") : line.split(/;\s*/);
+    for (const c of cells) pushEntry(c);
   }
-  // 2) heading-scoped DOIs/PMIDs (## Heading or **Heading**) not already captured by a table
-  let heading = "";
-  for (const line of lines) {
-    const h = line.match(/^#{2,4}\s+(.+)$/) || line.match(/^\*\*(.+?)\*\*\s*$/);
-    if (h) { heading = h[1].replace(/[*_`]/g, "").trim(); continue; }
-    if (line.trim().startsWith("|")) continue; // tables handled above
-    const doi = line.match(DOI_RE)?.[0];
-    const pmid = line.match(PMID_RE)?.[1];
-    if ((doi || pmid) && heading) {
-      const ay = line.match(AUTHOR_YEAR_RE);
-      found.push({ exerciseName: heading, author: ay?.[1], year: ay?.[2], doi, pmid, raw: line.trim() });
-    }
-  }
-  // de-dupe by (exerciseName, doi||pmid)
+
+  // de-dupe by (exercise, doi||pmid)
   const seen = new Set<string>();
   return found.filter((f) => {
-    const k = norm(f.exerciseName) + "|" + (f.doi || f.pmid || f.raw.slice(0, 40));
+    const k = norm(f.exerciseName) + "|" + (f.doi || f.pmid);
     if (seen.has(k)) return false; seen.add(k); return true;
   });
 }
@@ -106,12 +110,13 @@ async function main() {
   const misses: string[] = [];
   let seq = 0;
 
+  const knownNames = new Set(byNorm.keys());
   const found: Found[] = [];
   for (const file of files) {
     const text = readFileSync(file, "utf8");
     if (!hasContent(text)) { skipped++; continue; }
     scanned++;
-    found.push(...parse(text).map((f) => ({ ...f, _file: file })));
+    found.push(...parse(text, knownNames).map((f) => ({ ...f, _file: file })));
   }
 
   for (const f of found) {
