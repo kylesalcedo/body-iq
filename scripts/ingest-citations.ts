@@ -58,7 +58,7 @@ function slugify(author: string, year: string, seq: number) {
   return `${a || "ref"}-${year}${seq ? "-" + seq : ""}`;
 }
 
-type Found = { exerciseName: string; author?: string; year?: string; doi?: string; pmid?: string; raw: string };
+type Found = { exerciseName: string; author?: string; year?: string; journal?: string; doi?: string; pmid?: string; raw: string };
 
 /**
  * Section the response by exercise-name title lines (a whole line that
@@ -77,7 +77,15 @@ function parse(text: string, knownNames: Set<string>): Found[] {
     const pmid = chunk.match(PMID_RE)?.[1];
     if (!doi && !pmid) return;
     const ay = chunk.match(AUTHOR_YEAR_RE);
-    found.push({ exerciseName: current, author: ay?.[1], year: ay?.[2], doi, pmid, raw: chunk.trim().slice(0, 180) });
+    // Citation entries read "Author et al., Year, Journal, PMID nnnn" — the
+    // journal is the comma-segment(s) between the year and the PMID/DOI.
+    let journal: string | undefined;
+    if (ay) {
+      const afterYear = chunk.slice((ay.index ?? 0) + ay[0].length);
+      const j = afterYear.replace(/^[,;\s]+/, "").split(/,?\s*(?:PMID|DOI|doi|10\.\d)/)[0].replace(/[.,;\s]+$/, "").trim();
+      if (j && j.length >= 3 && j.length <= 80 && !/^\d/.test(j)) journal = j;
+    }
+    found.push({ exerciseName: current, author: ay?.[1], year: ay?.[2], journal, doi, pmid, raw: chunk.trim().slice(0, 180) });
   };
 
   for (const rawLine of lines) {
@@ -126,20 +134,23 @@ async function main() {
     if (!f.doi && !f.pmid) continue; // nothing resolvable to key on
 
     const slug = f.author && f.year ? slugify(f.author, f.year, 0) : `pmid-${f.pmid || f.doi?.slice(-6)}`;
-    let source = await p.researchSource.findFirst({ where: { OR: [{ slug }, f.doi ? { doi: f.doi } : { pmid: f.pmid }] }, select: { id: true } });
+    const title = [f.author, f.year ? `(${f.year})` : null, f.journal].filter(Boolean).join(" ").trim() || `PMID ${f.pmid}`;
+    const meta = {
+      title, authors: f.author ?? null, year: f.year ? Number(f.year) : null,
+      journal: f.journal ?? null, doi: f.doi ?? null, pmid: f.pmid ?? null, sourceType: "journal",
+    };
+    let source = await p.researchSource.findFirst({ where: { OR: [{ slug }, f.doi ? { doi: f.doi } : { pmid: f.pmid }] }, select: { id: true, journal: true } });
     if (!source) {
       sourcesNew++;
       if (APPLY) {
         source = await p.researchSource.create({
-          data: {
-            slug: (await p.researchSource.findUnique({ where: { slug }, select: { id: true } })) ? slugify(f.author || "ref", f.year || "0", ++seq) : slug,
-            title: `${f.author ?? "Unknown"} ${f.year ?? ""} — pending resolution`.trim(),
-            authors: f.author, year: f.year ? Number(f.year) : null, doi: f.doi ?? null, pmid: f.pmid ?? null,
-            sourceType: "journal", status: "draft", notes: `Ingested from ${(f as any)._file ?? "response"}: ${f.raw.slice(0, 160)}`,
-          },
-          select: { id: true },
+          data: { slug: (await p.researchSource.findUnique({ where: { slug }, select: { id: true } })) ? slugify(f.author || "ref", f.year || "0", ++seq) : slug, ...meta, status: "draft", notes: `Ingested from ${(f as any)._file ?? "response"}` },
+          select: { id: true, journal: true },
         });
       }
+    } else if (APPLY && !source.journal && f.journal) {
+      // backfill metadata onto a source that was ingested before journal parsing
+      await p.researchSource.update({ where: { id: source.id }, data: meta });
     }
     // link
     if (source) {
