@@ -1,0 +1,2537 @@
+[
+ {
+  "slug": "cervical-protraction-awareness",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pfm-quick-flick",
+  "tasks": []
+ },
+ {
+  "slug": "wall-push-up",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "jumping-jack",
+  "tasks": [
+   {
+    "taskSlug": "jumping-landing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-radial-abduction",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "diaphragmatic-breathing-with-bracing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "active-straight-leg-raise",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "rubber-band-finger-abduction",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "convergence-push-ups",
+  "tasks": []
+ },
+ {
+  "slug": "a-skip-drill",
+  "tasks": [
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "finger-adduction-card-squeeze",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-figure-4-stretch",
+  "tasks": [
+   {
+    "taskSlug": "dressing-lower-body",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "eccentric-step-down",
+  "tasks": [
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pelvic-clock-mobilization",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bed-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dumbbell-bench-press",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "optokinetic-stimulation",
+  "tasks": []
+ },
+ {
+  "slug": "doorframe-calf-stretch",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-stance-unstable",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "supine-scapular-punch",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dynamic-hug",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "nordic-hamstring-curl",
+  "tasks": [
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ninety-ninety-hip-ir-stretch",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hammer-curl",
+  "tasks": [
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "four-seven-eight-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "crunch",
+  "tasks": [
+   {
+    "taskSlug": "bed-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "box-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "heel-to-toe-walk",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "skull-crusher",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "active-anterior-pelvic-tilt",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pfm-lengthening-positions",
+  "tasks": []
+ },
+ {
+  "slug": "romanian-deadlift",
+  "tasks": [
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ulnar-deviation-strengthening",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "biceps-curl",
+  "tasks": [
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "side-lying-external-rotation",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "throwing-overhead-sport",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-slide",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pfm-sniff-flop-drop",
+  "tasks": []
+ },
+ {
+  "slug": "pull-up",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "upper-cervical-rotation-drill",
+  "tasks": [
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "radial-deviation-strengthening",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-lumbar-extension-press-up",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "backpack-weighted-carry",
+  "tasks": [
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-quad-stretch",
+  "tasks": [
+   {
+    "taskSlug": "kneeling-getting-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-y-raise",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "sit-up",
+  "tasks": [
+   {
+    "taskSlug": "bed-mobility",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dart-throwers-motion",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-calf-stretch-step",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "resisted-forearm-pronation",
+  "tasks": [
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-circles-arom",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "side-lying-hip-adduction",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bear-crawl",
+  "tasks": [
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "kneeling-getting-up",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-angel",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-task-posture-awareness",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "deep-neck-extensor-endurance",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "toe-yoga",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-cervical-extension",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "alternate-nostril-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "lat-pulldown",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "doorway-isometric-row",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-hip-extension-active",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "legs-up-the-wall",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bird-dog-elbow-knee",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-figure-4-stretch",
+  "tasks": [
+   {
+    "taskSlug": "dressing-lower-body",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-opposition-sequence",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "constructive-rest-position",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-t-with-external-rotation",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "sitting-ccf-oblique-band",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "sensory-reeducation-mirror-therapy",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "supine-90-90-with-breath",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "dexterity-training-pegboard",
+  "tasks": [
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "dressing-upper-body",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "walking-lunges-with-rotation",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pfm-sustained-hold",
+  "tasks": []
+ },
+ {
+  "slug": "isolated-small-finger-abduction",
+  "tasks": []
+ },
+ {
+  "slug": "pfm-the-knack",
+  "tasks": []
+ },
+ {
+  "slug": "side-bridge",
+  "tasks": [
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hip-circles",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-sit-isometric",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "foam-pad-sensory-perturbation",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "doorway-lat-stretch",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hamstring-stretch-foot-on-step",
+  "tasks": [
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "dressing-lower-body",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "forward-lunge",
+  "tasks": [
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-hamstring-stretch",
+  "tasks": [
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "dressing-lower-body",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "arch-doming",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-knee-extension",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tandem-stance",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tennis-ball-foot-roll",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-airplane",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-cable-row",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "active-hallux-extension",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "eccentric-stair-descent",
+  "tasks": [
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "desk-wrist-extensor-stretch",
+  "tasks": [
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "inverted-row",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "calf-raise-explosive",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "jumping-landing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "vor-x1-gaze-stabilization",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "body-scan-with-movement",
+  "tasks": []
+ },
+ {
+  "slug": "cyclic-sighing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "back-squat",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-trunk-rotation",
+  "tasks": [
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "mindfulness-integrated-stretching",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "brock-string",
+  "tasks": []
+ },
+ {
+  "slug": "stair-calf-raise",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scaption-with-external-rotation",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "throwing-overhead-sport",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "band-pull-apart",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pfm-diaphragmatic-release",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "seated-calf-raise",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-step-up",
+  "tasks": [
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-it-band-stretch",
+  "tasks": []
+ },
+ {
+  "slug": "standing-hip-abduction-support",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "vor-x2-gaze-stabilization",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chin-tuck-with-overpressure",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "cook-hip-lift",
+  "tasks": [
+   {
+    "taskSlug": "bed-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "towel-hamstring-curl",
+  "tasks": [
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hypothenar-reactivation-bendz",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "face-pull",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "throwing-overhead-sport",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pinch-strengthening",
+  "tasks": [
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scapular-clock",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "vestibular-habituation-drills",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "barbell-bench-press",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "throwing-overhead-sport",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bent-over-row",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "barbell-row",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "stair-step-up",
+  "tasks": [
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pursed-lip-diaphragmatic-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "wall-sit",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bodyweight-hip-hinge",
+  "tasks": [
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "downward-dog",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "heel-raise-eccentric",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chest-fly",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "throwing-overhead-sport",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "upward-rotation-shrug-30-abduction",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "russian-twist",
+  "tasks": [
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "throwing-overhead-sport",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "intrinsic-plus-hold",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-cervical-flexion-arom",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "grip-squeeze-and-release",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chair-supported-balance",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "childs-pose-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "wall-ball-squat",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "mountain-climber",
+  "tasks": [
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hart-chart",
+  "tasks": []
+ },
+ {
+  "slug": "countertop-supported-squat",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "limbic-downregulation-pendulation",
+  "tasks": []
+ },
+ {
+  "slug": "hollow-body-hold",
+  "tasks": [
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-costal-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "cawthorne-cooksey-progression",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "knee-to-wall-ankle",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chin-up",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "towel-row",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "worlds-greatest-stretch",
+  "tasks": [
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "countertop-incline-push-up",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pec-deck",
+  "tasks": [
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-band-walk",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "burpee",
+  "tasks": [
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "jumping-landing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "crocodile-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "prone-press-up",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "jump-squat",
+  "tasks": [
+   {
+    "taskSlug": "jumping-landing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-march-in-place",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "slow-eye-circles",
+  "tasks": []
+ },
+ {
+  "slug": "stair-edge-calf-raise",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "jumping-landing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "desk-wrist-flexor-stretch",
+  "tasks": [
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tendon-gliding-sequence",
+  "tasks": [
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "superman",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "leg-extension",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ujjayi-breathing",
+  "tasks": [
+   {
+    "taskSlug": "breathing",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "cobra-pose",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ankle-tip-rocking",
+  "tasks": [
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "towel-scapular-retraction",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-resistance-6-direction",
+  "tasks": [
+   {
+    "taskSlug": "opening-jar",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "gripping-cup",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "water-bottle-lateral-raise",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dumbbell-shoulder-press",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "eye-break-20-20-20",
+  "tasks": []
+ },
+ {
+  "slug": "dynamic-gait-with-head-turns",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "trunk-rotation-looking-behind",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "eye-palming",
+  "tasks": []
+ },
+ {
+  "slug": "saccadic-eye-movements",
+  "tasks": []
+ },
+ {
+  "slug": "smooth-pursuit-tracking",
+  "tasks": []
+ },
+ {
+  "slug": "hanging-leg-raise",
+  "tasks": [
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "leg-curl",
+  "tasks": [
+   {
+    "taskSlug": "running-jogging",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dip",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "front-squat",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "triceps-pushdown",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "glute-bridge-with-march",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "goblet-squat",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "carrying-lifting",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "isometric-glute-squeeze",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-raise",
+  "tasks": [
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "low-row-band",
+  "tasks": [
+   {
+    "taskSlug": "pulling-objects",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "reverse-lunge",
+  "tasks": [
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "kneeling-getting-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-ytw-raise",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "reaching-overhead",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "overhead-work",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "supine-hamstring-stretch-strap",
+  "tasks": [
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "dressing-lower-body",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chair-triceps-dip",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-objects",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "floor-transfers",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-thrust",
+  "tasks": [
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "bending-lifting-floor",
+    "relevance": "supportive"
+   },
+   {
+    "taskSlug": "walking",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-sit-to-stand",
+  "tasks": [
+   {
+    "taskSlug": "pushing-up-from-chair",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "squat-to-stand",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hip-hike",
+  "tasks": [
+   {
+    "taskSlug": "walking",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "single-leg-balance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "stair-climbing",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "upper-cervical-extension-control",
+  "tasks": [
+   {
+    "taskSlug": "posture-maintenance",
+    "relevance": "essential"
+   },
+   {
+    "taskSlug": "typing",
+    "relevance": "supportive"
+   }
+  ]
+ }
+]
