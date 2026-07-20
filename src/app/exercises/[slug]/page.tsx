@@ -412,17 +412,27 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
       {exercise.functionalTasks.length > 0 && (
         <Card className="mb-6">
           <SectionTitle>Why This Exercise Matters</SectionTitle>
-          <p className="text-xs text-gray-500 mb-3">This exercise supports the following daily activities and functional tasks:</p>
+          <p className="text-xs text-gray-500 mb-3">Everyday activities this exercise helps you do &mdash; <span className="font-medium text-indigo-700">essential</span> means it directly trains the capacity the task needs:</p>
           <div className="flex flex-wrap gap-2">
-            {exercise.functionalTasks.map((eft) => (
-              <EntityLink
-                key={eft.id}
-                href={`/tasks/${eft.functionalTask.slug}`}
-                className="rounded-md border border-indigo-200 bg-indigo-50 px-3 py-1.5 text-sm text-indigo-700 hover:bg-indigo-100 transition-colors"
-              >
-                {eft.functionalTask.name}
-              </EntityLink>
-            ))}
+            {[...exercise.functionalTasks]
+              .sort((a: any, b: any) => (a.relevance === "essential" ? -1 : 1) - (b.relevance === "essential" ? -1 : 1))
+              .map((eft: any) => {
+                const essential = eft.relevance === "essential";
+                return (
+                  <EntityLink
+                    key={eft.id}
+                    href={`/tasks/${eft.functionalTask.slug}`}
+                    className={
+                      essential
+                        ? "rounded-md border border-indigo-300 bg-indigo-100 px-3 py-1.5 text-sm font-medium text-indigo-800 hover:bg-indigo-200 transition-colors"
+                        : "rounded-md border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm text-gray-600 hover:bg-gray-100 transition-colors"
+                    }
+                  >
+                    {eft.functionalTask.name}
+                    {essential && <span className="ml-1.5 text-[10px] uppercase tracking-wide text-indigo-500">essential</span>}
+                  </EntityLink>
+                );
+              })}
           </div>
         </Card>
       )}

@@ -26,6 +26,8 @@ import { seedMovementRomExtension } from "./extensions/movement-rom";
 import { seedFootToeMovementsExtension } from "./extensions/foot-toe-movements";
 import { seedCoverageExercisesExtension } from "./extensions/coverage-exercises";
 import { seedRegionExercisesExtension } from "./extensions/region-exercises";
+import { seedFunctionalTasksExpansionExtension } from "./extensions/functional-tasks-expansion";
+import { seedFunctionalTaskLinksExtension } from "./extensions/functional-task-links";
 import { seedApplyAuditExtension } from "./extensions/apply-audit";
 
 async function main() {
@@ -70,6 +72,8 @@ async function main() {
   await seedFootToeMovementsExtension();
   await seedCoverageExercisesExtension();
   await seedRegionExercisesExtension();
+  await seedFunctionalTasksExpansionExtension();
+  await seedFunctionalTaskLinksExtension();
   await seedApplyAuditExtension(); // LAST: survives reg/prog recreation above
 
   // Summary
