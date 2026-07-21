@@ -1,0 +1,3960 @@
+[
+ {
+  "slug": "a-skip-b-skip",
+  "goals": [
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-running-endurance",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "a-skip-drill",
+  "goals": [
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-running-endurance",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "active-anterior-pelvic-tilt",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "active-hallux-extension",
+  "goals": [
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "active-straight-leg-raise",
+  "goals": [
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "alfredson-eccentric-heel-drops",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "essential",
+    "caution": "In reactive tendinopathy progress load gradually and keep pain within acceptable limits (monitor 24 h response)"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "alternate-nostril-breathing",
+  "goals": []
+ },
+ {
+  "slug": "ankle-dorsiflexion-plantarflexion-band",
+  "goals": [
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-ankle-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ankle-eversion-inversion-strengthening",
+  "goals": [
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "ankle-inversion-eversion",
+  "goals": [
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "ankle-tip-rocking",
+  "goals": [
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "arch-doming",
+  "goals": [
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "back-squat",
+  "goals": [
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive",
+    "caution": "Control load and squat depth in symptomatic knee OA; avoid painful end-range flexion during flares"
+   }
+  ]
+ },
+ {
+  "slug": "backpack-weighted-carry",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "backwards-walking",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "reduces patellofemoral compressive load, but keep step depth moderate early to avoid provoking anterior knee pain"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive",
+    "caution": "perform in a controlled, obstacle-free space with a rail or spotter for at-risk individuals"
+   }
+  ]
+ },
+ {
+  "slug": "band-pull-apart",
+  "goals": [
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "barbell-bench-press",
+  "goals": []
+ },
+ {
+  "slug": "barbell-row",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive",
+    "caution": "high lumbar compressive load in the bent-over position \u2014 maintain a neutral spine and progress load gradually"
+   }
+  ]
+ },
+ {
+  "slug": "bear-crawl",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bent-over-row",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive",
+    "caution": "substantial isometric lumbar load in the hinged position \u2014 keep the spine neutral and build load progressively"
+   }
+  ]
+ },
+ {
+  "slug": "bicep-curl",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "biceps-curl",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bird-dog",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bird-dog-elbow-knee",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "body-scan-with-movement",
+  "goals": []
+ },
+ {
+  "slug": "bodyweight-hip-hinge",
+  "goals": [
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive",
+    "caution": "keep the lumbar spine neutral and avoid end-range flexion during an acute pain flare"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "box-breathing",
+  "goals": []
+ },
+ {
+  "slug": "box-jump",
+  "goals": [
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "bridge",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "brock-string",
+  "goals": []
+ },
+ {
+  "slug": "burpee",
+  "goals": []
+ },
+ {
+  "slug": "calf-raise-explosive",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "essential",
+    "caution": "introduce heavy-slow calf loading before explosive/energy-storage reps in reactive or irritable tendinopathy"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "calf-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-ankle-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "cat-cow",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "cawthorne-cooksey-progression",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "cervical-protraction-awareness",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "cervicothoracic-self-mobilization",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chair-supported-balance",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chair-triceps-dip",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chest-fly",
+  "goals": []
+ },
+ {
+  "slug": "childs-pose-breathing",
+  "goals": []
+ },
+ {
+  "slug": "chin-tuck-with-overpressure",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "chin-up",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "clamshell",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "cobra-pose",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive",
+    "caution": "Ease off if end-range lumbar extension provokes symptoms (e.g., stenosis or spondylolysis)."
+   },
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "constructive-rest-position",
+  "goals": []
+ },
+ {
+  "slug": "convergence-push-ups",
+  "goals": []
+ },
+ {
+  "slug": "cook-hip-lift",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "copenhagen-adduction",
+  "goals": [
+   {
+    "goalSlug": "groin-injury-prevention",
+    "relevance": "essential",
+    "caution": "Introduce with a short lever and low volume; the adductors are highly loaded and prone to DOMS/strain early on."
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "core-stabilization-adim",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "couch-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "countertop-incline-push-up",
+  "goals": [
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "countertop-supported-squat",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "Keep squat depth within the pain-free range in anterior knee pain."
+   }
+  ]
+ },
+ {
+  "slug": "crocodile-breathing",
+  "goals": []
+ },
+ {
+  "slug": "cross-body-shoulder-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "crunch",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "cyclic-sighing",
+  "goals": []
+ },
+ {
+  "slug": "dart-throwers-motion",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "deep-neck-extensor-endurance",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "deep-neck-flexor-training",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "depth-jump",
+  "goals": [
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "essential",
+    "caution": "high landing forces; establish an eccentric strength base and progress drop height gradually"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "desk-wrist-extensor-stretch",
+  "goals": [
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "desk-wrist-flexor-stretch",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dexterity-training-pegboard",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "diaphragmatic-breathing",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "diaphragmatic-breathing-with-bracing",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dip",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive",
+    "caution": "loaded end-range shoulder extension can provoke anterior shoulder pain; limit depth if symptomatic"
+   }
+  ]
+ },
+ {
+  "slug": "doorframe-calf-stretch",
+  "goals": [
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-ankle-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "supportive",
+    "caution": "avoid aggressive end-range stretch in insertional Achilles tendinopathy"
+   }
+  ]
+ },
+ {
+  "slug": "doorway-isometric-row",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "doorway-lat-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "doorway-pec-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "downward-dog",
+  "goals": [
+   {
+    "goalSlug": "improve-hamstring-flexibility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-ankle-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dumbbell-bench-press",
+  "goals": []
+ },
+ {
+  "slug": "dumbbell-shoulder-press",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "dynamic-gait-with-head-turns",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "dynamic-hug",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "eccentric-stair-descent",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential",
+    "caution": "introduce gradually and reduce step height if it reproduces anterior knee pain"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "essential",
+    "caution": "monitor for a pain flare and scale volume in an irritable knee"
+   },
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "eccentric-step-down",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential",
+    "caution": "keep the knee tracking over the foot and lower step height if it provokes anterior knee pain"
+   },
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "empty-can-exercise",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive",
+    "caution": "thumbs-down internal-rotation position can provoke subacromial impingement; switch to a full-can (thumbs-up) version if painful"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "external-rotation-0-abduction",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "eye-break-20-20-20",
+  "goals": []
+ },
+ {
+  "slug": "eye-palming",
+  "goals": []
+ },
+ {
+  "slug": "face-pull",
+  "goals": [
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "farmers-carry",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "finger-adduction-card-squeeze",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "finger-adduction-exercise",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "finger-extension-band",
+  "goals": [
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "foam-pad-sensory-perturbation",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "foam-roller-bridge",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "forearm-pronation-supination",
+  "goals": [
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "forward-lunge",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "progress depth gradually and limit painful ranges during an anterior knee pain flare"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "four-seven-eight-breathing",
+  "goals": []
+ },
+ {
+  "slug": "frog-pose-hold",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "front-plank",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "front-squat",
+  "goals": [
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "full-can-exercise",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "glute-bridge-with-march",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "goblet-squat",
+  "goals": [
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "manage squat depth and load to keep patellofemoral loading within a tolerable, non-provocative knee-pain range"
+   }
+  ]
+ },
+ {
+  "slug": "grip-squeeze-and-release",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "grip-strengthening",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "hammer-curl",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hanging-leg-raise",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hart-chart",
+  "goals": []
+ },
+ {
+  "slug": "heavy-slow-resistance-achilles",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "essential",
+    "caution": "load heavy but progress gradually, keeping tendon symptoms within an acceptable range"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "heel-raise",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "supportive",
+    "caution": "progress load gradually in reactive tendinopathy"
+   },
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "heel-raise-eccentric",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "essential",
+    "caution": "progress load gradually; monitor for acceptable, non-escalating tendon pain"
+   },
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "heel-to-toe-walk",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "heel-toe-tandem-walk",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-abduction-extension-sliders",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-abduction-strengthening",
+  "goals": [
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-adduction-sidelying",
+  "goals": [
+   {
+    "goalSlug": "groin-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-airplane",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-flexor-hamstring-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-hamstring-flexibility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-hinge-deadlift",
+  "goals": [
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "supportive",
+    "caution": "reintroduce and load gradually after acute strain; keep spine neutral"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hip-thrust",
+  "goals": [
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "hollow-body-hold",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive",
+    "caution": "long-lever anti-extension load can aggravate an acute flare; bend the knees or shorten the lever early on"
+   }
+  ]
+ },
+ {
+  "slug": "hypothenar-reactivation-bendz",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "intrinsic-plus-hold",
+  "goals": []
+ },
+ {
+  "slug": "inverted-row",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "isolated-small-finger-abduction",
+  "goals": []
+ },
+ {
+  "slug": "isometric-glute-squeeze",
+  "goals": [
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "isometric-neck-strengthening",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "jump-squat",
+  "goals": [
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "jumping-jack",
+  "goals": []
+ },
+ {
+  "slug": "kettlebell-good-morning",
+  "goals": [
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive",
+    "caution": "high lumbar shear/load in the hinged position; use light load and a strictly neutral spine"
+   }
+  ]
+ },
+ {
+  "slug": "kettlebell-swing",
+  "goals": [
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive",
+    "caution": "keep a neutral spine and hinge from the hips; ballistic loading can provoke an acute low-back flare if the lumbar spine flexes under speed"
+   }
+  ]
+ },
+ {
+  "slug": "knee-split-squat-isometric",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "knee-to-wall-ankle",
+  "goals": [
+   {
+    "goalSlug": "improve-ankle-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "landmine-press",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive",
+    "caution": "keep loads within a pain-free arc; progress gradually in an irritable shoulder"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lat-pulldown",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-band-walk",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-bounds",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive",
+    "caution": "reserve for late-stage return-to-sport once single-leg strength and balance are restored; high impact loads an unstable ankle"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-costal-breathing",
+  "goals": []
+ },
+ {
+  "slug": "lateral-raise",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "lateral-step-up",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "leg-curl",
+  "goals": [
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "leg-extension",
+  "goals": [
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "open-chain terminal knee extension raises patellofemoral joint stress; limit range (avoid the final ~0-30 degrees) during irritable phases"
+   }
+  ]
+ },
+ {
+  "slug": "leg-press-limited-rom",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "legs-up-the-wall",
+  "goals": []
+ },
+ {
+  "slug": "levator-scapulae-stretch",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "limbic-downregulation-pendulation",
+  "goals": []
+ },
+ {
+  "slug": "low-row-band",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "mcgill-curl-up",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "median-nerve-glide",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "mindfulness-integrated-stretching",
+  "goals": []
+ },
+ {
+  "slug": "modified-curl-up-dead-bug",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "mountain-climber",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "nerve-tendon-gliding-cts",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "neuromuscular-exercise-knee",
+  "goals": [
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ninety-ninety-hip-ir-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ninety-ninety-hip-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "nordic-hamstring-curl",
+  "goals": [
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "essential",
+    "caution": "Introduce gradually after the acute phase; the high eccentric load provokes marked DOMS and can aggravate a fresh strain if progressed too fast"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "nordic-hamstring-exercise",
+  "goals": [
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "essential",
+    "caution": "Introduce gradually after the acute phase; the high eccentric load provokes marked DOMS and can aggravate a fresh strain if progressed too fast"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "open-book-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "optokinetic-stimulation",
+  "goals": []
+ },
+ {
+  "slug": "overhead-press",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "overhead-squat",
+  "goals": [
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pallof-press",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pec-deck",
+  "goals": []
+ },
+ {
+  "slug": "pelvic-clock-mobilization",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pelvic-tilt-realignment",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pendulum-exercise",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive",
+    "caution": "Keep motion passive and pain-free in the acute/irritable phase; it is an early-stage ROM drill, not a loading exercise"
+   }
+  ]
+ },
+ {
+  "slug": "pfm-diaphragmatic-release",
+  "goals": []
+ },
+ {
+  "slug": "pfm-lengthening-positions",
+  "goals": []
+ },
+ {
+  "slug": "pfm-quick-flick",
+  "goals": []
+ },
+ {
+  "slug": "pfm-sniff-flop-drop",
+  "goals": []
+ },
+ {
+  "slug": "pfm-sustained-hold",
+  "goals": []
+ },
+ {
+  "slug": "pfm-the-knack",
+  "goals": []
+ },
+ {
+  "slug": "pigeon-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive",
+    "caution": "ease into external rotation and flexion range; avoid forcing an irritable or arthritic hip into end range"
+   }
+  ]
+ },
+ {
+  "slug": "pinch-strengthening",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "posterior-chain-strengthening",
+  "goals": [
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "essential",
+    "caution": "introduce Nordic eccentrics at reduced range/load early in rehab to avoid over-lengthening the healing muscle"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "power-clean",
+  "goals": [
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "essential",
+    "caution": "technically demanding; groove the catch and progress load gradually to protect wrists and shoulders"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-cervical-extension",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential",
+    "caution": "avoid pushing into painful end-range extension during an acute flare; start with small range against gravity"
+   }
+  ]
+ },
+ {
+  "slug": "prone-er-90-abduction",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential",
+    "caution": "the 90 abduction position loads supraspinatus heavily; begin with light load in an irritable cuff and progress gradually"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive",
+    "caution": "abducted arm position may provoke impingement symptoms; reduce abduction angle if painful"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-hip-extension-active",
+  "goals": [
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive",
+    "caution": "keep the motion at the hip and avoid arching the lumbar spine to lift the leg higher"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-horizontal-abduction-er",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-press-up",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential",
+    "caution": "indicated only when symptoms centralize with extension; stop if repeated extension peripheralizes leg symptoms"
+   }
+  ]
+ },
+ {
+  "slug": "prone-t-with-external-rotation",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-y-raise",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "prone-ytw-raise",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pull-up",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "pursed-lip-diaphragmatic-breathing",
+  "goals": []
+ },
+ {
+  "slug": "push-up-plus",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "quad-strengthening-slr-tke",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "quadruped-rockback",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive",
+    "caution": "flexion-biased drill; ease off if it provokes leg/nerve symptoms in a disc-related presentation"
+   },
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "radial-deviation-strengthening",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "radial-nerve-glide",
+  "goals": [
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive",
+    "caution": "glide, don't stretch, to first onset of symptoms; back off if it flares nerve pain"
+   }
+  ]
+ },
+ {
+  "slug": "resisted-external-rotation",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "resisted-forearm-pronation",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "reverse-lunge",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "keep the front shin more vertical and stay in a pain-free depth"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "romanian-deadlift",
+  "goals": [
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "supportive",
+    "caution": "introduce after the acute phase and progress hinge depth/load gradually"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive",
+    "caution": "maintain a neutral spine; avoid loaded lumbar rounding at end range"
+   }
+  ]
+ },
+ {
+  "slug": "rubber-band-finger-abduction",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "russian-twist",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "saccadic-eye-movements",
+  "goals": []
+ },
+ {
+  "slug": "scaption-with-external-rotation",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scapular-clock",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scapular-downward-rotation-control",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scapular-retraction-exercise",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scapular-shrugs-depression",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "scapular-stability-rows",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "schroth-three-dimensional-exercises",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-cable-row",
+  "goals": [
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-calf-raise",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "supportive",
+    "caution": "progress load gradually in reactive tendinopathy"
+   },
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-cervical-flexion-arom",
+  "goals": [
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-figure-4-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-hip-internal-rotation",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-knee-extension",
+  "goals": [
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "limit to the pain-free inner range; loaded end-range open-chain extension can increase patellofemoral stress"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "seated-trunk-rotation",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "sensory-reeducation-mirror-therapy",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "shoulder-internal-rotation-exercise",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "side-bridge",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "side-lying-external-rotation",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "side-lying-hip-adduction",
+  "goals": [
+   {
+    "goalSlug": "groin-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "side-plank",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "side-plank-hip-abduction",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-balance-star-excursion",
+  "goals": [
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-hip-hinge-bench",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-deadlift",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-hop-tests",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-sit-to-stand",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-squat-pistol",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "high patellofemoral joint load; limit depth and progress range gradually during anterior knee pain"
+   }
+  ]
+ },
+ {
+  "slug": "single-leg-stance-unstable",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "single-task-posture-awareness",
+  "goals": []
+ },
+ {
+  "slug": "sit-to-stand",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "sit-up",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive",
+    "caution": "Repeated loaded lumbar flexion with strong hip-flexor drive raises spinal load; a poor choice during low-back-pain flares or for those with flexion-intolerant backs."
+   }
+  ]
+ },
+ {
+  "slug": "sitting-ccf-oblique-band",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "skull-crusher",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "sleeper-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "slow-eye-circles",
+  "goals": []
+ },
+ {
+  "slug": "smooth-pursuit-tracking",
+  "goals": []
+ },
+ {
+  "slug": "spanish-squat",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "split-squat-bulgarian",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "squat",
+  "goals": [
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "stair-calf-raise",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "essential",
+    "caution": "Progress load and range gradually in reactive tendinopathy and monitor 24-hour tendon response."
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "stair-edge-calf-raise",
+  "goals": [
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "essential",
+    "caution": "Progress load and heel-drop range gradually in reactive tendinopathy and monitor 24-hour tendon response."
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-running-speed",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-vertical-jump",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "stair-step-up",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "Lower step height and limit knee flexion if the step-up reproduces anterior knee pain."
+   }
+  ]
+ },
+ {
+  "slug": "standing-calf-stretch-step",
+  "goals": [
+   {
+    "goalSlug": "improve-ankle-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "achilles-tendinopathy",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-figure-4-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hamstring-stretch-foot-on-step",
+  "goals": [
+   {
+    "goalSlug": "improve-hamstring-flexibility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "supportive",
+    "caution": "avoid aggressive end-range stretch into pain during an acute or early-healing strain"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hip-abduction-support",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hip-circles",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "standing-hip-hike",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hip-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "running-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-it-band-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "standing-lumbar-extension-press-up",
+  "goals": [
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "essential",
+    "caution": "extension-biased drill; discontinue if it increases or peripheralizes leg symptoms, and avoid in extension-sensitive presentations"
+   }
+  ]
+ },
+ {
+  "slug": "standing-march-in-place",
+  "goals": []
+ },
+ {
+  "slug": "standing-quad-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "step-up-variations",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "control knee valgus and keep pain-free; regress step height if anterior knee pain is provoked"
+   }
+  ]
+ },
+ {
+  "slug": "straight-leg-raise",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential",
+    "caution": "keep the knee fully extended and stay pain-free"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "suboccipital-exercise",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "superman",
+  "goals": [
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive",
+    "caution": "high lumbar compressive load; avoid during an acute low back pain flare"
+   }
+  ]
+ },
+ {
+  "slug": "supine-90-90-with-breath",
+  "goals": []
+ },
+ {
+  "slug": "supine-chin-tuck-liftoff",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "supine-hamstring-stretch-strap",
+  "goals": [
+   {
+    "goalSlug": "improve-hamstring-flexibility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "supportive",
+    "caution": "progress length gently early after strain; avoid aggressive end-range pull in the acute/painful phase"
+   }
+  ]
+ },
+ {
+  "slug": "supine-scapular-punch",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tandem-stance",
+  "goals": [
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "lateral-ankle-sprain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tendon-gliding-exercises",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "tendon-gliding-sequence",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "tennis-ball-foot-roll",
+  "goals": [
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "terminal-knee-extension",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thoracic-extension-rotation-mobilization",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thoracic-extension-wall",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thoracic-foam-rolling",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thoracic-rotation-quadruped",
+  "goals": [
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-adduction-key-pinch",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-ip-mcp-strengthening",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-opposition-exercise",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-opposition-sequence",
+  "goals": []
+ },
+ {
+  "slug": "thumb-putty-program",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "thumb-radial-abduction",
+  "goals": []
+ },
+ {
+  "slug": "toe-yoga",
+  "goals": [
+   {
+    "goalSlug": "plantar-fasciitis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "towel-hamstring-curl",
+  "goals": [
+   {
+    "goalSlug": "hamstring-injury-prevention",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "hamstring-strain",
+    "relevance": "essential",
+    "caution": "avoid heavy eccentric loading during the acute painful phase; progress range and load gradually"
+   },
+   {
+    "goalSlug": "improve-posterior-chain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-sprint-acceleration",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "towel-row",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-pull-up",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "towel-scapular-retraction",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tricep-extension",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "triceps-pushdown",
+  "goals": [
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "turkish-get-up",
+  "goals": [
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "tyler-twist-eccentric-wrist",
+  "goals": [
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "essential",
+    "caution": "progress eccentric load gradually; expect transient soreness and avoid pushing into sharp pain"
+   }
+  ]
+ },
+ {
+  "slug": "ujjayi-breathing",
+  "goals": []
+ },
+ {
+  "slug": "ulnar-deviation-strengthening",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "ulnar-nerve-glide",
+  "goals": []
+ },
+ {
+  "slug": "upper-cervical-extension-control",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "upper-cervical-rotation-drill",
+  "goals": [
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "upper-trapezius-stretch",
+  "goals": [
+   {
+    "goalSlug": "neck-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-neck-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "upward-rotation-shrug-30-abduction",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "vestibular-habituation-drills",
+  "goals": []
+ },
+ {
+  "slug": "vor-x1-gaze-stabilization",
+  "goals": []
+ },
+ {
+  "slug": "vor-x2-gaze-stabilization",
+  "goals": []
+ },
+ {
+  "slug": "walking-lunges-with-rotation",
+  "goals": [
+   {
+    "goalSlug": "improve-single-leg-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-core-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-angel",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-ball-squat",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "essential",
+    "caution": "keep squat depth in a pain-free range; deep knee flexion increases patellofemoral joint compression"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "improve-squat",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "fall-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-hamstring-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hamstring-flexibility",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "low-back-pain",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-push-up",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-sit",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "keep the knees in a pain-free flexion range; deeper angles raise patellofemoral compression"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-sit-isometric",
+  "goals": [
+   {
+    "goalSlug": "patellofemoral-pain",
+    "relevance": "supportive",
+    "caution": "hold at a pain-free knee-flexion depth; deeper angles increase patellofemoral compression"
+   },
+   {
+    "goalSlug": "knee-osteoarthritis",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-slide",
+  "goals": [
+   {
+    "goalSlug": "subacromial-pain",
+    "relevance": "essential"
+   },
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wall-walks-shoulder",
+  "goals": [
+   {
+    "goalSlug": "improve-shoulder-mobility",
+    "relevance": "essential"
+   }
+  ]
+ },
+ {
+  "slug": "water-bottle-lateral-raise",
+  "goals": [
+   {
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "relevance": "supportive",
+    "caution": "keep load light and stay below a painful arc in a reactive/irritable cuff"
+   },
+   {
+    "goalSlug": "shoulder-injury-prevention",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-overhead-press",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "worlds-greatest-stretch",
+  "goals": [
+   {
+    "goalSlug": "improve-hip-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-thoracic-mobility",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "improve-hamstring-flexibility",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-circles-arom",
+  "goals": []
+ },
+ {
+  "slug": "wrist-curls-flexion-extension",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive",
+    "caution": "load the extensors progressively and keep within pain-tolerable range in reactive lateral epicondylalgia"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-extensor-stretch",
+  "goals": [
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-flexor-stretch",
+  "goals": []
+ },
+ {
+  "slug": "wrist-radial-ulnar-deviation",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-resistance-6-direction",
+  "goals": [
+   {
+    "goalSlug": "improve-grip-strength",
+    "relevance": "supportive"
+   },
+   {
+    "goalSlug": "tennis-elbow",
+    "relevance": "supportive"
+   }
+  ]
+ },
+ {
+  "slug": "wrist-splinting-exercise-cts",
+  "goals": [
+   {
+    "goalSlug": "carpal-tunnel",
+    "relevance": "essential"
+   }
+  ]
+ }
+]
