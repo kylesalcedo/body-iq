@@ -9,7 +9,8 @@ const TYPE_COLOR: Record<string, string> = {
   prevention: "bg-sky-100 text-sky-800", mobility: "bg-teal-100 text-teal-800",
 };
 
-export default async function GoalDetailPage({ params }: { params: { slug: string } }) {
+export default async function GoalDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const goal = await getGoal(params.slug);
   if (!goal) notFound();
 

@@ -97,7 +97,8 @@ function QualityScore({ score, breakdown }: { score: number | null; breakdown: a
   );
 }
 
-export default async function ExerciseDetailPage({ params }: { params: { slug: string } }) {
+export default async function ExerciseDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const exercise = await getExercise(params.slug);
   if (!exercise) notFound();
 
@@ -122,9 +123,7 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </div>
         }
       />
-
       <QualityScore score={(exercise as any).qualityScore} breakdown={(exercise as any).scoreBreakdown} />
-
       <div className="mb-6 flex items-center gap-2">
         <a
           href={`/api/exercises/${exercise.slug}/fhir`}
@@ -136,7 +135,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
         </a>
         <span className="text-xs text-gray-400">FHIR R4 ActivityDefinition — the interoperable form of this exercise</span>
       </div>
-
       {/* Why include it — clinical rationale */}
       {(exercise as any).rationale && (
         <Card className="mb-6 border-l-4 border-l-teal-500">
@@ -147,7 +145,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           )}
         </Card>
       )}
-
       {/* Structured positions */}
       {((exercise as any).startPosition || (exercise as any).endPosition || (exercise as any).rom) && (
         <Card className="mb-6">
@@ -174,7 +171,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </dl>
         </Card>
       )}
-
       {/* Description & How To */}
       <Card className="mb-6">
         <SectionTitle>How to Perform</SectionTitle>
@@ -219,7 +215,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </div>
         )}
       </Card>
-
       {/* Coaching Cues - prominent for open-source users */}
       {exercise.cues.length > 0 && (
         <Card className="mb-6 border-l-4 border-l-blue-400">
@@ -241,7 +236,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </ol>
         </Card>
       )}
-
       {/* Dosing - when available */}
       {((exercise as any).dosing || (exercise as any).emgNotes) && (
         <Card className="mb-6 bg-emerald-50 border-emerald-200">
@@ -260,7 +254,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           )}
         </Card>
       )}
-
       {/* Muscle Roles - grouped by role */}
       <Card className="mb-6">
         <SectionTitle>Muscles Involved ({exercise.muscles.length})</SectionTitle>
@@ -347,7 +340,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </div>
         )}
       </Card>
-
       {/* Regressions & Progressions side by side */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {exercise.regressions.length > 0 && (
@@ -388,7 +380,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </Card>
         )}
       </div>
-
       {/* Target Movements */}
       {exercise.movements.length > 0 && (
         <Card className="mb-6">
@@ -407,7 +398,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </div>
         </Card>
       )}
-
       {/* Functional Relevance */}
       {exercise.functionalTasks.length > 0 && (
         <Card className="mb-6">
@@ -436,7 +426,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </div>
         </Card>
       )}
-
       {/* Goals this exercise serves */}
       {(exercise as any).goals?.length > 0 && (
         <Card className="mb-6">
@@ -469,7 +458,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           </div>
         </Card>
       )}
-
       {/* Evidence Notes */}
       {exercise.notes && (
         <Card className="mb-6 bg-amber-50 border-amber-200">
@@ -477,7 +465,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
           <p className="text-sm text-amber-800 leading-relaxed">{exercise.notes}</p>
         </Card>
       )}
-
       {/* Sources */}
       {exercise.sources.length > 0 && (
         <Card>

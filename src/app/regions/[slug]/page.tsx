@@ -3,7 +3,8 @@ import { getRegion } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
 import { EntityLink, PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
 
-export default async function RegionDetailPage({ params }: { params: { slug: string } }) {
+export default async function RegionDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const region = await getRegion(params.slug);
   if (!region) notFound();
 

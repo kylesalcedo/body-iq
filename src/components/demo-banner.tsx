@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const REPO_URL = "https://github.com/kylesalcedo/body-iq";
 
@@ -11,11 +11,9 @@ const REPO_URL = "https://github.com/kylesalcedo/body-iq";
  */
 export function DemoBanner() {
   const isStatic = process.env.NEXT_PUBLIC_STATIC === "1";
-  const [dismissed, setDismissed] = useState(false);
-
-  useEffect(() => {
-    if (sessionStorage.getItem("demoBannerDismissed") === "1") setDismissed(true);
-  }, []);
+  const [dismissed, setDismissed] = useState(
+    () => typeof window !== "undefined" && sessionStorage.getItem("demoBannerDismissed") === "1"
+  );
 
   if (!isStatic || dismissed) return null;
 

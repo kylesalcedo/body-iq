@@ -32,7 +32,7 @@ export function SearchBar() {
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -46,9 +46,13 @@ export function SearchBar() {
   }, []);
 
   useEffect(() => {
+    // Debounced search. Clearing on a too-short query is correct here; the
+    // functional updates no-op when state is already empty/closed.
     if (query.trim().length < 2) {
-      setResults([]);
-      setIsOpen(false);
+      /* eslint-disable react-hooks/set-state-in-effect */
+      setResults((r) => (r.length ? [] : r));
+      setIsOpen((o) => (o ? false : o));
+      /* eslint-enable react-hooks/set-state-in-effect */
       return;
     }
 

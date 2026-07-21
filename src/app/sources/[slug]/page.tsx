@@ -3,7 +3,8 @@ import { getSource } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
 import { PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
 
-export default async function SourceDetailPage({ params }: { params: { slug: string } }) {
+export default async function SourceDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const source = await getSource(params.slug);
   if (!source) notFound();
 

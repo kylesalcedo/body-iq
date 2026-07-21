@@ -90,7 +90,7 @@ export default async function SchemaPage() {
         <SectionTitle>Relationships Are Weighted, Not Just Present</SectionTitle>
         <p className="mb-4 text-sm text-gray-600">
           Muscle links carry a <span className="font-mono text-xs">role</span> — the graph knows <em>how</em> a muscle
-          participates, not just that it does. This is what powers "what does this exercise stretch?"
+          participates, not just that it does. This is what powers &ldquo;what does this exercise stretch?&rdquo;
         </p>
         <div className="grid gap-2 sm:grid-cols-3">
           {[
@@ -173,7 +173,7 @@ export default async function SchemaPage() {
         </div>
         <p className="mt-3 text-xs text-gray-500">
           The composite writes to <span className="font-mono">qualityScore</span>; the reasoning shows on each exercise page.
-          The coherence validator cross-checks that an exercise's primary muscles actually produce its linked movements.
+          The coherence validator cross-checks that an exercise&rsquo;s primary muscles actually produce its linked movements.
         </p>
       </Card>
 

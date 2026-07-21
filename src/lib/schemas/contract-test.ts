@@ -99,14 +99,14 @@ async function main() {
 
   console.log("\nEndpoint 4 — GET /api/exercises/:slug");
   await check(`found (${sampleSlug})`, ExerciseDetailResponseSchema, () =>
-    exerciseDetailGET(req(`/exercises/${sampleSlug}`), { params: { slug: sampleSlug } }),
+    exerciseDetailGET(req(`/exercises/${sampleSlug}`), { params: Promise.resolve({ slug: sampleSlug }) }),
   );
   await check(
     "not found (404)",
     ExerciseNotFoundResponseSchema,
     () =>
       exerciseDetailGET(req("/exercises/__does-not-exist__"), {
-        params: { slug: "__does-not-exist__" },
+        params: Promise.resolve({ slug: "__does-not-exist__" }),
       }),
     404,
   );
