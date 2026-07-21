@@ -294,6 +294,9 @@ export async function getExercise(slug: string) {
       functionalTasks: {
         include: { functionalTask: true },
       },
+      goals: {
+        include: { goal: { select: { slug: true, name: true, goalType: true } } },
+      },
       cues: { orderBy: { order: "asc" } },
       regressions: { orderBy: { order: "asc" }, include: { targetExercise: { select: { slug: true, name: true } } } },
       progressions: { orderBy: { order: "asc" }, include: { targetExercise: { select: { slug: true, name: true } } } },
@@ -673,5 +676,26 @@ export async function getExerciseWorklist() {
       noMovements: ex._count.movements === 0,
       highFlags, medFlags,
     };
+  });
+}
+
+// ─── Goals ───────────────────────────────────────────────────────────────────
+
+export async function getGoals() {
+  return prisma.goal.findMany({
+    orderBy: [{ goalType: "asc" }, { name: "asc" }],
+    select: { slug: true, name: true, goalType: true, region: true, description: true, _count: { select: { exercises: true } } },
+  });
+}
+
+export async function getGoal(slug: string) {
+  return prisma.goal.findUnique({
+    where: { slug },
+    select: {
+      slug: true, name: true, goalType: true, region: true, description: true,
+      exercises: {
+        include: { exercise: { select: { slug: true, name: true, category: true, difficulty: true, qualityScore: true } } },
+      },
+    },
   });
 }

@@ -242,6 +242,7 @@ model Exercise {
   muscles     ExerciseMuscle[]
   movements   ExerciseMovement[]
   functionalTasks ExerciseFunctionalTask[]
+  goals       ExerciseGoal[]
   cues        Cue[]
   regressions Regression[]
   progressions Progression[]
@@ -342,6 +343,43 @@ model ExerciseFunctionalTask {
   functionalTask   FunctionalTask @relation(fields: [functionalTaskId], references: [id], onDelete: Cascade)
 
   @@unique([exerciseId, functionalTaskId])
+}
+
+// ─── Goals Layer ─────────────────────────────────────────────────────────────
+// The "why would I do this?" axis, framed the way people actually search —
+// rehab conditions AND performance/optimization goals. Complements
+// FunctionalTask (everyday activities): Goal covers rehab, performance,
+// prevention, and targeted mobility.
+
+model Goal {
+  id          String       @id @default(cuid())
+  slug        String       @unique
+  name        String
+  goalType    String       // "rehab" | "performance" | "prevention" | "mobility"
+  description String?
+  region      String?      // loose body-area hint for filtering, e.g. "knee", "lumbar", "whole-body"
+  // Validation
+  status      EntityStatus @default(draft)
+  confidence  Float        @default(0.5)
+  notes       String?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  // Relations
+  exercises   ExerciseGoal[]
+}
+
+model ExerciseGoal {
+  id         String   @id @default(cuid())
+  relevance  String?  // "essential" | "supportive" — how central this exercise is to the goal
+  caution    String?  // contraindication/precaution for this exercise↔goal pairing, when relevant
+  notes      String?
+  exerciseId String
+  exercise   Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  goalId     String
+  goal       Goal     @relation(fields: [goalId], references: [id], onDelete: Cascade)
+
+  @@unique([exerciseId, goalId])
+  @@index([goalId])
 }
 
 model Cue {

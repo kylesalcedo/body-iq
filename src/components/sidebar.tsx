@@ -16,6 +16,7 @@ const navItems = [
   { label: "Movements", href: "/movements", icon: "↔️" },
   { label: "Muscles", href: "/muscles", icon: "💪" },
   { label: "Functional Tasks", href: "/tasks", icon: "🎯" },
+  { label: "Goals", href: "/goals", icon: "🏁" },
   { label: "Exercises", href: "/exercises", icon: "🏋️" },
   { label: "Sources", href: "/sources", icon: "📚" },
   { label: "API Reference", href: "/api-docs", icon: "⚡" },

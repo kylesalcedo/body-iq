@@ -437,6 +437,40 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
         </Card>
       )}
 
+      {/* Goals this exercise serves */}
+      {(exercise as any).goals?.length > 0 && (
+        <Card className="mb-6">
+          <SectionTitle>Goals This Helps With</SectionTitle>
+          <p className="text-xs text-gray-500 mb-3">Rehab, performance, prevention, and mobility goals this exercise supports &mdash; <span className="font-medium text-emerald-700">essential</span> means it&apos;s a cornerstone:</p>
+          <div className="flex flex-wrap gap-2">
+            {[...(exercise as any).goals]
+              .sort((a: any, b: any) => (a.relevance === "essential" ? -1 : 1) - (b.relevance === "essential" ? -1 : 1))
+              .map((eg: any) => {
+                const essential = eg.relevance === "essential";
+                const typeColor: Record<string, string> = {
+                  rehab: "text-rose-600", performance: "text-amber-600", prevention: "text-sky-600", mobility: "text-teal-600",
+                };
+                return (
+                  <EntityLink
+                    key={eg.id}
+                    href={`/goals/${eg.goal.slug}`}
+                    title={eg.caution ? `Caution: ${eg.caution}` : undefined}
+                    className={
+                      essential
+                        ? "rounded-md border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-800 hover:bg-emerald-100 transition-colors"
+                        : "rounded-md border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm text-gray-600 hover:bg-gray-100 transition-colors"
+                    }
+                  >
+                    {eg.goal.name}
+                    <span className={`ml-1.5 text-[10px] uppercase tracking-wide ${typeColor[eg.goal.goalType] || "text-gray-400"}`}>{eg.goal.goalType}</span>
+                    {eg.caution && <span className="ml-1 text-amber-500" aria-label="has caution">⚠</span>}
+                  </EntityLink>
+                );
+              })}
+          </div>
+        </Card>
+      )}
+
       {/* Evidence Notes */}
       {exercise.notes && (
         <Card className="mb-6 bg-amber-50 border-amber-200">
