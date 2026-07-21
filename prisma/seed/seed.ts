@@ -17,6 +17,7 @@ import { seedPrimitivesAndPfmExtension } from "./extensions/primitives-and-pfm";
 import { seedCueRewritesExtension } from "./extensions/cue-rewrites";
 import { seedHandGripFixesExtension } from "./extensions/hand-grip-fixes";
 import { seedSnomedCodesExtension } from "./extensions/snomed-codes";
+import { seedSnomedBodyStructuresExtension } from "./extensions/snomed-body-structures";
 import { seedCommonExercisesExtension } from "./extensions/common-exercises";
 import { seedHomeExercisesExtension } from "./extensions/home-exercises";
 import { seedCategoriesPositionsExtension } from "./extensions/categories-positions";
@@ -63,6 +64,7 @@ async function main() {
   await seedCueRewritesExtension();
   await seedHandGripFixesExtension();
   await seedSnomedCodesExtension();
+  await seedSnomedBodyStructuresExtension(); // verified codes — supersede the scaffold above
   await seedCommonExercisesExtension();
   await seedHomeExercisesExtension();
   await seedCategoriesPositionsExtension();
