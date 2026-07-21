@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 — Framework upgrade & security (2026-07)
+
+- Upgraded Next.js 14.2.35 → 16, React 18 → 19, ESLint 8 → 9.
+- **0 dependency vulnerabilities** (production + dev; was 17 prod / 12 dev).
+- Async request APIs (params/searchParams awaited), Turbopack-compatible config,
+  ESLint flat config. No functional or data changes.
+
 ## 0.2.0 — Knowledge-graph expansion (2026-07)
 
 A large additive release. No breaking changes to the v1 API contract.
