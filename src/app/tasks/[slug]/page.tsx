@@ -3,7 +3,8 @@ import { getFunctionalTask } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
 import { EntityLink, PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
 
-export default async function TaskDetailPage({ params }: { params: { slug: string } }) {
+export default async function TaskDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const task = await getFunctionalTask(params.slug);
   if (!task) notFound();
 

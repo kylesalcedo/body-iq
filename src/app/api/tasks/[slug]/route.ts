@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 // GET /api/tasks/[slug] — an everyday task with the exercises that build it
-export async function GET(_r: NextRequest, { params }: { params: { slug: string } }) {
+export async function GET(_r: NextRequest, props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const t = await prisma.functionalTask.findUnique({
     where: { slug: params.slug },
     select: {

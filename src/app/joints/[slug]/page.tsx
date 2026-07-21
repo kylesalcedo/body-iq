@@ -3,7 +3,8 @@ import { getJoint } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
 import { EntityLink, PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
 
-export default async function JointDetailPage({ params }: { params: { slug: string } }) {
+export default async function JointDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const joint = await getJoint(params.slug);
   if (!joint) notFound();
 

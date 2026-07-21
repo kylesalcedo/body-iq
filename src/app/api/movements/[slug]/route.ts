@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 // GET /api/movements/[slug] — movement with ROM, muscles (by role), and exercises
-export async function GET(_r: NextRequest, { params }: { params: { slug: string } }) {
+export async function GET(_r: NextRequest, props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const m = await prisma.movement.findUnique({
     where: { slug: params.slug },
     select: {

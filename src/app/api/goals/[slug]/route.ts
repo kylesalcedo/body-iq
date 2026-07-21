@@ -3,7 +3,8 @@ import { prisma } from "@/lib/prisma";
 
 // GET /api/goals/[slug] — a goal with its exercises, ranked essential-first.
 // The core "give me exercises for X" endpoint.
-export async function GET(_request: NextRequest, { params }: { params: { slug: string } }) {
+export async function GET(_request: NextRequest, props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const goal = await prisma.goal.findUnique({
     where: { slug: params.slug },
     select: {

@@ -3,7 +3,8 @@ import { getMuscle } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge, RoleBadge } from "@/components/badges";
 import { EntityLink, PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
 
-export default async function MuscleDetailPage({ params }: { params: { slug: string } }) {
+export default async function MuscleDetailPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const muscle = await getMuscle(params.slug);
   if (!muscle) notFound();
 

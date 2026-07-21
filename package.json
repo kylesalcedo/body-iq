@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed/seed.ts",
     "db:studio": "prisma studio",
@@ -50,7 +50,7 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "autoprefixer": "^10.4.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^16.2.11",
     "postcss": "^8.4.0",
     "prisma": "^6.0.0",
@@ -64,6 +64,14 @@
       "@prisma/engines",
       "prisma",
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "effect": ">=3.20.0",
+      "defu": ">=6.1.5",
+      "postcss": ">=8.5.10",
+      "picomatch": ">=4.0.4",
+      "js-yaml": ">=4.3.0",
+      "esbuild": ">=0.28.1"
+    }
   }
 }
