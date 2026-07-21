@@ -126,3 +126,5 @@ export default async function SourceDetailPage({ params }: { params: { slug: str
     </div>
   );
 }
+
+export { allSourceSlugs as generateStaticParams } from "@/lib/queries";

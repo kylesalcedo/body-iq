@@ -102,6 +102,9 @@ Every movement-muscle and exercise-muscle relationship includes a role:
 The web explorer provides:
 
 - **Dashboard** — counts for all entity types with quick navigation
+- **Body Map** — interactive anatomical figure; click a region to explore its joints, movements, and exercises
+- **Progression Ladders** — every exercise flanked by its regressions (easier) and progressions (harder), with in-library steps linked
+- **Coverage Heatmap** — muscle- and movement-level exercise coverage, surfacing gaps at a glance
 - **Entity list pages** — all entity types with status badges and confidence indicators
 - **Entity detail pages** — full anatomy (O/I/A/N/B), weighted muscle roles, related entities, sources
 - **Exercise Finder** — filter by region, joint, movement, muscle, functional task, role, status, confidence
@@ -200,6 +203,16 @@ Every entity supports a 4-layer validation model:
 4. **Product** — data completeness for downstream use (validation queue)
 
 Entity statuses: `draft` → `needs_review` → `reviewed` → `verified` (or `disputed`)
+
+## Documentation & Wiki
+
+Project **institutional memory** lives in [`wiki/`](wiki/index.md) — the *why*
+and *how* behind the graph (modeling decisions, the content pipeline, the API
+contract), kept separate from the domain data, which is the database's job.
+Start at [`wiki/overview.md`](wiki/overview.md). Agents and contributors should
+read [`CLAUDE.md`](CLAUDE.md) first; the wiki's own schema and rules are in
+[`WIKI.md`](WIKI.md). Planned features (dataset export, MCP server, stack
+builder, explainability view) are tracked in [`wiki/backlog.md`](wiki/backlog.md).
 
 ## Project Structure
 

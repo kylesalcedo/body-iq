@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 
-export const dynamic = "force-dynamic";
+export const dynamic =
+  process.env.STATIC_EXPORT === "1" ? "force-static" : "force-dynamic";
 
 const menu = [
   {

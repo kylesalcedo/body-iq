@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
@@ -8,7 +8,7 @@ import Link from "next/link";
 interface FilterOption {
   slug: string;
   name: string;
-  category?: string;
+  category?: string | null;
   region?: { slug: string; name: string };
   joint?: { slug: string; name: string; region?: { slug: string } };
 }
@@ -262,10 +262,13 @@ function ExerciseCard({ exercise, expanded, onToggle }: { exercise: ExerciseResu
 
 // ─── Main Component ─────────────────────────────────────────────────────────
 
-export function ExerciseFinder() {
-  const [filters, setFilters] = useState<Filters | null>(null);
-  const [exercises, setExercises] = useState<ExerciseResult[]>([]);
-  const [loading, setLoading] = useState(false);
+export function ExerciseFinder({
+  filters,
+  exercises: allExercises,
+}: {
+  filters: Filters;
+  exercises: ExerciseResult[];
+}) {
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
 
   // Selected filters
@@ -278,44 +281,64 @@ export function ExerciseFinder() {
   const [selectedStatuses, setSelectedStatuses] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
 
-  const debounceRef = useRef<ReturnType<typeof setTimeout>>();
-
-  // Load filter options on mount
-  useEffect(() => {
-    fetch("/api/exercises/filters")
-      .then((r) => r.json())
-      .then(setFilters);
-  }, []);
-
-  // Fetch exercises whenever filters change
-  const fetchExercises = useCallback(async () => {
-    setLoading(true);
-    const params = new URLSearchParams();
-    if (selectedRegions.size) params.set("region", Array.from(selectedRegions).join(","));
-    if (selectedJoints.size) params.set("joint", Array.from(selectedJoints).join(","));
-    if (selectedMovements.size) params.set("movement", Array.from(selectedMovements).join(","));
-    if (selectedMuscles.size) params.set("muscle", Array.from(selectedMuscles).join(","));
-    if (selectedTasks.size) params.set("task", Array.from(selectedTasks).join(","));
-    if (selectedRoles.size) params.set("role", Array.from(selectedRoles).join(","));
-    if (selectedStatuses.size) params.set("status", Array.from(selectedStatuses).join(","));
-    if (searchQuery.trim().length >= 2) params.set("q", searchQuery.trim());
-
-    try {
-      const res = await fetch(`/api/exercises?${params}`);
-      const data = await res.json();
-      setExercises(data.exercises);
-    } catch {
-      setExercises([]);
-    } finally {
-      setLoading(false);
-    }
-  }, [selectedRegions, selectedJoints, selectedMovements, selectedMuscles, selectedTasks, selectedRoles, selectedStatuses, searchQuery]);
-
-  useEffect(() => {
-    clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(fetchExercises, 200);
-    return () => clearTimeout(debounceRef.current);
-  }, [fetchExercises]);
+  // Client-side filtering (AND logic) — replaces the /api/exercises call so the
+  // finder works with no backend, e.g. the static GitHub Pages demo.
+  const q = searchQuery.trim().toLowerCase();
+  const exercises = useMemo(
+    () =>
+      allExercises.filter((e) => {
+        if (
+          q.length >= 2 &&
+          !(e.name.toLowerCase().includes(q) || e.description.toLowerCase().includes(q))
+        )
+          return false;
+        if (selectedStatuses.size && !selectedStatuses.has(e.status)) return false;
+        if (
+          selectedRegions.size &&
+          !e.movements.some((m) => selectedRegions.has(m.movement.joint.region.slug))
+        )
+          return false;
+        if (
+          selectedJoints.size &&
+          !e.movements.some((m) => selectedJoints.has(m.movement.joint.slug))
+        )
+          return false;
+        if (
+          selectedMovements.size &&
+          !e.movements.some((m) => selectedMovements.has(m.movement.slug))
+        )
+          return false;
+        if (selectedMuscles.size) {
+          if (
+            !e.muscles.some(
+              (mu) =>
+                selectedMuscles.has(mu.muscle.slug) &&
+                (selectedRoles.size === 0 || selectedRoles.has(mu.role))
+            )
+          )
+            return false;
+        } else if (selectedRoles.size) {
+          if (!e.muscles.some((mu) => selectedRoles.has(mu.role))) return false;
+        }
+        if (
+          selectedTasks.size &&
+          !e.functionalTasks.some((ft) => selectedTasks.has(ft.functionalTask.slug))
+        )
+          return false;
+        return true;
+      }),
+    [
+      allExercises,
+      q,
+      selectedStatuses,
+      selectedRegions,
+      selectedJoints,
+      selectedMovements,
+      selectedMuscles,
+      selectedRoles,
+      selectedTasks,
+    ]
+  );
 
   // Toggle helpers
   function toggle(set: Set<string>, setFn: (s: Set<string>) => void, value: string) {
@@ -381,10 +404,6 @@ export function ExerciseFinder() {
     a.download = `exercises-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
-  }
-
-  if (!filters) {
-    return <div className="text-gray-500 py-8 text-center">Loading filters...</div>;
   }
 
   return (
@@ -502,7 +521,7 @@ export function ExerciseFinder() {
           <div className="flex items-center gap-3">
             <h1 className="text-2xl font-bold text-gray-900">Exercise Finder</h1>
             <span className="text-sm text-gray-500">
-              {loading ? "Loading..." : `${exercises.length} exercise${exercises.length !== 1 ? "s" : ""}`}
+              {`${exercises.length} exercise${exercises.length !== 1 ? "s" : ""}`}
             </span>
           </div>
           <div className="flex gap-2">
@@ -529,7 +548,7 @@ export function ExerciseFinder() {
           </div>
         </div>
 
-        {exercises.length === 0 && !loading ? (
+        {exercises.length === 0 ? (
           <div className="text-center py-12 text-gray-500">
             <p className="text-lg">No exercises match your filters</p>
             <p className="mt-1 text-sm">Try adjusting or clearing your filters</p>

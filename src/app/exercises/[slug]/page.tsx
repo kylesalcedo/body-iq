@@ -499,3 +499,5 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
     </div>
   );
 }
+
+export { allExerciseSlugs as generateStaticParams } from "@/lib/queries";

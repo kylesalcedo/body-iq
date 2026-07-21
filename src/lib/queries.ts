@@ -547,6 +547,363 @@ export async function getPlannerData(): Promise<PlannerData> {
   return { regions, movementColumns, cells, equipment };
 }
 
+// ─── Progression Ladders ─────────────────────────────────────────────────────
+
+export type LadderStep = {
+  name: string;
+  description: string;
+  /** slug of a real Exercise whose name matches this step, if any (best-effort) */
+  matchedSlug: string | null;
+};
+
+export type ProgressionLadder = {
+  slug: string;
+  name: string;
+  description: string;
+  difficulty: string | null;
+  status: string;
+  confidence: number;
+  regionSlug: string;
+  regionName: string;
+  regressions: LadderStep[];
+  progressions: LadderStep[];
+};
+
+/** Normalize a name for best-effort matching of ladder steps to real exercises. */
+function normalizeExerciseName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, "") // drop parenthetical qualifiers
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+/**
+ * Progression ladders: each exercise rendered as
+ * regression ← exercise → progression. Regressions/Progressions are prose rows
+ * (not FK edges), so step names are best-effort linkified to real exercises by
+ * normalized-name match. See wiki/concepts/knowledge-graph-model.md.
+ */
+export async function getProgressionLadders(): Promise<ProgressionLadder[]> {
+  const exercises = await prisma.exercise.findMany({
+    orderBy: { name: "asc" },
+    include: {
+      regressions: { orderBy: { order: "asc" } },
+      progressions: { orderBy: { order: "asc" } },
+      movements: {
+        include: {
+          movement: {
+            select: {
+              joint: {
+                select: {
+                  region: { select: { slug: true, name: true, sortOrder: true } },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  });
+
+  // Build a normalized-name → slug index across all exercises for linkification.
+  const nameToSlug = new Map<string, string>();
+  for (const e of exercises) {
+    nameToSlug.set(normalizeExerciseName(e.name), e.slug);
+  }
+
+  const matchStep = (name: string): string | null =>
+    nameToSlug.get(normalizeExerciseName(name)) ?? null;
+
+  const ladders: ProgressionLadder[] = [];
+  for (const e of exercises) {
+    if (e.regressions.length === 0 && e.progressions.length === 0) continue;
+
+    // Pick the first region (by region sortOrder) among the exercise's movements.
+    let region: { slug: string; name: string; sortOrder: number } | null = null;
+    for (const em of e.movements) {
+      const r = em.movement.joint.region;
+      if (!region || r.sortOrder < region.sortOrder) region = r;
+    }
+
+    ladders.push({
+      slug: e.slug,
+      name: e.name,
+      description: e.description,
+      difficulty: e.difficulty,
+      status: e.status,
+      confidence: e.confidence,
+      regionSlug: region?.slug ?? "unassigned",
+      regionName: region?.name ?? "Unassigned",
+      regressions: e.regressions.map((r) => ({
+        name: r.name,
+        description: r.description,
+        matchedSlug: matchStep(r.name),
+      })),
+      progressions: e.progressions.map((p) => ({
+        name: p.name,
+        description: p.description,
+        matchedSlug: matchStep(p.name),
+      })),
+    });
+  }
+
+  return ladders;
+}
+
+// ─── Body Map ────────────────────────────────────────────────────────────────
+
+export type BodyMapRegion = {
+  slug: string;
+  name: string;
+  jointCount: number;
+  movementCount: number;
+  exerciseCount: number;
+};
+
+/** Per-region counts for the interactive body map. */
+export async function getBodyMapData(): Promise<BodyMapRegion[]> {
+  const regions = await prisma.region.findMany({
+    orderBy: { sortOrder: "asc" },
+    select: {
+      slug: true,
+      name: true,
+      joints: {
+        select: {
+          movements: {
+            select: {
+              _count: { select: { exercises: true } },
+            },
+          },
+        },
+      },
+    },
+  });
+
+  return regions.map((r) => {
+    let movementCount = 0;
+    let exerciseCount = 0;
+    for (const j of r.joints) {
+      movementCount += j.movements.length;
+      for (const m of j.movements) exerciseCount += m._count.exercises;
+    }
+    return {
+      slug: r.slug,
+      name: r.name,
+      jointCount: r.joints.length,
+      movementCount,
+      // Note: exerciseCount double-counts an exercise that spans multiple
+      // movements in the region — it's an activity magnitude, not a unique count.
+      exerciseCount,
+    };
+  });
+}
+
+// ─── Coverage Heatmap ────────────────────────────────────────────────────────
+
+const MUSCLE_ROLES = [
+  "primary",
+  "secondary",
+  "stabilizer",
+  "synergist",
+  "common_association",
+] as const;
+
+export type MuscleCoverage = {
+  slug: string;
+  name: string;
+  roleCounts: Record<string, number>;
+  total: number;
+};
+
+export type MovementCoverage = {
+  slug: string;
+  name: string;
+  regionName: string;
+  exerciseCount: number;
+};
+
+export type CoverageData = {
+  muscles: MuscleCoverage[];
+  movements: MovementCoverage[];
+  roles: readonly string[];
+  maxMuscleRole: number;
+  maxMovement: number;
+  uncoveredMuscles: MuscleCoverage[];
+  uncoveredMovements: MovementCoverage[];
+};
+
+/**
+ * Exercise-coverage across muscles (by role) and movements. The visual
+ * counterpart to `pnpm prompts:gaps`: highlights where content is thin or
+ * absent. See wiki/concepts/validation-lifecycle.md.
+ */
+export async function getCoverageData(): Promise<CoverageData> {
+  const [muscles, movements] = await Promise.all([
+    prisma.muscle.findMany({
+      orderBy: { name: "asc" },
+      select: {
+        slug: true,
+        name: true,
+        exercises: { select: { role: true } },
+      },
+    }),
+    prisma.movement.findMany({
+      orderBy: { name: "asc" },
+      select: {
+        slug: true,
+        name: true,
+        joint: { select: { region: { select: { name: true, sortOrder: true } } } },
+        _count: { select: { exercises: true } },
+      },
+    }),
+  ]);
+
+  const muscleCoverage: MuscleCoverage[] = muscles.map((m) => {
+    const roleCounts: Record<string, number> = Object.fromEntries(
+      MUSCLE_ROLES.map((r) => [r, 0])
+    );
+    for (const link of m.exercises) roleCounts[link.role] = (roleCounts[link.role] ?? 0) + 1;
+    return {
+      slug: m.slug,
+      name: m.name,
+      roleCounts,
+      total: m.exercises.length,
+    };
+  });
+
+  const movementCoverage: MovementCoverage[] = movements
+    .map((m) => ({
+      slug: m.slug,
+      name: m.name,
+      regionName: m.joint.region.name,
+      regionSort: m.joint.region.sortOrder,
+      exerciseCount: m._count.exercises,
+    }))
+    .sort(
+      (a, b) => a.regionSort - b.regionSort || a.name.localeCompare(b.name)
+    )
+    .map(({ regionSort, ...rest }) => rest);
+
+  const maxMuscleRole = Math.max(
+    1,
+    ...muscleCoverage.flatMap((m) => MUSCLE_ROLES.map((r) => m.roleCounts[r]))
+  );
+  const maxMovement = Math.max(1, ...movementCoverage.map((m) => m.exerciseCount));
+
+  return {
+    muscles: muscleCoverage,
+    movements: movementCoverage,
+    roles: MUSCLE_ROLES,
+    maxMuscleRole,
+    maxMovement,
+    uncoveredMuscles: muscleCoverage
+      .filter((m) => m.total === 0)
+      .sort((a, b) => a.name.localeCompare(b.name)),
+    uncoveredMovements: movementCoverage.filter((m) => m.exerciseCount === 0),
+  };
+}
+
+// ─── Exercise Finder (build-time data for client-side filtering) ─────────────
+// Bundles filter options + the full exercise list so the finder works with no
+// API backend (the static GitHub Pages demo). Mirrors the shapes previously
+// served by /api/exercises/filters and /api/exercises.
+
+export async function getFinderData() {
+  const [regions, joints, movements, muscles, tasks, exercises] = await Promise.all([
+    prisma.region.findMany({ orderBy: { name: "asc" }, select: { slug: true, name: true } }),
+    prisma.joint.findMany({
+      orderBy: { name: "asc" },
+      select: { slug: true, name: true, region: { select: { slug: true, name: true } } },
+    }),
+    prisma.movement.findMany({
+      orderBy: { name: "asc" },
+      select: {
+        slug: true,
+        name: true,
+        joint: { select: { slug: true, name: true, region: { select: { slug: true } } } },
+      },
+    }),
+    prisma.muscle.findMany({ orderBy: { name: "asc" }, select: { slug: true, name: true } }),
+    prisma.functionalTask.findMany({
+      orderBy: { name: "asc" },
+      select: { slug: true, name: true, category: true },
+    }),
+    prisma.exercise.findMany({
+      orderBy: { name: "asc" },
+      select: {
+        slug: true,
+        name: true,
+        description: true,
+        status: true,
+        confidence: true,
+        notes: true,
+        muscles: {
+          select: { role: true, notes: true, muscle: { select: { slug: true, name: true } } },
+          orderBy: { role: "asc" },
+        },
+        movements: {
+          select: {
+            movement: {
+              select: {
+                slug: true,
+                name: true,
+                joint: {
+                  select: {
+                    slug: true,
+                    name: true,
+                    region: { select: { slug: true, name: true } },
+                  },
+                },
+              },
+            },
+          },
+        },
+        functionalTasks: {
+          select: { functionalTask: { select: { slug: true, name: true, category: true } } },
+        },
+        cues: { select: { text: true, cueType: true }, orderBy: { order: "asc" } },
+        regressions: { select: { name: true, description: true }, orderBy: { order: "asc" } },
+        progressions: { select: { name: true, description: true }, orderBy: { order: "asc" } },
+      },
+    }),
+  ]);
+
+  return {
+    filters: {
+      regions,
+      joints,
+      movements,
+      muscles,
+      tasks,
+      roles: ["primary", "secondary", "stabilizer", "synergist", "common_association"],
+      statuses: ["draft", "needs_review", "reviewed", "verified", "disputed"],
+    },
+    exercises,
+  };
+}
+
+// ─── Static-export slug lists (generateStaticParams) ─────────────────────────
+// Each returns `{ slug }[]` so a page can do:
+//   export const generateStaticParams = allRegionSlugs;
+
+export const allRegionSlugs = async () =>
+  (await prisma.region.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allJointSlugs = async () =>
+  (await prisma.joint.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allMovementSlugs = async () =>
+  (await prisma.movement.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allMuscleSlugs = async () =>
+  (await prisma.muscle.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allTaskSlugs = async () =>
+  (await prisma.functionalTask.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allExerciseSlugs = async () =>
+  (await prisma.exercise.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allSourceSlugs = async () =>
+  (await prisma.researchSource.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allGoalSlugs = async () =>
+  (await prisma.goal.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+
 // ─── Sources ─────────────────────────────────────────────────────────────────
 
 export async function getSources() {

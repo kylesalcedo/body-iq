@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { getGoal } from "@/lib/queries";
 import { EntityLink, PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
 
+export { allGoalSlugs as generateStaticParams } from "@/lib/queries";
+
 const TYPE_COLOR: Record<string, string> = {
   rehab: "bg-rose-100 text-rose-800", performance: "bg-amber-100 text-amber-800",
   prevention: "bg-sky-100 text-sky-800", mobility: "bg-teal-100 text-teal-800",
