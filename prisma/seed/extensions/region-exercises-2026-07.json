@@ -1,0 +1,1086 @@
+[
+ {
+  "slug": "active-anterior-pelvic-tilt",
+  "name": "Active Anterior Pelvic Tilt",
+  "description": "A foundational pelvic motor-control drill in which you actively roll the top of the pelvis forward (rotating the sitting bones back and up), producing a gentle increase in lumbar lordosis without moving the spine above it or the legs below it. Performed slowly and consciously to build awareness and voluntary control of the pelvis as an independent segment.",
+  "rationale": "Anterior pelvic tilt is one half of the basic lumbopelvic tilt pair that most people have never trained in isolation, so the primary value here is neuromuscular: learning to dissociate pelvic motion from the lumbar spine and hips and to move the pelvis deliberately in both directions. Lumbopelvic motor-control and stabilization exercises have moderate evidence for reducing pain and disability in non-specific low back pain, and pelvic-tilt/awareness drills are a standard, low-risk entry point within those programs; however, evidence for isolated active anterior pelvic tilt as a standalone intervention (versus as one component of a broader motor-control program) is limited and largely based on clinical reasoning and expert consensus rather than dedicated trials. It is best framed as an accessible teaching and mobility drill that restores conscious access to a movement people commonly lose, not as a corrective that changes resting posture or \"fixes\" an anterior-tilt alignment.",
+  "category": "mobility",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [
+   "chair"
+  ],
+  "movementSlugs": [
+   "anterior-pelvic-tilt",
+   "lumbar-extension",
+   "hip-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "primary",
+    "notes": "Prime hip flexor acting on the pelvis; rotates the ilium anteriorly and is a key driver of the tilt."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "primary",
+    "notes": "Lumbar erector spinae extend the low back and pull the top of the pelvis forward; forms the anterior-tilt force couple with the hip flexors."
+   },
+   {
+    "muscleSlug": "rectus-femoris",
+    "role": "secondary",
+    "notes": "Assists anterior pelvic rotation via its pull on the AIIS."
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "synergist",
+    "notes": "Anterior hip flexor assisting the tilt through its anterior pull on the pelvis."
+   },
+   {
+    "muscleSlug": "sartorius",
+    "role": "synergist",
+    "notes": "Anterior hip flexor contributing a small assist to anterior rotation."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "secondary",
+    "notes": "Contributes to the lumbar extension component of the tilt."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Provides segmental lumbar control so motion is distributed rather than concentrated at one hinge."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "lengthening",
+    "notes": "Lengthens/relaxes as the pelvis tilts forward; eccentrically controls the return."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "lengthening",
+    "notes": "Eccentrically lengthens as the pelvis moves into anterior tilt."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Lengthens as the pelvis rotates anteriorly; drives the opposite posterior-tilt return."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "external",
+    "text": "Imagine pouring water out over the front of a bowl in your pelvis, tipping the front rim down toward your thighs."
+   },
+   {
+    "cueType": "internal",
+    "text": "Roll forward onto the very front of your sitting bones so a small arch appears in your low back."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly, about 3 seconds forward and 3 seconds back, staying inside a comfortable, pain-free range."
+   },
+   {
+    "cueType": "isolation",
+    "text": "Keep your ribcage stacked and shoulders quiet so the movement comes from the pelvis, not from arching the whole spine or leaning your trunk."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Supine hooklying pelvic tilt",
+    "description": "Lie on your back with knees bent and feet flat; gently arch the low back off the floor into a small anterior tilt. Removing gravity and the balance demand makes the pelvis easier to feel and control."
+   },
+   {
+    "name": "Reduced-range guided tilt",
+    "description": "Perform only a small fraction of the available range with a hand on the front of the pelvis for tactile feedback, focusing purely on sensing the motion before adding amplitude."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Quadruped anterior pelvic tilt (cat-cow lower half)",
+    "description": "On hands and knees, drop the belly and tilt the pelvis forward against gravity, increasing the control demand and integrating the movement with the spine."
+   },
+   {
+    "name": "Standing anterior/posterior pelvic tilt cycling",
+    "description": "Perform the tilt while standing, then rhythmically alternate anterior and posterior tilt to train dynamic, weight-bearing control and lumbopelvic dissociation for function and gait."
+   }
+  ],
+  "dosing": "2-3 sets of 8-12 slow, controlled repetitions, or 8-10 reps with a brief 2-3 second hold at end range. Can be done daily as a mobility/awareness drill or used as a warm-up. Progress by increasing range, adding the hold, or advancing to quadruped/standing variations as control improves.",
+  "evidenceLevel": "limited",
+  "startPosition": "Sitting tall on the edge of a firm chair, feet flat and hip-width apart, weight balanced evenly on both sitting bones, spine in a neutral, unarched position with the ribcage stacked over the pelvis.",
+  "endPosition": "Pelvis rotated forward over the femurs so weight shifts onto the front of the sitting bones, with a small increase in low-back arch (lordosis); trunk remains upright and the movement is confined to the pelvis and lumbar spine.",
+  "rom": "Small to moderate: roughly 10-15 degrees of anterior pelvic rotation from neutral, staying within a comfortable, pain-free range rather than forcing maximal arch.",
+  "emgNotes": "Not based on exercise-specific EMG data; muscle roles are assigned from anatomical action (lumbar extensors and anterior hip flexors as prime movers of anterior pelvic tilt, abdominals and gluteals as their lengthening antagonists). Treat activation claims as anatomically reasoned, not EMG-verified.",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "pelvic-clock-mobilization",
+  "name": "Pelvic Clock Mobilization",
+  "description": "Add the supine pelvic clock mobilization drill to the pelvis region.",
+  "rationale": "The pelvic clock teaches conscious, graded control over the anterior/posterior and lateral pelvic tilts that underlie neutral-spine positioning, hip-hinge mechanics, and load transfer through the lumbopelvic region. Many people move the pelvis and lumbar spine as a single rigid block; segmenting the motion into small, isolated tilts builds proprioceptive awareness and the ability to find and hold a neutral pelvis on demand \u2014 a prerequisite skill for bracing, hinging, and most corrective programs. Honest evidence note: the drill originates from Feldenkrais/motor-control traditions and is widely used clinically, but high-quality trials isolating the pelvic clock itself are lacking. The supporting evidence is largely mechanistic and expert-opinion, extrapolated from the broader (still mixed) literature on lumbopelvic motor-control exercise for low back pain. It is best framed as a low-risk awareness and mobility primer rather than a treatment with proven specific effects.",
+  "category": "mobility",
+  "difficulty": "beginner",
+  "bodyPosition": "supine",
+  "equipment": [
+   "mat"
+  ],
+  "movementSlugs": [
+   "anterior-pelvic-tilt",
+   "posterior-pelvic-tilt",
+   "lateral-pelvic-tilt",
+   "lumbar-flexion",
+   "lumbar-extension"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "primary",
+    "notes": "Drives the posterior tilt (12 o'clock), flattening the low back into the mat."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "primary",
+    "notes": "Produces the anterior tilt (6 o'clock) as the pelvis rolls forward and the low back arches."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "synergist",
+    "notes": "Assists the anterior tilt and lumbar extension component; lengthens during the posterior tilt."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "synergist",
+    "notes": "Contributes to the 3 and 9 o'clock lateral tilts and to smoothing the circular tracing."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "synergist",
+    "notes": "Pairs with the external oblique to control lateral pelvic tilt side to side."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Provides low-level deep core support so the tilts stay small and controlled rather than gross trunk movement."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Segmental lumbar stabilizer that helps grade the fine anterior/posterior motion."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "synergist",
+    "notes": "Involved in the lateral (3/9 o'clock) hiking component of the pelvic tilt."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "synergist",
+    "notes": "Lightly assists the posterior tilt; kept relaxed so the drill stays a control task, not a squeeze."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "external",
+    "text": "Picture a clock face resting flat on your lower belly, 12 toward your ribs and 6 toward your pubic bone. Roll the pelvis to point at each number."
+   },
+   {
+    "cueType": "internal",
+    "text": "At 12, gently flatten your low back into the mat; at 6, let a small arch appear under your low back. Keep both motions tiny and painless."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly and continuously \u2014 imagine the second hand sweeping the circle rather than clicking between numbers."
+   },
+   {
+    "cueType": "attention",
+    "text": "Keep your ribs, shoulders, and legs quiet; only the pelvis should move. If your whole trunk rocks, make the motion smaller."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Two-point rock (12 and 6 only)",
+    "description": "Work only the anterior/posterior tilt between 12 and 6 o'clock, skipping the sides, until the front-to-back motion feels smooth and isolated."
+   },
+   {
+    "name": "Assisted awareness with hands",
+    "description": "Rest your hands on the front of the pelvis (on the two hip bones) to feel the tilt directly, using the tactile feedback to sense direction before removing the hands."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Full circle both directions",
+    "description": "Trace the complete clock smoothly clockwise, then counterclockwise, aiming for an even circle with no flat spots or skipped hours."
+   },
+   {
+    "name": "Upright pelvic clock (seated or standing)",
+    "description": "Perform the same clock pattern seated on a stool or standing against gravity, carrying the control skill into functional, weight-bearing positions."
+   }
+  ],
+  "dosing": "1-2 sets of 5-8 slow circles in each direction (or 8-10 controlled tilts per direction for the two-point version), once daily or as a warm-up/awareness primer before core and hip-hinge work. Motion should be small, smooth, and pain-free; quality over quantity.",
+  "evidenceLevel": "expert-opinion",
+  "startPosition": "Supine (hooklying): lying on the back with knees bent, feet flat on the mat about hip-width apart, arms resting at the sides, and the pelvis in a relaxed neutral position.",
+  "endPosition": "Returns to the same neutral supine hooklying position after completing the circles; the pelvis settles midway between the 12 and 6 o'clock tilts.",
+  "rom": "Small, sub-maximal pelvic tilt in all directions \u2014 roughly a few degrees of anterior/posterior and lateral tilt (typically well under 10-15 degrees each way). The lumbar spine moves through only a small portion of its available flexion/extension and lateral flexion; deliberately kept minimal to emphasize control over range.",
+  "emgNotes": "No specific surface-EMG validation exists for this drill; muscle roles listed are mechanistic/anatomical inferences rather than EMG-confirmed activation levels.",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "standing-hip-hike",
+  "name": "Standing Hip Hike",
+  "description": "A standing frontal-plane exercise for the pelvis and hip. Standing on one leg at the edge of a low step with the other leg hanging free, you let the pelvis drop on the free-leg side, then lift (hike) it back up above level. This trains the muscles that control side-to-side pelvic tilt \u2014 the hip abductors of the standing leg and the quadratus lumborum on the hiking side \u2014 a foundational pattern that governs level pelvis during single-leg stance and walking.",
+  "rationale": "Lateral (frontal-plane) pelvic control is a foundational competency that most people never train directly, yet it underlies every step of gait: during single-leg stance the pelvis on the swing side must be held level, and losing this control (a \"Trendelenburg\" drop) is linked to hip, knee, and low-back complaints. The standing hip hike targets this in two complementary ways \u2014 the standing-leg gluteus medius/minimus work eccentrically to allow, then concentrically to reverse, the pelvic drop, while the quadratus lumborum on the free-leg side actively elevates the hemipelvis. Evidence here is moderate rather than strong: surface-EMG studies of the pelvic-drop / hip-hike family consistently show meaningful gluteus medius recruitment, comparable to or exceeding many common abduction drills, which supports its use for hip-abductor strengthening. Direct evidence that isolated hip-hike training changes frontal-plane pelvic kinematics in gait or reduces pain is limited and largely extrapolated from broader hip-abductor and lumbopelvic strengthening literature. It is best presented as a well-reasoned, EMG-supported foundational drill for pelvic control, not a proven stand-alone treatment. No specific randomized-trial citation should be implied.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "standing",
+  "equipment": [
+   "low step or aerobic platform",
+   "optional wall or countertop for balance support",
+   "optional ankle weight for progression"
+  ],
+  "movementSlugs": [
+   "lateral-pelvic-tilt",
+   "hip-abduction",
+   "hip-adduction",
+   "lumbar-lateral-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "primary",
+    "notes": "On the standing leg, controls the pelvis in the frontal plane \u2014 works eccentrically to permit the controlled drop and concentrically to level and elevate the opposite hemipelvis."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "primary",
+    "notes": "On the free-leg (hiking) side, elevates the hemipelvis toward the ribcage to produce the hip hike."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "secondary",
+    "notes": "Assists the gluteus medius as a stance-leg hip abductor and pelvic stabilizer."
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "synergist",
+    "notes": "Contributes to standing-leg hip abduction; keep effort distributed rather than letting TFL dominate."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Helps control lateral trunk position so motion occurs at the pelvis, not by shoulder lean."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Co-contracts with the external oblique and QL for lumbopelvic stability during the hike."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Maintains upright trunk alignment against the frontal-plane load."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "stabilizer",
+    "notes": "Provides posterolateral hip stability on the standing leg during single-leg loading."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Stand sideways on the edge of a step on your working leg, letting the other foot hang free off the edge; stand tall with the standing knee soft but not bent."
+   },
+   {
+    "cueType": "external-focus",
+    "text": "Picture your belt line as a see-saw: let the free side sink down slowly, then tilt it back up level and slightly higher."
+   },
+   {
+    "cueType": "form",
+    "text": "Keep your torso quiet and upright \u2014 the movement comes from your pelvis, not from leaning your shoulders toward the high side."
+   },
+   {
+    "cueType": "error-correction",
+    "text": "Do not push down through the hanging toes or bend the standing knee to fake the lift; drive the motion from the muscles along the side of your standing hip and waist."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Floor-level hip hike",
+    "description": "Stand with both feet flat on the floor. Shift weight onto one leg, unweight the other foot slightly, and hike that hip up and down. This removes the balance and drop-below-level demand of the step while grooving the same pelvic pattern."
+   },
+   {
+    "name": "Supported hip hike",
+    "description": "Perform the step version but keep one or both hands lightly on a wall or countertop for balance, reducing the single-leg stability demand so you can focus on the pelvic motion."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Loaded / weighted hip hike",
+    "description": "Add an ankle weight to the hanging leg or hold a light dumbbell on the free-leg side to increase the resistance the standing-leg abductors and QL must control."
+   },
+   {
+    "name": "Slow-tempo, taller-step hip hike",
+    "description": "Use a higher step and slow the lowering (eccentric) phase to a 3-4 second count with no hand support, increasing range and time-under-tension for the standing-leg abductors."
+   }
+  ],
+  "dosing": "2-3 sets of 10-15 controlled repetitions per side, roughly 3 times per week. Emphasize a slow, controlled lowering phase and full but pain-free range. Progress by adding load or step height once 15 clean reps per side feel easy.",
+  "evidenceLevel": "moderate",
+  "startPosition": "Standing sideways on the edge of a low step on the working leg, torso tall and facing forward, with the opposite leg hanging freely off the edge and the pelvis held level. Fingertips may rest lightly on a wall or rail for balance.",
+  "endPosition": "Pelvis hiked upward on the hanging-leg side so that hemipelvis sits above level, torso remaining upright and the standing knee still soft but extended, before returning under control back through level and into a slight drop.",
+  "rom": "Approximately 10-15 degrees of frontal-plane pelvic motion \u2014 roughly a 2-4 cm (about 1-2 inch) drop of the free-side pelvis below level followed by elevation back above level. Keep motion within a smooth, pain-free range and avoid substituting trunk side-bend.",
+  "emgNotes": "Surface-EMG studies of pelvic-drop / hip-hike variations report substantial gluteus medius activation on the standing leg, often in the same range as, or higher than, common side-lying and standing abduction drills, supporting its use for hip-abductor strengthening. Quantitative EMG specific to quadratus lumborum during the hike is sparse, so its role is inferred anatomically. Activation magnitudes vary with step height, load, and how strictly trunk lean is controlled.",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "cervical-protraction-awareness",
+  "name": "Cervical Protraction Awareness",
+  "description": "A slow, controlled motor-control drill that teaches you to feel and steer your head between a forward \"protracted\" glide and a neutral, stacked position. You glide the head horizontally forward, pause to notice the sensation, then guide it back to where the ears stack over the shoulders. The goal is not strength but proprioceptive awareness: learning to detect when the head has drifted forward so you can self-correct throughout the day.",
+  "rationale": "Cervical protraction (the horizontal forward glide of the head, coupling lower-cervical flexion with upper-cervical extension) is a movement most people perform unconsciously for hours at a desk or phone but rarely train or even notice. This drill deliberately takes the neck into and out of that pattern to build joint-position sense, so the person can recognize a forward-head drift and reverse it.\n\nEvidence strength is limited and largely indirect. There is moderate-quality evidence that craniocervical flexion and cervical motor-control training reduce pain and improve deep-flexor performance in people with neck pain, and separate evidence that cervicocephalic joint-position-sense error is elevated in chronic neck pain and can improve with proprioceptive retraining. This specific \"explore protraction, then return to neutral\" awareness format is a reasonable clinical extension of those principles rather than a directly trialed protocol, so it is best classified as motor-learning/expert-opinion supported. It is low-risk, requires no equipment, and is intended as an accessible entry point that pairs well with deep neck flexor training and chin-tuck (retraction) work. No specific clinical trial validates this exact drill, and it is not a substitute for strengthening in people with symptomatic neck pain.",
+  "category": "motor-control",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [],
+  "movementSlugs": [
+   "cervical-protraction",
+   "cervical-retraction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "sternocleidomastoid",
+    "role": "primary",
+    "notes": "Prime driver of the forward glide, coupling lower-cervical flexion with upper-cervical extension (classic forward-head pattern)."
+   },
+   {
+    "muscleSlug": "scalenes",
+    "role": "synergist",
+    "notes": "Assist lower-cervical flexion during the anterior glide."
+   },
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "secondary",
+    "notes": "Produce/hold the upper-cervical extension component; habitually over-shortened in protraction, so cueing awareness of their tension is a key teaching point."
+   },
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "lengthening",
+    "notes": "Lengthen and go quiet during protraction, then re-engage to return toward neutral/retraction; re-awakening this control is the aim of the drill."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "synergist",
+    "notes": "Contributes to the upper-cervical extension seen in the protracted position."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "external-analogy",
+    "text": "Picture a drawer sliding straight out on its rails: glide the whole head forward horizontally rather than tipping the chin up or dropping it down."
+   },
+   {
+    "cueType": "sensory-awareness",
+    "text": "As you glide forward, notice the back of the neck gently shortening; as you return, feel it lengthen and the throat soften."
+   },
+   {
+    "cueType": "tempo-control",
+    "text": "Move slowly enough that you could freeze at any point along the way. This is about control and noticing, not reps for speed."
+   },
+   {
+    "cueType": "external-target",
+    "text": "Finish by settling to the spot where your ears stack over your shoulders and the head feels light and tall on top of the spine."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Supine supported glide",
+    "description": "Lie on your back with the head resting on a firm surface or thin pillow. With gravity removed and the head supported, gently glide the head forward and back a small amount. This makes the horizontal motion easier to sense without having to hold the head up."
+   },
+   {
+    "name": "Fingertip-tracked mini glide",
+    "description": "Rest two fingertips lightly on the chin and move through only a very small, pain-free range. The tactile feedback helps you confirm the motion is a horizontal translation, not a chin lift, and keeps the range comfortable for beginners."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Protraction-to-retraction sweep",
+    "description": "Extend the movement to the full comfortable range in both directions: glide forward into protraction, then draw the head back into a gentle chin tuck (retraction), pausing 2-3 seconds at each end. This sharpens the contrast between the two patterns and adds light deep-flexor activation."
+   },
+   {
+    "name": "Task-integrated posture awareness",
+    "description": "Practice the same neutral, stacked position while standing or during a real task such as reading, typing, or scrolling on a phone. Periodically check in, notice any forward drift, and reset. This transfers the awareness into daily life."
+   }
+  ],
+  "dosing": "2-3 sets of 8-10 slow, controlled repetitions, holding 2-3 seconds at the forward and neutral positions, once or twice daily. Movement should be smooth and pain-free; stop short of any range that provokes symptoms.",
+  "startPosition": "Seated tall on a firm chair with feet flat on the floor, hands resting on the thighs, and the spine in a relaxed neutral. Eyes are level and looking straight ahead, with the ears stacked roughly over the shoulders (neutral cervical position).",
+  "endPosition": "The head has glided horizontally forward into a controlled protracted position (face and jaw translate anteriorly, back of the neck shortens) with eyes still level, then returns to the neutral stacked position. The endpoint of each repetition is a mindful return to neutral, aware of the difference between the two.",
+  "rom": "Small-to-moderate horizontal translation of the head, roughly 2-4 cm from neutral to a comfortable end-range protraction, emphasizing pure forward/backward glide rather than chin elevation or depression. Kept pain-free and well within available range.",
+  "evidenceLevel": "limited",
+  "emgNotes": "No EMG data specific to this awareness drill. By movement pattern, sternocleidomastoid and scalene activity accompany the forward glide while the deep cervical flexors (longus colli/capitis) go relatively quiet, which is the functional rationale for using the return-to-neutral phase to re-cue deep-flexor control.",
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "upper-cervical-rotation-drill",
+  "name": "Upper Cervical Rotation Drill",
+  "description": "A gentle, controlled drill that isolates rotation at the top of the neck \u2014 the atlanto-axial (C1-C2) joint, which produces roughly half of the head's total turning range. By first tucking the chin to nod the head slightly forward, the lower neck segments are \"locked out,\" so the small rotation that remains happens almost entirely at the upper cervical joints. The head then turns side to side through a short, comfortable arc while the eyes and jaw stay relaxed. It is trained for mobility and motor control rather than strength.",
+  "rationale": "Roughly 45-50% of total cervical rotation occurs at a single joint, the atlanto-axial (C1-C2) segment, and pre-positioning the neck in upper-cervical flexion (a chin nod) biomechanically limits rotation of the lower segments so that movement is concentrated there. This is the same principle behind the cervical flexion-rotation test, which has good reliability and diagnostic validity for identifying upper-cervical rotation restriction, particularly in cervicogenic headache populations. That diagnostic evidence is stronger than the evidence that a self-administered rotation drill measurably improves range or symptoms: direct trial evidence for this specific exercise is limited and largely extrapolated from manual-therapy and general neck-mobility studies. The honest framing is mechanistic and low-risk \u2014 it targets a real, commonly under-mobilized segment and offers a body-awareness benefit \u2014 rather than a claim of proven outcomes. It is appropriate as an accessible mobility and awareness drill for people who never train fine neck movement, and it should be pain-free and free of dizziness; symptoms such as dizziness, nausea, or visual disturbance are a reason to stop and seek assessment.",
+  "category": "mobility",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [],
+  "movementSlugs": [
+   "cervical-rotation-upper",
+   "cervical-rotation",
+   "cervical-flexion-upper"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "primary",
+    "notes": "Obliquus capitis inferior is the prime rotator of the atlas (C1) on the axis (C2); the suboccipital group drives and finely controls the isolated upper-cervical (C1-C2) turn this drill targets."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "secondary",
+    "notes": "Major ipsilateral (same-side) rotator of the head; a genuine mover of the turn, secondary to the segmental suboccipital prime mover."
+   },
+   {
+    "muscleSlug": "sternocleidomastoid",
+    "role": "secondary",
+    "notes": "Unilateral contraction produces contralateral (opposite-side) rotation with ipsilateral side-bend; the opposite-side SCM co-acts with the same-side rotators to steer the head."
+   },
+   {
+    "muscleSlug": "splenius-cervicis",
+    "role": "synergist",
+    "notes": "Assists same-side cervical rotation, supporting the primary rotators."
+   },
+   {
+    "muscleSlug": "levator-scapulae",
+    "role": "synergist",
+    "notes": "With the scapula fixed, its C1-C4 attachments contribute a small assist to ipsilateral rotation; minor contributor to the isolated upper-cervical segment."
+   },
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "stabilizer",
+    "notes": "Hold the gentle chin-nod (upper-cervical flexion) that pre-positions and locks the lower segments so rotation is isolated to C1-C2."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Cervical multifidus provides segmental stability during the small, controlled turn."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "external",
+    "text": "Imagine a thin skewer running straight up through the crown of your head; turn to slide your gaze along a wall, keeping that skewer vertical."
+   },
+   {
+    "cueType": "internal",
+    "text": "First make a subtle chin nod, as if saying a small 'yes,' then turn \u2014 this locks the lower neck so the top of the neck does the work."
+   },
+   {
+    "cueType": "constraint",
+    "text": "Stay inside a pain-free, dizziness-free arc; you should feel the turn happen high, just below the base of the skull, not a big sweep of the whole neck."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly \u2014 about two to three seconds to turn, pause a beat at the end, and return with control; let the jaw, tongue, and shoulders stay soft."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Eyes-lead micro-rotation",
+    "description": "Let the eyes look toward the direction of turn first and allow the head to follow only a few degrees. Reducing range and letting gaze initiate lowers the demand and helps people who feel stiff or wary find the movement safely."
+   },
+   {
+    "name": "Supported head on backrest",
+    "description": "Sit against a high chair back or headrest so the skull is lightly supported, removing the need to hold head weight and letting the person focus only on the small turn."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "End-range gentle hold",
+    "description": "Turn to the comfortable end of the upper-cervical arc and hold 5-10 seconds, breathing easily, to build tolerance and range at the segment before returning."
+   },
+   {
+    "name": "Supine flexion-locked rotation",
+    "description": "Perform lying on your back with the head lifted into a chin nod (upper cervical flexion) held throughout; removing gravity assist and increasing the flexion lock more precisely isolates C1-C2 rotation and raises control demand."
+   }
+  ],
+  "dosing": "Perform 1-2 sets of 5-8 slow rotations per side, once or twice daily. Move only within a pain-free, dizziness-free range; quality and control matter more than range or repetitions. Stop and reassess if you feel dizziness, nausea, visual changes, or arm symptoms.",
+  "evidenceLevel": "limited",
+  "startPosition": "Seated tall with feet flat, spine in a neutral upright posture, shoulders relaxed, and gaze level to the horizon. Make a small chin nod (a subtle 'yes' motion) to bring the upper neck into slight flexion, keeping the rest of the spine still.",
+  "endPosition": "Head rotated toward one side through a short upper-cervical arc \u2014 the nose and eyes have turned while the chin-nod is maintained and the shoulders and trunk stay square and still \u2014 then returned smoothly to the neutral forward-facing start before repeating to the other side.",
+  "rom": "Aim for a small, controlled arc of roughly 30-45 degrees of rotation to each side at the atlanto-axial (C1-C2) segment; the flexion-locked position intentionally limits total range so movement concentrates at the upper neck. Keep strictly within a comfortable, symptom-free range rather than chasing a target number.",
+  "unmappedWanted": [
+   "obliquus-capitis-inferior",
+   "rectus-capitis-posterior-major"
+  ],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "seated-cervical-flexion-arom",
+  "name": "Seated Cervical Flexion AROM",
+  "description": "A seated active range-of-motion drill in which you slowly nod and lower your chin toward your chest, moving the neck through its available forward-bending range under your own muscle control, then return to neutral. It is a gentle, low-load way to maintain or restore how far the neck can flex and to keep the joints and soft tissues of the cervical spine moving comfortably.",
+  "rationale": "Cervical flexion AROM is a foundational self-assessment and mobility drill: the person actively moves through their own available range without external force, which makes it safe, self-limiting, and easy to teach. Clinically it is used to maintain or restore forward-bending range, to keep articular and soft-tissue structures moving after stiffness or a sedentary posture, and as a warm-up before more demanding neck or postural work. The evidence base is honest and modest \u2014 active range-of-motion exercise for the cervical spine is supported mainly by clinical practice guidelines, expert consensus, and general principles that unloaded, pain-free motion helps preserve mobility and reduce fear of movement, rather than by high-quality trials isolating this specific movement. Normal active cervical flexion is commonly cited around 45-50 degrees, giving a rough reference, but individual range varies and the goal is comfortable, symmetric motion rather than hitting a number. It is not a strengthening exercise; loading and endurance of the deep cervical flexors are addressed by separate craniocervical flexion training. Caution is warranted where full flexion is contraindicated (e.g., known cervical instability, recent trauma, or symptoms of myelopathy), so screening precedes prescription.",
+  "category": "mobility",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [],
+  "movementSlugs": [
+   "cervical-flexion",
+   "cervical-flexion-upper"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "primary",
+    "notes": "Longus colli and longus capitis are the true prime movers, initiating and controlling the nod to produce segmental cervical flexion."
+   },
+   {
+    "muscleSlug": "sternocleidomastoid",
+    "role": "primary",
+    "notes": "Bilateral contraction is a powerful flexor of the lower cervical spine, carrying the head forward through range."
+   },
+   {
+    "muscleSlug": "scalenes",
+    "role": "synergist",
+    "notes": "Anterior and middle scalenes assist forward bending and stabilize the lower cervical segments."
+   },
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "lengthening",
+    "notes": "Stretched at end range as the upper cervical spine nods into flexion."
+   },
+   {
+    "muscleSlug": "semispinalis-capitis",
+    "role": "lengthening",
+    "notes": "Posterior extensor that lengthens and works eccentrically to control the descent as the head flexes forward under gravity."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "lengthening",
+    "notes": "Posterior neck extensor placed on stretch as the chin lowers toward the chest."
+   },
+   {
+    "muscleSlug": "upper-trapezius",
+    "role": "lengthening",
+    "notes": "Its occipital/nuchal attachment lengthens over the back of the neck as the head flexes forward."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Sit tall with your back supported or self-supported, feet flat, and shoulders relaxed down away from your ears."
+   },
+   {
+    "cueType": "movement",
+    "text": "Start the motion as a gentle nod, tucking the chin slightly, then let the chin travel smoothly down toward your chest through the range that feels comfortable."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly and under control \u2014 take about 2-3 seconds to lower and the same to return; never let the head drop or bounce."
+   },
+   {
+    "cueType": "limit",
+    "text": "Go only to the point of a gentle stretch or mild resistance, staying out of pain, dizziness, or tingling, then return to a level, neutral head position."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Partial-range nod",
+    "description": "Move only through the first third of the range \u2014 a small chin nod \u2014 to build comfort and confidence before progressing to fuller flexion, useful when the neck is stiff, sore, or guarded."
+   },
+   {
+    "name": "Supported head start",
+    "description": "Perform against a high-backed chair or with a hand lightly supporting the back of the head so the neck extensors do less eccentric work and the motion feels safer."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "End-range hold",
+    "description": "Hold the comfortable end-range flexion position for 3-5 seconds each repetition to gently sustain the stretch on the posterior neck tissues and reinforce range."
+   },
+   {
+    "name": "Flexion into functional/postural control",
+    "description": "Combine full flexion AROM with a controlled return through a chin-tuck and tall-neutral posture, or progress toward loaded deep neck flexor training (e.g., craniocervical flexion) to add endurance and control."
+   }
+  ],
+  "dosing": "Perform 5-10 slow, controlled repetitions, 1-3 times per day, moving only within a comfortable, pain-free range. Optionally hold end range 3-5 seconds. Stop and reassess if the movement provokes dizziness, radiating symptoms, or increasing pain.",
+  "startPosition": "Seated tall with a neutral head and neck (ears stacked over shoulders), gaze forward, jaw and shoulders relaxed, feet flat on the floor.",
+  "endPosition": "Chin lowered toward the chest with the neck flexed forward through the available comfortable range, upper cervical spine nodded into flexion, before returning to the neutral start position.",
+  "rom": "Full available active cervical flexion, from neutral (0 degrees) toward roughly 45-50 degrees in a typical adult, limited to the comfortable, pain-free range rather than a fixed target.",
+  "evidenceLevel": "limited",
+  "emgNotes": "No exercise-specific EMG data referenced; muscle roles are assigned from functional anatomy of cervical flexion rather than measured activation.",
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "upper-cervical-extension-control",
+  "name": "Upper Cervical Extension Control",
+  "description": "A slow, small-range motor-control drill that trains you to extend the head at the top of the neck (the skull rocking back on the first vertebra) while keeping the lower neck quiet. Starting from a gentle chin tuck, you nod the head backward a short distance as if tipping your gaze up toward the ceiling, then return under control. The goal is precision and dissociation, not range or load.",
+  "rationale": "Upper cervical (capital) extension happens mainly at the atlanto-occipital and atlanto-axial joints and is driven by the suboccipital muscles and the capital extensors. In everyday sustained postures these deep segmental muscles are rarely trained through deliberate, isolated control, and people often substitute lower-cervical hinging (a \"chin poke\") when they try to look up. Teaching a person to extend just the top of the neck while keeping the mid/lower cervical spine neutral is a reasonable way to build craniocervical awareness and motor control, and it pairs naturally with deep neck flexor training as its antagonist. Honest evidence note: the strongest neck motor-control evidence sits with the craniocervical FLEXION test/training (deep neck flexors) in people with neck pain and cervicogenic headache. Direct, high-quality trials isolating upper cervical EXTENSION control are sparse, so the rationale here rests on applied anatomy, kinematics, and clinical reasoning rather than robust RCT evidence. It is best viewed as a foundational, low-risk awareness and control drill rather than a proven treatment for a specific diagnosis. Anyone with dizziness, upper cervical instability, vertebrobasilar symptoms, or recent trauma should avoid loaded or end-range extension and be screened first.",
+  "category": "motor-control",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [
+   "none"
+  ],
+  "movementSlugs": [
+   "cervical-extension-upper",
+   "cervical-extension"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "primary",
+    "notes": "Rectus capitis posterior major/minor and obliquus capitis superior produce and finely control extension of the occiput on the atlas; spindle-rich, they are the key proprioceptive drivers of this drill."
+   },
+   {
+    "muscleSlug": "semispinalis-capitis",
+    "role": "synergist",
+    "notes": "Capital extensor assisting the head tip-back; keep light so movement stays at the upper segments rather than becoming whole-neck extension."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "synergist",
+    "notes": "Assists capital extension; cue it to stay relaxed to avoid substituting gross neck extension for isolated upper cervical control."
+   },
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "lengthening",
+    "notes": "Longus capitis/colli lengthen as the head extends and gently decelerate the return, providing antagonist control that keeps the lower neck neutral."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "external-focus",
+    "text": "Imagine a small marble balanced on the tip of your nose and slowly roll it up toward the ceiling, then roll it back to level."
+   },
+   {
+    "cueType": "dissociation",
+    "text": "Keep the lower neck long and still, like a mannequin from the shoulders to the jaw. Only the head, above the ears, tips back."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly, about 3 seconds up and 3 seconds down, so you can feel the top of the neck working rather than swinging into it."
+   },
+   {
+    "cueType": "safety",
+    "text": "Stay in a small, comfortable range. Stop short of any pinching, dizziness, or lightheadedness rather than pushing to end range."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Supine, head supported",
+    "description": "Lie on your back with the head resting on the surface or a folded towel. Perform tiny occipital nods (rocking the base of the skull) with gravity removed, so you can find the movement without holding the head's weight."
+   },
+   {
+    "name": "Guided partial range with a mirror",
+    "description": "Reduce to just the first few degrees of the nod while watching in a mirror, using visual feedback to confirm the lower neck stays still and only the head tips."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "End-range hold with breath",
+    "description": "Move to a controlled upper cervical extension and hold 3-5 seconds while breathing normally, building endurance of the suboccipital extensors at the position where control is hardest."
+   },
+   {
+    "name": "Light self-overpressure / gravity load in prone-on-elbows",
+    "description": "Progress to prone on forearms or add a fingertip of self-resistance at the back of the head so the capital extensors work against a small load, keeping the same slow, dissociated quality."
+   }
+  ],
+  "dosing": "Start with 1-2 sets of 8-10 slow, controlled reps, once or twice daily, prioritizing quality over quantity. Progress toward 2-3 sets and add 3-5 second end-range holds as control improves. Stop the set if fatigue causes the lower neck to take over or any symptoms appear.",
+  "startPosition": "Sitting tall with the ribcage stacked over the pelvis, shoulders relaxed, and a gentle chin tuck so the head is level and the neck is long (ears over shoulders).",
+  "endPosition": "Head tipped a short distance into upper cervical extension (skull rocked back on the atlas so the gaze lifts slightly toward the ceiling), while the mid and lower neck remain in neutral, uncollapsed alignment.",
+  "rom": "Small, controlled arc of upper cervical (occiput-on-atlas) extension, roughly 10-20 degrees, isolated from the lower cervical spine; avoid the larger whole-neck extension that comes from hinging at the base of the neck.",
+  "evidenceLevel": "limited",
+  "emgNotes": "No exercise-specific EMG data is cited here; the suboccipital muscles are deep and small and are not readily or reliably captured by surface EMG, so muscle roles are assigned from applied anatomy and kinematics rather than measured activation.",
+  "unmappedWanted": [
+   "rectus-capitis-posterior-major",
+   "rectus-capitis-posterior-minor",
+   "obliquus-capitis-superior",
+   "longissimus-capitis",
+   "longus-capitis"
+  ],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "radial-deviation-strengthening",
+  "name": "Radial Deviation Strengthening",
+  "description": "A targeted wrist exercise that trains radial deviation \u2014 tilting the hand toward the thumb side. Sitting with the forearm supported and the thumb pointing up, you hold a light weight (or a hammer gripped near its head) and raise the hand upward through a small arc, then lower it slowly. It isolates the radial wrist muscles that are rarely trained directly, building strength and control at a joint most people only ever move incidentally.",
+  "rationale": "Radial deviation is produced by the radial wrist muscles co-contracting: the flexor carpi radialis and extensor carpi radialis longus pull the hand thumb-ward while their opposing flexion/extension moments largely cancel, with contributions from the thumb's radial abductors/extensors (abductor pollicis longus, extensor pollicis brevis/longus). Strengthening it is grounded primarily in wrist anatomy and long-standing clinical practice rather than a large body of trial evidence \u2014 direct randomized trials on isolated radial deviation strengthening in healthy people are sparse, so the evidence is best described as limited/mechanistic. It is a reasonable, low-risk addition for building balanced wrist strength, addressing a commonly under-trained direction, and supporting demands like racket/club sports and tool use. One honest caution: because radial deviation loads the first dorsal compartment tendons (APL/EPB), it should be introduced gently and is often modified or deferred in people with De Quervain's-type radial wrist pain.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [
+   "dumbbell",
+   "hammer",
+   "resistance band"
+  ],
+  "movementSlugs": [
+   "radial-deviation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "flexor-carpi-radialis",
+    "role": "primary",
+    "notes": "Radial wrist flexor; forms the FCR-ECRL couple whose flexion/extension moments cancel while radial-deviation moments sum."
+   },
+   {
+    "muscleSlug": "extensor-carpi-radialis-longus",
+    "role": "primary",
+    "notes": "Radial wrist extensor; co-contracts with FCR to produce pure radial deviation."
+   },
+   {
+    "muscleSlug": "extensor-carpi-radialis-brevis",
+    "role": "secondary",
+    "notes": "Assists radial deviation and wrist extension."
+   },
+   {
+    "muscleSlug": "abductor-pollicis-longus",
+    "role": "secondary",
+    "notes": "First dorsal compartment; crosses the wrist radially and contributes to deviation."
+   },
+   {
+    "muscleSlug": "extensor-pollicis-brevis",
+    "role": "secondary",
+    "notes": "First dorsal compartment; adds to the radial pull alongside APL."
+   },
+   {
+    "muscleSlug": "brachioradialis",
+    "role": "stabilizer",
+    "notes": "Does not cross the wrist but positions/stabilizes the forearm in neutral rotation during the lift."
+   },
+   {
+    "muscleSlug": "extensor-carpi-ulnaris",
+    "role": "lengthening",
+    "notes": "Ulnar-side antagonist; lengthens during radial deviation and eccentrically controls the return."
+   },
+   {
+    "muscleSlug": "flexor-carpi-ulnaris",
+    "role": "lengthening",
+    "notes": "Ulnar-side antagonist; lengthens during radial deviation and decelerates the return to neutral."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Rest your forearm on a table or your thigh with the wrist just past the edge, thumb pointing up toward the ceiling (forearm in neutral, not palm-up or palm-down)."
+   },
+   {
+    "cueType": "external-focus",
+    "text": "Imagine tilting the weight up toward the sky using only the hand \u2014 the forearm stays quiet and glued to the surface."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Lift smoothly over about 2 seconds, pause at the top, then lower slowly over 3 seconds; the slow return is where much of the work happens."
+   },
+   {
+    "cueType": "form",
+    "text": "Keep the motion small and pain-free \u2014 a couple inches of travel is plenty. Sharp pain on the thumb side means stop and lighten the load."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "No-weight active deviation",
+    "description": "Perform the same thumb-up tilting motion with an empty hand or just the weight of the hand, grooving the movement pattern before adding load."
+   },
+   {
+    "name": "Isometric radial hold",
+    "description": "Press the thumb side of a loose fist gently up into your other hand or a fixed surface and hold 5-10 seconds, building strength with no joint movement \u2014 useful if motion is irritating."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Weighted hammer / long-lever load",
+    "description": "Grip a hammer or wrench near the head so the weight sits far from the hand, dramatically increasing the leverage demand at the same modest load."
+   },
+   {
+    "name": "Standing banded radial deviation",
+    "description": "Anchor a resistance band low and pull the hand thumb-ward while standing, adding a functional standing posture and continuous band tension through the range."
+   }
+  ],
+  "dosing": "2-3 sets of 12-15 slow, controlled reps per wrist, 2-3 times per week. Start with a very light load (1-3 lb or a light band) and progress load only when the full range is smooth and pain-free. Rest ~60 seconds between sets.",
+  "evidenceLevel": "limited",
+  "startPosition": "Seated with the forearm supported on a table or thigh, wrist and hand hanging just past the edge, forearm in neutral rotation so the thumb points up. Hold a light dumbbell or hammer with a relaxed grip; the hand starts deviated slightly toward the ulnar (little-finger) side.",
+  "endPosition": "The hand has tilted upward toward the thumb side (radial deviation), forearm still resting and unmoved, weight raised at the top of a short controlled arc before slowly returning to the start.",
+  "rom": "Small active range \u2014 roughly 15-20 degrees of radial deviation, which is near the anatomical limit for this direction. Move only as far as is smooth and pain-free rather than forcing end range.",
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "ulnar-deviation-strengthening",
+  "name": "Ulnar Deviation Strengthening",
+  "description": "A targeted wrist exercise that trains the muscles moving the hand toward the little-finger side (ulnar deviation). With the forearm supported and thumb pointing up, you hold a light weight and slowly tilt the hand downward toward the floor, then control it back up. It isolates a small, rarely-trained motion that stabilizes the wrist during gripping, carrying, and tool use.",
+  "rationale": "Ulnar deviation is produced primarily by a force couple between the flexor carpi ulnaris (palm side) and extensor carpi ulnaris (back side) pulling the wrist toward the little finger. These muscles are also key dynamic stabilizers of the ulnar wrist and the distal radioulnar joint, so building capacity here is commonly used in rehab for TFCC irritation, ulnar-sided wrist pain, and general wrist/grip conditioning. Direct high-quality trial evidence for isolated ulnar deviation strengthening as a standalone intervention is limited; the strongest support is anatomical and biomechanical, plus its inclusion in broader wrist-strengthening and grip programs. It is best viewed as a low-risk accessory movement grounded in muscle function rather than a treatment with its own robust outcome data. Progressive resistance and specificity principles (train the motion you want to strengthen) reasonably apply. Load should stay light because the moment arm is short and the deviator muscles are small.",
+  "category": "strength",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [
+   "dumbbell",
+   "resistance-band",
+   "hammer"
+  ],
+  "movementSlugs": [
+   "ulnar-deviation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "flexor-carpi-ulnaris",
+    "role": "primary",
+    "notes": "Palmar-side ulnar deviator; pulls the wrist toward the little finger and stabilizes the ulnar wrist."
+   },
+   {
+    "muscleSlug": "extensor-carpi-ulnaris",
+    "role": "primary",
+    "notes": "Dorsal-side ulnar deviator working as a force couple with FCU; key dynamic stabilizer of the distal radioulnar joint."
+   },
+   {
+    "muscleSlug": "flexor-digitorum-profundus",
+    "role": "stabilizer",
+    "notes": "Not a wrist deviator; contributes only by gripping the load/hand position during resisted ulnar deviation. Downgraded from synergist."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Rest your forearm on a table with the wrist and hand hanging off the edge, thumb pointing toward the ceiling."
+   },
+   {
+    "cueType": "external-focus",
+    "text": "Tilt the weight straight down toward the floor as if pouring from a pitcher, keeping the forearm still."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Lower for about two seconds, then raise back to level under control; do not let it drop or swing."
+   },
+   {
+    "cueType": "form",
+    "text": "Keep the movement at the wrist only, no forearm rotation or finger clenching, and stay well short of any sharp ulnar-wrist pain."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "No-weight active deviation",
+    "description": "Perform the same wrist tilt with an empty hand or just the weight of the hand to groove the motion before adding load."
+   },
+   {
+    "name": "Neutral supported band",
+    "description": "Anchor a light resistance band and perform the deviation with the forearm fully supported and a shorter range to reduce demand."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Leveraged hammer or off-center load",
+    "description": "Hold a hammer or dumbbell by the end so the weight sits farther from the hand, increasing the lever and resistance without heavier absolute load."
+   },
+   {
+    "name": "Eccentric-emphasis reps",
+    "description": "Slow the lowering phase to 3-4 seconds and add reps to build controlled ulnar-wrist strength and tendon tolerance."
+   }
+  ],
+  "dosing": "2-3 sets of 12-15 slow, controlled reps per wrist, performed 3-4 days per week. Use a light load (often 1-3 lb to start) that keeps the last 2-3 reps challenging but pain-free; progress load or lever length gradually once the target reps feel easy and symptom-free.",
+  "evidenceLevel": "limited",
+  "startPosition": "Seated with the forearm resting on a table, palm facing inward and thumb pointing up (forearm in neutral), hand and wrist hanging just past the table edge holding a light weight. The wrist begins in a neutral, level position aligned with the forearm.",
+  "endPosition": "The hand has tilted downward toward the floor into ulnar deviation (little-finger side moving toward the wrist), forearm remaining flat and still on the table, then returns under control to the level starting position.",
+  "rom": "Roughly 0 to 25-30 degrees of ulnar deviation, moving only within a comfortable, pain-free range; healthy wrists allow up to about 30-35 degrees.",
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "dart-throwers-motion",
+  "name": "Dart Thrower's Motion",
+  "category": "functional",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "description": "A controlled wrist movement along the natural diagonal (oblique) plane the wrist prefers for everyday tasks. The hand travels from a \"cocked-back\" position of radial deviation with slight extension (thumb up and back) to ulnar deviation with slight flexion (little-finger side down and in), tracing the arc used when throwing a dart, swinging a hammer, or pouring from a jug. The forearm stays still while all motion happens at the wrist.",
+  "rationale": "The dart-thrower's motion (DTM) is one of the best-described planes in wrist biomechanics. Kinematic and cadaveric studies (e.g., work by Moritomo, Crisco, Wolfe and colleagues) show it is the functional plane the wrist uses for most power and precision tasks, and that during DTM the proximal carpal row (scaphoid and lunate) moves comparatively little while most motion occurs at the midcarpal joint. Because of this, DTM places relatively low strain across the scapholunate interval, which is the rationale for its wide use as an early, protected rehabilitation motion after scapholunate ligament injury, distal radius fracture, and scaphoid fracture/repair. The biomechanical evidence for the movement itself is strong; the evidence that DTM-based rehab improves clinical outcomes versus standard cardinal-plane exercise is still limited and largely drawn from small studies and expert consensus, so it is best framed as a biomechanically-grounded, well-reasoned choice rather than a proven superior protocol. For the general population it is valuable simply as a commonly untrained, real-world plane of wrist motion that builds coordinated control most people never practice in isolation.",
+  "evidenceLevel": "moderate",
+  "startPosition": "Seated with the forearm resting on a table, elbow bent about 90 degrees and the forearm in a neutral (thumb-up) or lightly supinated position so the wrist is free past the table edge. Begin with the wrist \"cocked back\": radially deviated and slightly extended, so the thumb side lifts up and back, as if drawing a hammer back before a strike.",
+  "endPosition": "The wrist moves smoothly along the diagonal into ulnar deviation with slight flexion, dropping the little-finger side of the hand down and inward, as if swinging the hammer down to strike a nail. The forearm has not moved; only the wrist has traveled through the arc. Reverse slowly to return to the start.",
+  "rom": "Oblique plane roughly 45 degrees to the sagittal and frontal planes: from about 20-30 degrees of radial deviation with slight extension to about 20-30 degrees of ulnar deviation with slight flexion. Stay within a comfortable, pain-free arc; the full available range is normal to feel small at first.",
+  "movementSlugs": [
+   "radial-deviation",
+   "ulnar-deviation",
+   "wrist-extension",
+   "wrist-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "extensor-carpi-radialis-longus",
+    "role": "primary",
+    "notes": "Extends and radially deviates the wrist to cock it back into the radial-extended start of the DTM arc."
+   },
+   {
+    "muscleSlug": "extensor-carpi-radialis-brevis",
+    "role": "primary",
+    "notes": "Prime extensor for the radial/extended end of the plane; a principal power source for DTM."
+   },
+   {
+    "muscleSlug": "flexor-carpi-ulnaris",
+    "role": "primary",
+    "notes": "Flexes and ulnarly deviates as the wrist swings down and in; the main diagonal partner of the radial extensors."
+   },
+   {
+    "muscleSlug": "extensor-carpi-ulnaris",
+    "role": "stabilizer",
+    "notes": "Its extension-plus-ulnar-deviation pull is off the DTM diagonal; co-contracts to keep the wrist on the dart-thrower plane rather than driving the arc."
+   },
+   {
+    "muscleSlug": "flexor-carpi-radialis",
+    "role": "stabilizer",
+    "notes": "Flexion-plus-radial-deviation pull is off-plane relative to the DTM diagonal; co-contracts to control the path rather than power the movement."
+   },
+   {
+    "muscleSlug": "abductor-pollicis-longus",
+    "role": "secondary",
+    "notes": "Assists wrist radial deviation, helping lift the thumb side into the cocked-back radial-extended start position."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "imagery",
+    "text": "Think of drawing a hammer back and up, then swinging it down and in to tap a nail. Your hand follows that same diagonal both ways."
+   },
+   {
+    "cueType": "constraint",
+    "text": "Keep the forearm glued to the table. All the motion should come from the wrist, not from rolling or lifting the forearm."
+   },
+   {
+    "cueType": "path",
+    "text": "Travel along the diagonal, not straight up-and-down. The thumb side leads upward, the little-finger side leads downward."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Move slowly and smoothly, pausing briefly at each end. Control the return just as much as the way out; no flicking or momentum."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Active-assisted DTM",
+    "description": "Use the opposite hand to gently guide the wrist through the diagonal arc, sharing the effort. Useful early after injury or when the plane feels unfamiliar and hard to isolate."
+   },
+   {
+    "name": "Gravity-minimized short arc",
+    "description": "Rest the forearm palm-down flat on the table and glide only through a small, comfortable portion of the diagonal, reducing the extension/flexion demand. Grow the range as coordination and comfort improve."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Loaded DTM (hammer or light dumbbell)",
+    "description": "Hold a light hammer or 1-2 lb dumbbell so its weight adds resistance to the arc, biasing the radial-extension and ulnar-flexion moments. Increase load gradually while keeping the forearm still and the motion clean."
+   },
+   {
+    "name": "Speed and power DTM",
+    "description": "Once the range is well controlled and pain-free, progress to faster, more forceful repetitions to build power for sport and daily impact tasks (throwing, racquet strokes, hammering). Emphasize crisp control at both ends of the arc."
+   }
+  ],
+  "dosing": "2-3 sets of 10-15 slow, controlled repetitions, once daily or every other day. In a rehab context, begin pain-free and within a protected range as guided by the treating clinician, then progress range, load, and speed as tolerated.",
+  "equipment": [],
+  "unmappedWanted": [],
+  "provenance": "claude-researched"
+ },
+ {
+  "slug": "wrist-circles-arom",
+  "name": "Wrist Circles (AROM)",
+  "description": "A gentle active range-of-motion drill in which the hand is drawn through slow, full circles at the wrist, blending flexion, extension, radial deviation, and ulnar deviation into one continuous circumduction. It is used to maintain or restore wrist mobility, warm up the joint before loading, and reintroduce comfortable movement after stiffness, immobilization, or long periods of static postures such as typing.",
+  "rationale": "Active range-of-motion (AROM) exercises like wrist circles are a long-standing, low-risk staple of rehabilitation used to preserve joint mobility, promote synovial fluid movement, and reduce stiffness, particularly early after injury or immobilization when loading is not yet appropriate. The mechanistic reasoning is sound and clinically accepted: moving a joint through its available range maintains capsular and tendon excursion and provides sensory input without imposing significant load. However, the direct evidence for wrist circles specifically is limited. There are no high-quality randomized trials isolating this drill; support comes largely from clinical convention, expert consensus, and extrapolation from broader AROM and early-mobilization literature. AROM is best understood as a mobility-maintenance and symptom-management tool rather than a driver of strength or lasting range gains, which typically require progressive loading or sustained stretching. Circumduction should stay within a pain-free arc; it is not a treatment for acute wrist fractures, unstable joints, or conditions where motion is contraindicated without clearance.",
+  "category": "mobility",
+  "difficulty": "beginner",
+  "bodyPosition": "seated",
+  "equipment": [],
+  "movementSlugs": [
+   "wrist-flexion",
+   "wrist-extension",
+   "radial-deviation",
+   "ulnar-deviation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "flexor-carpi-radialis",
+    "role": "primary",
+    "notes": "Drives the flexion and radial-deviation portion of the circle."
+   },
+   {
+    "muscleSlug": "flexor-carpi-ulnaris",
+    "role": "primary",
+    "notes": "Contributes to flexion and ulnar deviation through the arc."
+   },
+   {
+    "muscleSlug": "extensor-carpi-radialis-longus",
+    "role": "primary",
+    "notes": "Drives extension and radial deviation."
+   },
+   {
+    "muscleSlug": "extensor-carpi-radialis-brevis",
+    "role": "primary",
+    "notes": "Primary wrist extensor active through the extension phase."
+   },
+   {
+    "muscleSlug": "extensor-carpi-ulnaris",
+    "role": "primary",
+    "notes": "Produces extension and ulnar deviation."
+   },
+   {
+    "muscleSlug": "palmaris-longus",
+    "role": "synergist",
+    "notes": "Assists wrist flexion when present (absent in a portion of the population)."
+   },
+   {
+    "muscleSlug": "extensor-digitorum",
+    "role": "synergist",
+    "notes": "Crosses the wrist and assists the extension phase while fingers stay relaxed; not a true stabilizer since the wrist is the moving joint."
+   },
+   {
+    "muscleSlug": "flexor-digitorum-superficialis",
+    "role": "synergist",
+    "notes": "Crosses the wrist and lightly assists the flexion phase of circumduction; reclassified from stabilizer for the same reason."
+   }
+  ],
+  "cues": [
+   {
+    "cueType": "setup",
+    "text": "Rest your forearm on a table or your thigh so only the hand hangs free past the edge, keeping the elbow and shoulder still."
+   },
+   {
+    "cueType": "tempo",
+    "text": "Trace slow, smooth circles as if stirring a pot, spending a full breath or two on each rotation rather than flicking quickly."
+   },
+   {
+    "cueType": "range",
+    "text": "Reach for the largest pain-free circle you can make, gently exploring the end of comfortable range without forcing past a sharp or pinching sensation."
+   },
+   {
+    "cueType": "form",
+    "text": "Let the fingers stay soft and relaxed so the motion happens at the wrist, then reverse direction for an equal number of circles."
+   }
+  ],
+  "regressions": [
+   {
+    "name": "Partial-arc arcs",
+    "description": "Move through only the comfortable top or bottom half of the circle, or perform separate flexion/extension and side-to-side glides instead of a full loop, keeping every rep pain-free."
+   },
+   {
+    "name": "Supported / assisted circles",
+    "description": "Use the opposite hand to gently guide the moving wrist through the circle, reducing the demand on the wrist muscles during early or post-immobilization stages."
+   }
+  ],
+  "progressions": [
+   {
+    "name": "Unsupported forearm",
+    "description": "Perform the circles with the forearm held in the air rather than resting on a surface, adding light postural demand to the forearm and shoulder."
+   },
+   {
+    "name": "Light-load circumduction",
+    "description": "Hold a very light object such as a small can or 1 to 2 lb weight to progress toward loaded mobility once full pain-free range is comfortable."
+   }
+  ],
+  "dosing": "Perform 8 to 12 slow circles in each direction, 1 to 3 sets, once or twice daily. Use as a warm-up before wrist or grip activity, or as a movement break during prolonged static hand postures. Keep all motion within a pain-free range; mild stretch is acceptable, sharp pain is not.",
+  "evidenceLevel": "expert-opinion",
+  "startPosition": "Seated with the forearm supported on a table or thigh, wrist and hand hanging just past the edge in a neutral, relaxed position with fingers softly extended.",
+  "endPosition": "Wrist returns to the neutral starting position after completing an equal number of smooth circles in each direction, forearm still supported.",
+  "rom": "Full available circumduction combining wrist flexion (approx. 0-80 degrees), extension (approx. 0-70 degrees), radial deviation (approx. 0-20 degrees), and ulnar deviation (approx. 0-30 degrees), performed only within the individual's pain-free range.",
+  "provenance": "claude-researched"
+ }
+]

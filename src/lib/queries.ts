@@ -294,9 +294,12 @@ export async function getExercise(slug: string) {
       functionalTasks: {
         include: { functionalTask: true },
       },
+      goals: {
+        include: { goal: { select: { slug: true, name: true, goalType: true } } },
+      },
       cues: { orderBy: { order: "asc" } },
-      regressions: { orderBy: { order: "asc" } },
-      progressions: { orderBy: { order: "asc" } },
+      regressions: { orderBy: { order: "asc" }, include: { targetExercise: { select: { slug: true, name: true } } } },
+      progressions: { orderBy: { order: "asc" }, include: { targetExercise: { select: { slug: true, name: true } } } },
       sources: { include: { source: true } },
       tags: { include: { tag: true } },
     },
@@ -898,6 +901,8 @@ export const allExerciseSlugs = async () =>
   (await prisma.exercise.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
 export const allSourceSlugs = async () =>
   (await prisma.researchSource.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
+export const allGoalSlugs = async () =>
+  (await prisma.goal.findMany({ select: { slug: true } })).map((r) => ({ slug: r.slug }));
 
 // ─── Sources ─────────────────────────────────────────────────────────────────
 
@@ -992,4 +997,62 @@ export async function getValidationQueue() {
     lowConfidence: formatItems(lowConfidenceItems, "low-confidence"),
     needsReview: formatItems(needsReviewItems, "needs-review"),
   };
+}
+
+// Score-ranked exercise worklist: the lowest-scoring exercises first, each with
+// its weakest dimension and any unresolved audit flags surfaced so a reviewer
+// knows exactly what to fix. This is the actionable companion to getValidationQueue.
+export async function getExerciseWorklist() {
+  const exercises = await prisma.exercise.findMany({
+    select: {
+      slug: true, name: true, status: true, qualityScore: true, scoreBreakdown: true, notes: true, provenance: true,
+      _count: { select: { muscles: true, movements: true, cues: true, sources: true } },
+    },
+    orderBy: [{ qualityScore: "asc" }, { name: "asc" }],
+  });
+
+  return exercises.map((ex) => {
+    const bd = (ex.scoreBreakdown as any) || {};
+    // weakest dimension by fraction of its max
+    const dims = [
+      { key: "evidence", max: 30 }, { key: "coherence", max: 30 },
+      { key: "completeness", max: 25 }, { key: "rigor", max: 15 },
+    ]
+      .map((d) => ({ key: d.key, frac: bd[d.key] ? bd[d.key].score / d.max : 0, notes: bd[d.key]?.notes ?? [] }))
+      .sort((a, b) => a.frac - b.frac);
+    const weakest = dims[0];
+    const notes = ex.notes ?? "";
+    const highFlags = (notes.match(/AUDIT\[high\]/g) || []).length;
+    const medFlags = (notes.match(/AUDIT\[medium\]/g) || []).length;
+    return {
+      slug: ex.slug, name: ex.name, status: ex.status, provenance: ex.provenance,
+      score: ex.qualityScore,
+      weakestDim: weakest?.key,
+      weakestNote: weakest?.notes?.[0] ?? null,
+      noMuscles: ex._count.muscles === 0,
+      noMovements: ex._count.movements === 0,
+      highFlags, medFlags,
+    };
+  });
+}
+
+// ─── Goals ───────────────────────────────────────────────────────────────────
+
+export async function getGoals() {
+  return prisma.goal.findMany({
+    orderBy: [{ goalType: "asc" }, { name: "asc" }],
+    select: { slug: true, name: true, goalType: true, region: true, description: true, _count: { select: { exercises: true } } },
+  });
+}
+
+export async function getGoal(slug: string) {
+  return prisma.goal.findUnique({
+    where: { slug },
+    select: {
+      slug: true, name: true, goalType: true, region: true, description: true,
+      exercises: {
+        include: { exercise: { select: { slug: true, name: true, category: true, difficulty: true, qualityScore: true } } },
+      },
+    },
+  });
 }

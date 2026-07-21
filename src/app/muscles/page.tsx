@@ -11,11 +11,12 @@ export default async function MusclesPage() {
 
       <div className="grid gap-4">
         {muscles.map((m) => (
-          <EntityLink key={m.slug} href={`/muscles/${m.slug}`} className="block no-underline">
-            <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex items-start justify-between">
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-900">{m.name}</h2>
+          <div key={m.slug} className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
+            <div className="flex items-start justify-between">
+              <div>
+                  <h2 className="text-lg font-semibold">
+                    <EntityLink href={`/muscles/${m.slug}`} className="text-gray-900 hover:text-indigo-700 no-underline">{m.name}</EntityLink>
+                  </h2>
                   {m.description && (
                     <p className="mt-1 text-sm text-gray-500 line-clamp-2">{m.description}</p>
                   )}
@@ -30,7 +31,6 @@ export default async function MusclesPage() {
                 </div>
               </div>
             </div>
-          </EntityLink>
         ))}
       </div>
     </div>

@@ -1,6 +1,6 @@
 {
   "name": "body-iq",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,6 +19,12 @@
     "cue:prompts": "tsx scripts/cue-rewrite-prompts.ts",
     "cues:import": "tsx scripts/import-cue-rewrites.ts",
     "pipeline": "tsx scripts/pipeline.ts",
+    "export:fhir": "tsx scripts/export-fhir.ts",
+    "audit:shards": "tsx scripts/export-audit-shards.ts",
+    "audit:import": "tsx scripts/import-audit.ts",
+    "score": "tsx scripts/score-exercises.ts",
+    "ingest:citations": "tsx scripts/ingest-citations.ts",
+    "citations:sync": "tsx scripts/ingest-citations.ts --apply && tsx scripts/score-exercises.ts --promote",
     "validate:agent": "tsx scripts/validate-agent.ts"
   },
   "dependencies": {

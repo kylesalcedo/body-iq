@@ -1,0 +1,2025 @@
+[
+ {
+  "slug": "a-skip-b-skip",
+  "category": "functional",
+  "startPosition": "standing tall, weight on the balls of the feet, ankles dorsiflexed, arms bent ~90\u00b0 at the elbows ready to drive in a running rhythm",
+  "endPosition": "one knee punched up to thigh-horizontal (~90\u00b0 hip flexion) with the stance foot stamping the ground; in B-skip the raised leg then actively extends at the knee and sweeps back into hip extension (hamstring 'paw-back') to strike the ground under the hip",
+  "rom": "cyclical hip flexion 0\u2192~90\u00b0 with rapid ankle plantarflexion push-off; B-skip adds terminal knee extension then active hip extension paw-back through the stance"
+ },
+ {
+  "slug": "a-skip-drill",
+  "category": "functional",
+  "startPosition": "standing tall with a long trunk, foot dorsiflexed, arms bent ~90\u00b0 at the elbows in running posture",
+  "endPosition": "lead knee driven up to thigh-horizontal (~90\u00b0 hip flexion) while the stance foot makes brief, sharp ground contact and pops off",
+  "rom": "cyclical hip flexion 0\u2192~90\u00b0 paired with plantarflexor push-off; short ground-contact skipping cadence"
+ },
+ {
+  "slug": "active-hallux-extension",
+  "category": "motor-control",
+  "startPosition": "seated (or standing) with the foot flat on the floor, all five toes resting down",
+  "endPosition": "big toe (hallux) lifted/extended to end range while the lesser four toes stay pressed firmly into the floor, held 3 s at the top",
+  "rom": "isolated first-MTP extension from 0\u00b0 to comfortable end range (~50\u201370\u00b0); lesser toes held at 0\u00b0 (no motion)"
+ },
+ {
+  "slug": "active-straight-leg-raise",
+  "category": "motor-control",
+  "startPosition": "supine, both legs extended flat on the floor, arms at the sides, pelvis level and both PSIS pressed down equally",
+  "endPosition": "one leg raised straight to ~60\u00b0 hip flexion with the knee held in full extension, while the opposite leg stays pinned flat and the pelvis stays level (no rotation)",
+  "rom": "hip flexion 0\u2192~60\u00b0 of the moving leg with the knee locked in extension; contralateral hip held at neutral"
+ },
+ {
+  "slug": "alfredson-eccentric-heel-drops",
+  "category": "strength",
+  "startPosition": "standing on a step edge with the forefoot on the edge and the affected ankle raised into plantarflexion (heel up), knee locked straight for gastrocnemius bias or bent for soleus bias, free hand resting on a rail",
+  "endPosition": "heel lowered slowly over ~3 s to well below the level of the step into full ankle dorsiflexion",
+  "rom": "eccentric ankle excursion from top-of-plantarflexion through past-neutral dorsiflexion below the step edge (~full available dorsiflexion)"
+ },
+ {
+  "slug": "alternate-nostril-breathing",
+  "category": "breathwork",
+  "startPosition": "seated upright with a tall, quiet spine, one hand raised so the thumb and ring finger can occlude alternate nostrils",
+  "endPosition": "same sustained tall seated posture maintained through the slow inhale-left / exhale-right / inhale-right / exhale-left cycle",
+  "rom": "isometric hold \u2014 minimal joint excursion; motion limited to diaphragmatic and rib-cage respiratory expansion"
+ },
+ {
+  "slug": "ankle-dorsiflexion-plantarflexion-band",
+  "category": "strength",
+  "startPosition": "seated with the leg extended and the shin quiet, resistance band around the forefoot (anchored forward for dorsiflexion, around the sole for plantarflexion), ankle at neutral",
+  "endPosition": "dorsiflexion \u2014 toes pulled up toward the shin to ~20\u00b0; plantarflexion \u2014 ball of the foot pressed down like a gas pedal to ~40\u201350\u00b0, against band resistance",
+  "rom": "isolated ankle dorsiflexion 0\u2192~20\u00b0 and plantarflexion 0\u2192~45\u00b0, shin held still"
+ },
+ {
+  "slug": "ankle-eversion-inversion-strengthening",
+  "category": "strength",
+  "startPosition": "seated with the leg extended and the shin stabilized, resistance band anchored laterally for eversion or medially for inversion, foot in neutral",
+  "endPosition": "eversion \u2014 sole swept outward (little-toe side up) to end range; inversion \u2014 sole swept inward (big-toe side up) to end range, against the band",
+  "rom": "subtalar/ankle eversion 0\u2192~15\u201320\u00b0 and inversion 0\u2192~20\u201330\u00b0, isolated at the ankle"
+ },
+ {
+  "slug": "ankle-inversion-eversion",
+  "category": "strength",
+  "startPosition": "seated with resistance band around the foot and the shin held quiet, foot in neutral",
+  "endPosition": "sole turned inward to end-range inversion, then rolled outward to end-range eversion against band resistance",
+  "rom": "ankle inversion 0\u2192~20\u201330\u00b0 and eversion 0\u2192~15\u201320\u00b0, motion isolated to the foot"
+ },
+ {
+  "slug": "ankle-tip-rocking",
+  "category": "sensory",
+  "startPosition": "standing with feet hip-width apart, weight balanced evenly through both feet",
+  "endPosition": "weight rocked slowly and slightly forward onto the balls of the feet, then back onto the heels, attending to proprioceptive/interoceptive feedback (eyes open or closed)",
+  "rom": "small-amplitude ankle dorsiflexion\u2194plantarflexion weight shift at slow tempo; minimal excursion, attention-focused"
+ },
+ {
+  "slug": "arch-doming",
+  "category": "motor-control",
+  "startPosition": "seated (or standing) with the foot flat on the floor and the toes long and relaxed",
+  "endPosition": "ball of the foot drawn toward the heel so the medial longitudinal arch lifts and the foot 'shortens', toes kept uncurled, held 5 s",
+  "rom": "intrinsic 'short-foot' arch elevation with minimal joint excursion; no toe flexion/extension"
+ },
+ {
+  "slug": "back-squat",
+  "category": "strength",
+  "startPosition": "standing with the barbell racked across the upper traps (high-bar) or scapular spine (low-bar), feet shoulder-width, toes turned slightly out, trunk braced, bar over midfoot",
+  "endPosition": "bottom position with hips and knees flexed together until the hip crease is at or below the top of the knee, spine neutral and bar still over midfoot, then driven back to full standing extension",
+  "rom": "hip flexion to \u226590\u00b0 (crease at/below knee) and knee flexion to ~parallel or deeper, returning to full hip and knee extension"
+ },
+ {
+  "slug": "backpack-weighted-carry",
+  "category": "functional",
+  "startPosition": "standing tall with a loaded backpack cinched snug high on both shoulders, load hugging the spine, ribs stacked over pelvis, trunk lightly braced",
+  "endPosition": "same upright, tall-spine carrying posture maintained while walking at a steady controlled pace for the set distance/time, resisting forward trunk collapse as fatigue builds",
+  "rom": "isometric trunk/postural stabilization with minimal spinal excursion, superimposed on cyclical hip/knee/ankle gait range"
+ },
+ {
+  "slug": "backwards-walking",
+  "category": "functional",
+  "startPosition": "standing tall at one end of a clear walkway, feet hip-width apart, knees softly unlocked, trunk upright, weight balanced over both feet",
+  "endPosition": "having stepped in reverse along the line, trailing toe reaching backward and rolling from toe to heel as body weight transfers onto the rearward foot, trunk staying tall",
+  "rom": "repeated reversed gait cycle \u2014 hip extension driving the reach-back with knee flexion/extension and toe-to-heel foot roll, cycling continuously through the stride"
+ },
+ {
+  "slug": "band-pull-apart",
+  "category": "strength",
+  "startPosition": "standing or sitting tall, arms extended forward at chest/shoulder height, holding a resistance band with both hands palms down at shoulder-width, band taut",
+  "endPosition": "arms swept out horizontally to the sides with the band drawn to the chest, shoulder blades fully retracted, elbows still soft-straight",
+  "rom": "shoulder horizontal abduction from ~0\u00b0 (arms forward) to ~90\u00b0 (arms out to sides) driven by scapular retraction"
+ },
+ {
+  "slug": "banded-ankle-df-mobilization",
+  "category": "mobility",
+  "startPosition": "standing in a split-stance lunge with a resistance band looped around the distal tibia of the front leg pulling posteriorly, front foot flat with heel anchored, hands on a wall for support",
+  "endPosition": "front knee driven forward past the toes toward the wall while the heel stays glued to the floor and the band drags the tibia anteriorly (facilitated posterior talar glide)",
+  "rom": "ankle dorsiflexion from neutral to end-range knee-over-toe, isolated at the talocrural joint line"
+ },
+ {
+  "slug": "barbell-bench-press",
+  "category": "strength",
+  "startPosition": "supine on a flat bench, eyes under the bar, feet flat on the floor, shoulder blades retracted and depressed into the bench, bar held at arms' length over the chest with a grip slightly wider than shoulder width",
+  "endPosition": "bar lowered under control to the mid-chest with elbows flexed and wrists stacked over the elbows, at the deepest point before pressing back to full elbow extension",
+  "rom": "full elbow flexion-to-extension with horizontal shoulder ad/abduction \u2014 bar travels from mid-chest to arms-length lockout overhead"
+ },
+ {
+  "slug": "barbell-row",
+  "category": "strength",
+  "startPosition": "standing, feet hip-width, hip-hinged to roughly 30-45\u00b0 of trunk lean (or near-parallel) with a neutral spine, gripping the barbell just outside the knees at arms' length",
+  "endPosition": "bar pulled to the lower ribs/upper abdomen with elbows driven back and shoulder blades squeezed together, trunk angle held frozen",
+  "rom": "elbow flexion combined with scapular retraction and shoulder extension \u2014 bar travels from arms-length to lower ribs while trunk inclination stays fixed"
+ },
+ {
+  "slug": "bear-crawl",
+  "category": "motor-control",
+  "startPosition": "quadruped with hands under the shoulders, toes tucked, and knees hovering about 2-5 cm off the floor, spine neutral and hips level with the shoulders",
+  "endPosition": "having crawled forward by moving one hand and the opposite foot together in a small step, knees still hovering low, spine neutral and hips level with no rotation or hike",
+  "rom": "reciprocal shoulder and hip flexion-extension in small steps with the knees hovering; the spine and pelvis hold near-still (anti-rotation isometric of the trunk)"
+ },
+ {
+  "slug": "bent-over-row",
+  "category": "strength",
+  "startPosition": "standing, feet hip-width with soft knees, hip-hinged to roughly 30-45\u00b0 of trunk inclination with a neutral spine, arms hanging holding a barbell or dumbbells",
+  "endPosition": "load pulled toward the lower ribs/upper abdomen with elbows driven back toward the pockets and shoulder blades squeezed together, trunk angle unchanged",
+  "rom": "elbow flexion with scapular retraction and shoulder extension \u2014 load travels from full hang to lower ribs while the hip-hinge position is held constant"
+ },
+ {
+  "slug": "bicep-curl",
+  "category": "strength",
+  "startPosition": "standing tall with a quiet trunk, upper arms pinned to the ribs, holding a dumbbell or band with the elbow in full extension at the side",
+  "endPosition": "forearm curled up to full elbow flexion with the weight near the front of the shoulder, elbow still pinned to the ribs",
+  "rom": "elbow flexion from ~0\u00b0 (full extension) to ~140\u00b0 (full flexion), isolated with the upper arm stationary"
+ },
+ {
+  "slug": "biceps-curl",
+  "category": "strength",
+  "startPosition": "standing or seated tall, a dumbbell in each hand with arms at the sides, palms facing forward, elbows extended and upper arms pinned to the torso",
+  "endPosition": "elbows bent to raise the dumbbells toward the shoulders at full flexion, wrists straight and trunk still (no swing or shrug)",
+  "rom": "elbow flexion from ~0\u00b0 to ~140\u00b0 with the upper arms held against the torso throughout"
+ },
+ {
+  "slug": "bird-dog",
+  "category": "motor-control",
+  "startPosition": "quadruped with hands directly under the shoulders and knees under the hips, spine neutral and deep core gently engaged",
+  "endPosition": "opposite arm reaching forward and opposite leg extended back, both level with the torso in one long line from fingertip to heel, low back level and pelvis square",
+  "rom": "shoulder flexion toward ~180\u00b0 and hip extension to horizontal, while the lumbar spine and pelvis hold still (anti-rotation isometric of the trunk)"
+ },
+ {
+  "slug": "bird-dog-elbow-knee",
+  "category": "motor-control",
+  "startPosition": "quadruped with hands under the shoulders and knees under the hips, abdominals braced and spine neutral as if balancing a glass of water on the low back",
+  "endPosition": "opposite elbow and knee drawn together beneath the body with the spine gently rounded and an exhale, having first extended that arm forward and leg back to torso height",
+  "rom": "dynamic cycling between full opposite-limb extension (arm forward/leg back to torso level) and elbow-to-knee flexion under the body; pelvis kept square throughout"
+ },
+ {
+  "slug": "body-scan-with-movement",
+  "category": "sensory",
+  "startPosition": "supine and fully supported, body relaxed with arms resting at the sides, attention ready to move sequentially through body regions (feet \u2192 legs \u2192 pelvis \u2192 trunk \u2192 arms \u2192 head)",
+  "endPosition": "same relaxed supine posture, pausing at each region for 30-60 s of interoceptive attention followed by a gentle micro-movement of that region (toe wiggle, ankle circle, pelvic rock)",
+  "rom": "minimal \u2014 small isolated micro-movements at each region within a largely still, restful supine hold (near-isometric)"
+ },
+ {
+  "slug": "bodyweight-hip-hinge",
+  "category": "motor-control",
+  "startPosition": "standing tall, feet hip-width with knees softly unlocked, optionally holding a broomstick vertically along the spine touching the back of the head, mid-back, and tailbone",
+  "endPosition": "hips pushed straight back with the chest tipped forward like a drawbridge, a neutral spine preserved (all three broomstick contact points maintained), a gentle hamstring stretch, and only slight knee bend",
+  "rom": "hip flexion via posterior hip translation to roughly 70-90\u00b0 of trunk incline with minimal lumbar motion and only a few degrees of knee flexion \u2014 a hinge, not a squat"
+ },
+ {
+  "slug": "box-breathing",
+  "category": "breathwork",
+  "startPosition": "Seated upright, spine tall, feet flat on the floor, hands resting on the thighs, breathing quietly through the nose",
+  "endPosition": "Same tall seated posture sustained through all four equal phases (4s inhale, 4s hold, 4s exhale, 4s hold), holds relaxed rather than strained",
+  "rom": "Isometric hold \u2014 minimal joint excursion; only cyclic rib-cage and diaphragm expansion/recoil"
+ },
+ {
+  "slug": "box-jump",
+  "category": "strength",
+  "startPosition": "Standing tall facing a box, feet hip-width, then dipping into a quarter-squat countermovement with hips back and ankles, knees and hips flexed",
+  "endPosition": "Landing softly on top of the box in a partial squat, hips back, knees tracking over the toes, ankles-knees-hips flexed to absorb the impact",
+  "rom": "Full triple extension of ankles, knees and hips at takeoff, returning to flexed shock-absorption on landing"
+ },
+ {
+  "slug": "bridge",
+  "category": "strength",
+  "startPosition": "Supine, knees bent ~90\u00b0, feet flat hip-width on the floor, arms at the sides",
+  "endPosition": "Hips lifted so knees, hips and shoulders form a straight line, glutes squeezed with a slight posterior pelvic tilt, low back quiet",
+  "rom": "0\u2013~30\u00b0 hip extension from the floor up to a neutral straight-line bridge"
+ },
+ {
+  "slug": "brock-string",
+  "category": "sensory",
+  "startPosition": "Seated upright, string held from the bridge of the nose to a fixed anchor point, gaze fixating the nearest bead",
+  "endPosition": "Gaze converged sequentially onto each bead along the string so the fixated bead appears single with two strings crossing through it (physiological diplopia of the others)",
+  "rom": "No joint motion \u2014 ocular vergence and accommodation excursion only; head held still"
+ },
+ {
+  "slug": "burpee",
+  "category": "aerobic",
+  "startPosition": "Standing tall, feet hip-width, arms at the sides",
+  "endPosition": "Explosive vertical jump with arms reaching overhead, landing softly through the whole foot with knees tracking over the toes before flowing into the next rep",
+  "rom": "Full-body cyclic excursion each rep \u2014 standing to deep squat to rigid prone plank (optional push-up) back to an overhead jump"
+ },
+ {
+  "slug": "calf-raise-explosive",
+  "category": "strength",
+  "startPosition": "Standing tall, feet hip-width (progressing to single-leg with load), forefoot on the floor or step edge with heels down",
+  "endPosition": "Up on the balls of the feet at full ankle plantarflexion, ankles fully extended",
+  "rom": "0\u00b0 to full ankle plantarflexion \u2014 1s explosive concentric rise, 3s controlled eccentric lower"
+ },
+ {
+  "slug": "calf-stretch",
+  "category": "stretch",
+  "startPosition": "Standing facing a wall, hands on the wall, one foot forward with the knee bent and the back leg straight with the heel flat",
+  "endPosition": "Chest leaned toward the wall with the rear heel driven into the floor and the rear knee locked straight, gastrocnemius at end-range length",
+  "rom": "Rear-leg ankle dorsiflexion to comfortable end range \u2014 sustained static hold"
+ },
+ {
+  "slug": "cat-cow",
+  "category": "mobility",
+  "startPosition": "Quadruped, hands under the shoulders, knees under the hips, spine neutral",
+  "endPosition": "Alternating between full spinal extension (belly drops toward floor, tailbone lifts) and full spinal flexion (spine rounded to the ceiling, tailbone tucked)",
+  "rom": "Full available thoracolumbar flexion-to-extension excursion, moved one segment at a time"
+ },
+ {
+  "slug": "cawthorne-cooksey-progression",
+  "category": "balance",
+  "startPosition": "Begins seated (Stage 1) performing eye, head and shoulder movements, advancing to standing then walking as tolerated",
+  "endPosition": "Progresses through standing trunk movements, gait with head turns, slopes and stairs eyes open/closed, to functional eye-hand coordination tasks",
+  "rom": "Graded, progressively fuller eye, head, trunk and whole-body movement across seated, standing and gait stages"
+ },
+ {
+  "slug": "cervicothoracic-self-mobilization",
+  "category": "mobility",
+  "startPosition": "Supine with a foam roller or towel roll placed across the cervicothoracic junction, knees bent, feet flat",
+  "endPosition": "Chest draped open over the roll into thoracic extension, combined with active cervical range of motion (flexion, rotation)",
+  "rom": "Thoracic extension over the roll plus full active cervical ROM"
+ },
+ {
+  "slug": "chair-supported-balance",
+  "category": "balance",
+  "startPosition": "Standing tall beside or behind a sturdy chair, fingertips resting lightly on the chair back, weight on both feet",
+  "endPosition": "Weight shifted onto one leg with the opposite foot lifted just off the floor, hips level, holding a steady single-leg stance with a soft standing knee",
+  "rom": "Isometric single-leg stance \u2014 minimal joint excursion; hip and ankle sway-control only"
+ },
+ {
+  "slug": "chair-triceps-dip",
+  "category": "strength",
+  "startPosition": "Seated at the front edge of a sturdy chair, hands gripping the edge beside the hips, hips slid off the seat, arms straight supporting bodyweight",
+  "endPosition": "Elbows bent to about 90\u00b0 (upper arms roughly parallel to the floor) at the bottom, then pressed back to full elbow extension at the top",
+  "rom": "~0\u201390\u00b0 elbow flexion/extension, elbows pointing straight back"
+ },
+ {
+  "slug": "chest-fly",
+  "category": "strength",
+  "startPosition": "Supine on a flat bench, dumbbells held above the chest with palms facing each other and a soft fixed bend in the elbows",
+  "endPosition": "Arms lowered in a wide arc to about bench level until a gentle stretch is felt across the chest, then squeezed back together over the mid-chest along the same arc",
+  "rom": "Shoulder horizontal abduction to a chest-level stretch and back to horizontal adduction over the chest, elbow angle held constant throughout"
+ },
+ {
+  "slug": "childs-pose-breathing",
+  "category": "breathwork",
+  "startPosition": "kneeling with shins on the floor, sit-bones settling back toward the heels, torso folded forward over the thighs, forehead resting on the floor or a support, arms reaching forward or alongside the body",
+  "endPosition": "same folded kneeling fold sustained, abdomen resting against the thighs, breath directed into the posterior/lower rib cage \u2014 no change in body position",
+  "rom": "isometric hold \u2014 minimal joint excursion; movement limited to posterior rib-cage and abdominal expansion during breathing"
+ },
+ {
+  "slug": "chin-tuck-with-overpressure",
+  "category": "mobility",
+  "startPosition": "seated tall with a neutral spine, head in neutral, two fingers placed lightly on the chin",
+  "endPosition": "chin drawn straight back into craniocervical retraction/flexion until the back of the neck lengthens, held ~3 s with gentle finger overpressure",
+  "rom": "cervical retraction (craniocervical flexion) from neutral to comfortable end range, no downward nod"
+ },
+ {
+  "slug": "chin-up",
+  "category": "strength",
+  "startPosition": "full dead hang from an overhead bar, supinated (palms-toward-you) grip about shoulder-width, arms fully extended, shoulder blades relaxed, legs quiet",
+  "endPosition": "body pulled up until the chin clears the bar, elbows fully flexed toward the ribs, shoulder blades depressed and retracted, ribs down",
+  "rom": "full elbow flexion with shoulder extension/adduction from dead hang to chin-over-bar, then controlled return to full extension"
+ },
+ {
+  "slug": "clamshell",
+  "category": "strength",
+  "startPosition": "sidelying with hips stacked vertically, hips flexed ~45\u00b0, knees bent ~90\u00b0, feet together, trunk neutral",
+  "endPosition": "top knee rotated open toward the ceiling via hip external rotation while feet stay in contact and the pelvis stays stable (no posterior roll)",
+  "rom": "hip external rotation, roughly 0 to ~30\u201345\u00b0 of knee separation, then controlled return"
+ },
+ {
+  "slug": "cobra-pose",
+  "category": "mobility",
+  "startPosition": "prone with legs extended, tops of the feet on the mat, palms flat under the shoulders, elbows tucked close to the ribs",
+  "endPosition": "chest lifted into spinal extension leading with the sternum, elbows softly bent, shoulders drawn down and back, pubic bone and feet pressing into the floor",
+  "rom": "lumbar and thoracic spinal extension from prone-flat to comfortable end-range back-bend, then controlled lowering"
+ },
+ {
+  "slug": "constructive-rest-position",
+  "category": "sensory",
+  "startPosition": "supine with knees bent and feet flat on the floor hip-width apart, arms resting on the abdomen or out to the sides, whole body passively supported by the floor",
+  "endPosition": "same supported supine position sustained with muscular guarding released; attention directed to interoceptive sensation \u2014 no active movement",
+  "rom": "passive/isometric rest \u2014 minimal joint excursion"
+ },
+ {
+  "slug": "convergence-push-ups",
+  "category": "sensory",
+  "startPosition": "seated upright holding a small near target (pencil tip or letter card) at arm's length at eye level, with a background card visible behind it",
+  "endPosition": "target slowly drawn toward the bridge of the nose until it just doubles (near point of convergence), eyes maximally converged",
+  "rom": "ocular convergence from arm's length to the near point of convergence; no somatic joint movement"
+ },
+ {
+  "slug": "cook-hip-lift",
+  "category": "motor-control",
+  "startPosition": "supine with both knees bent and feet flat, then one knee pulled firmly to the chest with both hands to lock that hemipelvis",
+  "endPosition": "hips lifted by pressing through the grounded heel toward a straight knee-hip-shoulder line, pelvis kept level with no rotation",
+  "rom": "limited hip extension from the floor \u2014 a low partial bridge kept short of the point where the pelvis would tilt or the hamstring cramps"
+ },
+ {
+  "slug": "copenhagen-adduction",
+  "category": "strength",
+  "startPosition": "sidelying with the body straight, top leg supported on a bench at about hip height, bottom leg hanging below toward the floor, forearm/hand supporting the upper body",
+  "endPosition": "body raised into a straight plank line by driving the bottom inner thigh up toward the bench via hip adduction, trunk and legs aligned crown-to-heel",
+  "rom": "hip adduction lifting the pelvis/trunk from the lowered hanging position up to a straight body line, then a slow ~3 s eccentric descent"
+ },
+ {
+  "slug": "couch-stretch",
+  "category": "stretch",
+  "startPosition": "half-kneeling with the rear shin vertical against a wall or couch (rear foot elevated, knee flexed), front foot planted flat, torso upright",
+  "endPosition": "rear hip driven into extension with a posterior pelvic tilt while the rear knee stays flexed and the front knee travels forward, chest lifted tall \u2014 maximal biarticular rectus femoris/hip-flexor lengthening",
+  "rom": "combined hip extension and knee flexion to comfortable end-range anterior thigh and hip-flexor stretch, held statically"
+ },
+ {
+  "slug": "countertop-incline-push-up",
+  "category": "strength",
+  "startPosition": "standing and leaning forward with both hands on a countertop edge slightly wider than shoulder-width, feet walked back so the body forms a straight, gently inclined line from head to heels",
+  "endPosition": "chest lowered toward the counter with elbows bent ~45\u00b0 to the torso, then pressed back to full elbow extension with the shoulder blades protracting at the top",
+  "rom": "full elbow flexion-to-extension lowering the chest to the counter and pressing back up (inclined push-up range), trunk held rigid throughout"
+ },
+ {
+  "slug": "countertop-supported-squat",
+  "category": "strength",
+  "startPosition": "standing facing a sturdy countertop, feet shoulder-width apart, hands resting lightly on the edge for balance, trunk tall",
+  "endPosition": "hips pushed back and knees bent to a comfortable squat depth with knees tracking over the second/third toes, then driven back up through the heels to full standing with glutes squeezed",
+  "rom": "combined hip and knee flexion to comfortable (as-tolerated) squat depth and return to standing extension"
+ },
+ {
+  "slug": "crocodile-breathing",
+  "category": "breathwork",
+  "startPosition": "prone with the forehead resting on stacked hands, legs extended, the whole front of the body in contact with the floor",
+  "endPosition": "same prone position sustained; the belly presses down into the floor and the low back rises slightly on inhale, then settles on exhale \u2014 no change in body position",
+  "rom": "isometric hold \u2014 minimal joint excursion; movement limited to abdominal and lower-rib expansion against the floor during breathing"
+ },
+ {
+  "slug": "crocodile-breathing",
+  "category": "breathwork",
+  "startPosition": "prone, legs extended, forehead resting on stacked hands, whole body relaxed into the floor",
+  "endPosition": "same prone position sustained; on inhale the belly and lower ribs press down into the floor and the low back rises slightly, releasing on exhale",
+  "rom": "isometric respiratory posture \u2014 minimal joint excursion; movement is diaphragmatic/lower-rib expansion with slight lumbar rise and fall"
+ },
+ {
+  "slug": "cross-body-shoulder-stretch",
+  "category": "stretch",
+  "startPosition": "standing or seated tall, working arm raised to ~90\u00b0 and brought across the front of the body, opposite hand cradling the elbow",
+  "endPosition": "working arm pulled horizontally across the chest toward the opposite shoulder, shoulder blade pinned down, held at comfortable end range",
+  "rom": "glenohumeral horizontal adduction to end range (~stretch across posterior shoulder), scapula stabilized"
+ },
+ {
+  "slug": "crunch",
+  "category": "strength",
+  "startPosition": "supine, knees bent ~90\u00b0, feet flat on floor, hands lightly behind head or crossed on chest, low back in contact with floor",
+  "endPosition": "head and shoulder blades curled off the floor, ribs drawn toward the pelvis, low back still in contact",
+  "rom": "upper trunk/thoracic flexion, lifting scapulae off the floor (~30\u00b0 trunk flexion), stopping well short of a full sit-up"
+ },
+ {
+  "slug": "cyclic-sighing",
+  "category": "breathwork",
+  "startPosition": "seated upright, spine tall, shoulders relaxed, breathing quietly through the nose",
+  "endPosition": "same seated posture; a double nasal inhale (short inhale then a second stacking inhale to fill the lungs) followed by a prolonged exhale through the mouth, repeated",
+  "rom": "isometric seated posture \u2014 minimal joint excursion; excursion is full-then-topped-off inhalation and extended exhalation of the rib cage"
+ },
+ {
+  "slug": "deep-neck-flexor-training",
+  "category": "motor-control",
+  "startPosition": "supine, knees bent or legs extended, head neutral, pressure biofeedback cuff behind the neck inflated to baseline (~20 mmHg)",
+  "endPosition": "gentle craniocervical nod (chin tucked, back of neck lengthened) raising cuff pressure toward 22\u201330 mmHg and held ~10 s without superficial neck-flexor substitution",
+  "rom": "small craniocervical flexion (a subtle head nod), held isometrically at graded pressure targets"
+ },
+ {
+  "slug": "depth-jump",
+  "category": "strength",
+  "startPosition": "standing on top of a box, feet hip-width, ready to step off",
+  "endPosition": "after a brief stiff, springy ground contact on landing, immediately rebounding into a maximal vertical jump, arms driving upward",
+  "rom": "drop from box then rapid stretch-shortening cycle \u2014 brief eccentric knee/hip/ankle flexion on landing followed by explosive triple extension into vertical take-off"
+ },
+ {
+  "slug": "desk-wrist-extensor-stretch",
+  "category": "stretch",
+  "startPosition": "standing or seated at a desk, elbow straight, back of the hand flat on the desk with palm up and fingers pointing toward the body",
+  "endPosition": "body leaning to press the hand down and draw the wrist toward flexion, fingers softly curled, held at a mild stretch over the top of the forearm",
+  "rom": "wrist flexion to comfortable end range with elbow extended, lengthening the wrist/finger extensors"
+ },
+ {
+  "slug": "desk-wrist-flexor-stretch",
+  "category": "stretch",
+  "startPosition": "seated tall at a desk, elbow straight, palm flat on the desktop with fingers pointing back toward the body",
+  "endPosition": "trunk leaned away from the fixed hand to draw the wrist into extension, held at a mild stretch along the palm-side forearm",
+  "rom": "wrist extension to comfortable end range with elbow extended, lengthening the wrist/finger flexors"
+ },
+ {
+  "slug": "dexterity-training-pegboard",
+  "category": "motor-control",
+  "startPosition": "seated at a table, pegboard and pegs within reach, forearm supported, fingers ready in a precision pinch",
+  "endPosition": "individual pegs picked up with a thumb\u2013index pinch and placed one at a time into target holes, repeated at a controlled accurate pace",
+  "rom": "fine distal motion \u2014 thumb/finger pinch-and-release with small wrist and forearm positioning movements; minimal proximal joint excursion"
+ },
+ {
+  "slug": "diaphragmatic-breathing",
+  "category": "breathwork",
+  "startPosition": "supine, knees bent or legs extended, one hand on the belly and one on the lower ribs (optionally a band around the lower ribs)",
+  "endPosition": "same relaxed posture; on inhale the belly rises first and the lower ribs spread laterally, followed by a slow pursed-lip exhale",
+  "rom": "isometric supine posture \u2014 minimal joint excursion; excursion is diaphragmatic descent and 360\u00b0 lower-rib expansion with each breath"
+ },
+ {
+  "slug": "diaphragmatic-breathing-with-bracing",
+  "category": "breathwork",
+  "startPosition": "supine, hands on the lower abdomen and lateral ribs, spine neutral",
+  "endPosition": "same posture; inhale expands the trunk 360\u00b0 (front, sides, back), then on exhale the abdominal wall gently braces to ~30% effort while breathing continues around the brace",
+  "rom": "isometric supine posture \u2014 minimal joint excursion; excursion is 360\u00b0 rib/abdominal expansion with a sustained low-level abdominal brace"
+ },
+ {
+  "slug": "dip",
+  "category": "strength",
+  "startPosition": "upright, suspended between parallel bars, elbows locked and shoulders depressed, supporting full bodyweight on the hands",
+  "endPosition": "elbows bent and shoulders extended so the upper arms reach roughly parallel to the floor at the bottom, then pressed back to full elbow extension",
+  "rom": "shoulder extension with elbow flexion lowering to ~90\u00b0 elbow / upper arms parallel to floor, then full return to elbow lockout"
+ },
+ {
+  "slug": "doorframe-calf-stretch",
+  "category": "stretch",
+  "startPosition": "standing facing a doorway, both hands on the frame at chest height, one leg stepped back with heel flat and back knee straight",
+  "endPosition": "hips leaned toward the doorframe with the back heel kept flat, held at a stretch through the back of the calf (back knee softened slightly to shift lower to the Achilles/soleus)",
+  "rom": "ankle dorsiflexion to comfortable end range with knee extended (gastrocnemius bias) or slightly flexed (soleus/Achilles bias)"
+ },
+ {
+  "slug": "doorway-isometric-row",
+  "category": "strength",
+  "startPosition": "standing tall in the center of an open doorway, both hands gripping opposite sides of the doorframe at waist-to-lower-rib height, elbows bent ~90\u00b0, ribs stacked down over pelvis",
+  "endPosition": "same braced rowing posture sustained \u2014 shoulder blades pulled down and back, elbows driving backward into the immovable frame, no trunk lean or shrug",
+  "rom": "isometric hold \u2014 minimal joint excursion; elbows held at ~90\u00b0 throughout while pulling against the fixed frame"
+ },
+ {
+  "slug": "doorway-lat-stretch",
+  "category": "stretch",
+  "startPosition": "standing at an open doorway, one hand gripping the frame at or just above shoulder height with the elbow fully straight, feet slightly staggered",
+  "endPosition": "hips hinged back and down away from the anchored arm so the shoulder sinks into overhead flexion, a broad stretch felt down the side of the back and axilla",
+  "rom": "shoulder flexion / latissimus lengthening driven by hip hinge to a firm, comfortable end range"
+ },
+ {
+  "slug": "doorway-pec-stretch",
+  "category": "stretch",
+  "startPosition": "standing in a doorway with the forearm resting against the frame, shoulder abducted to 45\u00b0, 90\u00b0, or 135\u00b0 (depending on the portion targeted) and elbow bent ~90\u00b0",
+  "endPosition": "back foot stepped forward through the doorway so the trunk moves ahead of the fixed arm, opening the front of the shoulder and chest with the sternum rotating outward",
+  "rom": "shoulder horizontal abduction / pectoralis lengthening to a firm end range (no anterior shoulder pinch)"
+ },
+ {
+  "slug": "downward-dog",
+  "category": "stretch",
+  "startPosition": "quadruped with hands under the shoulders, fingers spread and rooted, toes tucked under",
+  "endPosition": "hips lifted up and back into an inverted V, arms and spine forming one long line, sit bones reaching toward the ceiling, heels sinking toward the floor, head relaxed between the upper arms",
+  "rom": "sustained hold \u2014 overhead shoulder flexion, deep hip flexion, and knee/ankle extension taken to a neutral-spine end range"
+ },
+ {
+  "slug": "dumbbell-bench-press",
+  "category": "strength",
+  "startPosition": "supine on a flat bench, feet flat on the floor, shoulder blades set back and down into the bench, a dumbbell held at each side of the chest with wrists stacked over the elbows",
+  "endPosition": "both dumbbells pressed upward and slightly together until the elbows are extended, weights stacked over the shoulders",
+  "rom": "from ~90\u00b0 elbow flexion / upper arms near bench level (comfortable chest stretch) to full elbow extension with horizontal shoulder adduction"
+ },
+ {
+  "slug": "dumbbell-shoulder-press",
+  "category": "strength",
+  "startPosition": "seated upright (or standing) with a dumbbell in each hand at shoulder height, forearms vertical, palms forward, ribcage stacked over the pelvis",
+  "endPosition": "both dumbbells pressed overhead to full elbow extension, weights stacked directly over the shoulders without low-back arch",
+  "rom": "shoulder flexion/abduction from ~90\u00b0 (ear level) to full overhead elevation with elbow extension to lockout"
+ },
+ {
+  "slug": "dynamic-gait-with-head-turns",
+  "category": "balance",
+  "startPosition": "standing upright at the start of a straight walking path, eyes fixed on a target ahead",
+  "endPosition": "mid-gait with the head rotated horizontally (progressing to vertical) on a set cadence while maintaining a steady, unstaggered straight-line walking path",
+  "rom": "cervical rotation to a comfortable end range every 2\u20133 steps, coordinated with continuous forward gait"
+ },
+ {
+  "slug": "dynamic-hug",
+  "category": "strength",
+  "startPosition": "standing with a resistance band or cable anchored behind, arms reaching forward at ~90\u00b0 shoulder flexion, elbows soft, shoulder blades protracted",
+  "endPosition": "arms horizontally adducted across the body until the hands meet in front (as if hugging a large tree), scapulae fully protracted around the ribs",
+  "rom": "horizontal shoulder adduction from arms-wide to hands meeting at the midline, emphasizing scapular protraction"
+ },
+ {
+  "slug": "eccentric-stair-descent",
+  "category": "strength",
+  "startPosition": "standing tall at the top of a staircase, hand resting lightly on the handrail, weight loaded onto the top-step (trailing) leg",
+  "endPosition": "trailing knee bent slowly under control to lower the front foot softly onto the step below, most of the load absorbed by the supporting leg's quadriceps",
+  "rom": "controlled eccentric knee flexion of the supporting leg through one step's height (~15\u201320 cm) over roughly 3\u20134 seconds"
+ },
+ {
+  "slug": "eccentric-step-down",
+  "category": "strength",
+  "startPosition": "standing on a step on the working leg, pelvis level and trunk tall, the non-working leg hanging off the edge",
+  "endPosition": "working knee bent slowly to lower the opposite heel toward the floor for a light tap, then a return to the start",
+  "rom": "eccentric knee flexion of the stance leg through step height (progressing 4\" \u2192 8\" \u2192 12\") over ~3 seconds down"
+ },
+ {
+  "slug": "empty-can-exercise",
+  "category": "strength",
+  "startPosition": "standing with arms at the sides, thumbs pointing down (internal rotation), positioned in the scapular plane ~30\u00b0 forward of the frontal plane",
+  "endPosition": "arms elevated in the scapular plane to shoulder height with thumbs still down, as if pouring water from a can toward the floor",
+  "rom": "scapular-plane elevation from 0\u00b0 to ~90\u00b0 (shoulder height, no higher), shoulder held in internal rotation"
+ },
+ {
+  "slug": "external-rotation-0-abduction",
+  "category": "strength",
+  "startPosition": "side-lying with the working arm on top, elbow bent 90\u00b0 and tucked to the side over a towel roll, forearm resting across the abdomen",
+  "endPosition": "forearm rotated outward and upward to point away from the body, the elbow staying pinned at the side and the towel trapped throughout",
+  "rom": "glenohumeral external rotation from ~0\u00b0 (hand across the belly) to a comfortable end range, arm kept at 0\u00b0 abduction"
+ },
+ {
+  "slug": "eye-break-20-20-20",
+  "category": "sensory",
+  "startPosition": "seated at a screen with the near, fixated visual workspace in front",
+  "endPosition": "gaze shifted to a specific target at least 20 feet away and held there for at least 20 seconds with a few full blinks",
+  "rom": "ocular accommodation and vergence relaxation to distance fixation \u2014 minimal joint excursion, no gross body movement"
+ },
+ {
+  "slug": "eye-palming",
+  "category": "sensory",
+  "startPosition": "seated upright, eyes closed, palms briskly rubbed together until warm",
+  "endPosition": "warm palms lightly cupped over the closed eyes without touching or pressing the eyeballs, breathing slowly",
+  "rom": "isometric hold \u2014 minimal joint excursion; sustained cupped-hand posture over the eyes"
+ },
+ {
+  "slug": "face-pull",
+  "category": "strength",
+  "startPosition": "standing tall facing a face-height cable/band anchor, arms extended forward gripping the handles with palms down or neutral, ribs stacked over pelvis",
+  "endPosition": "handles pulled to the face with elbows wide and high, forearms externally rotated so knuckles point toward the ceiling and thumbs toward the ears, shoulder blades squeezed together",
+  "rom": "elbow flexion 0\u2013~90\u00b0+ with shoulder horizontal abduction and external rotation to full scapular retraction"
+ },
+ {
+  "slug": "farmers-carry",
+  "category": "strength",
+  "startPosition": "standing tall with a heavy weight held in each hand at the sides, ribs packed and trunk braced, crushing the handles",
+  "endPosition": "same erect braced posture maintained while marching forward along a straight line for the prescribed distance or time",
+  "rom": "isometric trunk (anti-lateral-flexion, minimal spinal excursion) combined with reciprocal gait"
+ },
+ {
+  "slug": "finger-adduction-card-squeeze",
+  "category": "strength",
+  "startPosition": "seated with the hand resting and fingers held long and straight, a card/coin/thin object placed between two adjacent fingers",
+  "endPosition": "adjacent fingers squeezed together to clamp the card so it cannot be pulled out, pressure held ~5 s",
+  "rom": "finger adduction \u2014 small MCP adduction excursion to closed-gap, then largely isometric hold"
+ },
+ {
+  "slug": "finger-adduction-exercise",
+  "category": "strength",
+  "startPosition": "seated with the hand resting and fingers extended straight, a folded paper placed between two adjacent fingers",
+  "endPosition": "fingers pinched toward the middle finger to clamp the paper, held ~5 s before release",
+  "rom": "finger adduction \u2014 small MCP adduction excursion to closed-gap, then isometric hold"
+ },
+ {
+  "slug": "finger-extension-band",
+  "category": "strength",
+  "startPosition": "seated with the hand resting, wrist straight, a rubber band looped around all five fingertips with fingers and thumb drawn together",
+  "endPosition": "fingers and thumb spread wide apart against the band's resistance, open shape held ~2 s",
+  "rom": "full finger and thumb abduction/extension from closed to maximally spread against resistance"
+ },
+ {
+  "slug": "foam-pad-sensory-perturbation",
+  "category": "balance",
+  "startPosition": "standing on a compliant foam surface in a Romberg stance (feet together), eyes open, near a wall or counter for safety",
+  "endPosition": "steady upright stance held while progressing the challenge \u2014 eyes closed or busy visual background, and narrowing base from Romberg to tandem to single-leg",
+  "rom": "isometric stance \u2014 minimal joint excursion; postural-sway control at the ankle/hip"
+ },
+ {
+  "slug": "foam-roller-bridge",
+  "category": "strength",
+  "startPosition": "supine with knees bent, heels resting on a foam roller, arms at the sides",
+  "endPosition": "hips lifted so knees, hips, and shoulders form a straight line, knees held hip-width",
+  "rom": "0\u2013~full hip extension, lifting the pelvis from the floor to the bridged straight-line position"
+ },
+ {
+  "slug": "forearm-pronation-supination",
+  "category": "strength",
+  "startPosition": "seated with the elbow braced on the thigh, forearm in neutral holding a weighted hammer or dowel vertically",
+  "endPosition": "hammer head rotated fully toward the floor (pronation) and toward the ceiling (supination), elbow staying pinned to the thigh",
+  "rom": "full forearm pronation-to-supination, ~180\u00b0 combined rotation about the forearm axis"
+ },
+ {
+  "slug": "forward-lunge",
+  "category": "strength",
+  "startPosition": "standing tall with feet hip-width, trunk erect",
+  "endPosition": "split-stance lunge with the front shin vertical and the back knee lowered toward the floor, trunk upright",
+  "rom": "front hip and knee flexion ~0\u201390\u00b0 with trailing-hip extension; trunk translates straight down then straight up"
+ },
+ {
+  "slug": "four-seven-eight-breathing",
+  "category": "breathwork",
+  "startPosition": "seated upright and relaxed",
+  "endPosition": "same seated posture sustained through the 4-count nasal inhale, 7-count hold, and slow 8-count mouth exhale cycle",
+  "rom": "isometric hold \u2014 minimal joint excursion; movement limited to rib-cage/diaphragm respiratory excursion"
+ },
+ {
+  "slug": "frog-pose-hold",
+  "category": "stretch",
+  "startPosition": "quadruped kneeling with knees spread wide, feet turned outward, and weight supported on the hands or forearms",
+  "endPosition": "hips sunk down toward the floor between the wide knees into a deep sustained adductor stretch, spine long",
+  "rom": "hip abduction to comfortable end range, held statically while gravity slowly widens the knees"
+ },
+ {
+  "slug": "front-plank",
+  "category": "motor-control",
+  "startPosition": "prone on the forearms with elbows under the shoulders and toes tucked",
+  "endPosition": "body lifted into one straight line from crown to heel, tailbone tucked and shoulders packed, held isometrically",
+  "rom": "isometric anti-extension hold \u2014 minimal joint excursion; trunk maintains a neutral straight line against gravity"
+ },
+ {
+  "slug": "front-squat",
+  "category": "strength",
+  "startPosition": "standing tall, barbell in front-rack across the anterior deltoids/clavicles with elbows high (clean or crossed-arm grip), feet shoulder-width, toes turned out 10\u201330\u00b0, trunk upright and braced",
+  "endPosition": "bottom of squat with hips at or below knee level, torso upright, elbows still driven high, then driven back up to full standing",
+  "rom": "0 to ~120\u00b0+ knee flexion with matching deep hip flexion; trunk stays vertical"
+ },
+ {
+  "slug": "full-can-exercise",
+  "category": "strength",
+  "startPosition": "standing tall, working arm resting at the side, elbow straight, thumb pointing up",
+  "endPosition": "arm elevated in the scapular plane (30\u201345\u00b0 anterior to the coronal plane) to shoulder height with thumb up ('pouring water toward the ceiling'), upper trap staying soft",
+  "rom": "0\u201390\u00b0 shoulder elevation in the scapular plane"
+ },
+ {
+  "slug": "glute-bridge-with-march",
+  "category": "motor-control",
+  "startPosition": "supine, knees bent ~90\u00b0, feet flat hip-width, hips lifted into a bridge so knees\u2013hips\u2013shoulders form a straight line and the pelvis is level",
+  "endPosition": "one knee marched up toward the chest to ~90\u00b0 hip flexion while the hips stay level (no pelvic rocking), then lowered and alternated",
+  "rom": "support hip held in bridge extension; marching hip flexes 0\u2013~90\u00b0; pelvis excursion held near zero (anti-rotation)"
+ },
+ {
+  "slug": "goblet-squat",
+  "category": "strength",
+  "startPosition": "standing, kettlebell/dumbbell held vertically against the chest with both hands, feet shoulder-width or slightly wider, toes turned out 10\u201330\u00b0",
+  "endPosition": "bottom of squat with elbows tracking just inside the knees (or comfortable depth), trunk tall and weight glued to the chest, then driven back to standing",
+  "rom": "0 to ~120\u00b0 knee flexion with matching hip flexion; upright trunk throughout"
+ },
+ {
+  "slug": "grip-squeeze-and-release",
+  "category": "strength",
+  "startPosition": "seated, forearm supported, wrist neutral to slightly extended, hand open with fingers relaxed (optional stress ball in palm)",
+  "endPosition": "firm full fist with thumb wrapped, held 3 s, then hand fully opened with fingers spread wide",
+  "rom": "full finger MCP/IP flexion to full extension; wrist held neutral"
+ },
+ {
+  "slug": "grip-strengthening",
+  "category": "strength",
+  "startPosition": "seated, forearm supported, wrist neutral, fingers extended around a therapy ball or putty",
+  "endPosition": "full finger flexion crushing the ball into a smaller shape, then fingers spread wide on release",
+  "rom": "full finger flexion to full extension; wrist held neutral"
+ },
+ {
+  "slug": "hammer-curl",
+  "category": "strength",
+  "startPosition": "standing, a dumbbell in each hand at the sides in neutral grip (palms facing thighs, thumbs up), elbows fully extended and pinned to the ribs",
+  "endPosition": "elbows flexed to curl the weights toward the shoulders with thumbs still up, then lowered over ~3 s to full extension",
+  "rom": "0 to ~140\u00b0 elbow flexion; forearm held in neutral rotation"
+ },
+ {
+  "slug": "hanging-leg-raise",
+  "category": "strength",
+  "startPosition": "vertical dead hang from an overhead bar with overhand grip, shoulders packed down away from the ears, legs straight and hanging",
+  "endPosition": "straight (or near-straight) legs raised to at least hip height, finished with a posterior pelvic curl bringing the pelvis toward the ribs, then lowered under control",
+  "rom": "0 to \u226590\u00b0 hip flexion plus posterior pelvic tilt at the top; no trunk swing"
+ },
+ {
+  "slug": "hart-chart",
+  "category": "sensory",
+  "startPosition": "seated upright holding a near letter chart at reading distance with a matched far letter chart placed across the room at distance",
+  "endPosition": "gaze alternating between near and far charts, reading a row on each as quickly as possible while keeping the letters sharp",
+  "rom": "isometric posture \u2014 ocular accommodation/vergence shifts near-to-far with minimal head or body excursion"
+ },
+ {
+  "slug": "heavy-slow-resistance-achilles",
+  "category": "strength",
+  "startPosition": "standing with a loaded barbell across the shoulders, balls of the feet on a platform edge and heels dropped below it into dorsiflexion (straight-knee variant; bent-knee/leg-press variants biasing soleus)",
+  "endPosition": "full ankle plantarflexion up onto the toes, then a slow controlled lowering back below the platform, ~6 s per rep",
+  "rom": "below-neutral dorsiflexion (heel dropped) to full plantarflexion under heavy slow load"
+ },
+ {
+  "slug": "heel-raise",
+  "category": "strength",
+  "startPosition": "standing tall, feet flat hip-width, knees soft, weight balanced over the big and second toes",
+  "endPosition": "risen up onto the balls of the feet with heels fully lifted into plantarflexion, crown reaching toward the ceiling",
+  "rom": "0 to full ankle plantarflexion"
+ },
+ {
+  "slug": "heel-raise-eccentric",
+  "category": "strength",
+  "startPosition": "standing on a step edge, up on the balls of the feet with heels raised (top of the calf raise), knee locked long",
+  "endPosition": "heels lowered slowly over ~4 s to just below the step edge into dorsiflexion, weight even across the toes (bilateral progressing to unilateral)",
+  "rom": "full plantarflexion to below-neutral dorsiflexion, eccentrically controlled"
+ },
+ {
+  "slug": "heel-to-toe-walk",
+  "category": "balance",
+  "startPosition": "standing tall on a floor line (tile seam or tape), feet aligned heel-to-toe, arms held slightly out, gaze fixed on a spot ahead, optional light fingertip wall support",
+  "endPosition": "front-foot heel placed directly in front of and touching the back-foot toes on the single line, pausing in each narrow tandem stance before the next step",
+  "rom": "dynamic tandem gait along a line with a very narrow base of support; minimal individual-joint excursion per step"
+ },
+ {
+  "slug": "heel-toe-tandem-walk",
+  "category": "balance",
+  "startPosition": "standing tall at one end of a straight line/taped seam, feet together, arms relaxed at sides or slightly abducted for balance",
+  "endPosition": "advanced several steps forward in tandem, heel of the front foot placed directly in contact with the toes of the trailing foot, on a very narrow base",
+  "rom": "whole-body forward locomotion along a straight line, each step ~one foot-length; individual joints move little \u2014 emphasis is on progressively narrowing the base of support"
+ },
+ {
+  "slug": "hip-abduction-extension-sliders",
+  "category": "strength",
+  "startPosition": "standing tall on the support leg, opposite foot resting on a slider directly beneath the hip, hand on the pelvis to monitor level hips",
+  "endPosition": "sliding foot pushed out into hip abduction and/or back into hip extension, then drawn back under control with the standing pelvis kept level",
+  "rom": "hip abduction ~0\u201330\u00b0 and/or hip extension ~0\u201320\u00b0 from neutral, moved through the full arc with a deliberately slow eccentric return"
+ },
+ {
+  "slug": "hip-abduction-strengthening",
+  "category": "strength",
+  "startPosition": "sidelying with the bottom leg slightly bent for a base, top leg straight and stacked over the bottom, pelvis vertical, hand on the top hip",
+  "endPosition": "top leg raised into hip abduction with the heel leading toward the ceiling and the knee tracking in line with the trunk",
+  "rom": "hip abduction ~0\u201330\u201345\u00b0 from neutral, controlled lift and lower"
+ },
+ {
+  "slug": "hip-adduction-sidelying",
+  "category": "strength",
+  "startPosition": "sidelying with the top leg bent forward onto a support, bottom leg straight along the floor, hips stacked vertically",
+  "endPosition": "bottom leg lifted off the floor toward the ceiling into hip adduction, heel rising toward the top thigh, leg kept straight and slightly forward of the trunk",
+  "rom": "hip adduction ~0\u201320\u201330\u00b0 (floor to comfortable end range), controlled up and down"
+ },
+ {
+  "slug": "hip-airplane",
+  "category": "balance",
+  "startPosition": "single-leg stance with the knee slightly bent, trunk hinged forward at the hip to near-horizontal, non-stance leg extended behind in line with the trunk",
+  "endPosition": "trunk and pelvis rotated from the hip toward the stance side (internal rotation) then away (external rotation), returning to a level near-horizontal position",
+  "rom": "hip internal/external rotation to comfortable end range under single-leg load, with the trunk held in ~90\u00b0 hip-hinge and the spine kept still"
+ },
+ {
+  "slug": "hip-flexor-hamstring-stretch",
+  "category": "stretch",
+  "startPosition": "half-kneeling with the front foot flat, rear knee on the floor, pelvis in posterior tilt and trunk tall (hip flexor); or supine with a strap around one foot (hamstring)",
+  "endPosition": "hip flexor lengthened by driving the front knee forward over the foot into rear-hip extension; hamstring lengthened by raising the strapped straight leg toward the ceiling",
+  "rom": "rear-hip extension to a comfortable stretch; supine straight-leg raise toward ~80\u201390\u00b0 hip flexion, each sustained at end range"
+ },
+ {
+  "slug": "hip-hinge-deadlift",
+  "category": "strength",
+  "startPosition": "standing with feet hip-width, neutral spine, soft knees, load (bar/light weight) hanging at the thighs or set at mid-shin",
+  "endPosition": "hips pushed back then driven forward to a tall, fully extended standing position with the load lifted along the legs and glutes squeezed",
+  "rom": "hip flexion-to-extension ~90\u00b0\u21920\u00b0 via a hip-dominant hinge with a neutral spine and minimal knee bend"
+ },
+ {
+  "slug": "hip-thrust",
+  "category": "strength",
+  "startPosition": "seated on the floor with the upper back against a bench, knees bent ~90\u00b0, feet flat hip-width apart, chin tucked and ribs down",
+  "endPosition": "hips driven up until the trunk and thighs are parallel to the floor (tabletop), shins vertical, hips fully extended with a strong glute squeeze and slight posterior pelvic tilt",
+  "rom": "hip extension from a flexed bottom position (~70\u00b0 flexion) up to neutral/0\u00b0 at the tabletop"
+ },
+ {
+  "slug": "hollow-body-hold",
+  "category": "motor-control",
+  "startPosition": "supine on the floor, low back flattened into the ground, arms reaching overhead and legs straight together",
+  "endPosition": "shoulder blades, arms, and straight legs lifted a few inches into a dished, banana-shaped position and held isometrically",
+  "rom": "isometric hold \u2014 minimal joint excursion; the low back is kept pinned flat to resist lumbar extension (anti-extension)"
+ },
+ {
+  "slug": "hypothenar-reactivation-bendz",
+  "category": "strength",
+  "startPosition": "seated with the forearm supported, wrist neutral, hand and small finger relaxed",
+  "endPosition": "5th metacarpal flexed (cupped) with the small finger flexed to lock around a handle, or with the small finger extended to support a plate",
+  "rom": "5th CMC/MCP flexion paired with small-finger flexion or extension to end range, held largely isometrically in each grip pattern"
+ },
+ {
+  "slug": "intrinsic-plus-hold",
+  "category": "motor-control",
+  "startPosition": "seated with the forearm supported and the hand relaxed",
+  "endPosition": "MCP joints flexed 60\u201390\u00b0 while the IP joints are held fully extended, forming a flat 'tabletop' hand, sustained for the hold",
+  "rom": "isometric hold at MCP flexion 60\u201390\u00b0 with full IP extension; minimal joint excursion once the position is set"
+ },
+ {
+  "slug": "inverted-row",
+  "category": "strength",
+  "startPosition": "supine under a fixed bar or suspension trainer, arms fully extended gripping the handle, body in a straight rigid plank supported on the heels",
+  "endPosition": "body pulled up as one plank until the chest nears the bar, elbows driven back toward the pockets, shoulder blades retracted",
+  "rom": "elbow flexion 0\u00b0\u2192~120\u00b0 with scapular retraction while the trunk-and-legs plank rises as a unit"
+ },
+ {
+  "slug": "isolated-small-finger-abduction",
+  "category": "strength",
+  "startPosition": "seated with the forearm and hand supported, fingers extended and the small finger held adducted alongside the ring finger, a rubber band or manual resistance across the finger",
+  "endPosition": "small finger abducted sideways away from the ring finger against the resistance and held ~3 s before controlled return",
+  "rom": "5th-MCP abduction from neutral to end range and back, isolated to the small finger"
+ },
+ {
+  "slug": "isometric-glute-squeeze",
+  "category": "strength",
+  "startPosition": "seated upright (or standing) with feet flat, spine tall, glutes relaxed",
+  "endPosition": "both gluteal muscles maximally contracted and held ~5 s with no visible movement of the pelvis or hips",
+  "rom": "isometric hold \u2014 minimal joint excursion; no visible hip or pelvic motion"
+ },
+ {
+  "slug": "isometric-neck-strengthening",
+  "category": "strength",
+  "startPosition": "seated tall with a neutral cervical spine, a hand/palm placed against the forehead, side, or back of the head",
+  "endPosition": "cervical muscles contract to match a steady manual resistance in flexion, extension, lateral flexion, and rotation while the head stays still, upper traps quiet",
+  "rom": "isometric hold \u2014 minimal to no cervical joint excursion in each of the four directions"
+ },
+ {
+  "slug": "jump-squat",
+  "category": "strength",
+  "startPosition": "standing with feet shoulder-width apart, arms ready to swing back",
+  "endPosition": "full triple extension of ankles, knees, and hips at the peak of an explosive vertical jump, arms thrown overhead, then a soft landing reabsorbed into the same squat depth",
+  "rom": "quarter-to-half squat (~0\u201360\u00b0 knee flexion) driving into full hip/knee/ankle extension and airborne, then re-flexing to absorb the landing"
+ },
+ {
+  "slug": "jumping-jack",
+  "category": "aerobic",
+  "startPosition": "standing tall with feet together and arms at the sides",
+  "endPosition": "feet jumped out wider than hip-width with straight arms swung out and overhead (hands near touching), landing softly on the balls of the feet",
+  "rom": "rhythmic shoulder abduction ~0\u2013180\u00b0 with hip abduction/adduction; feet cycle from together to wider than hip-width and back"
+ },
+ {
+  "slug": "kettlebell-good-morning",
+  "category": "strength",
+  "startPosition": "standing with feet hip-width, kettlebell held at the chest (goblet) or behind the neck, spine long and neutral",
+  "endPosition": "trunk hinged forward toward horizontal with the hips pushed back, then driven back to a tall standing finish with hips fully extended",
+  "rom": "hip-dominant hinge to roughly torso-near-parallel (~0\u201390\u00b0 hip flexion) with slightly bent knees and a fixed neutral spine throughout"
+ },
+ {
+  "slug": "kettlebell-swing",
+  "category": "strength",
+  "startPosition": "standing with feet shoulder-width, hips hinged and the kettlebell hiked back between the legs above knee height",
+  "endPosition": "hips snapped to full extension with a tall trunk as the kettlebell floats out to chest/shoulder height on nearly straight arms",
+  "rom": "dynamic hip hinge cycling from hip flexion (bell above the knees) to full hip extension; bell arcs from between the thighs up to ~chest height"
+ },
+ {
+  "slug": "knee-split-squat-isometric",
+  "category": "strength",
+  "startPosition": "standing in a split stance lowered into a split squat with the front shin vertical, held at the target knee-flexion angle",
+  "endPosition": "sustained isometric split-squat hold at the target knee flexion (progressing toward 45-second holds) with no movement, crown reaching tall",
+  "rom": "isometric hold at the target knee-flexion angle \u2014 minimal joint excursion once the position is set"
+ },
+ {
+  "slug": "knee-to-wall-ankle",
+  "category": "mobility",
+  "startPosition": "standing facing a wall in a short lunge, front foot a few inches from the wall with the heel firmly planted, arch lifted",
+  "endPosition": "front knee driven straight forward over the middle toes to touch (or reach toward) the wall, loading the ankle into dorsiflexion while the heel stays glued down",
+  "rom": "ankle dorsiflexion to end range at the knee-to-wall position; heel remains grounded throughout"
+ },
+ {
+  "slug": "landmine-press",
+  "category": "strength",
+  "startPosition": "standing with a braced tall trunk, the barbell anchored at one end and racked at the front of one shoulder in that hand",
+  "endPosition": "bar pressed forward and up along its arc to full elbow extension, the working hand reaching toward the far upper corner, ribs kept down",
+  "rom": "shoulder elevation through an arced path (roughly 40\u2013120\u00b0+ elevation, avoiding the impingement zone) to full elbow extension"
+ },
+ {
+  "slug": "lat-pulldown",
+  "category": "strength",
+  "startPosition": "seated with thighs secured under the pad, pronated grip slightly wider than shoulder width, arms fully extended overhead, torso leaning back 10\u201315\u00b0 with chest lifted",
+  "endPosition": "bar pulled down to the upper chest/collarbone by driving the elbows down and back and depressing the shoulder blades, then controlled back to full overhead extension",
+  "rom": "shoulder adduction/extension from full overhead flexion to the bar at the upper chest, with elbow flexion through full range"
+ },
+ {
+  "slug": "lateral-band-walk",
+  "category": "strength",
+  "startPosition": "standing with a band looped around the ankles or just above the knees, dropped into a quarter-squat (mini-squat), feet hip-width and pointed forward",
+  "endPosition": "stepped sideways one step while maintaining constant band tension and a low quarter-squat, hips level, followed by a controlled trailing-leg return step",
+  "rom": "frontal-plane hip abduction and controlled adduction while sustaining ~quarter-squat knee flexion and a level pelvis"
+ },
+ {
+  "slug": "lateral-bounds",
+  "category": "strength",
+  "startPosition": "single-leg stance with the hip and knee slightly flexed, trunk quiet, loaded to push off laterally",
+  "endPosition": "explosive lateral push-off into flight, landing and sticking on the opposite single leg with the knee tracking over the toes, silently absorbed",
+  "rom": "frontal-plane push-off and landing \u2014 hip/knee flexion to absorb then extension to propel, with lateral displacement from one leg to the other"
+ },
+ {
+  "slug": "lateral-costal-breathing",
+  "category": "breathwork",
+  "startPosition": "seated upright with hands resting on the lower lateral ribs, shoulders relaxed",
+  "endPosition": "lower ribs expanded sideways into the hands on inhale without any chest lift or shoulder shrug, then settling back on exhale",
+  "rom": "lateral rib-cage (costal) expansion through the breathing cycle \u2014 minimal limb or spinal joint excursion"
+ },
+ {
+  "slug": "lateral-raise",
+  "category": "strength",
+  "startPosition": "standing tall, feet hip-width, a dumbbell in each hand resting at the sides with a soft bend in the elbows, palms facing the thighs",
+  "endPosition": "arms raised out to the sides in the frontal plane to about shoulder height with elbows leading, shoulders down (not shrugged), torso still",
+  "rom": "0\u2013~90\u00b0 shoulder abduction in the frontal plane, controlled up and down"
+ },
+ {
+  "slug": "lateral-step-up",
+  "category": "strength",
+  "startPosition": "standing beside a step/box, tall trunk and level pelvis, the near (top) foot placed flat on the step and the trailing foot on the floor",
+  "endPosition": "fully stood up on the step driving through the top-leg heel, standing hip and pelvis level, trailing foot lifted off the floor",
+  "rom": "top leg moves from ~60\u201390\u00b0 knee/hip flexion to near-full extension; controlled lowering back down"
+ },
+ {
+  "slug": "leg-curl",
+  "category": "strength",
+  "startPosition": "prone on a leg-curl machine (or seated variation), hips and pelvis pressed into the pad, knees near full extension, padded lever resting just above the heels/Achilles, ankles relaxed/lightly dorsiflexed",
+  "endPosition": "knees flexed with heels curled toward the buttocks through available range, hips still anchored to the pad, brief pause at end range",
+  "rom": "~0\u00b0 to end-range knee flexion (up to ~90\u2013120\u00b0), controlled return to near-full extension"
+ },
+ {
+  "slug": "leg-extension",
+  "category": "strength",
+  "startPosition": "seated tall on a leg-extension machine, back and hips against the pads, hips flexed ~90\u00b0, shins hooked behind the roller resting just above the ankles, knee axis aligned with the machine pivot",
+  "endPosition": "knees smoothly extended to nearly straight (short of hyperextended lockout) with quadriceps squeezed, brief pause",
+  "rom": "~90\u00b0 knee flexion to near-full extension (~0\u201310\u00b0 short of lockout), lowering over 2\u20133 s"
+ },
+ {
+  "slug": "leg-press-limited-rom",
+  "category": "strength",
+  "startPosition": "seated in a leg-press machine, long spine and quiet trunk against the back pad, both feet flat on the platform hip-width, knees near full extension at the start",
+  "endPosition": "platform pressed away through both heels back toward extension after a controlled descent stopped at the 60\u00b0 marker, knees kept hip-width",
+  "rom": "0\u201360\u00b0 knee flexion only (limited depth to minimize patellofemoral stress)"
+ },
+ {
+  "slug": "legs-up-the-wall",
+  "category": "breathwork",
+  "startPosition": "supine with buttocks close to the wall, straight legs resting vertically up the wall, arms relaxed at the sides, whole body passively supported",
+  "endPosition": "sustained restorative hold with legs vertical and body fully relaxed, breathing slowly and low into the belly with lengthened exhales for 5\u201315 minutes",
+  "rom": "isometric restorative hold \u2014 minimal joint excursion; hips passively flexed ~90\u00b0 with legs vertical"
+ },
+ {
+  "slug": "levator-scapulae-stretch",
+  "category": "stretch",
+  "startPosition": "seated tall with a long spine, one hand can anchor the same-side shoulder down; head neutral",
+  "endPosition": "neck flexed, side-bent away from the target side, and rotated toward the target side (looking down toward the opposite armpit), same-side shoulder drawn toward the floor to elongate levator scapulae",
+  "rom": "cervical flexion + contralateral lateral flexion + ipsilateral rotation to comfortable end range, held statically"
+ },
+ {
+  "slug": "limbic-downregulation-pendulation",
+  "category": "sensory",
+  "startPosition": "seated comfortably and still, attention directed inward to a region of body comfort (e.g. warm feet, soft hands)",
+  "endPosition": "attention oscillating between the comfort area and an area of mild discomfort/activation (e.g. tight shoulders), returning to comfort if overwhelming",
+  "rom": "isometric/attentional practice \u2014 no joint excursion; 30\u201360 s of focused attention per area"
+ },
+ {
+  "slug": "low-row-band",
+  "category": "strength",
+  "startPosition": "seated (or standing) tall with a long spine, arms extended forward holding a band or cable anchored at about waist height, scapulae protracted",
+  "endPosition": "band/cable pulled toward the abdomen/belt buckle with elbows driven toward the back hip pockets and scapulae retracted/depressed, quiet upper traps",
+  "rom": "full shoulder extension/scapular retraction pull to the abdomen, controlled return to forward reach"
+ },
+ {
+  "slug": "mcgill-curl-up",
+  "category": "motor-control",
+  "startPosition": "supine with one knee bent (foot flat) and the other leg straight, hands placed palm-down under the lumbar spine to preserve the natural lordosis, abdominals braced",
+  "endPosition": "head and shoulders lifted just off the surface with the lumbar curve maintained (no flexion), gentle pressure of the low back into the fingers, brief hold",
+  "rom": "minimal spinal flexion \u2014 only head/upper-shoulder elevation off the floor; near-isometric trunk brace"
+ },
+ {
+  "slug": "median-nerve-glide",
+  "category": "sensory",
+  "startPosition": "seated upright, working arm abducted at the shoulder with elbow flexed, wrist/fingers relaxed, head neutral",
+  "endPosition": "sequenced glide: shoulder abducted, elbow extended, wrist/fingers extended (palm open toward ceiling), then cervical lateral flexion away from the arm \u2014 tension applied at one end while released at the other so the nerve slides",
+  "rom": "oscillating neurodynamic slider through combined shoulder abduction, elbow extension, wrist/finger extension, and contralateral cervical side-bend; gentle, non-stretch excursion"
+ },
+ {
+  "slug": "mindfulness-integrated-stretching",
+  "category": "stretch",
+  "startPosition": "standing, entering a chosen static or dynamic stretch position, attention on the breath and target tissue, breathing slowly through the nose",
+  "endPosition": "stretch held at the edge where sensation is clear but not painful for 20\u201330 s, then a slow mindful transition to the next pose with 10\u201315 s rest",
+  "rom": "tissue-specific stretch to comfortable end range, held 20\u201330 s; slow controlled transitions between poses"
+ },
+ {
+  "slug": "modified-curl-up-dead-bug",
+  "category": "motor-control",
+  "startPosition": "supine; for the curl-up one knee bent with hands under the lumbar spine, for the dead bug arms and legs raised to 90\u00b0 with the low back pressed to the floor",
+  "endPosition": "curl-up: head and shoulders lifted minimally with the lumbar curve held; dead bug: opposite arm and leg lowered toward the floor while lumbar contact and quiet ribs are maintained, then returned",
+  "rom": "minimal spinal flexion in the curl-up; dead bug ranges through near-full opposite hip/shoulder extension while keeping the spine still (anti-extension control)"
+ },
+ {
+  "slug": "mountain-climber",
+  "category": "aerobic",
+  "startPosition": "high plank, hands stacked under shoulders on the floor, weight on hands and toes, body in a straight line from head to heels, hips level",
+  "endPosition": "one knee driven toward the chest with the opposite leg extended, trunk rigid and hips level, then legs rapidly switch in a running motion",
+  "rom": "repetitive hip flexion ~0\u201390\u00b0 driving knee to chest, alternating; trunk held isometric in plank"
+ },
+ {
+  "slug": "nerve-tendon-gliding-cts",
+  "category": "sensory",
+  "startPosition": "seated, forearm supported, wrist and fingers in neutral, shoulder at side, elbow flexed",
+  "endPosition": "end of the glide sequence: for nerve glide, shoulder abducted with elbow, wrist and fingers extended and cervical spine laterally flexed away; for tendon glide, hand cycled through straight, hook fist, full fist, tabletop, and straight fist",
+  "rom": "full available excursion of wrist/finger flexion\u2013extension and elbow extension with graded cervical lateral flexion; gentle, non-provocative end ranges"
+ },
+ {
+  "slug": "neuromuscular-exercise-knee",
+  "category": "balance",
+  "startPosition": "standing on the involved leg on a step or floor, pelvis level, kneecap tracking over the second toe, opposite foot lifted",
+  "endPosition": "single-leg stance maintained through a slow step-down until the trailing heel lightly touches the floor, hip and pelvis staying level",
+  "rom": "controlled single-leg knee flexion through the step-down descent (~0\u201345\u00b0) with proprioceptive/perturbation stance holds"
+ },
+ {
+  "slug": "ninety-ninety-hip-ir-stretch",
+  "category": "stretch",
+  "startPosition": "seated on the floor in 90/90 position \u2014 front leg 90\u00b0 hip flexion and 90\u00b0 knee flexion, back leg 90\u00b0 hip abduction and 90\u00b0 knee flexion, spine tall",
+  "endPosition": "trunk hinged forward over the front shin with a long spine, feeling a stretch in the front-hip external rotators toward internal rotation",
+  "rom": "front-hip external rotators lengthened toward end-range internal rotation via forward trunk lean; sustained stretch"
+ },
+ {
+  "slug": "ninety-ninety-hip-stretch",
+  "category": "stretch",
+  "startPosition": "seated on the floor, both hips at 90\u00b0 flexion, front leg in external rotation and back leg in internal rotation, both sit-bones anchored, spine tall",
+  "endPosition": "both knees pressed toward the floor with chest reaching gently over the front shin, trunk stationary and sit-bones still anchored",
+  "rom": "hip rotators lengthened to comfortable end range in front-hip ER and back-hip IR; sustained myofascial stretch"
+ },
+ {
+  "slug": "nordic-hamstring-curl",
+  "category": "strength",
+  "startPosition": "tall kneeling with ankles anchored by a partner or strap, hips extended, trunk in a straight line from knees to crown, hands ready in front",
+  "endPosition": "trunk lowered forward toward the floor under eccentric hamstring control, hands catching the floor, then pushing back up to tall kneeling",
+  "rom": "knee extension from ~90\u00b0 toward full extension controlled eccentrically over ~5 s with hips held extended"
+ },
+ {
+  "slug": "nordic-hamstring-exercise",
+  "category": "strength",
+  "startPosition": "tall kneeling with ankles anchored, hips extended, straight line from knees to crown",
+  "endPosition": "body lowered forward as slowly as possible toward the floor under maximal eccentric hamstring control, hands catching and pushing back up",
+  "rom": "eccentric knee extension from ~90\u00b0 toward full extension, trunk/hips rigid, controlled as slowly as possible"
+ },
+ {
+  "slug": "open-book-stretch",
+  "category": "mobility",
+  "startPosition": "sidelying with hips and knees stacked at 90\u00b0, both arms extended together in front at shoulder height, knees pressed together",
+  "endPosition": "top arm and thorax rotated open toward the ceiling and floor behind, gaze following the moving hand, pelvis and knees stationary",
+  "rom": "thoracic rotation to comfortable end range (~30\u201340\u00b0 cumulative) while pelvis is stabilized"
+ },
+ {
+  "slug": "optokinetic-stimulation",
+  "category": "sensory",
+  "startPosition": "seated (or standing near a wall), eyes open and fixed on a repetitive moving visual pattern such as an optokinetic disc or scrolling video",
+  "endPosition": "sustained visual fixation on the moving pattern for the exposure duration (start ~30 s), habituating to visual-vestibular conflict",
+  "rom": "isometric head/body posture with eyes tracking optic flow \u2014 minimal joint excursion"
+ },
+ {
+  "slug": "overhead-press",
+  "category": "strength",
+  "startPosition": "seated tall with back and glutes set against the bench, dumbbells or band held at shoulder height, wrists stacked over elbows, ribs down",
+  "endPosition": "weights pressed straight overhead to full elbow extension with wrists stacked over elbows over shoulders",
+  "rom": "shoulder flexion/abduction ~90\u00b0 to overhead with full elbow extension"
+ },
+ {
+  "slug": "overhead-squat",
+  "category": "functional",
+  "startPosition": "standing hip-width, barbell or dowel held overhead with elbows locked and scapulae packed, bar over the mid-foot",
+  "endPosition": "full squat with hips below parallel, arms still extended overhead, bar tracking vertically over the mid-foot, then standing to full extension",
+  "rom": "hip flexion >110\u00b0, knee flexion to deep squat, ankle dorsiflexion ~36\u201338\u00b0, shoulder flexion >170\u00b0 held overhead"
+ },
+ {
+  "slug": "pallof-press",
+  "category": "motor-control",
+  "startPosition": "standing perpendicular to a cable or band anchor, handle held at the chest with both hands, hips square and trunk braced",
+  "endPosition": "arms pressed straight forward to full extension while resisting the rotational pull, hips and trunk staying square and quiet",
+  "rom": "arms extend/return at the shoulder ~0\u201390\u00b0 elbow extension; trunk held isometric anti-rotation with minimal spinal excursion"
+ },
+ {
+  "slug": "pec-deck",
+  "category": "strength",
+  "startPosition": "seated tall with back and head against the pad, feet flat, forearms/hands on the lever pads with elbows at chest height and a soft bend",
+  "endPosition": "pads squeezed together in front of the chest via shoulder horizontal adduction with a brief peak-contraction pause, then controlled return until a gentle chest stretch with elbows no further back than the torso plane",
+  "rom": "shoulder horizontal adduction through the available range, controlled return to a mild horizontal-abduction stretch at the torso plane"
+ },
+ {
+  "slug": "pelvic-tilt-realignment",
+  "category": "motor-control",
+  "startPosition": "supine, knees bent ~90\u00b0, feet flat hip-width on the floor, arms at sides, one hand optionally under the lumbar spine",
+  "endPosition": "pelvis returned to and held in neutral (lumbar spine lightly touching the floor) for three breaths, after cycling through full posterior and anterior tilt",
+  "rom": "lumbopelvic tilt through full available anterior-to-posterior pelvic rotation (~10\u201315\u00b0 each direction), rocking about the hip sockets"
+ },
+ {
+  "slug": "pendulum-exercise",
+  "category": "mobility",
+  "startPosition": "standing, trunk leaned forward at the hips ~45\u201390\u00b0, supporting the uninvolved hand on a table, affected arm hanging relaxed and vertical",
+  "endPosition": "affected arm continuing passive small circular/pendular sway driven by trunk motion, shoulder muscles relaxed throughout",
+  "rom": "passive glenohumeral excursion tracing a small (~15\u201330 cm / coffee-cup-sized) circle; motion generated by body sway, not active shoulder ROM"
+ },
+ {
+  "slug": "pfm-diaphragmatic-release",
+  "category": "breathwork",
+  "startPosition": "supine, knees bent, feet flat, relaxed, one hand on lower ribs/belly",
+  "endPosition": "end of a slow 4\u20136 s 360\u00b0 inhale with belly expanded and pelvic floor passively descended; then passive recoil on gentle exhale \u2014 no active contraction",
+  "rom": "minimal joint excursion; ribcage/diaphragm expansion with passive pelvic floor descent and recoil during each breath cycle"
+ },
+ {
+  "slug": "pfm-lengthening-positions",
+  "category": "stretch",
+  "startPosition": "supine modified butterfly: soles of feet together, knees dropped apart and supported by pillows, arms relaxed (or deep supported squat / child's pose variants)",
+  "endPosition": "sustained gravity-assisted end-range hip abduction/external rotation with pelvic floor passively lengthened, held 60\u201390 s with diaphragmatic breathing",
+  "rom": "static hold at comfortable end-range hip abduction/ER; minimal ongoing joint excursion \u2014 passive lengthening only"
+ },
+ {
+  "slug": "pfm-quick-flick",
+  "category": "motor-control",
+  "startPosition": "supine, knees bent, feet flat, pelvic floor and abdomen relaxed",
+  "endPosition": "maximal pelvic floor contraction held 1\u20132 s then fully released, repeated rapidly with complete relaxation between reps",
+  "rom": "isometric pelvic floor contraction \u2014 no visible joint movement; rapid on/off internal muscle excursion"
+ },
+ {
+  "slug": "pfm-sniff-flop-drop",
+  "category": "breathwork",
+  "startPosition": "forward-kneeling (quadruped or kneeling leaning slightly forward), hands on belly, abdomen and pelvic floor relaxed",
+  "endPosition": "after a quick abdominal sniff and outward belly flop, the pelvic floor sphincters consciously released/dropped like a sigh into the pelvis",
+  "rom": "minimal joint excursion; abdominal wall expansion with downward pelvic floor release \u2014 a relaxation/downtrain drill, not a contraction"
+ },
+ {
+  "slug": "pfm-sustained-hold",
+  "category": "motor-control",
+  "startPosition": "supine, knees bent, feet flat, pelvic floor relaxed, breathing normally (progresses to sitting then standing)",
+  "endPosition": "pelvic floor contracted and lifted upward toward the head, held 6\u201310 s, then fully relaxed for an equal interval",
+  "rom": "isometric pelvic floor lift held sub-maximally; no external joint motion \u2014 internal muscle excursion only"
+ },
+ {
+  "slug": "pfm-the-knack",
+  "category": "motor-control",
+  "startPosition": "standing upright, relaxed, anticipating a cough/sneeze/lift or intentional practice cough",
+  "endPosition": "brisk pelvic floor pre-contraction timed just before and sustained through the pressure spike, bracing the floor against downward load",
+  "rom": "isometric anticipatory pelvic floor contraction; minimal joint excursion \u2014 timing/coordination skill"
+ },
+ {
+  "slug": "pigeon-stretch",
+  "category": "stretch",
+  "startPosition": "from quadruped/prone, front leg bent and drawn across the body (hip flexed ~120\u00b0, externally rotated ~50\u00b0, adducted ~30\u00b0), back leg extended straight behind, both pelvic halves squared toward the floor",
+  "endPosition": "trunk lengthened and lowered over the front shin, back foot reaching away, holding the deep buttock stretch at end range",
+  "rom": "static end-range hip flexion/external rotation/adduction of the front hip with hip extension of the trailing leg; held stretch with minimal movement"
+ },
+ {
+  "slug": "pinch-strengthening",
+  "category": "strength",
+  "startPosition": "seated, forearm supported on a table in neutral, wrist quiet, thumb and finger(s) positioned to grip putty or a pinch gauge",
+  "endPosition": "thumb pressed against finger(s) in tip, three-jaw-chuck, or lateral/key pinch to the target load, squeeze held ~5 s then released",
+  "rom": "small thumb-finger closing excursion through the pinch; isometric hold at target force with an isolated, stationary wrist"
+ },
+ {
+  "slug": "posterior-chain-strengthening",
+  "category": "strength",
+  "startPosition": "varies by drill: prone with legs straight for hamstring curls, seated with feet flat for heel raises, or tall kneeling for Nordic eccentrics; spine long and neutral",
+  "endPosition": "posterior chain fully shortened (heel pulled toward the buttock / heels raised / trunk lowered under control) then returned over ~3 s eccentric",
+  "rom": "full available knee flexion (curls), ankle plantarflexion (heel raises), or controlled hip/knee eccentric lengthening (Nordics)"
+ },
+ {
+  "slug": "power-clean",
+  "category": "strength",
+  "startPosition": "standing, barbell held in the hang position at mid-thigh, hips hinged back, chest over the bar, neutral spine, shoulders slightly ahead of the bar",
+  "endPosition": "explosive triple extension to fully tall (ankles, knees, hips extended) with the bar caught in the front-rack across the shoulders, elbows high",
+  "rom": "large dynamic excursion from mid-thigh hang through full hip/knee/ankle extension, then re-flexion to receive the bar in a front-rack partial squat"
+ },
+ {
+  "slug": "prone-er-90-abduction",
+  "category": "strength",
+  "startPosition": "prone on a table, shoulder abducted to 90\u00b0 with the upper arm supported on the table (towel under the arm), elbow bent 90\u00b0 hanging off the edge, forearm/dumbbell pointing toward the floor",
+  "endPosition": "shoulder externally rotated so the forearm/knuckles rotate up toward the ceiling, dumbbell lifted along an arc to horizontal, scapula packed",
+  "rom": "glenohumeral external rotation from ~0\u00b0 (forearm vertical, down) through ~90\u00b0 ER (forearm horizontal) at 90\u00b0 abduction"
+ },
+ {
+  "slug": "prone-hip-extension-active",
+  "category": "strength",
+  "startPosition": "Prone, forehead resting on hands or floor, both legs straight, pelvis flat on the mat",
+  "endPosition": "One leg lifted toward the ceiling via glute contraction with a soft-straight knee, no lumbar arching, held 2 s at the top",
+  "rom": "0\u2013~15\u00b0 hip extension from the floor (glute-limited, low back stays neutral)"
+ },
+ {
+  "slug": "prone-horizontal-abduction-er",
+  "category": "strength",
+  "startPosition": "Prone, forehead down, arms hanging off the sides in a Y or T with thumbs pointing up (shoulders externally rotated)",
+  "endPosition": "Arms lifted toward the ceiling, thumbs up, scapulae retracted and depressed with mid/lower trap engaged and upper trap quiet",
+  "rom": "Arms lift a few inches off the floor; glenohumeral horizontal abduction with scapular retraction to end range"
+ },
+ {
+  "slug": "prone-press-up",
+  "category": "mobility",
+  "startPosition": "Lying face-down on the floor, hands under the shoulders, hips/buttocks/low back fully relaxed and resting on the mat",
+  "endPosition": "Upper body pressed up on extended arms with pelvis still resting on the floor, lumbar spine passively extended to pain-free/centralizing range",
+  "rom": "Progressive lumbar extension, pressing up only as far as symptoms allow, gaining range each rep"
+ },
+ {
+  "slug": "prone-t-with-external-rotation",
+  "category": "strength",
+  "startPosition": "Prone, forehead on a towel, arms abducted to 90\u00b0 in a T position with thumbs pointing up",
+  "endPosition": "Arms lifted toward the ceiling with shoulders externally rotated and scapulae retracted/depressed, elbows drawn toward the back hip pockets",
+  "rom": "Arms lift a few inches off floor; 90\u00b0 horizontal abduction with scapular retraction/depression to end range"
+ },
+ {
+  "slug": "prone-y-raise",
+  "category": "strength",
+  "startPosition": "Prone, forehead on a towel, arms elevated overhead in a Y (~135\u00b0 abduction) with thumbs pointing up",
+  "endPosition": "Arms lifted toward the ceiling at 11 and 1 o'clock, shoulder blades tucked down and together, lower trap engaged",
+  "rom": "Arms lift a few inches off floor; scapular upward rotation/depression driving overhead arm elevation to end range"
+ },
+ {
+  "slug": "prone-ytw-raise",
+  "category": "strength",
+  "startPosition": "Prone, forehead down, ribs relaxed on the floor, arms hanging off the sides, thumbs pointing up",
+  "endPosition": "Arms lifted a few inches to trace Y (overhead V), then T (straight out), then W (elbows bent toward ribs), each led by the shoulder blades and paused ~2 s",
+  "rom": "Arms lift only a few inches; sequential scapular retraction/depression and upward rotation through Y, T, and W positions"
+ },
+ {
+  "slug": "pull-up",
+  "category": "strength",
+  "startPosition": "Full vertical hang from an overhead bar, pronated grip slightly wider than shoulder width, arms fully extended, trunk braced",
+  "endPosition": "Body pulled up with elbows driven down and back until the chin clears the bar, then lowered under control to a full hang",
+  "rom": "Full elbow flexion and shoulder extension/adduction; complete hang to chin-over-bar and back"
+ },
+ {
+  "slug": "pursed-lip-diaphragmatic-breathing",
+  "category": "breathwork",
+  "startPosition": "Seated upright, shoulders relaxed, one hand may rest on the belly, neutral spine",
+  "endPosition": "Slow nasal inhale with the belly rising, then a quiet pursed-lip exhale (lips as if cooling soup) for twice the inhale duration, belly falling",
+  "rom": "Isometric posture \u2014 minimal joint excursion; movement limited to diaphragmatic belly rise/fall and rib expansion"
+ },
+ {
+  "slug": "push-up-plus",
+  "category": "motor-control",
+  "startPosition": "Prone plank/push-up start, hands under shoulders, body straight from crown to heel",
+  "endPosition": "At the top of the push-up, scapulae fully protracted (upper back rounds, serratus wraps the ribs), chest pushed maximally away from the floor",
+  "rom": "Full push-up elbow flexion/extension plus additional end-range scapular protraction (the 'plus')"
+ },
+ {
+  "slug": "quad-strengthening-slr-tke",
+  "category": "strength",
+  "startPosition": "SLR: supine with the exercising knee locked straight, opposite knee bent, pelvis level. TKE: standing with a band behind the knee",
+  "endPosition": "SLR: locked leg lifted to ~45\u00b0 with quad driving the lift. TKE: knee extended the final 30\u00b0 pushing the back of the knee into the band",
+  "rom": "SLR: 0\u201345\u00b0 hip flexion with knee locked; TKE: terminal ~30\u20130\u00b0 knee extension"
+ },
+ {
+  "slug": "quadruped-rockback",
+  "category": "mobility",
+  "startPosition": "Quadruped on hands and knees, spine long and neutral, hands under shoulders and knees under hips",
+  "endPosition": "Hips rocked back toward the heels with the lumbar spine gently rounding, stopping where the low back still feels comfortable",
+  "rom": "Hips travel back toward heels producing hip flexion with gentle lumbar flexion, to comfortable end range"
+ },
+ {
+  "slug": "radial-nerve-glide",
+  "category": "sensory",
+  "startPosition": "Seated upright, arm at the side, shoulder relaxed in neutral",
+  "endPosition": "Radial nerve tensioned through sequential shoulder depression, elbow extension, forearm pronation, and wrist flexion, then eased back to slide the nerve",
+  "rom": "Oscillating neural glide combining shoulder depression, full elbow extension, forearm pronation, and wrist flexion to gentle end-range tension"
+ },
+ {
+  "slug": "resisted-external-rotation",
+  "category": "strength",
+  "startPosition": "Side-lying (or standing) with a towel trapped under the elbow, elbow flexed 90\u00b0 at the side, forearm across the abdomen against band/cable resistance",
+  "endPosition": "Forearm rotated outward away from the body's centerline, wrist pointing toward the far wall, elbow staying pinned to the side",
+  "rom": "Glenohumeral external rotation from ~internal/neutral to end-range ER with the elbow fixed at the side"
+ },
+ {
+  "slug": "reverse-lunge",
+  "category": "strength",
+  "startPosition": "standing tall, feet hip-width, weight even, arms relaxed at sides, trunk upright with ribs stacked over pelvis",
+  "endPosition": "split stance with one foot stepped behind, back knee lowered toward the floor and front knee bent near 90\u00b0, front shin near-vertical with knee tracking over second toe, trunk still upright",
+  "rom": "hip and knee flexion 0\u2192~90\u00b0 in the stepping-back stance; return to full hip/knee extension in standing"
+ },
+ {
+  "slug": "romanian-deadlift",
+  "category": "strength",
+  "startPosition": "standing tall holding barbell/dumbbells at front of thighs, knees softly bent ~15\u201320\u00b0 and held fixed, spine neutral, load close to legs",
+  "endPosition": "hips pushed back into a deep hinge, torso inclined forward with neutral spine, bar dragged down to mid-shin/just below the knee at firm hamstring stretch, knee angle unchanged",
+  "rom": "hip flexion 0\u2192~80\u201390\u00b0 of hinge with near-constant knee angle; return to full hip extension standing"
+ },
+ {
+  "slug": "rubber-band-finger-abduction",
+  "category": "strength",
+  "startPosition": "seated, forearm/hand supported, fingers long and straight and held together with an elastic band looped around them",
+  "endPosition": "fingers actively spread wide into full abduction against the band, open shape held ~3 seconds before controlled release",
+  "rom": "MCP abduction from fingers adducted (0\u00b0) to full active spread against band resistance"
+ },
+ {
+  "slug": "russian-twist",
+  "category": "strength",
+  "startPosition": "seated on floor in a reclined V-sit, trunk leaned back ~45\u00b0 with long spine and lifted chest, knees bent, heels resting light, hands clasped (or weight) in front of chest",
+  "endPosition": "trunk rotated so the breastbone points to one side and the hands/weight are brought down beside that hip near the floor, reclined trunk angle and abdominal brace maintained",
+  "rom": "trunk axial rotation from neutral to comfortable end range each side (hip to hip), reclined trunk angle held constant"
+ },
+ {
+  "slug": "saccadic-eye-movements",
+  "category": "sensory",
+  "startPosition": "seated with head still and upright, two near targets held ~2 ft apart and 1\u20132 ft from the face (horizontal pair first, then vertical)",
+  "endPosition": "gaze rapidly and accurately refixated onto the opposite target with no drift or overshoot, head kept motionless throughout",
+  "rom": "rapid horizontal then vertical saccadic eye excursions between targets; head/neck isometric with minimal joint excursion"
+ },
+ {
+  "slug": "scaption-with-external-rotation",
+  "category": "strength",
+  "startPosition": "standing tall, long spine, arms at sides with thumbs up, free hand resting on the upper trap",
+  "endPosition": "arms elevated to about shoulder height in the scapular plane (30\u201345\u00b0 anterior to coronal), thumbs up and externally rotated so hands aim toward the 11 and 1 o'clock ceiling corners",
+  "rom": "shoulder elevation 0\u2192~90\u00b0 in the scapular plane combined with glenohumeral external rotation"
+ },
+ {
+  "slug": "scapular-clock",
+  "category": "mobility",
+  "startPosition": "standing facing a wall with both forearms and elbows in light contact at shoulder height",
+  "endPosition": "forearms having traced a full slow clockwise (then counter-clockwise) circle on the wall and returned to start, scapulae gliding around the rib cage throughout",
+  "rom": "full scapulothoracic circumduction (protraction, elevation, retraction, depression) through the clock-face circle, forearms staying on the wall"
+ },
+ {
+  "slug": "scapular-downward-rotation-control",
+  "category": "motor-control",
+  "startPosition": "standing with the arm elevated overhead, long spine and quiet shoulder, free hand on the shoulder blade",
+  "endPosition": "arm slowly lowered along an arc down to the back hip pocket over ~4 seconds, scapula eccentrically downwardly rotating and gliding smoothly",
+  "rom": "controlled eccentric arm lowering from overhead to hip with scapular downward rotation through available range"
+ },
+ {
+  "slug": "scapular-retraction-exercise",
+  "category": "strength",
+  "startPosition": "seated (or standing) tall with long neck and soft upper traps, arms relaxed, chest lifted",
+  "endPosition": "shoulder blades squeezed together in retraction (pinching an imaginary pencil), back of shirt drawn toward the chair, held briefly",
+  "rom": "scapular retraction from neutral to end range; small gross-joint excursion focused at the scapulothoracic joint"
+ },
+ {
+  "slug": "scapular-shrugs-depression",
+  "category": "strength",
+  "startPosition": "standing tall with long neck, arms at sides (or abducted to 90\u00b0/150\u00b0 to bias upward rotators)",
+  "endPosition": "shoulders first elevated toward the earlobes (shrug), then driven down toward the back pockets into depression, pausing at top and bottom",
+  "rom": "full scapular elevation and depression excursion between end-range shrug and end-range depression"
+ },
+ {
+  "slug": "scapular-stability-rows",
+  "category": "strength",
+  "startPosition": "seated tall (or standing) with long neck and lifted breastbone, holding a resistance band with arms extended forward",
+  "endPosition": "band pulled toward the lower ribs with elbows driven back toward the hip pockets, lower shoulder blades retracted and depressed at end range",
+  "rom": "shoulder extension with elbow flexion and scapular retraction/depression through the rowing pull, then controlled return"
+ },
+ {
+  "slug": "schroth-three-dimensional-exercises",
+  "category": "motor-control",
+  "startPosition": "standing tall with long spine, lifted breastbone, soft jaw, crown of head reaching toward the ceiling",
+  "endPosition": "sustained three-dimensionally corrected posture \u2014 spine elongated, trunk deflected and derotated \u2014 while breathing into the concave/collapsed side of the ribcage",
+  "rom": "active postural correction combining axial elongation, deflection and derotation with facilitated rib breathing; largely isometric with minimal gross joint excursion"
+ },
+ {
+  "slug": "seated-cable-row",
+  "category": "strength",
+  "startPosition": "seated tall at the cable station, knees slightly bent, feet braced on the platform, holding the handle with arms fully extended and trunk upright",
+  "endPosition": "handle pulled to the lower ribs/upper abdomen with elbows driven straight back and shoulder blades squeezed together, trunk still and upright",
+  "rom": "shoulder extension with elbow flexion and scapular retraction through the full pull, then controlled return to full-reach protraction"
+ },
+ {
+  "slug": "seated-calf-raise",
+  "category": "strength",
+  "startPosition": "seated upright, knees bent ~90\u00b0, balls of both feet on a raised platform with heels hanging free and dropped below platform level, resistance pad/weight across the lower thighs just above the knees",
+  "endPosition": "heels driven up as high as possible into full plantarflexion, briefly squeezed at the top with knees still bent ~90\u00b0",
+  "rom": "ankle plantarflexion from a dorsiflexed heel-below-platform stretch through to full plantarflexion; knee held static at ~90\u00b0 to bias the soleus"
+ },
+ {
+  "slug": "seated-figure-4-stretch",
+  "category": "stretch",
+  "startPosition": "seated tall on the sit-bones, one ankle crossed onto the opposite knee (figure-4) so the crossed hip sits in flexion, abduction, and external rotation, spine upright",
+  "endPosition": "trunk hinged forward from the hip with a long spine until a stretch is felt in the glute/piriformis of the crossed leg, chest leading",
+  "rom": "hip flexion via forward trunk hinge to comfortable stretch end range; crossed hip sustained in external rotation/abduction"
+ },
+ {
+  "slug": "seated-hip-internal-rotation",
+  "category": "mobility",
+  "startPosition": "seated on the edge of a chair, feet flat on the floor, knees pointing forward over the toes, pelvis level with both sit-bones equally weighted",
+  "endPosition": "shin swept outward so the foot moves away from the centerline, producing hip internal rotation, knee still pointing forward and trunk quiet",
+  "rom": "hip internal rotation from neutral to available end range"
+ },
+ {
+  "slug": "seated-knee-extension",
+  "category": "strength",
+  "startPosition": "seated tall against the chair back, thigh fully supported, foot flat, knee bent ~90\u00b0",
+  "endPosition": "knee straightened so the leg is nearly parallel to the floor, quadriceps (especially the VMO above/inside the kneecap) firmly tightened and held ~2 s at the top",
+  "rom": "knee extension from ~90\u00b0 flexion to near-0\u00b0 (full extension)"
+ },
+ {
+  "slug": "seated-trunk-rotation",
+  "category": "mobility",
+  "startPosition": "seated tall, hips and pelvis square facing forward, both hands placed on the opposite knee",
+  "endPosition": "upper body rotated toward one side with the pelvis staying square, eyes following the turn to add cervical rotation",
+  "rom": "thoracic (with added cervical) axial rotation to comfortable end range, pelvis fixed"
+ },
+ {
+  "slug": "sensory-reeducation-mirror-therapy",
+  "category": "sensory",
+  "startPosition": "seated at a table with a mirror positioned in the midline, the unaffected hand in front of the mirror and the affected hand hidden behind it, gaze on the mirror reflection",
+  "endPosition": "identifying textures, shapes, and touch location (stereognosis/locognosia) with the affected hand while watching the reflected unaffected hand, progressing eyes-open to eyes-closed",
+  "rom": "isometric/perceptual sensory task \u2014 minimal joint excursion; light hand and finger movements only"
+ },
+ {
+  "slug": "shoulder-internal-rotation-exercise",
+  "category": "strength",
+  "startPosition": "standing tall gripping a band/cable, working elbow tucked at the side and bent 90\u00b0 with a towel trapped under the elbow, forearm rotated outward pointing away from the body",
+  "endPosition": "forearm rotated inward across the body toward the belly, wrist pointing at the opposite hip, elbow still pinned to the side and towel still trapped",
+  "rom": "glenohumeral internal rotation from an externally rotated start through neutral to across the midline"
+ },
+ {
+  "slug": "side-bridge",
+  "category": "motor-control",
+  "startPosition": "sidelying on the down forearm with elbow directly under the shoulder, legs stacked and extended, hips resting toward the floor",
+  "endPosition": "hips driven upward so the body forms one straight line from head to feet, down hip pushed toward the ceiling, position held",
+  "rom": "isometric lateral-bridge hold \u2014 minimal joint excursion once hips are lifted"
+ },
+ {
+  "slug": "side-lying-external-rotation",
+  "category": "strength",
+  "startPosition": "side-lying on the uninvolved side with a towel roll under the working elbow, elbow bent 90\u00b0 and pinned to the side, forearm rotated down across the abdomen holding a light dumbbell",
+  "endPosition": "shoulder externally rotated so the dumbbell rotates up toward the ceiling and the knuckles aim at the far wall, towel still trapped under the elbow",
+  "rom": "glenohumeral external rotation from internal/neutral up to end range, elbow fixed at 90\u00b0"
+ },
+ {
+  "slug": "side-plank",
+  "category": "motor-control",
+  "startPosition": "sidelying on the down forearm with elbow under the shoulder, feet/legs stacked, ribs over hips, hips toward the floor",
+  "endPosition": "hips lifted so the body is one straight line from head to heel, top hip reaching toward the ceiling, position held",
+  "rom": "isometric side-plank hold \u2014 minimal joint excursion once elevated"
+ },
+ {
+  "slug": "side-plank-hip-abduction",
+  "category": "motor-control",
+  "startPosition": "established side-plank position on the down forearm, hips lifted into a straight head-to-heel line, top leg stacked on the bottom leg",
+  "endPosition": "top leg lifted into hip abduction with the heel reaching toward the ceiling while the side-plank line is maintained, then lowered under control",
+  "rom": "hip abduction ~0\u201330\u00b0 of the top leg superimposed on a sustained isometric side-plank hold"
+ },
+ {
+  "slug": "single-leg-balance-star-excursion",
+  "category": "balance",
+  "startPosition": "standing on one leg with a soft (unlocked) standing knee, level pelvis and quiet hip, opposite foot lifted off the floor, trunk upright",
+  "endPosition": "free-leg toe reaching out to lightly tap a target line in a given direction (progressing through 8 star directions) at maximum reach while single-leg stance is maintained, standing knee still tracking over the toes",
+  "rom": "multidirectional free-leg reach excursions (anterior/posterolateral/posteromedial through 8 directions); standing-limb ankle and hip make small corrective excursions"
+ },
+ {
+  "slug": "single-leg-hip-hinge-bench",
+  "category": "strength",
+  "startPosition": "standing on one leg with the rear foot elevated on a bench behind, neutral spine, level pelvis, trunk upright",
+  "endPosition": "hips pushed back and trunk hinged forward over the standing knee until the trunk and rear leg form one straight beam near parallel to the floor, then driven back to standing by the glute and hamstring",
+  "rom": "hip flexion via hinge from upright to ~near-horizontal trunk and return to full hip extension; standing knee stays softly bent"
+ },
+ {
+  "slug": "single-leg-hop-tests",
+  "category": "functional",
+  "startPosition": "standing on one leg behind a start line, hands on hips or free to swing, knee softly bent ready to load",
+  "endPosition": "landed on the same single leg at the target/distance mark, hip and knee flexed to absorb, holding a controlled 2-second stuck landing",
+  "rom": "explosive triple-extension of hip, knee, and ankle for propulsion then eccentric flexion (~30-60\u00b0 knee, hip and ankle) to absorb landing; horizontal displacement per test (single, triple, crossover, or 6-m timed)"
+ },
+ {
+  "slug": "single-leg-sit-to-stand",
+  "category": "strength",
+  "startPosition": "seated tall at the front edge of a wall-braced chair, working foot flat and slightly behind the knee, opposite leg lifted off the floor, trunk upright",
+  "endPosition": "fully upright standing on the single stance leg with hip and knee extended, non-stance leg still elevated",
+  "rom": "stance-limb concentric extension from ~90\u00b0 hip and knee flexion to full extension, then controlled eccentric return; forward trunk hinge (nose over toes) to load and unload"
+ },
+ {
+  "slug": "single-leg-squat-pistol",
+  "category": "strength",
+  "startPosition": "standing on one leg, tall trunk, level pelvis, free leg extended forward, arms available for counterbalance",
+  "endPosition": "deep single-leg squat with the stance knee and hip fully flexed and the free-leg heel reaching forward toward the wall, then driven back to full standing",
+  "rom": "stance-leg squat through full available depth \u2014 hip and knee flexion approaching or exceeding 90-120\u00b0, ankle dorsiflexion to end range \u2014 then concentric return to full extension"
+ },
+ {
+  "slug": "single-leg-stance-unstable",
+  "category": "balance",
+  "startPosition": "standing on one leg on an unstable surface (foam pad, BOSU, or Airex), soft knee, level hip, gaze fixed at eye level, arms ready to assist balance",
+  "endPosition": "sustained single-leg balance on the unstable surface maintained through continuous ankle micro-corrections (progressed with eyes closed, perturbations, or dual-task)",
+  "rom": "isometric single-leg hold \u2014 minimal joint excursion; small continuous ankle/hip sway corrections about a centered stance"
+ },
+ {
+  "slug": "single-task-posture-awareness",
+  "category": "sensory",
+  "startPosition": "seated performing a routine task (typing, reading, drinking) with attention directed to one chosen postural element (foot contact, ribcage stack, or shoulder position)",
+  "endPosition": "same seated task posture, first held ~30 s of non-judgmental noticing, then ~30 s of gentle deliberate adjustment of that single element",
+  "rom": "static seated posture \u2014 minimal joint excursion; attention-based sensory drill with only small deliberate postural corrections"
+ },
+ {
+  "slug": "sit-to-stand",
+  "category": "functional",
+  "startPosition": "seated on a chair, feet flat hip-width, arms crossed or free (not pushing), long spine, chest ready to lead",
+  "endPosition": "fully upright standing with hips and knees extended, weight even through both heels",
+  "rom": "bilateral concentric hip and knee extension from ~90\u00b0 flexion to full standing with an anterior trunk lean over the toes, then controlled eccentric descent"
+ },
+ {
+  "slug": "sit-up",
+  "category": "strength",
+  "startPosition": "supine hook-lying, knees bent ~90\u00b0, feet flat on the floor, arms crossed over chest or hands lightly behind the ears, chin gently tucked",
+  "endPosition": "torso upright and off the floor, spine segmentally flexed and hips flexed to bring the chest toward the thighs",
+  "rom": "full trunk flexion \u2014 segmental spinal curl through the thoracolumbar spine followed by hip flexion to upright, then controlled segmental eccentric lowering to supine"
+ },
+ {
+  "slug": "sitting-ccf-oblique-band",
+  "category": "motor-control",
+  "startPosition": "seated upright, long neck, gaze level on the horizon, an elastic band anchored to the ipsilateral side providing an oblique (lateral-flexion + extension) resistance to the head",
+  "endPosition": "craniocervical flexion nod held with the base of the skull glided back, resisting the band's diagonal pull without rotating the head, SCM staying soft",
+  "rom": "small-amplitude craniocervical (upper cervical) flexion nod held isometrically against oblique band load \u2014 minimal gross cervical excursion, no head turn"
+ },
+ {
+  "slug": "skull-crusher",
+  "category": "strength",
+  "startPosition": "supine on a flat bench, feet planted, holding an EZ-bar or dumbbells with arms extended over the chest, shoulders flexed ~90\u00b0, elbows pointed at the ceiling shoulder-width apart",
+  "endPosition": "elbows fully flexed with the load lowered under control toward the forehead/just behind the crown, upper arms unmoved, then elbows re-extended to the start over the chest",
+  "rom": "isolated elbow flexion/extension through roughly 0-120\u00b0, shoulders held static at ~90\u00b0 flexion with no elbow flare or drift"
+ },
+ {
+  "slug": "sleeper-stretch",
+  "category": "stretch",
+  "startPosition": "sidelying on the target shoulder, that arm forward-flexed to 90\u00b0 with the elbow bent 90\u00b0, scapula packed and the bottom shoulder planted on the surface",
+  "endPosition": "forearm passively rotated toward the floor into internal rotation, held at the point where a stretch is felt in the back of the joint (short of a sharp edge)",
+  "rom": "passive glenohumeral internal rotation at 90\u00b0 abduction/flexion to comfortable posterior-capsule end range; scapula and trunk held still"
+ },
+ {
+  "slug": "slow-eye-circles",
+  "category": "sensory",
+  "startPosition": "seated upright, head held completely still, gaze directed forward ready to begin tracing a circle",
+  "endPosition": "gaze having traced a large smooth continuous circle in one direction, then reversed to trace it in the opposite direction, head unmoved throughout",
+  "rom": "full oculomotor excursion tracing large slow circles (clockwise then counter-clockwise); head isometrically still with no cervical movement"
+ },
+ {
+  "slug": "smooth-pursuit-tracking",
+  "category": "sensory",
+  "startPosition": "seated upright, head still, both eyes fixed on a near target held 1-2 ft from the face",
+  "endPosition": "eyes having smoothly followed the target through its full slow excursion (~160\u00b0 horizontal or ~120\u00b0 vertical) without jerks or head turn",
+  "rom": "oculomotor smooth pursuit through ~160\u00b0 horizontal and ~120\u00b0 vertical gaze excursion; head held stationary with no cervical motion"
+ },
+ {
+  "slug": "spanish-squat",
+  "category": "strength",
+  "startPosition": "standing tall with a belt/strap around the knees anchored to a fixed point behind, feet flat, trunk upright, shins vertical",
+  "endPosition": "seated back into the strap with the trunk staying tall and shins vertical at roughly 60\u00b0 knee flexion, then driven back to full standing",
+  "rom": "closed-chain knee flexion/extension limited to the low-patellofemoral-force 0-60\u00b0 range with posterior lean; hips and knees flex against the strap and re-extend to standing"
+ },
+ {
+  "slug": "split-squat-bulgarian",
+  "category": "strength",
+  "startPosition": "Standing in a staggered stance, front foot flat on the floor and rear foot behind on the ground or elevated toe-down on a bench, tall trunk, hips square",
+  "endPosition": "Bottom of the descent with the rear knee lowered toward the floor, front shin near-vertical, front knee tracking over the second toe and hip/knee deeply flexed",
+  "rom": "~0\u201390\u00b0+ front-knee and hip flexion under load, returning to full extension"
+ },
+ {
+  "slug": "squat",
+  "category": "strength",
+  "startPosition": "Standing tall, feet about hip- to shoulder-width, long braced spine, arms free or hands on thighs",
+  "endPosition": "Bottom of squat with hips sent back and down, knees flexed and tracking over the second toe, trunk long and braced",
+  "rom": "~0\u201390\u00b0+ combined hip and knee flexion, returning to full standing extension"
+ },
+ {
+  "slug": "stair-calf-raise",
+  "category": "strength",
+  "startPosition": "Standing on a stair with balls of both feet on the edge and heels hanging off, light hand on the rail, ankles neutral",
+  "endPosition": "Fully plantarflexed at the top, weight pressed up onto the toes with a brief pause, then heels dropped below step level at the bottom",
+  "rom": "Full ankle range from heels below step level (dorsiflexion stretch) to maximal plantarflexion at the top"
+ },
+ {
+  "slug": "stair-edge-calf-raise",
+  "category": "strength",
+  "startPosition": "Standing on a stair with balls of both feet on the step edge, heels hanging free, knees straight, light hand on the handrail",
+  "endPosition": "Risen as high as possible onto the toes in full plantarflexion with a brief top pause, then heels lowered below the step edge",
+  "rom": "Full ankle plantarflexion at top to heels-below-edge dorsiflexion stretch at bottom; knees kept straight to bias gastrocnemius"
+ },
+ {
+  "slug": "stair-step-up",
+  "category": "functional",
+  "startPosition": "Standing at the base of a staircase with one whole foot placed flat (heel supported) on the first step, other foot on the floor",
+  "endPosition": "Standing fully upright on the step with the working leg extended, having driven up through that heel, then lowered under control to lightly tap the bottom foot",
+  "rom": "Working leg moves through ~90\u00b0 knee/hip flexion up to full extension per rep"
+ },
+ {
+  "slug": "standing-calf-stretch-step",
+  "category": "stretch",
+  "startPosition": "Standing on a step with balls of both feet on the edge and heels hanging off, holding the railing lightly, heel/hip/shoulder stacked",
+  "endPosition": "Sustained stretch with heels sunk below step level under body weight, knee straight for gastrocnemius then softly bent to target soleus",
+  "rom": "Ankle held in end-range dorsiflexion; static hold with minimal joint excursion aside from the straight- to bent-knee shift"
+ },
+ {
+  "slug": "standing-figure-4-stretch",
+  "category": "stretch",
+  "startPosition": "Standing, one ankle crossed on top of the opposite thigh just above the knee, hand on a counter or doorframe for balance",
+  "endPosition": "Sitting back into a partial squat on the standing leg with the lifted shin parallel to the floor, feeling a glute/piriformis stretch",
+  "rom": "Held stretch position; standing-leg hip/knee flex to a shallow squat that sets depth/intensity, otherwise minimal excursion"
+ },
+ {
+  "slug": "standing-hamstring-stretch-foot-on-step",
+  "category": "stretch",
+  "startPosition": "Standing with one heel on a low step or chair, that leg straight, trunk upright with a flat back",
+  "endPosition": "Hip-hinged forward with chest leading and a flat back until a hamstring stretch is felt, stopping before the spine rounds",
+  "rom": "Hip flexion via forward hinge to the point of hamstring tension (spine held neutral); static end-range hold"
+ },
+ {
+  "slug": "standing-hip-abduction-support",
+  "category": "strength",
+  "startPosition": "Standing tall beside a countertop, one hand resting on it for balance, moving leg straight with kneecap and toes pointing forward",
+  "endPosition": "Moving leg lifted directly out to the side about 30\u201345\u00b0 with trunk kept upright and level, then lowered under control",
+  "rom": "~0\u201345\u00b0 hip abduction, stopping before pelvic hike; foot kept neutral, no rotation"
+ },
+ {
+  "slug": "standing-hip-circles",
+  "category": "mobility",
+  "startPosition": "Standing tall, one hand on a wall for balance, one knee lifted to hip height",
+  "endPosition": "Knee returned through a large circular path, tracing internal-rotation direction first then external, hip moving freely through range",
+  "rom": "Full circumduction of the hip (flexion, abduction, rotation, extension components) with the trunk held stable"
+ },
+ {
+  "slug": "standing-it-band-stretch",
+  "category": "stretch",
+  "startPosition": "Standing with one leg crossed behind the other, same-side arm reaching overhead, trunk tall",
+  "endPosition": "Lengthened then leaned away to the side with the back-leg hip pushed outward, stretching the lateral chain from hip to underarm",
+  "rom": "Lateral trunk flexion to comfortable end range plus hip adduction on the back leg; static hold"
+ },
+ {
+  "slug": "standing-lumbar-extension-press-up",
+  "category": "mobility",
+  "startPosition": "Standing with hands on the low back, fingers pointing down, spine neutral",
+  "endPosition": "Leaned backward as far as comfortable into lumbar extension, hands supporting as a hinge, held 3 seconds at end-range then returned to neutral",
+  "rom": "Lumbar extension to pain-free end range, 3-second hold, back to neutral"
+ },
+ {
+  "slug": "standing-march-in-place",
+  "category": "aerobic",
+  "startPosition": "Standing tall in place, arms at sides ready to swing, weight evenly balanced",
+  "endPosition": "One knee lifted toward hip height with matching arm swing, then alternated to the other side at a steady cadence, landing softly through the ball of the foot",
+  "rom": "Alternating hip flexion to ~hip-height knee lift with reciprocal arm swing, rhythmic and continuous"
+ },
+ {
+  "slug": "standing-quad-stretch",
+  "category": "stretch",
+  "startPosition": "standing tall on one leg, pelvis neutral, other knee bent with that hand grasping the ankle behind the body",
+  "endPosition": "heel drawn toward the glute with knees side-by-side and pelvis tucked under, feeling stretch along the front thigh and hip flexor",
+  "rom": "knee flexion to comfortable end range (~120\u2013135\u00b0) with slight hip extension; sustained static stretch hold"
+ },
+ {
+  "slug": "step-up-variations",
+  "category": "strength",
+  "startPosition": "standing facing, beside, or diagonal to a box/step with one foot planted flat on top and trunk tall, pelvis level",
+  "endPosition": "fully upright standing on top of the box, working hip and knee extended, trailing toe lightly kissing the box or floor",
+  "rom": "working knee moves from ~90\u00b0 flexion to full extension with concurrent hip extension through the full step height (4\u201330 cm)"
+ },
+ {
+  "slug": "straight-leg-raise",
+  "category": "strength",
+  "startPosition": "supine, one knee locked straight, opposite leg extended and pinned to the floor, trunk quiet and pelvis level",
+  "endPosition": "straight leg lifted with heel toward the ceiling to roughly the height of the opposite bent knee, knee still locked",
+  "rom": "0\u2013~45\u00b0 hip flexion with the knee held in full extension"
+ },
+ {
+  "slug": "suboccipital-exercise",
+  "category": "motor-control",
+  "startPosition": "supine, head neutral on the surface, pressure biofeedback cuff behind the neck inflated to 20 mmHg (optional tennis balls under the occiput)",
+  "endPosition": "gentle craniocervical flexion (chin nod) lengthening the base of the skull, raising the gauge toward 30 mmHg while superficial neck muscles stay quiet",
+  "rom": "small upper-cervical (C0\u2013C2) nodding through incremental 20\u219230 mmHg stages; minimal gross neck excursion"
+ },
+ {
+  "slug": "superman",
+  "category": "strength",
+  "startPosition": "prone, arms extended overhead, legs straight, neck neutral with gaze at the floor",
+  "endPosition": "arms, chest, and legs lifted a few centimeters off the floor via spinal and hip extension, held briefly, neck in line with spine",
+  "rom": "low-amplitude thoracolumbar and hip extension (a few centimeters of lift), brief isometric hold at end range"
+ },
+ {
+  "slug": "supine-90-90-with-breath",
+  "category": "breathwork",
+  "startPosition": "supine with hips and knees flexed to 90\u00b0, calves resting on a chair/ottoman/wall, hands on the belly, low back in light contact with the floor",
+  "endPosition": "sustained 90-90 posture with belly rising before chest during slow diaphragmatic inhalation (~6 breaths/min)",
+  "rom": "isometric hold \u2014 minimal joint excursion; movement is rib/abdominal expansion during breathing"
+ },
+ {
+  "slug": "supine-chin-tuck-liftoff",
+  "category": "motor-control",
+  "startPosition": "supine, head resting on the surface, throat soft, preparing a gentle chin tuck",
+  "endPosition": "craniocervical flexion maintained while the head floats a card's thickness off the floor, held ~10 s without sternocleidomastoid dominance",
+  "rom": "small upper-cervical flexion plus minimal head liftoff; sustained endurance hold (~29\u201339 s norms)"
+ },
+ {
+  "slug": "supine-hamstring-stretch-strap",
+  "category": "stretch",
+  "startPosition": "supine with a strap looped around the ball of one foot, opposite leg straight or bent on the floor",
+  "endPosition": "strapped leg raised straight toward the ceiling with a soft knee, gently pulled by the strap until a hamstring stretch is felt",
+  "rom": "hip flexion toward ~80\u201390\u00b0 with the knee near full extension; sustained static stretch"
+ },
+ {
+  "slug": "supine-scapular-punch",
+  "category": "strength",
+  "startPosition": "supine holding a light dumbbell, arm pointed toward the ceiling with the elbow locked and shoulder blade resting on the table",
+  "endPosition": "arm punched upward as the scapula protracts 2\u20133 inches off the table, elbow still locked",
+  "rom": "scapular protraction of ~2\u20133 inches (isolated scapulothoracic motion) with the elbow held in extension"
+ },
+ {
+  "slug": "tandem-stance",
+  "category": "balance",
+  "startPosition": "standing with one foot placed directly in front of the other heel-to-toe along an imaginary line, within arm's reach of a wall or counter",
+  "endPosition": "steady narrowed heel-to-toe stance maintained with gaze fixed at eye level, correcting with small ankle sways",
+  "rom": "isometric stance hold \u2014 minimal joint excursion aside from small corrective ankle sway"
+ },
+ {
+  "slug": "tendon-gliding-exercises",
+  "category": "mobility",
+  "startPosition": "seated with the wrist quiet and neutral, fingers extended straight",
+  "endPosition": "cycled through five finger shapes in order (straight \u2192 hook fist \u2192 full fist \u2192 tabletop \u2192 straight fist), holding each ~3 s",
+  "rom": "full active finger flexion/extension through five differential-glide positions with the wrist held still"
+ },
+ {
+  "slug": "tendon-gliding-sequence",
+  "category": "mobility",
+  "startPosition": "seated with the wrist quiet and neutral, fingers extended straight",
+  "endPosition": "cycled through four finger shapes in order (straight \u2192 hook fist \u2192 straight fist \u2192 tabletop), holding each ~3 s",
+  "rom": "full active finger flexion/extension through four differential-glide positions with the wrist held still"
+ },
+ {
+  "slug": "tennis-ball-foot-roll",
+  "category": "sensory",
+  "startPosition": "seated with a tennis ball placed under the bare foot at the heel",
+  "endPosition": "ball rolled slowly along the arch to the forefoot with moderate pressure, pausing 5\u201310 s on tender spots",
+  "rom": "foot travels heel-to-forefoot over the ball; self-mobilization with minimal active joint motion"
+ },
+ {
+  "slug": "terminal-knee-extension",
+  "category": "strength",
+  "startPosition": "standing, resistance band looped behind the knee, knee softly flexed ~30\u00b0, feet hip-width, hands free or lightly on quad",
+  "endPosition": "knee fully locked into extension against band tension, kneecap facing straight ahead, VMO engaged at lockout",
+  "rom": "final ~30\u00b0 of knee extension (30\u00b0 flexion to 0\u00b0 full extension) against band resistance"
+ },
+ {
+  "slug": "thoracic-extension-rotation-mobilization",
+  "category": "mobility",
+  "startPosition": "sidelying, hips and knees stacked and bent ~90\u00b0, both arms extended together in front at shoulder height, pelvis anchored",
+  "endPosition": "top arm rotated open toward the wall behind, chest and gaze following the hand across the ceiling into thoracic extension/rotation while hips stay fixed",
+  "rom": "thoracic rotation to comfortable end range (~open-book to ~90\u00b0 trunk rotation), lumbar/pelvis held still"
+ },
+ {
+  "slug": "thoracic-extension-wall",
+  "category": "mobility",
+  "startPosition": "standing at arm's length from a wall, hands on the wall at shoulder height, spine long, feet hip-width",
+  "endPosition": "hips hinged back with hands sliding down the wall and chest sinking between the arms into upper thoracic extension",
+  "rom": "upper thoracic extension through the hip hinge to comfortable end range of shoulder flexion/chest drop"
+ },
+ {
+  "slug": "thoracic-foam-rolling",
+  "category": "mobility",
+  "startPosition": "supine on a foam roller placed horizontally at mid-thoracic level, knees bent, feet flat, arms crossed over chest or overhead, head supported",
+  "endPosition": "chest draped open in segmental thoracic extension over the roller, ribs kept from flaring, then roller repositioned one segment higher",
+  "rom": "segmental thoracic extension over the roller, progressing one vertebral segment at a time up the mid/upper thoracic spine"
+ },
+ {
+  "slug": "thoracic-rotation-quadruped",
+  "category": "mobility",
+  "startPosition": "quadruped, hips stacked over knees and shoulders over hands, spine neutral, lumbar locked",
+  "endPosition": "one hand threaded under the body across midline then opened up toward the ceiling with eyes following, isolating rotation to the thoracic spine",
+  "rom": "thoracic rotation from fully threaded (arm across midline) to fully open toward the ceiling, ~90\u00b0+ arc, lumbar held still"
+ },
+ {
+  "slug": "thumb-adduction-key-pinch",
+  "category": "strength",
+  "startPosition": "seated, forearm supported with wrist neutral and quiet, thumb abducted ready to pinch a key edge between thumb pad and radial side of the index finger",
+  "endPosition": "thumb adducted firmly into the lateral (key) pinch, adductor pollicis squeezing the key for a sustained 5-second hold",
+  "rom": "thumb adduction from abducted start to full lateral pinch, then 5-second isometric hold at end range"
+ },
+ {
+  "slug": "thumb-ip-mcp-strengthening",
+  "category": "strength",
+  "startPosition": "seated, forearm supported, wrist neutral and quiet, proximal thumb joint stabilized by the free hand, thumb IP and MCP in starting neutral",
+  "endPosition": "isolated thumb IP flexion/extension and MCP flexion/extension performed against light band resistance while the proximal joint is held fixed",
+  "rom": "full available thumb IP and MCP flexion-extension excursion, each joint moved independently"
+ },
+ {
+  "slug": "thumb-opposition-exercise",
+  "category": "motor-control",
+  "startPosition": "seated, forearm supported, hand open with fingers extended and thumb in neutral abduction",
+  "endPosition": "thumb pad rotated and touched firmly to each fingertip in sequence forming a clean O, then reversed back through the sequence",
+  "rom": "full thumb opposition arc (rotation plus flexion) from open hand to pad-to-pad contact with each of the four fingers"
+ },
+ {
+  "slug": "thumb-opposition-sequence",
+  "category": "motor-control",
+  "startPosition": "seated, forearm supported, hand open with fingers extended and thumb neutral",
+  "endPosition": "thumb pad rotated to face and meet each finger pad in turn (true opposition) forming a clean O, sequencing index to pinky then reversing",
+  "rom": "full opposition excursion emphasizing thumb pad rotation, pad-to-pad with each finger through the sequence and back"
+ },
+ {
+  "slug": "thumb-putty-program",
+  "category": "strength",
+  "startPosition": "seated, forearm supported, wrist neutral and quiet, therapy putty held in the hand with thumb positioned to press or squeeze",
+  "endPosition": "thumb pad pressed into the putty against each fingertip and putty squeezed into a ball, working opposition, abduction, adduction, and pinch under resistance",
+  "rom": "full thumb opposition/abduction/adduction and pinch excursion against putty resistance across the program tasks"
+ },
+ {
+  "slug": "toe-yoga",
+  "category": "motor-control",
+  "startPosition": "seated (or standing) with foot flat on the floor, all toes relaxed on the ground",
+  "endPosition": "the four lesser toes pressed down while the big toe lifts, then reversed so the big toe presses down while the four lesser toes lift, with a finger holding down the toes that should stay put",
+  "rom": "selective toe MTP flexion/extension \u2014 big toe extension with lesser-toe flexion and vice versa, small isolated excursion"
+ },
+ {
+  "slug": "towel-hamstring-curl",
+  "category": "strength",
+  "startPosition": "supine, knees bent, heels on a folded towel on a smooth floor, arms at sides",
+  "endPosition": "hips lifted into a bridge (knees-hips-shoulders straight line) with heels slid out until legs are nearly straight, then dragged back in by curling the knees, hips held level throughout",
+  "rom": "eccentric-to-concentric knee flexion/extension from ~90\u00b0 bent to near-full extension and back, hips maintained in bridge"
+ },
+ {
+  "slug": "towel-row",
+  "category": "strength",
+  "startPosition": "standing, towel looped around both handles of a closed latched door, an end held in each hand, feet walked in so the body leans back with arms straight",
+  "endPosition": "chest pulled toward the door with elbows driven back and down and shoulder blades squeezed together at end range, straight line from heels to head",
+  "rom": "horizontal pull through full elbow flexion and scapular retraction from arms straight to chest near the door"
+ },
+ {
+  "slug": "towel-scapular-retraction",
+  "category": "strength",
+  "startPosition": "seated or standing tall with neutral spine, chin gently tucked and ribs down, both hands gripping a rolled bath towel shoulder-width apart, arms extended in front at chest height with elbows slightly bent",
+  "endPosition": "shoulder blades squeezed down and back toward the spine while pulling outward on the taut towel, elbows still slightly bent, held isometrically 3-5 seconds",
+  "rom": "scapular retraction and depression to end range; isometric hold with minimal joint excursion at the elbows"
+ },
+ {
+  "slug": "tricep-extension",
+  "category": "strength",
+  "startPosition": "seated tall, upper arm vertical alongside the head, elbow fully flexed with the dumbbell/band lowered behind the head, shoulder quiet",
+  "endPosition": "elbow fully extended driving the dumbbell straight toward the ceiling, upper arm still vertical",
+  "rom": "elbow flexion to extension, roughly 0-130\u00b0 through full available elbow range; shoulder held stationary"
+ },
+ {
+  "slug": "triceps-pushdown",
+  "category": "strength",
+  "startPosition": "standing facing a cable column with slight forward hip hinge, chest tall, elbows pinned to the ribs, forearms raised to about 90\u00b0 of elbow flexion gripping the bar/rope at upper-chest height",
+  "endPosition": "elbows fully extended pressing the handle down toward the thighs at lockout, elbows still pinned to the sides",
+  "rom": "elbow extension from ~90\u00b0 flexion to full lockout (~90-0\u00b0); elbows fixed at the sides"
+ },
+ {
+  "slug": "turkish-get-up",
+  "category": "functional",
+  "startPosition": "supine, weight pressed straight up over the shoulder with a packed shoulder and long spine, same-side knee bent and foot flat, eyes fixed on the bell",
+  "endPosition": "fully standing tall with the weight locked out overhead, having transitioned through roll-to-elbow, hand, half-kneel, and stand stations",
+  "rom": "full-body multi-joint transition from supine to standing; hip, knee, trunk, and shoulder move through large ranges while the loaded shoulder stays fixed overhead"
+ },
+ {
+  "slug": "tyler-twist-eccentric-wrist",
+  "category": "strength",
+  "startPosition": "standing, holding a FlexBar with the affected wrist maximally extended and the bar twisted taut, forearm long and supported",
+  "endPosition": "wrist controlled slowly from extension into flexion as the FlexBar untwists over about three seconds, extensors lengthening under load",
+  "rom": "eccentric wrist extension-to-flexion arc, ~full available wrist extension down to neutral/flexion; slow controlled untwist"
+ },
+ {
+  "slug": "ujjayi-breathing",
+  "category": "breathwork",
+  "startPosition": "seated upright with a neutral spine, mouth closed, relaxed shoulders, ready to breathe through the nose with gentle glottal narrowing",
+  "endPosition": "sustained slow diaphragmatic breathing cycle with soft audible glottal constriction on both inhale and exhale, thorax gently expanding and recoiling",
+  "rom": "rib-cage and diaphragm excursion of quiet breathing; isometric posture with minimal joint movement"
+ },
+ {
+  "slug": "ulnar-nerve-glide",
+  "category": "mobility",
+  "startPosition": "seated upright, working arm at the side, ready to sequence shoulder abduction, elbow flexion, wrist extension, and cervical lateral flexion",
+  "endPosition": "shoulder abducted with elbow flexed and wrist extended bringing the open hand up toward the ear, head tipped away from the working arm to load the nerve, then released",
+  "rom": "combined shoulder abduction, elbow flexion, wrist extension, and cervical lateral flexion producing sliding neural excursion at the cubital tunnel; light non-tensioning glide"
+ },
+ {
+  "slug": "upper-trapezius-stretch",
+  "category": "stretch",
+  "startPosition": "seated or standing with a long, tall neutral spine, target-side shoulder gently depressed, same-side fingertips reaching toward the floor",
+  "endPosition": "cervical spine laterally flexed away from the target side, opposite ear drawn toward the opposite shoulder while the ipsilateral shoulder stays depressed, held at a comfortable stretch",
+  "rom": "cervical lateral flexion to comfortable end range with scapular depression; sustained static hold"
+ },
+ {
+  "slug": "upward-rotation-shrug-30-abduction",
+  "category": "strength",
+  "startPosition": "standing tall with a long spine, arms abducted 30\u00b0 in the coronal plane holding dumbbells floating out from the sides, shoulders relaxed down",
+  "endPosition": "shoulders elevated toward the earlobes (shrug) while the arms maintain the 30\u00b0 abducted position, biasing the upward rotators at the top",
+  "rom": "scapular elevation/upward rotation through full shrug range; arms held statically at 30\u00b0 abduction"
+ },
+ {
+  "slug": "vestibular-habituation-drills",
+  "category": "sensory",
+  "startPosition": "seated (or the specific provoking posture) ready to perform 2-3 self-selected symptom-provoking positions or movements identified from a Motion Sensitivity Quotient or symptom diary",
+  "endPosition": "the provoking position or movement completed and held/repeated to a tolerable symptom level, then rested until symptoms fully settle within 60 seconds",
+  "rom": "repeated controlled head/body excursions specific to each provoking movement; graded to tolerable symptom provocation"
+ },
+ {
+  "slug": "vor-x1-gaze-stabilization",
+  "category": "sensory",
+  "startPosition": "seated, eyes fixated on a stationary target held at arm's length, head in neutral",
+  "endPosition": "target kept in clear focus while the head is rotated side-to-side and then up-and-down at the fastest pace that preserves target clarity",
+  "rom": "active cervical rotation and flexion/extension oscillations to comfortable amplitude while gaze stays fixed; target stationary"
+ },
+ {
+  "slug": "vor-x2-gaze-stabilization",
+  "category": "sensory",
+  "startPosition": "seated, holding a target in front at arm's length with eyes fixated on it, head neutral",
+  "endPosition": "head and target moved simultaneously in opposite directions at matched speed while the target stays sharply in focus",
+  "rom": "cervical rotation oscillations paired with equal opposite target motion, doubling angular VOR demand; amplitude limited to where the target stays clear"
+ },
+ {
+  "slug": "walking-lunges-with-rotation",
+  "category": "functional",
+  "startPosition": "standing tall, feet together, ready to step forward into a lunge",
+  "endPosition": "in the bottom of a forward lunge (front knee tracking over the toes, back knee near the floor) with the trunk rotated toward the front leg, then returned before stepping through to the next lunge",
+  "rom": "large hip and knee flexion of the lunge combined with thoracic rotation toward the lead leg; alternating stepping gait"
+ },
+ {
+  "slug": "wall-angel",
+  "category": "mobility",
+  "startPosition": "Standing with back, hips, and head lightly touching a wall; ribs gently drawn down so low back is only lightly arched; arms in a goalpost/'W' position with backs of hands and forearms pressed flat to the wall, elbows at shoulder height",
+  "endPosition": "Arms slid overhead into a 'Y'/near-full-elevation position with wrists, forearms, and all contact points still on the wall, then returned to the start goalpost",
+  "rom": "Shoulder elevation from ~90\u00b0 (goalpost) toward ~160-170\u00b0 overhead and back, limited to where wrists stay on the wall without shrugging or low-back lifting; roughly 3 s up, 3 s down"
+ },
+ {
+  "slug": "wall-ball-squat",
+  "category": "strength",
+  "startPosition": "Standing with an exercise ball pinned between the low back and a wall, feet about a foot ahead of the hips and shoulder-width apart, knees nearly straight",
+  "endPosition": "Squatted down with knees bent toward ~90\u00b0, shins vertical, knees stacked over mid-foot, ball rolled up along the spine; then pressed back up through the heels or held",
+  "rom": "Knee/hip flexion from near-full extension to ~90\u00b0 knee flexion (or shallower if painful), controlled closed-chain descent and ascent"
+ },
+ {
+  "slug": "wall-hamstring-stretch",
+  "category": "stretch",
+  "startPosition": "Supine in a doorway, buttock close to the door frame, the working leg raised straight and resting against the wall/door frame, the opposite leg extended flat through the doorway, low back and pelvis relaxed on the floor",
+  "endPosition": "Working leg held with knee straight and hip flexed to a firm but tolerable hamstring stretch, ankle dorsiflexed (toes pulled toward face) for a calf/neural component; sustained statically",
+  "rom": "Hip flexion held near the point of first firm hamstring tension (commonly ~60-90\u00b0 depending on flexibility) with the knee kept in full extension; static hold, minimal joint excursion once positioned"
+ },
+ {
+  "slug": "wall-push-up",
+  "category": "strength",
+  "startPosition": "Standing arm's length from a wall, body straight as a plank from crown to heel, hands flat on the wall at about chest height and shoulder-width apart, elbows extended",
+  "endPosition": "Chest brought toward the wall as elbows bend, then pressed back to full elbow extension with scapulae protracted (upper back driven toward the ceiling/away from the wall)",
+  "rom": "Elbow flexion/extension through available range with concurrent scapular protraction and shoulder flexion; body held rigid, no hip or trunk motion"
+ },
+ {
+  "slug": "wall-sit",
+  "category": "strength",
+  "startPosition": "Back flat against a wall, feet hip-width apart and about 1.5-2 foot-lengths from the wall, then slid down until hips and knees are bent to roughly 90\u00b0 with shins vertical and knees stacked over ankles",
+  "endPosition": "Same ~90\u00b0 hip and knee flexion squat position held isometrically against the wall while breathing steadily, then slid back up to standing to finish",
+  "rom": "Isometric hold at ~90\u00b0 hip and knee flexion \u2014 minimal joint excursion during the hold; entry/exit slide through the descent/ascent range"
+ },
+ {
+  "slug": "wall-sit-isometric",
+  "category": "strength",
+  "startPosition": "Standing with back flat against a wall, feet shoulder-width apart and one to two foot-lengths out from the wall, knees near extension",
+  "endPosition": "Slid down until thighs approach parallel to the floor (~90\u00b0 hip and knee flexion, or higher if too intense), whole back and low ribs pressed into the wall, weight even through both heels; position held statically",
+  "rom": "Isometric hold at up to ~90\u00b0 hip and knee flexion (graded shallower as needed) \u2014 minimal joint excursion during the sustained hold"
+ },
+ {
+  "slug": "wall-slide",
+  "category": "motor-control",
+  "startPosition": "Standing facing a wall with forearms and hands on the wall, spine long, breastbone lifted, lower ribs anchored against the wall, elbows below shoulder height",
+  "endPosition": "Forearms slid upward along the wall toward the ceiling while maintaining scapular posterior tilt and upward rotation, wrists pressing steadily into the wall, lower ribs still anchored",
+  "rom": "Shoulder elevation with scapular upward rotation from ~90\u00b0 toward overhead, limited to the range where lower-trap control and rib anchoring are maintained; controlled slide up and down"
+ },
+ {
+  "slug": "wall-walks-shoulder",
+  "category": "mobility",
+  "startPosition": "Standing facing or perpendicular to a wall, spine tall and lifted, hand of the involved arm placed on the wall at a comfortable low starting height, fingers ready to climb",
+  "endPosition": "Fingers walked progressively up the wall to a new high point (marked with tape) that increases shoulder flexion or abduction into mild discomfort but not sharp pain, then walked back down",
+  "rom": "Progressive shoulder flexion or abduction increasing session-to-session toward end range, worked only into mild discomfort; graded active-assisted elevation"
+ },
+ {
+  "slug": "water-bottle-lateral-raise",
+  "category": "strength",
+  "startPosition": "Standing tall, a filled water bottle in each hand resting at the sides, elbows soft (slightly bent), shoulders down and neck relaxed",
+  "endPosition": "Both arms raised out to the sides in the frontal plane to about shoulder height with elbows leading and bottles just below hand height, then lowered slowly under control",
+  "rom": "Shoulder abduction from ~0\u00b0 to ~90\u00b0 (stopping at shoulder height, no higher), lowering over 2-3 s"
+ },
+ {
+  "slug": "worlds-greatest-stretch",
+  "category": "mobility",
+  "startPosition": "Standing, then step into a long forward lunge with both hands on the floor framing the lead foot and the trailing knee lowered toward the ground to load the trailing-side hip flexors",
+  "endPosition": "From the loaded lunge, lead-side elbow sinks toward the instep, then the outside hand stays planted while the trunk rotates and the lead-side arm reaches to the ceiling (eyes following the hand); finally hips shift back and the front knee straightens to lengthen the hamstring, then return to lunge and step to stand",
+  "rom": "Chained multi-joint excursion: deep hip/knee lunge flexion, trailing-hip extension, thoracic rotation to end range on the reach, and hip flexion with knee extension for the hamstring lengthening; move slowly, pause 1-2 s at the top of the rotation, alternate sides"
+ },
+ {
+  "slug": "wrist-curls-flexion-extension",
+  "category": "strength",
+  "startPosition": "Seated with the forearm resting on the thigh, wrist and hand hanging just past the knee, holding a light dumbbell; performed both palm-up (flexion) and palm-down (extension)",
+  "endPosition": "Wrist curled up toward the ceiling at the top of each rep, then lowered past horizontal into the stretched end range while the forearm stays glued to the thigh",
+  "rom": "Wrist flexion-to-extension through full available range in each direction, forearm stationary; ~3 s eccentric lowering"
+ },
+ {
+  "slug": "wrist-extensor-stretch",
+  "category": "stretch",
+  "startPosition": "Standing with the elbow fully extended and the arm reached forward, wrist neutral, the opposite hand grasping the back of the target hand",
+  "endPosition": "Free hand gently flexes the target wrist (pressing the back of the hand toward the floor) until a firm but non-sharp stretch is felt over the forearm extensors, then held",
+  "rom": "Wrist flexion to comfortable end range with elbow held in full extension; static hold, minimal joint excursion once positioned"
+ },
+ {
+  "slug": "wrist-flexor-stretch",
+  "category": "stretch",
+  "startPosition": "Standing with the elbow fully extended and the arm reached forward, palm facing away, the opposite hand grasping the palm and fingers of the target hand",
+  "endPosition": "Free hand gently extends the target wrist and fingers (pressing palm and fingers toward the floor) until a firm but non-sharp stretch is felt over the forearm flexors, then held",
+  "rom": "Wrist and finger extension to comfortable end range with elbow held in full extension; static hold, minimal joint excursion once positioned"
+ },
+ {
+  "slug": "wrist-radial-ulnar-deviation",
+  "category": "strength",
+  "startPosition": "seated, forearm resting along the thigh in thumb-up (neutral) rotation, wrist and hand hanging just off the knee/edge holding a light dumbbell, wrist in neutral alignment",
+  "endPosition": "hand swept up into radial deviation (thumb side toward the ceiling), then reversed down into ulnar deviation (pinky side toward the floor), forearm unmoving",
+  "rom": "radial deviation ~0\u201320\u00b0 and ulnar deviation ~0\u201330\u00b0 from neutral; motion isolated to the wrist with the forearm and elbow held still"
+ },
+ {
+  "slug": "wrist-resistance-6-direction",
+  "category": "strength",
+  "startPosition": "seated, forearm supported flat on a table with the hand/wrist off the edge, holding a dumbbell or band handle, wrist in neutral",
+  "endPosition": "wrist/forearm loaded to end range in each of six directions in turn \u2014 full flexion, full extension, radial deviation, ulnar deviation, pronation, and supination \u2014 pausing ~2 s at each end range before reversing",
+  "rom": "through full available range in all six planes: flexion/extension ~0\u201370\u00b0 each, radial ~0\u201320\u00b0/ulnar ~0\u201330\u00b0 deviation, and forearm pronation/supination ~0\u201380\u00b0 each; shoulder and elbow stay quiet"
+ },
+ {
+  "slug": "wrist-splinting-exercise-cts",
+  "category": "mobility",
+  "startPosition": "seated with the forearm supported and the wrist in neutral (0\u201320\u00b0 extension); a rigid splint holds the wrist neutral for nighttime wear, and for daytime glides the hand begins with fingers and wrist in a straight, neutral resting position",
+  "endPosition": "for splinting, the wrist is maintained static in neutral; for the daytime glides, the fingers and wrist cycle through successive nerve- and tendon-glide end positions (straight-hand/wrist extension, hook fist, full fist, tabletop, and median-nerve-loaded wrist-and-finger extension)",
+  "rom": "splint component is an isometric hold with minimal joint excursion (wrist fixed at 0\u201320\u00b0 extension); the tendon- and nerve-gliding component moves the fingers and wrist through their full available range every 2\u20133 hours"
+ }
+]

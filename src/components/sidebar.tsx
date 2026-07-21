@@ -18,6 +18,7 @@ const navGroups: NavGroup[] = [
       { label: "Progression Ladders", href: "/progressions" },
       { label: "Exercise Finder", href: "/finder" },
       { label: "Workout Planner", href: "/planner" },
+      { label: "Goals", href: "/goals" },
     ],
   },
   {
@@ -52,6 +53,7 @@ const navGroups: NavGroup[] = [
       { label: "Coverage Heatmap", href: "/coverage" },
       { label: "Validation Queue", href: "/validation" },
       { label: "API Reference", href: "/api-docs" },
+      { label: "Data Model", href: "/schema" },
     ],
   },
 ];

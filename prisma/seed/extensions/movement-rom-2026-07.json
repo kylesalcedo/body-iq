@@ -1,0 +1,662 @@
+[
+ {
+  "slug": "ankle-dorsiflexion",
+  "aromMin": 0,
+  "aromMax": 20,
+  "promMin": 0,
+  "promMax": 20,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Talocrural dorsiflexion from neutral (foot at 90 deg to leg). AAOS and Norkin & White both cite 0-20 deg. Measured with knee flexed to relax gastrocnemius; value is reduced when knee is extended. PROM approximately equals AROM."
+ },
+ {
+  "slug": "ankle-plantarflexion",
+  "aromMin": 0,
+  "aromMax": 50,
+  "promMin": 0,
+  "promMax": 50,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Talocrural plantarflexion from neutral. AAOS and Norkin & White cite 0-50 deg (some sources report up to 0-45 deg). PROM approximately equals AROM."
+ },
+ {
+  "slug": "cervical-extension",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Whole-cervical extension from neutral using universal goniometer per AAOS/Norkin & White (0-45 deg). This is composite motion of the cervical spine, not isolated to C2-C7. CROM device and AMA Guides report higher values (up to 0-75-85 deg); considerable variability across instruments and with age."
+ },
+ {
+  "slug": "cervical-extension-upper",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "AAOS/Norkin & White (no isolated value); segmental estimate from White & Panjabi Clinical Biomechanics of the Spine",
+  "romNotes": "Atlantooccipital (upper cervical) extension is not measured by standard clinical goniometry and has no AAOS/Norkin & White reference value, so set to null. Anatomical/biomechanical studies estimate the O-C1 segment contributes roughly 10-15 deg of extension, but this is not a clinically measured goniometric normal."
+ },
+ {
+  "slug": "cervical-flexion",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Whole-cervical flexion from neutral using universal goniometer per AAOS/Norkin & White (0-45 deg; some report 0-50 deg). Composite cervical motion, not isolated to C2-C7. CROM and AMA sources report up to 0-50-60 deg."
+ },
+ {
+  "slug": "cervical-flexion-upper",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "AAOS/Norkin & White (no isolated value); segmental estimate from White & Panjabi Clinical Biomechanics of the Spine",
+  "romNotes": "Atlantooccipital (upper cervical) flexion is not measured by standard clinical goniometry and has no AAOS/Norkin & White reference value, so set to null. Biomechanical estimates place O-C1 flexion at only a few degrees (combined O-C1 flexion/extension roughly 15-25 deg); not a clinically measured goniometric normal."
+ },
+ {
+  "slug": "cervical-lateral-flexion",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Cervical lateral flexion from neutral per AAOS/Norkin & White (0-45 deg). Composite cervical motion measured to one side; not isolated to C2-C7. Values decline with age; CROM devices often report slightly less (0-40 deg)."
+ },
+ {
+  "slug": "cervical-rotation",
+  "aromMin": 0,
+  "aromMax": 60,
+  "promMin": 0,
+  "promMax": 60,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Cervical rotation from neutral to one side. AAOS/Norkin & White cite 0-60 deg with universal goniometer; CROM device and AMA Guides commonly report up to 0-80 deg. Composite cervical motion, not isolated to C2-C7."
+ },
+ {
+  "slug": "cervical-rotation-upper",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "AAOS/Norkin & White (no isolated value); segmental estimate from White & Panjabi Clinical Biomechanics of the Spine",
+  "romNotes": "Atlantoaxial (C1-C2) rotation is not isolated by standard clinical goniometry and has no AAOS/Norkin & White reference value, so set to null. C1-C2 is known to contribute roughly 40-45 deg (about half of total cervical rotation) per biomechanical studies, but this is an anatomical estimate, not a clinically measured goniometric normal."
+ },
+ {
+  "slug": "dip-extension",
+  "aromMin": 0,
+  "aromMax": 0,
+  "promMin": 0,
+  "promMax": 0,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Finger DIP extension is return to neutral (0 deg) from flexed position per AAOS/Norkin & White. Some individuals demonstrate DIP hyperextension of approximately 10-30 deg, which is variable and not a standard normal; primary normal endpoint is 0 deg."
+ },
+ {
+  "slug": "dip-flexion",
+  "aromMin": 0,
+  "aromMax": 80,
+  "promMin": 0,
+  "promMax": 90,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion: Method of Measuring and Recording",
+  "romNotes": "Finger distal interphalangeal flexion from neutral. AAOS cites 0-80 deg; Norkin & White report up to 0-90 deg. Commonly documented range 80-90 deg."
+ },
+ {
+  "slug": "elbow-extension",
+  "aromMin": 0,
+  "aromMax": 0,
+  "promMin": 0,
+  "promMax": 0,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Extension is the return from flexion to the 0-degree anatomical neutral; normal end position is 0. Up to 5-10 degrees of hyperextension can be normal, especially in women and children, and would be recorded as e.g. 10 degrees of hyperextension."
+ },
+ {
+  "slug": "elbow-flexion",
+  "aromMin": 0,
+  "aromMax": 150,
+  "promMin": 0,
+  "promMax": 150,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "AAOS and Norkin & White cite 0-150. AMA Guides list 140; passive flexion may reach ~160 depending on forearm/arm soft-tissue bulk. Normal end-feel is soft (soft-tissue approximation)."
+ },
+ {
+  "slug": "finger-abduction",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees or cm",
+  "romSource": "Norkin & White 2016",
+  "romNotes": "No universally accepted goniometric norm; AAOS does not publish a value and normative data are sparse. Approximately 20 degrees of MCP abduction per finger is commonly cited clinically (Hoppenfeld), but it varies by digit (index/small > middle). Often assessed functionally as fingertip-spread distance in cm or by comparison with the contralateral hand."
+ },
+ {
+  "slug": "finger-adduction",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees or cm",
+  "romSource": "Norkin & White 2016",
+  "romNotes": "Adduction is the return of the abducted finger to the midline (adjacent to the middle finger); full adduction is fingers touching, i.e. 0 degrees from neutral. No published goniometric norm; typically assessed as ability to close the fingers together or side-to-side comparison."
+ },
+ {
+  "slug": "finger-extension",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "MCP hyperextension beyond the 0-degree neutral: AAOS lists 45 degrees. Passive MCP hyperextension can considerably exceed active in lax individuals (up to ~90 passively per some sources)."
+ },
+ {
+  "slug": "finger-flexion",
+  "aromMin": 0,
+  "aromMax": 90,
+  "promMin": 0,
+  "promMax": 90,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "AAOS lists 0-90 for MCP flexion. Flexion increases slightly from index to small finger (small finger may reach ~95-100)."
+ },
+ {
+  "slug": "foot-eversion",
+  "aromMin": 0,
+  "aromMax": 15,
+  "promMin": 0,
+  "promMax": 15,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "AAOS value of 0-15 reflects combined hindfoot/forefoot (subtalar plus transverse tarsal) eversion measured at the foot. Isolated subtalar (rearfoot) eversion measured from calcaneal position is only about 5 degrees (Norkin & White)."
+ },
+ {
+  "slug": "foot-inversion",
+  "aromMin": 0,
+  "aromMax": 35,
+  "promMin": 0,
+  "promMax": 35,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "AAOS value of 0-35 reflects combined hindfoot/forefoot inversion measured at the foot. Isolated subtalar (rearfoot) inversion measured from calcaneal position is only about 5 degrees (Norkin & White)."
+ },
+ {
+  "slug": "forearm-pronation",
+  "aromMin": 0,
+  "aromMax": 80,
+  "promMin": 0,
+  "promMax": 80,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured from the thumb-up neutral position with the elbow flexed 90 degrees. AAOS and Norkin & White list 80; AMA Guides and some sources list 90-degree norms."
+ },
+ {
+  "slug": "forearm-supination",
+  "aromMin": 0,
+  "aromMax": 80,
+  "promMin": 0,
+  "promMax": 80,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured from the thumb-up neutral position with the elbow flexed 90 degrees. AAOS and Norkin & White list 80; other sources cite up to 90. Supination is typically equal to or slightly greater than pronation."
+ },
+ {
+  "slug": "hip-abduction",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "AAOS lists 0-45 measured supine. Published norms range roughly 40-45 across sources (AMA Guides list 40)."
+ },
+ {
+  "slug": "hip-adduction",
+  "aromMin": 0,
+  "aromMax": 30,
+  "promMin": 0,
+  "promMax": 30,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured supine with contralateral hip abducted or flexed out of the way; the moving thigh crosses midline. AAOS and Norkin & White both list 0-30 degrees. Some sources cite 20-30 degrees; 30 is the most commonly used norm."
+ },
+ {
+  "slug": "hip-extension",
+  "aromMin": 0,
+  "aromMax": 30,
+  "promMin": 0,
+  "promMax": 30,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "Measured prone with knee extended. Sources disagree more than for most joints: AAOS lists 30 degrees, Kendall lists 10, and normative studies commonly report 10-20 degrees of true hip extension. 0-30 (AAOS) is the most frequently cited textbook value; 0-20 (Norkin & White) is a common conservative alternative."
+ },
+ {
+  "slug": "hip-external-rotation",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Standard measurement is seated with hip and knee flexed to 90 degrees, tibia used as the pointer; the leg swings medially as the femur rotates laterally. 0-45 is the AAOS/Norkin & White norm. Prone-position values may differ slightly."
+ },
+ {
+  "slug": "hip-flexion",
+  "aromMin": 0,
+  "aromMax": 120,
+  "promMin": 0,
+  "promMax": 120,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured supine with the knee flexed (to slacken the hamstrings). AAOS and Norkin & White list 0-120 degrees; with the knee extended, hamstring tension typically limits hip flexion to roughly 80-90 degrees."
+ },
+ {
+  "slug": "hip-internal-rotation",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured seated with hip and knee flexed to 90 degrees; the leg swings laterally as the femur rotates medially. 0-45 is the AAOS/Norkin & White norm; some normative studies report means of 30-40 degrees."
+ },
+ {
+  "slug": "knee-extension",
+  "aromMin": 0,
+  "aromMax": 0,
+  "promMin": 0,
+  "promMax": 10,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Normal active end range is 0 degrees (full extension to anatomical neutral, i.e., the return from flexion). Up to about 10 degrees of passive hyperextension (recorded as recurvatum or negative extension) is considered within normal limits, more common in women and hypermobile individuals."
+ },
+ {
+  "slug": "knee-external-rotation",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "Kinesiology literature (no AAOS/Norkin & White goniometric norm)",
+  "romNotes": "Axial tibial rotation is not part of the standard AAOS or Norkin & White goniometric examination, so no accepted goniometric normal exists. Kinesiology sources describe roughly 30-40 degrees of tibial external (lateral) rotation available with the knee flexed to about 90 degrees, diminishing to near zero as the knee approaches full extension (screw-home mechanism). Clinically assessed by observing tibial tubercle/foot rotation with the knee flexed at 90 degrees, or instrumented in research settings."
+ },
+ {
+  "slug": "knee-flexion",
+  "aromMin": 0,
+  "aromMax": 135,
+  "promMin": 0,
+  "promMax": 135,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "Measured supine or prone. AAOS lists 0-135 degrees; Norkin & White cite 0-140 (AAOS 1965 data also reports 143 as a mean). 135 is the most commonly used textbook norm; passive flexion with the hip flexed (soft-tissue approximation end feel) can reach approximately 140-150 degrees."
+ },
+ {
+  "slug": "knee-internal-rotation",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "Kinesiology literature (no AAOS/Norkin & White goniometric norm)",
+  "romNotes": "Axial tibial rotation is not part of the standard AAOS or Norkin & White goniometric examination, so no accepted goniometric normal exists. Kinesiology sources describe roughly 20-30 degrees of tibial internal (medial) rotation available with the knee flexed to about 90 degrees (less than external rotation), diminishing to near zero in full extension. Clinically assessed by observing tibial tubercle/foot rotation with the knee flexed at 90 degrees."
+ },
+ {
+  "slug": "lumbar-extension",
+  "aromMin": 0,
+  "aromMax": 25,
+  "promMin": 0,
+  "promMax": 25,
+  "romUnit": "degrees",
+  "romSource": "AMA Guides (dual inclinometer); Norkin & White 2016",
+  "romNotes": "True lumbar (not thoracolumbar) extension measured by double-inclinometer technique; the widely used norm is 25 degrees (AMA Guides). AAOS thoracolumbar extension is listed as 30 degrees. Tape-measure and single-inclinometer methods yield different units/values, so the 0-25 degree figure applies to the dual-inclinometer standard."
+ },
+ {
+  "slug": "lumbar-flexion",
+  "aromMin": 0,
+  "aromMax": 60,
+  "promMin": 0,
+  "promMax": 60,
+  "romUnit": "degrees",
+  "romSource": "AMA Guides (dual inclinometer); Norkin & White 2016",
+  "romNotes": "True lumbar (not thoracolumbar) flexion by double-inclinometer technique; the widely used norm is 60 degrees (AMA Guides). AAOS lists thoracolumbar flexion as 80 degrees or a 10 cm (4 in) tape-measure excursion. The modified Schober tape method norm is approximately 6-7 cm of skin distraction; degree values apply only to inclinometer methods."
+ },
+ {
+  "slug": "lumbar-lateral-flexion",
+  "aromMin": 0,
+  "aromMax": 35,
+  "promMin": 0,
+  "promMax": 35,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS value of 0-35 degrees is for combined thoracolumbar lateral flexion measured with a goniometer aligned on S1 spinous process; isolated lumbar contribution is smaller (roughly 15-20 degrees). Norkin & White also describe tape-measure (fingertip-to-floor distance) methods. Sources range 20-40 degrees depending on technique."
+ },
+ {
+  "slug": "lumbar-rotation",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS value of 0-45 degrees is combined thoracolumbar rotation measured seated; isolated lumbar rotation is small (about 5-18 degrees total, most transverse-plane motion occurs in the thoracic spine). No widely accepted goniometric norm exists for lumbar-only rotation, so the thoracolumbar value is the standard clinical reference."
+ },
+ {
+  "slug": "pip-extension",
+  "aromMin": 0,
+  "aromMax": 0,
+  "promMin": 0,
+  "promMax": 0,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Normal PIP extension is return to the 0-degree neutral position; hyperextension beyond 0 is not considered a normal component of active PIP motion in AAOS/Norkin & White norms, though a few degrees of passive hyperextension can occur in lax individuals."
+ },
+ {
+  "slug": "pip-flexion",
+  "aromMin": 0,
+  "aromMax": 100,
+  "promMin": 0,
+  "promMax": 100,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Standard adult normal is 0-100 degrees for digits 2-5, measured with the goniometer over the dorsal PIP joint. Some sources report up to 110-120 degrees passively; 100 degrees is the most commonly cited textbook value."
+ },
+ {
+  "slug": "radial-deviation",
+  "aromMin": 0,
+  "aromMax": 20,
+  "promMin": 0,
+  "promMax": 20,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured with forearm pronated on a table, goniometer axis over the capitate. AAOS and Norkin & White both cite 0-20 degrees; some sources report 15-25 degrees."
+ },
+ {
+  "slug": "scapular-depression",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "cm",
+  "romSource": "Norkin & White 2016 (descriptive); no AAOS goniometric norm",
+  "romNotes": "Scapulothoracic depression is an inferior translation, not an angular joint motion, so there is no published goniometric normal. Assessed by observation, palpation of the inferior angle relative to a thoracic spinous-process landmark, or linear (tape/caliper) measurement compared with the contralateral side."
+ },
+ {
+  "slug": "scapular-downward-rotation",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "No AAOS/Norkin & White goniometric norm; kinesiology literature (e.g., Neumann)",
+  "romNotes": "Downward rotation is the return of the scapula from full upward rotation to rest (roughly the reverse of the ~55-60 degrees of upward rotation that accompanies full arm elevation). It is not measured with a standard goniometer clinically; research uses inclinometers or motion capture. Assessed by observation of the inferior angle and glenoid orientation."
+ },
+ {
+  "slug": "scapular-elevation",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "cm",
+  "romSource": "Norkin & White 2016 (descriptive); no AAOS goniometric norm",
+  "romNotes": "Scapulothoracic elevation is a superior translation (shrug), not an angular motion, so no goniometric normal is published. Assessed by observation/palpation of the superior angle or acromion relative to spinous-process landmarks, or by linear measurement; typical excursion is on the order of 10-12 cm of combined elevation-depression range in kinesiology texts, but this is not a standardized clinical norm."
+ },
+ {
+  "slug": "scapular-protraction",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "cm",
+  "romSource": "Norkin & White 2016 (descriptive); no AAOS goniometric norm",
+  "romNotes": "Protraction (abduction) is a lateral/anterior translation of the scapula around the thorax with no published goniometric normal. Clinically assessed by measuring the linear distance from a thoracic spinous process to the medial scapular border (or root of the scapular spine) and comparing sides, e.g., the lateral scapular slide test."
+ },
+ {
+  "slug": "scapular-retraction",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "cm",
+  "romSource": "Norkin & White 2016 (descriptive); no AAOS goniometric norm",
+  "romNotes": "Retraction (adduction) is a medial translation of the scapula toward the spine with no published goniometric normal. Assessed by observing/measuring the spinous-process-to-medial-border distance (normally about 5-7 cm at rest per kinesiology texts) and its decrease with full retraction, compared side to side."
+ },
+ {
+  "slug": "scapular-upward-rotation",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "No AAOS/Norkin & White goniometric norm; kinesiology literature (e.g., Neumann; Inman scapulohumeral rhythm)",
+  "romNotes": "The scapula upwardly rotates approximately 55-60 degrees during full humeral elevation (about 1 degree of scapular rotation per 2 degrees of glenohumeral motion, the 2:1 scapulohumeral rhythm). This is measured with inclinometers or motion analysis in research, not standard clinical goniometry, so no AROM/PROM goniometric norm is set here."
+ },
+ {
+  "slug": "shoulder-abduction",
+  "aromMin": 0,
+  "aromMax": 180,
+  "promMin": 0,
+  "promMax": 180,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured supine or sitting, goniometer axis at anterior acromion; full range requires humeral external rotation and scapulothoracic upward rotation (glenohumeral contribution alone ~120 degrees). PROM norm equals AROM norm; passive end-feel firm."
+ },
+ {
+  "slug": "shoulder-adduction",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "Hoppenfeld 1976; consistent with AMA Guides",
+  "romNotes": "AAOS and Norkin & White do not publish a separate adduction norm (return to neutral from abduction is 180-0). When measured as adduction anterior to the trunk, commonly cited normals range 30-50 degrees; 45 degrees is the most frequently cited value."
+ },
+ {
+  "slug": "shoulder-extension",
+  "aromMin": 0,
+  "aromMax": 60,
+  "promMin": 0,
+  "promMax": 60,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured prone with goniometer axis at the acromion. AAOS lists 60 degrees; some sources (AMA Guides, Boone & Azen) cite 50 degrees. PROM norm equals AROM norm."
+ },
+ {
+  "slug": "shoulder-external-rotation",
+  "aromMin": 0,
+  "aromMax": 90,
+  "promMin": 0,
+  "promMax": 90,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Standard test position: supine with shoulder abducted to 90 degrees and elbow flexed 90 degrees; goniometer axis at the olecranon. Measured with the arm at the side, normal values are lower (~65-70 degrees). PROM norm equals AROM norm."
+ },
+ {
+  "slug": "shoulder-flexion",
+  "aromMin": 0,
+  "aromMax": 180,
+  "promMin": 0,
+  "promMax": 180,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Measured supine, goniometer axis at the greater tubercle/acromion; full elevation includes scapulothoracic upward rotation. Some normative studies report 165-170 degrees; 180 is the accepted textbook norm. PROM norm equals AROM norm."
+ },
+ {
+  "slug": "shoulder-horizontal-abduction",
+  "aromMin": 0,
+  "aromMax": 45,
+  "promMin": 0,
+  "promMax": 45,
+  "romUnit": "degrees",
+  "romSource": "Clarkson, Musculoskeletal Assessment; AMA Guides",
+  "romNotes": "Not included in the AAOS/Norkin & White core goniometric set. Start position is 90 degrees of shoulder abduction (or flexion) in the horizontal plane; movement posteriorly is commonly cited as 30-45 degrees, with 45 the most frequently used norm."
+ },
+ {
+  "slug": "shoulder-horizontal-adduction",
+  "aromMin": 0,
+  "aromMax": 135,
+  "promMin": 0,
+  "promMax": 135,
+  "romUnit": "degrees",
+  "romSource": "Clarkson, Musculoskeletal Assessment",
+  "romNotes": "Not included in the AAOS/Norkin & White core goniometric set. From a start position of 90 degrees shoulder abduction, movement anteriorly across the chest; commonly cited norm 135 degrees (some sources report 120-135)."
+ },
+ {
+  "slug": "shoulder-internal-rotation",
+  "aromMin": 0,
+  "aromMax": 70,
+  "promMin": 0,
+  "promMax": 70,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion; Norkin & White 2016",
+  "romNotes": "Standard test position: supine with shoulder abducted to 90 degrees and elbow flexed 90 degrees; goniometer axis at the olecranon. AAOS/Norkin & White list 70 degrees; other sources report up to 80-90 degrees depending on scapular stabilization. Functional IR is often recorded as hand-behind-back vertebral level. PROM norm equals AROM norm."
+ },
+ {
+  "slug": "thoracic-extension",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "Magee, Orthopedic Physical Assessment; AAOS (thoracolumbar only)",
+  "romNotes": "No single accepted goniometric norm for isolated thoracic extension; AAOS publishes only combined thoracolumbar values (extension 20-30 degrees). Magee cites isolated thoracic extension of roughly 25-45 degrees measured by inclinometer. Clinically assessed by dual inclinometry (T1/T12) or tape measure; value intentionally left null rather than asserting a precise norm."
+ },
+ {
+  "slug": "thoracic-flexion",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "Magee, Orthopedic Physical Assessment; AAOS (thoracolumbar only)",
+  "romNotes": "No single accepted goniometric norm for isolated thoracic flexion; AAOS publishes only combined thoracolumbar flexion (80 degrees or 4 in / 10 cm by tape measure). Magee cites isolated thoracic flexion of roughly 20-45 degrees by inclinometer; tape-measure method expects ~2.5 cm increase in C7-T12 distance on full flexion. Value intentionally left null."
+ },
+ {
+  "slug": "thoracic-lateral-flexion",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "degrees",
+  "romSource": "Magee, Orthopedic Physical Assessment; AAOS (thoracolumbar only)",
+  "romNotes": "No single accepted goniometric norm for isolated thoracic lateral flexion; AAOS publishes only combined thoracolumbar lateral flexion (~35 degrees each side). Magee cites isolated thoracic lateral flexion of roughly 20-40 degrees, typically measured by dual inclinometry or fingertip-to-floor distance. Value intentionally left null."
+ },
+ {
+  "slug": "thoracic-rotation",
+  "aromMin": 0,
+  "aromMax": 30,
+  "promMin": 0,
+  "promMax": 30,
+  "romUnit": "degrees",
+  "romSource": "AMA Guides to the Evaluation of Permanent Impairment",
+  "romNotes": "Isolated thoracic rotation is commonly cited as 0-30 degrees per side (AMA Guides). AAOS reports combined thoracolumbar rotation of 0-45 degrees; Norkin & White note universal goniometer measurement of seated trunk rotation is difficult to isolate to the thoracic segments, so inclinometer or combined thoracolumbar values are often used clinically."
+ },
+ {
+  "slug": "thumb-abduction",
+  "aromMin": 0,
+  "aromMax": 70,
+  "promMin": 0,
+  "promMax": 70,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS lists first CMC abduction as 0-70 degrees. Sources disagree: the AMA Guides and Norkin & White commonly cite 0-45 degrees for CMC palmar abduction measured between the first and second metacarpals. Radial (plane-of-palm) vs palmar abduction should be specified when recording."
+ },
+ {
+  "slug": "thumb-adduction",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "descriptive",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "Thumb CMC adduction is conventionally recorded as the return from abduction to 0 degrees (contact with the second metacarpal) rather than as a separate goniometric arc; AAOS and Norkin & White give no standard positive degree value. The AMA Guides record adduction as a ruler measurement (cm) from the thumb flexion crease to the distal palmar crease over the fifth MCP, with 0 cm being full adduction."
+ },
+ {
+  "slug": "thumb-ip-extension",
+  "aromMin": 0,
+  "aromMax": 20,
+  "promMin": 0,
+  "promMax": 20,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS lists thumb IP hyperextension of approximately 20 degrees beyond neutral. Extension beyond 0 degrees is variable between individuals; some references simply record extension as return to 0 with hyperextension noted separately (passive hyperextension up to about 30 degrees can be normal)."
+ },
+ {
+  "slug": "thumb-ip-flexion",
+  "aromMin": 0,
+  "aromMax": 80,
+  "promMin": 0,
+  "promMax": 80,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS and Norkin & White both list thumb IP flexion as 0-80 degrees; the AMA Guides also use 80 degrees. Passive flexion may slightly exceed active."
+ },
+ {
+  "slug": "thumb-mcp-extension",
+  "aromMin": 0,
+  "aromMax": 0,
+  "promMin": 0,
+  "promMax": 0,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion / Norkin & White 2016",
+  "romNotes": "Normal thumb MCP extension is recorded as return to the 0-degree neutral position; AAOS and Norkin & White list no positive extension value. The AMA Guides allow up to about 10 degrees of hyperextension as normal, and individual passive hyperextension varies considerably."
+ },
+ {
+  "slug": "thumb-mcp-flexion",
+  "aromMin": 0,
+  "aromMax": 50,
+  "promMin": 0,
+  "promMax": 50,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS and Norkin & White list thumb MCP flexion as 0-50 degrees; the AMA Guides cite 0-60 degrees. Thumb MCP flexion is highly variable between individuals (reported normals span roughly 40-70 degrees)."
+ },
+ {
+  "slug": "thumb-opposition",
+  "aromMin": null,
+  "aromMax": null,
+  "promMin": null,
+  "promMax": null,
+  "romUnit": "cm",
+  "romSource": "AAOS Joint Motion / AMA Guides",
+  "romNotes": "Opposition is a composite motion not measured with a goniometer. Standard clinical recording: full opposition = pad of thumb touches the pad or base of the fifth finger; deficits are recorded as the ruler distance (cm) from the thumb tip (or IP crease) to the fifth MCP joint or distal palmar crease, with 0 cm considered normal. The Kapandji score (0-10, where 10 = thumb tip to distal palmar crease) is an alternative published scale."
+ },
+ {
+  "slug": "ulnar-deviation",
+  "aromMin": 0,
+  "aromMax": 30,
+  "promMin": 0,
+  "promMax": 30,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS lists wrist ulnar deviation as 0-30 degrees; Norkin & White concur. Some sources (AMA Guides) report up to 0-30 degrees as well; occasional references cite 35 degrees. Passive range is typically equal to or slightly greater than active."
+ },
+ {
+  "slug": "wrist-extension",
+  "aromMin": 0,
+  "aromMax": 70,
+  "promMin": 0,
+  "promMax": 70,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS lists wrist extension as 0-70 degrees; Norkin & White concur. The AMA Guides cite 0-60 degrees. Passive extension typically equals or slightly exceeds active."
+ },
+ {
+  "slug": "wrist-flexion",
+  "aromMin": 0,
+  "aromMax": 80,
+  "promMin": 0,
+  "promMax": 80,
+  "romUnit": "degrees",
+  "romSource": "AAOS Joint Motion",
+  "romNotes": "AAOS lists wrist flexion as 0-80 degrees; Norkin & White concur. Some sources report up to 90 degrees passively. The AMA Guides cite 0-60 degrees for impairment rating, but 0-80 is the most commonly used clinical norm."
+ }
+]

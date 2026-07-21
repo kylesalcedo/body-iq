@@ -1,0 +1,1885 @@
+{
+ "generatedFrom": "/private/tmp/claude-501/-Users-kylesalcedo-body-iq/1a9eac83-4d73-48be-b8f4-805acca33017/scratchpad/audit-shards",
+ "regions": [
+  "cervical-spine",
+  "thoracic-spine",
+  "shoulder",
+  "elbow",
+  "wrist",
+  "hand",
+  "lumbar-spine",
+  "pelvis",
+  "hip",
+  "knee",
+  "ankle"
+ ],
+ "lengthening": [
+  {
+   "exerciseSlug": "levator-scapulae-stretch",
+   "muscleSlug": "levator-scapulae",
+   "rationale": "Primary target being stretched; flexion + contralateral sidebend + ipsilateral rotation elongates it from C1-C4 transverse processes to the superior scapular angle.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "levator-scapulae-stretch",
+   "muscleSlug": "trapezius-upper",
+   "rationale": "Data lists upper trap as secondary 'partially stretched'; the contralateral sidebend/flexion genuinely elongates it on the antagonist side.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "upper-trapezius-stretch",
+   "muscleSlug": "trapezius-upper",
+   "rationale": "Primary target: contralateral lateral flexion plus ipsilateral shoulder depression maximally lengthens the upper trapezius.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "upper-trapezius-stretch",
+   "muscleSlug": "levator-scapulae",
+   "rationale": "Data lists levator as secondary 'partially stretched in this position'; sidebend-away plus depression elongates it (less than the dedicated levator stretch).",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "deep-neck-flexor-training",
+   "muscleSlug": "semispinalis-capitis",
+   "rationale": "Craniocervical flexion's defining antagonist is the posterior capital extensor group; semispinalis capitis (largest) is elongated as the back of the neck lengthens, per the exercise cue.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "supine-chin-tuck-liftoff",
+   "muscleSlug": "semispinalis-capitis",
+   "rationale": "CCF plus added lower-cervical flexion during liftoff clearly elongates the posterior cervical extensors on the stretched/antagonist side.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "sitting-ccf-oblique-band",
+   "muscleSlug": "semispinalis-capitis",
+   "rationale": "Same craniocervical-flexion pattern; the posterior capital extensors including semispinalis capitis are the elongating antagonists.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "muscleSlug": "erector-spinae",
+   "rationale": "The cat/flexion phase is a genuine primary movement of the exercise, and spinal flexion stretches the posterior extensors to end range. Erectors are not the working muscle during flexion, so this is a true lengthening on the stretched side.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "muscleSlug": "multifidus",
+   "rationale": "Multifidus is a deep segmental extensor (listed primary, not stabilizer, here); the cat/flexion phase lengthens it across its posterior end range, paralleling the erector spinae stretch.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "muscleSlug": "rectus-abdominis",
+   "rationale": "The cow/extension phase is a primary movement that extends the spine and lengthens the anterior trunk flexor. RA is a listed muscle and is genuinely stretched during the extension half of the cycle.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "open-book-stretch",
+   "muscleSlug": "external-oblique",
+   "rationale": "This is a sustained rotation stretch (30-60s holds). External oblique produces contralateral rotation, so opening the thorax toward the ceiling stretches it; the shard's own note explicitly labels external oblique as the side 'being stretched.'",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "thoracic-extension-wall",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Overhead shoulder flexion elongates the lat (a shoulder extensor/adductor) at the humeral attachment, and thoracic extension adds spinal elongation. The shard lists lat as 'Stretched during overhead arm position,' confirming an antagonist stretch.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "cross-body-shoulder-stretch",
+   "muscleSlug": "posterior-deltoid",
+   "rationale": "Horizontal adduction is the direct antagonist to the posterior deltoid's horizontal abduction; it is the exercise's listed primary stretch target.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "cross-body-shoulder-stretch",
+   "muscleSlug": "infraspinatus",
+   "rationale": "Horizontal adduction stretches the posterior cuff; infraspinatus is a listed primary stretch target.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "cross-body-shoulder-stretch",
+   "muscleSlug": "teres-minor",
+   "rationale": "Posterior cuff is elongated by horizontal adduction; teres minor is a listed stretch target.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "doorway-pec-stretch",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Forward lean into horizontal abduction/extension with ER is the classic pec-major stretch; it is the exercise's target tissue.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "doorway-pec-stretch",
+   "muscleSlug": "anterior-deltoid",
+   "rationale": "Horizontal abduction/extension behind the frontal plane lengthens the anterior deltoid (a flexor/horizontal adductor); listed as secondary stretch.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "dynamic-hug",
+   "muscleSlug": "posterior-deltoid",
+   "rationale": "Concentric horizontal adduction places the antagonist posterior deltoid on the lengthened side.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "dynamic-hug",
+   "muscleSlug": "rhomboid-major",
+   "rationale": "End-range scapular protraction directly lengthens the retractor rhomboid major; protraction is a primary movement.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "dynamic-hug",
+   "muscleSlug": "trapezius-middle",
+   "rationale": "Scapular protraction lengthens the retractor middle trapezius as the antagonist.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "external-rotation-0-abduction",
+   "muscleSlug": "subscapularis",
+   "rationale": "Dedicated external rotation directly elongates the primary internal rotator subscapularis.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "inverted-row",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "At end-range retraction/shoulder extension the pectoralis major (protractor/flexor) is maximally lengthened.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "inverted-row",
+   "muscleSlug": "anterior-deltoid",
+   "rationale": "Shoulder extension from the flexed start position lengthens the flexor anterior deltoid.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "low-row-band",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Retraction plus shoulder extension lengthens the anterior protractor/flexor pectoralis major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "low-row-band",
+   "muscleSlug": "trapezius-upper",
+   "rationale": "Scapular depression (a primary movement) directly lengthens the elevator upper trapezius, which the low row deliberately down-trains.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "low-row-band",
+   "muscleSlug": "levator-scapulae",
+   "rationale": "Scapular depression lengthens the elevator levator scapulae as the clean antagonist.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "median-nerve-glide",
+   "muscleSlug": "flexor-digitorum-superficialis",
+   "rationale": "Combined wrist and finger extension elongates the finger/wrist flexor FDS on the stretched side.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "overhead-press",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Full overhead shoulder flexion places the extensor/adductor latissimus dorsi at long length as antagonist.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "overhead-squat",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Sustained locked-overhead shoulder flexion strongly lengthens the latissimus dorsi (the key restrictor this assessment exposes).",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "prone-er-90-abduction",
+   "muscleSlug": "subscapularis",
+   "rationale": "External rotation at 90 degrees abduction places the primary internal rotator subscapularis under strong stretch.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "prone-horizontal-abduction-er",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Horizontal abduction with retraction is the direct antagonist stretch of the horizontal-adductor pectoralis major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "prone-horizontal-abduction-er",
+   "muscleSlug": "anterior-deltoid",
+   "rationale": "Horizontal abduction lengthens the horizontal-adductor/flexor anterior deltoid.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "prone-t-with-external-rotation",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "The T position (horizontal abduction + retraction) lengthens the pectoralis major on the stretched side.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "prone-t-with-external-rotation",
+   "muscleSlug": "anterior-deltoid",
+   "rationale": "Horizontal abduction lengthens the horizontal-adductor anterior deltoid.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "push-up-plus",
+   "muscleSlug": "rhomboid-major",
+   "rationale": "The end-range protraction 'plus' maximally lengthens the retractor rhomboid major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "push-up-plus",
+   "muscleSlug": "trapezius-middle",
+   "rationale": "Scapular protraction lengthens the retractor middle trapezius.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "resisted-external-rotation",
+   "muscleSlug": "subscapularis",
+   "rationale": "External rotation elongates the primary internal rotator subscapularis.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "scapular-retraction-exercise",
+   "muscleSlug": "serratus-anterior",
+   "rationale": "Isolated unloaded retraction places the protractor serratus anterior at its longest with no stabilization demand.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "scapular-retraction-exercise",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Drawing the shoulders back into retraction lengthens the protractor/horizontal-adductor pectoralis major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "scapular-stability-rows",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Retraction plus shoulder extension lengthens the anterior pectoralis major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "scapular-stability-rows",
+   "muscleSlug": "anterior-deltoid",
+   "rationale": "Shoulder extension lengthens the flexor anterior deltoid.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "shoulder-internal-rotation-exercise",
+   "muscleSlug": "infraspinatus",
+   "rationale": "Internal rotation directly lengthens the external rotator infraspinatus.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "shoulder-internal-rotation-exercise",
+   "muscleSlug": "teres-minor",
+   "rationale": "Internal rotation lengthens the external rotator teres minor.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "side-lying-external-rotation",
+   "muscleSlug": "subscapularis",
+   "rationale": "External rotation elongates the primary internal rotator subscapularis.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "sleeper-stretch",
+   "muscleSlug": "infraspinatus",
+   "rationale": "Passive internal rotation of the flexed shoulder stretches the posterior cuff infraspinatus (the target).",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "sleeper-stretch",
+   "muscleSlug": "teres-minor",
+   "rationale": "Internal rotation stretches the posterior cuff teres minor.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "sleeper-stretch",
+   "muscleSlug": "posterior-deltoid",
+   "rationale": "Internal rotation of the 90-degree flexed shoulder partially lengthens the external-rotator posterior deltoid; listed as secondary stretch.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "supine-scapular-punch",
+   "muscleSlug": "rhomboid-major",
+   "rationale": "Scapular protraction (the punch) lengthens the retractor rhomboid major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "supine-scapular-punch",
+   "muscleSlug": "trapezius-middle",
+   "rationale": "Scapular protraction lengthens the retractor middle trapezius.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "tricep-extension",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension places the elbow-flexor biceps brachii on the lengthened side.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "tricep-extension",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "The full overhead shoulder-flexion position that defines this variation lengthens the latissimus dorsi.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "wall-push-up",
+   "muscleSlug": "rhomboid-major",
+   "rationale": "End-range scapular protraction lengthens the retractor rhomboid major.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "wall-push-up",
+   "muscleSlug": "trapezius-middle",
+   "rationale": "Scapular protraction lengthens the retractor middle trapezius.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "wall-slide",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Sliding the arms overhead into full shoulder flexion lengthens the extensor/adductor latissimus dorsi.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "wall-walks-shoulder",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Progressive overhead shoulder elevation lengthens the latissimus dorsi as the primary restrictor.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "bicep-curl",
+   "muscleSlug": "triceps-brachii",
+   "rationale": "Elbow flexion lengthens the elbow extensor triceps brachii (genuine antagonist; triceps not a working muscle in the curl).",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "bicep-curl",
+   "muscleSlug": "anconeus",
+   "rationale": "Elbow flexion lengthens the accessory elbow extensor anconeus.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "inverted-row",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Shoulder extension plus scapular retraction (horizontal abduction) stretches the horizontal-adductor/flexor pectoralis major.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "inverted-row",
+   "muscleSlug": "serratus-anterior",
+   "rationale": "Scapular retraction lengthens the protractor serratus anterior.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "inverted-row",
+   "muscleSlug": "anterior-deltoid",
+   "rationale": "Shoulder extension lengthens the shoulder-flexor anterior deltoid.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "inverted-row",
+   "muscleSlug": "triceps-brachii",
+   "rationale": "Elbow flexion during the pull lengthens the elbow extensor triceps (biceps, not triceps, is the working elbow muscle).",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "landmine-press",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Shoulder flexion stretches the shoulder extensor/adductor latissimus dorsi.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "landmine-press",
+   "muscleSlug": "posterior-deltoid",
+   "rationale": "Shoulder flexion lengthens the shoulder-extensor/horizontal-abductor posterior deltoid, the antagonist to the anterior-deltoid prime mover.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "landmine-press",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension in the press lengthens the elbow flexor biceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "landmine-press",
+   "muscleSlug": "brachialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "landmine-press",
+   "muscleSlug": "brachioradialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachioradialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "overhead-press",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Overhead shoulder flexion/abduction stretches the adductor/extensor latissimus dorsi.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "overhead-press",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension at lockout lengthens the elbow flexor biceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "overhead-press",
+   "muscleSlug": "brachialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "overhead-press",
+   "muscleSlug": "brachioradialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachioradialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "push-up-plus",
+   "muscleSlug": "trapezius-middle",
+   "rationale": "The scapular protraction 'plus' lengthens the retractor middle trapezius.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "push-up-plus",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension in the push-up lengthens the elbow flexor biceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "push-up-plus",
+   "muscleSlug": "brachialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "push-up-plus",
+   "muscleSlug": "brachioradialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachioradialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "extensor-carpi-radialis-longus",
+   "rationale": "Wrist flexion in the glide lengthens the wrist extensor ECRL.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "extensor-carpi-radialis-brevis",
+   "rationale": "Wrist flexion lengthens the wrist extensor ECRB.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "extensor-digitorum",
+   "rationale": "Wrist/finger flexion lengthens the extensor digitorum.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "extensor-carpi-ulnaris",
+   "rationale": "Wrist flexion lengthens the wrist extensor ECU.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "supinator",
+   "rationale": "Forearm pronation in the sequence lengthens the supinator (antagonist to pronation).",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "trapezius-upper",
+   "rationale": "Shoulder-girdle depression at the start of the neurodynamic sequence lengthens the scapular-elevator upper trapezius.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension (compounded by forearm pronation) lengthens the elbow-flexor/supinator biceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "tricep-extension",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension lengthens the elbow flexor biceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "tricep-extension",
+   "muscleSlug": "brachialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "tricep-extension",
+   "muscleSlug": "brachioradialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachioradialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "flexor-carpi-radialis",
+   "rationale": "Wrist extension in the glide lengthens the wrist flexor FCR.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "flexor-carpi-ulnaris",
+   "rationale": "Wrist extension lengthens the wrist flexor FCU.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "triceps-brachii",
+   "rationale": "Elbow flexion in the sequence lengthens the elbow extensor triceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "anconeus",
+   "rationale": "Elbow flexion lengthens the elbow extensor anconeus.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "trapezius-upper",
+   "rationale": "Cervical sidebend away from the working arm (contralateral lateral flexion) genuinely lengthens the ipsilateral working-side upper trapezius \u2014 biomechanics verified.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "pectoralis-major",
+   "rationale": "Shoulder abduction lengthens the adductor pectoralis major.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Shoulder abduction lengthens the adductor/extensor latissimus dorsi.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "wall-push-up",
+   "muscleSlug": "trapezius-middle",
+   "rationale": "The scapular protraction 'plus' lengthens the retractor middle trapezius.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "wall-push-up",
+   "muscleSlug": "biceps-brachii",
+   "rationale": "Elbow extension in the push-up lengthens the elbow flexor biceps brachii.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "wall-push-up",
+   "muscleSlug": "brachialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "wall-push-up",
+   "muscleSlug": "brachioradialis",
+   "rationale": "Elbow extension lengthens the elbow flexor brachioradialis.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "wrist-extensor-stretch",
+   "muscleSlug": "extensor-carpi-radialis-longus",
+   "rationale": "Primary action is wrist flexion; ECRL is a wrist extensor tagged 'Being stretched' in ground truth. Genuinely on the lengthened side.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-extensor-stretch",
+   "muscleSlug": "extensor-digitorum",
+   "rationale": "Wrist flexion lengthens ED across the wrist; tagged 'Being stretched' (primary) in ground truth.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-extensor-stretch",
+   "muscleSlug": "extensor-carpi-radialis-brevis",
+   "rationale": "Not in the stored list, but ECRB is a wrist extensor crossing the wrist and is genuinely elongated by wrist flexion \u2014 the key lateral-epicondylitis muscle, not a stabilizer or trivial.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-extensor-stretch",
+   "muscleSlug": "extensor-carpi-ulnaris",
+   "rationale": "ECU is a wrist extensor (with ulnar deviation); its extension component is genuinely lengthened by wrist flexion. On the stretched side.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-flexor-stretch",
+   "muscleSlug": "flexor-carpi-radialis",
+   "rationale": "Primary action is wrist extension; FCR is a wrist flexor tagged 'Being stretched' (primary). Genuinely lengthened.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-flexor-stretch",
+   "muscleSlug": "flexor-carpi-ulnaris",
+   "rationale": "Wrist extension lengthens FCU; tagged 'Being stretched' (primary) in ground truth.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-flexor-stretch",
+   "muscleSlug": "flexor-digitorum-superficialis",
+   "rationale": "Description extends wrist and fingers; FDS is stretched across wrist and finger joints; tagged 'Being stretched' (secondary).",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "wrist-flexor-stretch",
+   "muscleSlug": "flexor-digitorum-profundus",
+   "rationale": "Not in the stored list, but FDP crosses wrist, MCP, PIP, DIP; the described combined wrist+finger extension genuinely elongates it on the stretched side, not as a stabilizer.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "finger-adduction-card-squeeze",
+   "muscleSlug": "dorsal-interossei",
+   "rationale": "MCP finger adduction directly stretches the dorsal interossei (finger abductors) in the same frontal plane; DI is the true antagonist on the lengthened side.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "finger-adduction-exercise",
+   "muscleSlug": "dorsal-interossei",
+   "rationale": "Palmar-interossei-driven MCP adduction lengthens the dorsal interossei (finger abductors) as the direct frontal-plane antagonist.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "finger-extension-band",
+   "muscleSlug": "flexor-digitorum-superficialis",
+   "rationale": "Primary MCP finger extension against the band puts the long finger flexors on stretch; FDS is the direct antagonist to extension.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "finger-extension-band",
+   "muscleSlug": "flexor-digitorum-profundus",
+   "rationale": "Finger extension lengthens the deep finger flexor across the MCP/IP joints; FDP is antagonist to the extension action.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "finger-extension-band",
+   "muscleSlug": "palmar-interossei",
+   "rationale": "The finger-abduction component (spreading fingers against the band, a listed movement) stretches the palmar interossei, the finger adductors.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "isolated-small-finger-abduction",
+   "muscleSlug": "palmar-interossei",
+   "rationale": "Small-finger MCP abduction lengthens the digit-5 palmar interosseus (adductor), which is a pure antagonist here, not a contributor.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "rubber-band-finger-abduction",
+   "muscleSlug": "palmar-interossei",
+   "rationale": "MCP finger abduction against the band stretches the palmar interossei (finger adductors) as the direct frontal-plane antagonist.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "muscleSlug": "erector-spinae",
+   "rationale": "The cat (flexion) phase stretches the lumbar/thoracic extensors \u2014 during flexion the abdominals drive the motion and the erectors are the relaxed antagonist on the stretched side.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "muscleSlug": "multifidus",
+   "rationale": "Segmental lumbar extensor lengthened during the cat/flexion phase; it is the stretched antagonist, not the mover.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "muscleSlug": "rectus-abdominis",
+   "rationale": "The cow (extension) phase lengthens the anterior abdominal wall; RA is the dedicated sagittal flexor placed on genuine stretch by trunk extension.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "pelvic-tilt-realignment",
+   "muscleSlug": "rectus-abdominis",
+   "rationale": "Anterior pelvic tilt (lumbar extension) is the cardinal antagonist-lengthening for RA; the drill explicitly trains this direction and RA is relaxed/lengthened there.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "pelvic-tilt-realignment",
+   "muscleSlug": "erector-spinae",
+   "rationale": "Posterior pelvic tilt (lumbar flexion) lengthens the lumbar erectors \u2014 the reciprocal antagonist relationship the tilt drill trains; erectors are active only in the anterior-tilt direction.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "quadruped-rockback",
+   "muscleSlug": "erector-spinae",
+   "rationale": "Rockback is flexion-biased with the stated purpose of opening the lumbar canal \u2014 lumbar flexion is a direct posterior-lumbar stretch that lengthens the erectors.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "quadruped-rockback",
+   "muscleSlug": "multifidus",
+   "rationale": "Segmental lumbar extensor lengthened by the flexion-biased rockback; it is on the stretched side of the primary flexion action.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "quadruped-rockback",
+   "muscleSlug": "gluteus-maximus",
+   "rationale": "Rocking the hips to the heels is deep hip flexion, which genuinely stretches the glute max (hip extensor) as antagonist \u2014 a mobility stretch, not a loaded prime-mover here.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "couch-stretch",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Passive trailing-leg hip extension in half-kneeling stretches the hip flexor; iliopsoas is the relaxed antagonist, not the mover.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "couch-stretch",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Combined hip extension + knee flexion tensions the biarticular RF at both joints; classic passive stretch.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "couch-stretch",
+   "muscleSlug": "quadriceps",
+   "rationale": "Knee flexion component lengthens the vasti of the quad group as the passive stretched tissue.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Half-kneeling hip extension passively lengthens the hip flexors.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Hip-extension component passively stretches RF at the hip.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "hamstrings",
+   "rationale": "Supine straight-knee hip flexion is a pure passive hamstring stretch; hip flexors (not hamstrings) drive it.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "frog-pose-hold",
+   "muscleSlug": "adductor-group",
+   "rationale": "Sustained wide hip abduction passively lengthens the adductor group; the abductors position, adductors relax and stretch.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "frog-pose-hold",
+   "muscleSlug": "adductor-longus",
+   "rationale": "Abduction dominates adductor longus length; it is the signature muscle stretched in frog pose.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "frog-pose-hold",
+   "muscleSlug": "gracilis",
+   "rationale": "Hip abduction stretches the thin medial gracilis; its weak knee-flexion role is outweighed by the adduction line.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "pigeon-stretch",
+   "muscleSlug": "piriformis",
+   "rationale": "Front-leg deep flexion + adduction past neutral is the classic passive stretch of piriformis/deep rotators.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "pigeon-stretch",
+   "muscleSlug": "gluteus-maximus",
+   "rationale": "Deep front-hip flexion + adduction passively lengthens glute max as antagonist.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "pigeon-stretch",
+   "muscleSlug": "obturator-internus",
+   "rationale": "Flexion + adduction tensions the deep external rotators including obturator internus (passive).",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "ninety-ninety-hip-stretch",
+   "muscleSlug": "piriformis",
+   "rationale": "Front-hip flexed-and-externally-rotated shinbox position passively stretches the deep rotators/piriformis (seated-pigeon equivalent).",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "ninety-ninety-hip-stretch",
+   "muscleSlug": "gluteus-maximus",
+   "rationale": "Front-leg deep flexion passively lengthens glute max.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "forward-lunge",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Trailing-leg hip extension passively stretches the rear hip flexors; front leg is the mover.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "forward-lunge",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Trailing hip extension with knee flexion passively lengthens the biarticular RF on the rear leg.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "split-squat-bulgarian",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Rear-foot-elevated position drives rear-leg hip extension, passively stretching the rear hip flexors.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "split-squat-bulgarian",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Rear hip extension + knee flexion passively lengthens RF on the trailing leg.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "knee-split-squat-isometric",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Split-stance rear-leg hip extension passively stretches the hip flexors during the hold.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "knee-split-squat-isometric",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Rear hip extension with knee flexion passively lengthens RF.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "active-straight-leg-raise",
+   "muscleSlug": "hamstrings",
+   "rationale": "Straight-knee hip flexion is driven by the hip flexors; hamstrings are the passive antagonist stretched (ROM limiter).",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "active-straight-leg-raise",
+   "muscleSlug": "gluteus-maximus",
+   "rationale": "Hip flexion passively lengthens glute max as antagonist; hip flexors are the movers.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "straight-leg-raise",
+   "muscleSlug": "hamstrings",
+   "rationale": "Straight-knee hip flexion passively stretches the hamstrings; hip flexors drive the motion.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "straight-leg-raise",
+   "muscleSlug": "gluteus-maximus",
+   "rationale": "Hip flexion passively lengthens glute max as antagonist.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "quadruped-rockback",
+   "muscleSlug": "erector-spinae",
+   "rationale": "Rocking toward heels produces end-range lumbar flexion that passively lengthens the lumbar erectors.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "quadruped-rockback",
+   "muscleSlug": "gluteus-maximus",
+   "rationale": "Deep hip flexion (hips to heels) passively stretches glute max in a relaxed child's-pose position.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "seated-hip-internal-rotation",
+   "muscleSlug": "piriformis",
+   "rationale": "Hip internal rotation is the antagonist action to the external rotators; passively stretches piriformis.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "seated-hip-internal-rotation",
+   "muscleSlug": "obturator-internus",
+   "rationale": "IR passively lengthens the deep external rotators including obturator internus by the same mechanism as piriformis.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "thoracic-extension-wall",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Arms-overhead-on-wall with thoracic extension is a recognized passive lat stretch (shoulder flexion + trunk extension elongates lat).",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "overhead-squat",
+   "muscleSlug": "latissimus-dorsi",
+   "rationale": "Locked overhead-arm position sustains shoulder flexion the lat resists; passively lengthened.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "overhead-squat",
+   "muscleSlug": "soleus",
+   "rationale": "Deep-squat ankle dorsiflexion passively stretches the mono-articular soleus (dorsiflexors are the movers).",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "hip-abduction-extension-sliders",
+   "muscleSlug": "adductor-group",
+   "rationale": "Abductors are the working muscle; the adductors are the passive antagonist lengthened through the abduction arc.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "hip-abduction-strengthening",
+   "muscleSlug": "adductor-group",
+   "rationale": "Side-lying abduction works the abductors; adductors are the passive lengthened antagonist.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "side-plank-hip-abduction",
+   "muscleSlug": "adductor-group",
+   "rationale": "Top-leg abduction lengthens that leg's adductors as passive antagonist.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "hip-adduction-sidelying",
+   "muscleSlug": "gluteus-medius",
+   "rationale": "Lifting the bottom leg into adduction lengthens the abductor antagonist (glute med); adduction is the direct antagonist action.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "couch-stretch",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Primary stretch target: simultaneous hip extension and knee flexion maximally lengthens the biarticular rectus femoris. Muscle is passive on the stretched side.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "couch-stretch",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Rear-limb hip extension with posterior pelvic tilt lengthens the monoarticular hip flexor iliopsoas across the front of the hip.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "couch-stretch",
+   "muscleSlug": "quadriceps",
+   "rationale": "Deep flexion of the rear knee lengthens the monoarticular vasti of the quadriceps group; in this passive stretch the quads are on the lengthened side.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Half-kneeling stretch places the rear hip into extension, lengthening the iliopsoas. Listed as a primary stretch target.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Rear-limb hip extension (with rear knee flexed on the floor) lengthens the two-joint rectus femoris. Primary stretch target.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "hamstrings",
+   "rationale": "The supine hamstring-stretch component uses hip flexion with knee extended, lengthening the hamstring group as the passive target.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "biceps-femoris-long",
+   "rationale": "Hip flexion + knee extension lengthens the biarticular long head of biceps femoris along with the rest of the hamstring group.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "semitendinosus",
+   "rationale": "Hip flexion + knee extension lengthens the biarticular semitendinosus during the hamstring stretch.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-flexor-hamstring-stretch",
+   "muscleSlug": "semimembranosus",
+   "rationale": "Hip flexion + knee extension lengthens the biarticular semimembranosus during the hamstring stretch.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "straight-leg-raise",
+   "muscleSlug": "hamstrings",
+   "rationale": "Hip flexion with the knee held in extension is the classic hamstring-length position; the hamstrings are the stretched antagonist to the hip flexors.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "straight-leg-raise",
+   "muscleSlug": "biceps-femoris-long",
+   "rationale": "Hip flexion + maintained knee extension lengthens the biarticular long head of biceps femoris.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "straight-leg-raise",
+   "muscleSlug": "semitendinosus",
+   "rationale": "Hip flexion + maintained knee extension lengthens semitendinosus as part of the hamstring group.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "straight-leg-raise",
+   "muscleSlug": "semimembranosus",
+   "rationale": "Hip flexion + maintained knee extension lengthens semimembranosus as part of the hamstring group.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "quad-strengthening-slr-tke",
+   "muscleSlug": "hamstrings",
+   "rationale": "The SLR component flexes the hip with the knee extended, placing the hamstrings on stretch as the antagonist to the hip flexors.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "forward-lunge",
+   "muscleSlug": "iliopsoas",
+   "rationale": "At the lunge bottom the trailing-limb hip extends, lengthening the trailing iliopsoas; the rear leg is not the prime mover, so it is genuinely on the stretched side.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "forward-lunge",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Trailing-limb hip extension combined with rear-knee flexion lengthens the biarticular rectus femoris (couch-stretch mechanism, milder) on the non-working leg.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "split-squat-bulgarian",
+   "muscleSlug": "iliopsoas",
+   "rationale": "Rear-foot-elevated stance drives the trailing hip into extension, lengthening the rear iliopsoas on the non-working limb.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "split-squat-bulgarian",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Trailing hip extension plus rear-knee flexion lengthens the two-joint rectus femoris on the elevated rear leg.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "knee-split-squat-isometric",
+   "muscleSlug": "iliopsoas",
+   "rationale": "The split stance holds the trailing hip in extension throughout the isometric hold, lengthening the rear iliopsoas on the non-working limb.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "knee-split-squat-isometric",
+   "muscleSlug": "rectus-femoris",
+   "rationale": "Trailing hip extension with rear-knee flexion places the biarticular rectus femoris of the rear leg on stretch during the hold.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "calf-stretch",
+   "muscleSlug": "gastrocnemius",
+   "rationale": "Purpose-built stretch; back knee stays straight, so ankle dorsiflexion genuinely lengthens the biarticular gastrocnemius. Listed as primary 'stretched with knee straight'.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "calf-stretch",
+   "muscleSlug": "soleus",
+   "rationale": "Knee-bent variation slackens gastroc and directs the dorsiflexion stretch onto the mono-articular soleus. Genuine antagonist lengthening in a dedicated stretch.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "banded-ankle-df-mobilization",
+   "muscleSlug": "soleus",
+   "rationale": "Weight-bearing knee-forward (knee-bent) dorsiflexion mobilization stretches the mono-articular soleus \u2014 the true target tissue of a knee-to-wall mobilization. Not contracting; it is the tissue being lengthened.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "heel-raise",
+   "muscleSlug": "tibialis-anterior",
+   "rationale": "Unidirectional plantarflexion; TA is a pure untrained antagonist (not in the muscle list) genuinely stretched as the ankle plantarflexes.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "calf-raise-explosive",
+   "muscleSlug": "tibialis-anterior",
+   "rationale": "Concentric plantarflexion with TA absent from the working muscles \u2014 clean antagonist stretched at end-range plantarflexion.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "heel-raise-eccentric",
+   "muscleSlug": "tibialis-anterior",
+   "rationale": "Rise phase plantarflexes to end range; TA is untrained antagonist genuinely lengthened. Distinct from the eccentric lowering phase.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "posterior-chain-strengthening",
+   "muscleSlug": "quadriceps",
+   "rationale": "Prone hamstring-curl component flexes the knee; quadriceps are the untrained direct antagonist genuinely lengthened by knee flexion.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "posterior-chain-strengthening",
+   "muscleSlug": "tibialis-anterior",
+   "rationale": "Seated heel-raise (plantarflexion) component; TA is untrained antagonist stretched, same clean relationship as an isolated heel raise.",
+   "region": "ankle"
+  }
+ ],
+ "difficultyEdges": [
+  {
+   "fromSlug": "deep-neck-flexor-training",
+   "toSlug": "supine-chin-tuck-liftoff",
+   "direction": "progression",
+   "criterion": "Once the patient holds 30 mmHg CCF with minimal SCM activity, adding anti-gravity head liftoff is harder; DNF's named 'Chin Tuck with Head Lift' progression IS the supine-chin-tuck-liftoff node. Distinct roster nodes.",
+   "region": "cervical-spine"
+  },
+  {
+   "fromSlug": "supine-chin-tuck-liftoff",
+   "toSlug": "deep-neck-flexor-training",
+   "direction": "regression",
+   "criterion": "If the patient cannot maintain the tuck during liftoff or substitutes SCM, drop to the pure CCF pattern; the liftoff's named 'Chin Tuck Without Liftoff' regression IS the deep-neck-flexor-training CCF node. Distinct roster nodes.",
+   "region": "cervical-spine"
+  },
+  {
+   "fromSlug": "side-plank",
+   "toSlug": "side-plank-hip-abduction",
+   "direction": "progression",
+   "criterion": "Can hold a full side plank ~30s with a level pelvis (no hip drop) before adding top-leg abduction",
+   "region": "thoracic-spine"
+  },
+  {
+   "fromSlug": "thoracic-extension-wall",
+   "toSlug": "thoracic-foam-rolling",
+   "direction": "progression",
+   "criterion": "Tolerates standing wall extension without symptoms; progress to supine roller for greater segmental extension ROM",
+   "region": "thoracic-spine"
+  },
+  {
+   "fromSlug": "empty-can-exercise",
+   "toSlug": "full-can-exercise",
+   "direction": "regression",
+   "criterion": "Switch to the thumbs-up full-can when the internally-rotated empty-can position provokes impingement; same scaption pattern with less impingement demand (listed as empty-can's own regression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "overhead-press",
+   "toSlug": "wall-slide",
+   "direction": "regression",
+   "criterion": "Regress the loaded overhead-flexion pattern to unloaded wall-based scapular upward-rotation mechanics when overhead load is painful (listed as overhead-press regression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "pendulum-exercise",
+   "toSlug": "wall-walks-shoulder",
+   "direction": "progression",
+   "criterion": "Advance from passive pendulum to active-assisted wall finger-climbing once active motion is tolerable (listed as pendulum progression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "wall-walks-shoulder",
+   "toSlug": "pendulum-exercise",
+   "direction": "regression",
+   "criterion": "Regress active-assisted wall climbing to passive pendulum swings if wall walking is too painful (listed as wall-walks regression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "prone-t-with-external-rotation",
+   "toSlug": "prone-y-raise",
+   "direction": "progression",
+   "criterion": "Advance from the T (90 degrees) to the Y (135 degrees) for greater lower-trapezius demand (listed as prone-T progression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "scapular-retraction-exercise",
+   "toSlug": "prone-y-raise",
+   "direction": "progression",
+   "criterion": "Progress isolated retraction to the gravity-loaded prone Y adding scapular upward rotation (listed as retraction-exercise progression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "sleeper-stretch",
+   "toSlug": "cross-body-shoulder-stretch",
+   "direction": "regression",
+   "criterion": "Use the lower-compression cross-body posterior-shoulder stretch if the sleeper provokes pinching (listed as sleeper regression); same GIRD target tissue.",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "scapular-stability-rows",
+   "toSlug": "prone-horizontal-abduction-er",
+   "direction": "progression",
+   "criterion": "Progress seated rows to gravity-loaded prone Y/T raises for middle/lower trapezius (listed as rows progression); same muscle group, higher demand.",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "push-up-plus",
+   "toSlug": "wall-push-up",
+   "direction": "regression",
+   "criterion": "Regress to the wall push-up (retaining the plus) to reduce body-weight load while preserving scapular protraction (listed as push-up-plus regression).",
+   "region": "shoulder"
+  },
+  {
+   "fromSlug": "push-up-plus",
+   "toSlug": "wall-push-up",
+   "direction": "regression",
+   "criterion": "Wall push-up (beginner, standing, low-load) is a genuinely easier variant of floor push-up-plus (intermediate, prone). Push-up-plus's own named 'Wall Push-Up Plus' regression maps to the wall-push-up node, whose dosing already prescribes adding the 'plus' at the top. Both are distinct roster nodes.",
+   "region": "elbow"
+  },
+  {
+   "fromSlug": "wall-push-up",
+   "toSlug": "push-up-plus",
+   "direction": "progression",
+   "criterion": "Advancing from the wall to the floor increases load; wall-push-up's named 'Floor Push-Up' progression corresponds to the floor push-up-plus node. Distinct roster nodes, valid reciprocal progression.",
+   "region": "elbow"
+  },
+  {
+   "fromSlug": "wrist-splinting-exercise-cts",
+   "toSlug": "wrist-curls-flexion-extension",
+   "direction": "progression",
+   "criterion": "The CTS splinting protocol's 'Add Strengthening' progression explicitly adds wrist-curl strengthening once symptoms improve; wrist-curls-flexion-extension is that distinct strengthening node.",
+   "region": "wrist"
+  },
+  {
+   "fromSlug": "wrist-extensor-stretch",
+   "toSlug": "tyler-twist-eccentric-wrist",
+   "direction": "progression",
+   "criterion": "The extensor stretch's 'Resisted Wrist Extension Eccentric' progression describes eccentric wrist extension; the Tyler Twist node is exactly eccentric wrist extension (FlexBar), a genuinely harder loaded variant.",
+   "region": "wrist"
+  },
+  {
+   "fromSlug": "wrist-curls-flexion-extension",
+   "toSlug": "wrist-resistance-6-direction",
+   "direction": "progression",
+   "criterion": "The 6-direction node's notes state it consolidates isolated wrist curls; progressing from isolated flexion/extension to comprehensive 6-direction loading is a harder, more advanced variant.",
+   "region": "wrist"
+  },
+  {
+   "fromSlug": "wrist-radial-ulnar-deviation",
+   "toSlug": "wrist-resistance-6-direction",
+   "direction": "progression",
+   "criterion": "The 6-direction node's notes state it consolidates isolated wrist-deviation exercises; expanding from 2-direction deviation to the full 6-direction protocol is a genuine harder variant.",
+   "region": "wrist"
+  },
+  {
+   "fromSlug": "nerve-tendon-gliding-cts",
+   "toSlug": "tendon-gliding-sequence",
+   "direction": "regression",
+   "criterion": "If the combined nerve+tendon CTS program is symptom-provocative, drop the neural component and perform tendon gliding only (its named 'Tendon Glides Only' regression); tendon-gliding-sequence is the standard tendon-only post-CTR protocol. Advance back when neural tension is tolerated.",
+   "region": "hand"
+  },
+  {
+   "fromSlug": "side-plank",
+   "toSlug": "side-plank-hip-abduction",
+   "direction": "progression",
+   "criterion": "Hold a full-length side plank with a level, stacked pelvis and no lateral pain, then add top-leg abduction; side-plank-hip-abduction is the explicitly named progression and exists as its own roster node.",
+   "region": "lumbar-spine"
+  },
+  {
+   "fromSlug": "core-stabilization-adim",
+   "toSlug": "modified-curl-up-dead-bug",
+   "direction": "progression",
+   "criterion": "Maintain ADIM/neutral spine during single-leg lifts without lumbar motion, then progress to the dead bug (ADIM plus alternating arm+leg loading); ADIM's leg-lift progression is labeled the 'dead bug foundation'. Both are distinct supine core-stabilization nodes.",
+   "region": "lumbar-spine"
+  },
+  {
+   "fromSlug": "core-stabilization-adim",
+   "toSlug": "bird-dog",
+   "direction": "progression",
+   "criterion": "Sustain ADIM in quadruped against gravity with a neutral spine (the 'ADIM in Quadruped' step is described as the 'foundation for bird dog progression'), then add contralateral arm/leg extension. Same stabilization continuum, distinct roster nodes.",
+   "region": "lumbar-spine"
+  },
+  {
+   "fromSlug": "depth-jump",
+   "toSlug": "box-jump",
+   "direction": "regression",
+   "criterion": "Regress reactive/eccentric depth-jump landing to a concentric-only box jump when landing forces cannot be absorbed.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "quad-strengthening-slr-tke",
+   "toSlug": "eccentric-step-down",
+   "direction": "progression",
+   "criterion": "Progress from open-chain quad control to closed-chain eccentric quad loading once pain-free.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "foam-roller-bridge",
+   "toSlug": "bridge",
+   "direction": "regression",
+   "criterion": "Regress the unstable foam-roller bridge to a stable-surface bridge if pelvic control is lost.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "squat",
+   "toSlug": "single-leg-squat-pistol",
+   "direction": "progression",
+   "criterion": "Progress bilateral squat to single-leg/pistol once unilateral strength and balance are adequate.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "neuromuscular-exercise-knee",
+   "toSlug": "single-leg-squat-pistol",
+   "direction": "progression",
+   "criterion": "Progress single-leg balance/step-down control to a full single-leg squat.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "hip-abduction-strengthening",
+   "toSlug": "side-plank-hip-abduction",
+   "direction": "progression",
+   "criterion": "Progress floor side-lying abduction to a weight-bearing side-plank-with-abduction once lateral trunk endurance allows.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "side-plank",
+   "toSlug": "side-plank-hip-abduction",
+   "direction": "progression",
+   "criterion": "Add top-leg abduction load to a held static side plank.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "side-plank-hip-abduction",
+   "toSlug": "hip-abduction-strengthening",
+   "direction": "regression",
+   "criterion": "Drop the plank and regress to floor-based side-lying abduction if the bridged position is not tolerated.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "hip-hinge-deadlift",
+   "toSlug": "single-leg-hip-hinge-bench",
+   "direction": "progression",
+   "criterion": "Progress the mastered bilateral hinge to a bench-supported single-leg hinge.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "single-leg-hip-hinge-bench",
+   "toSlug": "hip-hinge-deadlift",
+   "direction": "regression",
+   "criterion": "Regress to a bilateral hinge if single-leg balance limits posterior-chain loading.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "hip-flexor-hamstring-stretch",
+   "toSlug": "couch-stretch",
+   "direction": "progression",
+   "criterion": "Progress the standard half-kneeling stretch to the rear-foot-elevated couch position to add knee-flexion RF stretch.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "couch-stretch",
+   "toSlug": "hip-flexor-hamstring-stretch",
+   "direction": "regression",
+   "criterion": "Drop the knee-flexion component back to a standard half-kneeling hip-flexor stretch if RF stretch is too intense.",
+   "region": "hip"
+  },
+  {
+   "fromSlug": "depth-jump",
+   "toSlug": "box-jump",
+   "direction": "regression",
+   "criterion": "Regress to jumping up onto a box (concentric, low landing force) when drop-landing forces/mechanics are uncontrolled \u2014 box jump is explicitly listed as depth-jump's regression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "posterior-chain-strengthening",
+   "toSlug": "nordic-hamstring-curl",
+   "direction": "progression",
+   "criterion": "Advance to eccentric Nordic once prone/seated hamstring curls are tolerated pain-free; Nordic is listed as posterior-chain-strengthening's progression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "quad-strengthening-slr-tke",
+   "toSlug": "eccentric-step-down",
+   "direction": "progression",
+   "criterion": "Progress to weight-bearing eccentric quad loading once SLR/TKE is pain-free with no extensor lag; eccentric step-down is listed as its progression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "squat",
+   "toSlug": "single-leg-squat-pistol",
+   "direction": "progression",
+   "criterion": "Progress to single-leg squat once bilateral squat strength and single-leg balance are adequate (markedly higher LE EMG demand); single-leg squat is listed as squat's progression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "neuromuscular-exercise-knee",
+   "toSlug": "single-leg-squat-pistol",
+   "direction": "progression",
+   "criterion": "Advance to a full single-leg squat once step-downs/single-leg stance show level pelvis and knee tracking; single-leg squat is listed as its progression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "hip-flexor-hamstring-stretch",
+   "toSlug": "couch-stretch",
+   "direction": "progression",
+   "criterion": "Elevate the rear foot to bias the biarticular rectus femoris once the standard half-kneeling stretch is tolerated; this is the exercise's own rear-foot-elevated progression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "couch-stretch",
+   "toSlug": "hip-flexor-hamstring-stretch",
+   "direction": "regression",
+   "criterion": "Drop the rear-foot elevation to the standard half-kneeling position to reduce rectus femoris stretch intensity; this is couch-stretch's listed regression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "single-leg-hip-hinge-bench",
+   "toSlug": "hip-hinge-deadlift",
+   "direction": "regression",
+   "criterion": "Regress to a bilateral RDL/hinge to remove the single-leg balance demand while keeping posterior-chain loading; bilateral RDL is listed as its regression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "hip-hinge-deadlift",
+   "toSlug": "single-leg-hip-hinge-bench",
+   "direction": "progression",
+   "criterion": "Progress to a unilateral (bench-supported single-leg) hinge to address side-to-side asymmetry once the bilateral pattern is mastered; single-leg RDL is listed as its progression.",
+   "region": "knee"
+  },
+  {
+   "fromSlug": "alfredson-eccentric-heel-drops",
+   "toSlug": "heavy-slow-resistance-achilles",
+   "direction": "progression",
+   "criterion": "Pain-free through full bodyweight eccentric range; progress to heavily loaded HSR at 6RM building to 4x6. Alfredson's own progression list names HSR.",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "depth-jump",
+   "toSlug": "box-jump",
+   "direction": "regression",
+   "criterion": "If drop-landing forces are not tolerated, jump up onto a box (lower landing forces) \u2014 listed explicitly as depth-jump's regression.",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "alfredson-eccentric-heel-drops",
+   "toSlug": "heel-raise",
+   "direction": "regression",
+   "criterion": "If single-leg step-edge eccentrics are painful, perform flat-ground bilateral heel raises first (Alfredson's stated regression).",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "ankle-dorsiflexion-plantarflexion-band",
+   "toSlug": "heel-raise",
+   "direction": "progression",
+   "criterion": "Adequate seated band strength and pain-free ROM; progress from seated open-chain to standing weight-bearing heel raises (band exercise's stated progression).",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "ankle-eversion-inversion-strengthening",
+   "toSlug": "single-leg-stance-unstable",
+   "direction": "progression",
+   "criterion": "Progress from seated open-chain resisted eversion/inversion to reactive single-leg balance on foam/unstable surface.",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "ankle-inversion-eversion",
+   "toSlug": "single-leg-stance-unstable",
+   "direction": "progression",
+   "criterion": "Progress from resisted inversion/eversion to reactive single-leg balance on an unstable surface (exercise's own progression).",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "heel-raise",
+   "toSlug": "heel-raise-eccentric",
+   "direction": "progression",
+   "criterion": "Tolerate 15+ bilateral concentric reps; add slow (4s) eccentric lowering off a step edge.",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "heavy-slow-resistance-achilles",
+   "toSlug": "heel-raise",
+   "direction": "regression",
+   "criterion": "Build calf endurance with bilateral bodyweight heel raises before heavy loaded HSR (HSR's stated bilateral regression).",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "posterior-chain-strengthening",
+   "toSlug": "heel-raise",
+   "direction": "regression",
+   "criterion": "Build calf endurance with double-leg heel raises before combined posterior-chain work.",
+   "region": "ankle"
+  },
+  {
+   "fromSlug": "calf-raise-explosive",
+   "toSlug": "heel-raise",
+   "direction": "regression",
+   "criterion": "Remove tempo/explosive emphasis; perform standard-tempo calf raises focusing on range.",
+   "region": "ankle"
+  }
+ ],
+ "evidenceFlags": [
+  {
+   "exerciseSlug": "sitting-ccf-oblique-band",
+   "issue": "The entire differentiating rationale (ipsilateral oblique resistance preferentially activates longus colli; Cohen's d, p=0.002, sitting equivalent to supine CCF) is attributed to Prodoehl 2025 (PMID 39862671) in the notes/emgNotes/cues, but the linked sources array contains only Kisner 2017 and ACSM 2021 \u2014 the load-bearing citation is not linked.",
+   "severity": "medium",
+   "suggestedFix": "Add Prodoehl 2025 (Musculoskeletal Science & Practice, PMID 39862671) to the exercise's linked sources so the primary claim is traceable.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "isometric-neck-strengthening",
+   "issue": "Specific %MVIC EMG values (Thera-Band flexion 3.8-15.7%, extension 20.2-34.8%; Cybex up to 95.8%) and the dose-response claim (>20 reps/session, >8 weeks) are attributed to Burnett 2008, Yang 2022, and Dirito 2024, but none of these are in the linked sources (only Kisner, ACSM).",
+   "severity": "medium",
+   "suggestedFix": "Add Burnett 2008, Yang 2022, and Dirito 2024 to linked sources, or remove the specific quantitative claims that cannot be cited.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "supine-chin-tuck-liftoff",
+   "issue": "Normative endurance hold times (men 38.9+/-20.1s, women 29.4+/-13.7s) and the CCF-vs-head-lift EMG claim are attributed to Domenech 2011 and O'Leary 2007, but the linked sources contain only Kisner and ACSM.",
+   "severity": "medium",
+   "suggestedFix": "Add Domenech 2011 and O'Leary 2007 to linked sources.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "suboccipital-exercise",
+   "issue": "The strong comparative claim 'suboccipital release + CCF superior to CCF alone' and the device/5-stage protocol are attributed to Kim 2016, Pardos-Aguilella 2024, and Falla 2003/2004, none of which appear in the linked sources (only Kisner, ACSM).",
+   "severity": "medium",
+   "suggestedFix": "Add Kim 2016, Pardos-Aguilella 2024, and Falla to linked sources.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "upper-trapezius-stretch",
+   "issue": "A specific outcome claim ('significantly reduces pain, VAS -1.4') and the dosing are attributed to Tunwattanapong 2016, which is not in the linked sources (only Kisner, ACSM).",
+   "severity": "medium",
+   "suggestedFix": "Add Tunwattanapong 2016 (Clin Rehabil) to linked sources for the VAS/dosing claim.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "levator-scapulae-stretch",
+   "issue": "Dosing (Tunwattanapong 2016) and the shear-modulus / rotation-differentiation mechanism (Yanase 2021) are cited in dosing/notes/cues but neither source is linked (only Kisner, ACSM).",
+   "severity": "low",
+   "suggestedFix": "Add Tunwattanapong 2016 and Yanase 2021 to linked sources.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "supine-chin-tuck-liftoff",
+   "issue": "Sternocleidomastoid is assigned role 'synergist' yet its note states it 'should show MINIMAL activation' \u2014 internally contradictory, and inconsistent with sibling CCF exercises (deep-neck-flexor-training, suboccipital-exercise, sitting-ccf-oblique-band) which correctly label SCM a 'stabilizer' to be minimized.",
+   "severity": "low",
+   "suggestedFix": "Relabel SCM as 'stabilizer' (muscle to keep quiet) consistent with the other CCF exercises, or if the liftoff genuinely recruits SCM, remove the 'minimal activation' note.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "deep-neck-flexor-training",
+   "issue": "The specific hypertrophy claim 'longus colli 17.4% CSA increase at C2-C3' is attributed to Falla 2003 and Cagnie 2010 (Falla PMID appears only in cue text); neither Falla 2003 nor Cagnie 2010 is in the linked sources array.",
+   "severity": "low",
+   "suggestedFix": "Add Falla 2003 (PMID 12506816) and Cagnie 2010 to linked sources for the CSA claim.",
+   "region": "cervical-spine"
+  },
+  {
+   "exerciseSlug": "open-book-stretch",
+   "issue": "External oblique is assigned role 'primary' (mover), but its own note says 'contralateral rotation being stretched.' A muscle being lengthened/stretched is an antagonist, not a primary mover.",
+   "severity": "medium",
+   "suggestedFix": "Recategorize external oblique as a lengthened/antagonist entry (or 'stretched'), leaving internal oblique as the ipsilateral rotator agonist.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "modified-curl-up-dead-bug",
+   "issue": "Cue 'Press the lower back into the floor the entire time' contradicts the modified curl-up mechanics described (hands under lumbar spine to preserve neutral lordosis). McGill's modified curl-up deliberately maintains the lumbar arch rather than flattening it.",
+   "severity": "medium",
+   "suggestedFix": "Scope the flatten-the-back cue to the dead-bug component only, and for the curl-up cue maintaining gentle constant pressure on the hand under the lumbar spine (neutral lordosis).",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "side-plank",
+   "issue": "evidenceLevel is 'strong' and specific quantitative EMG claims are made (QL 121.62% MVIC, glute med 66.67%), but the linked sources are only the Kisner textbook and ACSM guidelines; the cited primary studies (Nam 2025, Youdas 2014) are not in the sources array.",
+   "severity": "medium",
+   "suggestedFix": "Add Nam 2025 and Youdas 2014 to the linked sources so the specific MVIC figures and the 'strong' rating are traceable.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "thoracic-foam-rolling",
+   "issue": "Specific effect-size claim (ROM SMD 0.74, 95% CI 0.42-1.01) and the '>4 weeks' dosing rule are attributed inline to Wilke 2020 and Konrad 2022, but neither appears in the linked sources (only Kisner and ACSM).",
+   "severity": "low",
+   "suggestedFix": "Link Wilke 2020 and Konrad 2022 in the sources array to support the quantitative ROM claim and dosing threshold.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "modified-curl-up-dead-bug",
+   "issue": "Iliopsoas note says 'moderate demand beyond pure stabilization [Juker 1998]'; Juker 1998's finding was that psoas activity stays low during curl-ups (a reason curl-ups are preferred), with higher psoas demand in straight-leg/sit-up tasks. The characterization risks overstating psoas demand for the curl-up component.",
+   "severity": "low",
+   "suggestedFix": "Qualify the note to the dead-bug leg-lowering phase, where hip flexion loads iliopsoas, and reflect that the curl-up keeps psoas activation low per Juker 1998.",
+   "region": "thoracic-spine"
+  },
+  {
+   "exerciseSlug": "prone-horizontal-abduction-er",
+   "issue": "The emgNotes/notes report supraspinatus 82% MVIC, middle deltoid 87% MVIC, and posterior deltoid 88% MVIC 'at 100\u00b0 abduction' citing Reinold 2004 \u2014 but those exact values are Reinold's data for Prone External Rotation at 90\u00b0 abduction (a different exercise, reproduced verbatim in prone-er-90-abduction). This transplants another exercise's EMG onto the prone Y/T.",
+   "severity": "medium",
+   "suggestedFix": "Remove the supraspinatus/middle-deltoid/posterior-deltoid MVIC figures here or re-attribute them; keep only the trapezius ratio data (Mendez-Rebolledo 2024) that actually describes the prone Y/T.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "scaption-with-external-rotation",
+   "issue": "The glenohumeral prime movers of scaption elevation (middle deltoid, anterior deltoid, supraspinatus) are all marked 'secondary'/'synergist' while the scapular force-couple (upper/lower trapezius, serratus anterior) are marked 'primary', inverting the humeral prime-mover roles for an elevation lift.",
+   "severity": "low",
+   "suggestedFix": "Reclassify middle deltoid and supraspinatus as primary humeral movers, or relabel the trapezius/serratus as scapular stabilizers rather than primary.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "doorway-pec-stretch",
+   "issue": "The movements array lists only shoulder-external-rotation and shoulder-abduction; it omits shoulder horizontal abduction/extension, which is the actual joint action (forearm on frame, trunk leaning forward) that lengthens pectoralis major.",
+   "severity": "low",
+   "suggestedFix": "Add shoulder horizontal abduction/extension as the primary lengthening movement so the pec-stretch mechanics are represented.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "cross-body-shoulder-stretch",
+   "issue": "Movements include frontal-plane shoulder-adduction; the stretch is produced by transverse-plane horizontal adduction only, and frontal-plane adduction does not lengthen the posterior deltoid/cuff.",
+   "severity": "low",
+   "suggestedFix": "Remove the frontal-plane shoulder-adduction movement and retain only shoulder horizontal adduction.",
+   "region": "shoulder"
+  },
+  {
+   "exerciseSlug": "tricep-extension",
+   "issue": "The exercise lists 'shoulder-extension' as a joint action, but the cues explicitly hold the shoulder still ('Vertical upper arm, quiet shoulder', 'Free hand on biceps confirms upper arm stays vertical'). In an overhead triceps extension the humerus is held isometrically in flexion and only the elbow extends; no shoulder extension occurs, so the movement tag contradicts the stated mechanics.",
+   "severity": "medium",
+   "suggestedFix": "Remove the shoulder-extension movement (or reclassify the shoulder as an isometric stabilizer held in flexion); the sole dynamic joint action is elbow extension.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "landmine-press",
+   "issue": "The description makes a specific biomechanical claim ('reduces subacromial stress by avoiding the impingement zone 60-120 deg elevation') attributed to [Coratella 2022], but Coratella 2022 is not among the exercise's linked sources (only Kisner 2017 and ACSM 2021), and evidenceLevel is 'limited' with no comparative data.",
+   "severity": "low",
+   "suggestedFix": "Link the Coratella 2022 source (or another supporting reference) to this exercise, or soften the impingement-zone claim to clearly theoretical language consistent with the 'limited' evidence level.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "overhead-press",
+   "issue": "All four cues cite 'Saeterbakken 2011, overhead press kinematics', but no 2011 Saeterbakken source is linked; the linked reference is Saeterbakken & Fimland 2013. Citation year/title mismatch.",
+   "severity": "low",
+   "suggestedFix": "Correct the cue citations to the linked Saeterbakken 2013 source, or add the intended 2011 reference to the sources list.",
+   "region": "elbow"
+  },
+  {
+   "exerciseSlug": "tyler-twist-eccentric-wrist",
+   "issue": "Extensor carpi radialis longus is listed as the primary target for lateral epicondylalgia, but the muscle pathologically implicated in tennis elbow / lateral epicondylalgia and the principal target of eccentric FlexBar loading is extensor carpi radialis brevis (ECRB), which is not listed at all. ECRB already exists in the shard roster.",
+   "severity": "medium",
+   "suggestedFix": "Add extensor-carpi-radialis-brevis as the primary muscle (or co-primary with ECRL) and reword the ECRL note to secondary/synergist to match the lateral-epicondylalgia rationale.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "median-nerve-glide",
+   "issue": "Headline quantitative efficacy claims (100% vs 0% improvement, RR 15.00, symptom-severity MD -1.20, functional MD -1.06) are attributed inline to Zaheer 2023 and Ijaz 2022, but the structured sources list contains only two generic textbooks (Kisner 2017, ACSM 2021). The primary studies backing the strong claims are absent from the citation set.",
+   "severity": "medium",
+   "suggestedFix": "Add the Zaheer 2023 and Ijaz 2022 sources to the structured sources array so the strong effect-size claims are traceable to their cited evidence.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "radial-nerve-glide",
+   "issue": "Effect-size claims for lateral epicondylitis (pain ES 0.84 rest, 0.91 night, 1.06 activity) are attributed to Yilmaz 2022 in the text/emgNotes, but the structured sources list only Kisner 2017 and ACSM 2021; the cited primary study is not in the source set.",
+   "severity": "low",
+   "suggestedFix": "Add Yilmaz 2022 to the structured sources array to support the cited effect sizes.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "ulnar-nerve-glide",
+   "issue": "Extensor digitorum is labeled the 'primary' muscle for active wrist extension during tensioning, but extensor digitorum is a finger extensor that only assists wrist extension; the true wrist extensors (ECRL/ECRB/ECU) perform wrist extension.",
+   "severity": "low",
+   "suggestedFix": "Reclassify extensor-digitorum as synergist for wrist extension, or add a wrist-extensor prime mover (e.g. ECU/ECRB) as the primary for the active tensioning motion.",
+   "region": "wrist"
+  },
+  {
+   "exerciseSlug": "thumb-putty-program",
+   "issue": "Rated evidenceLevel 'strong' and cites specific effect sizes (SMD -5.0 pain, +21 lbs grip, Ottawa Panel 46 grade-A recommendations) attributed in-text to Brosseau 2018 / Thakker 2025 / Lamb 2015, but the linked sources array contains only Kisner 2017 and ACSM 2021 \u2014 none of the primary evidence backing the 'strong' rating is actually linked.",
+   "severity": "high",
+   "suggestedFix": "Add Brosseau 2018, Thakker 2025, and Lamb 2015 to the sources array, or downgrade the evidenceLevel to match the linked textbook-only sources.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "grip-strengthening",
+   "issue": "emgNotes reports pain reduction of 'VAS -5.0'; a 5-point drop on a 0-10 VAS is clinically implausible, and the identical Thakker 2025 figure is labeled 'SMD -5.0' in thumb-putty-program \u2014 the statistic type is mislabeled here.",
+   "severity": "medium",
+   "suggestedFix": "Relabel as SMD (matching thumb-putty-program) and verify the magnitude against the source; do not present it as a raw VAS change.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "hypothenar-reactivation-bendz",
+   "issue": "emgNotes states 'No EMG or RCT validation. Single-author expert opinion,' yet all four cues cite 'Boudreau 2022 \u2014 hypothenar EMG,' implying EMG validation that the exercise simultaneously denies.",
+   "severity": "medium",
+   "suggestedFix": "Reconcile the contradiction: Boudreau 2022 measured abductor digiti minimi (a hypothenar muscle), so either cite it accurately for ADM activation or remove the EMG citation from the cues to match the stated 'no EMG' status.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "finger-adduction-exercise",
+   "issue": "Dosing prescribes '3\u00d715 reps, 2-3x daily' (up to ~45 contractions x3/day) while the same field cites 'Brief isometric contractions preferred for partially denervated muscle [Herbison 1983]' \u2014 a high-volume dynamic prescription contradicts the cited overwork-weakness caution for denervated/reinnervating muscle.",
+   "severity": "medium",
+   "suggestedFix": "For partially denervated presentations, reduce volume and specify brief submaximal isometrics per Herbison 1983 rather than 3\u00d715 x2-3 daily.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "finger-adduction-exercise",
+   "issue": "emgNotes reads '75-76% pinch-to-zoom reduction [Bertelli 2020]' \u2014 'pinch-to-zoom' is a corrupted/nonsensical phrase for a clinical strength claim.",
+   "severity": "low",
+   "suggestedFix": "Correct to 'pinch strength reduction' (or 'finger adduction strength reduction') consistent with the description.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "median-nerve-glide",
+   "issue": "Description and emgNotes assert strong quantitative claims (100% vs 0% improvement, RR 15.00; symptom severity MD -1.20 [95% CI -1.72 to -0.67]; functional MD -1.06) attributed in-text to Zaheer 2023 / Ijaz 2022, but the linked sources array contains only Kisner 2017 and ACSM 2021.",
+   "severity": "low",
+   "suggestedFix": "Link Zaheer 2023 and Ijaz 2022 (the cited primary meta-analytic sources) in the sources array.",
+   "region": "hand"
+  },
+  {
+   "exerciseSlug": "mcgill-curl-up",
+   "issue": "The cue 'Press the lower back gently into the fingers underneath' instructs flattening of the lumbar spine, which contradicts the exercise's defining mechanic \u2014 hands are placed under the lumbar spine to MAINTAIN lordosis (as stated in the description and cues #1/#4), not to be pressed flat. Flattening/posterior tilt is exactly what McGill's curl-up avoids.",
+   "severity": "high",
+   "suggestedFix": "Reword to keep light, constant contact with the fingers while preserving the natural lumbar curve (do not flatten or posteriorly tilt), consistent with the maintained-lordosis technique.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "hip-hinge-deadlift",
+   "issue": "evidenceLevel is 'strong' and the node makes a specific clinical efficacy claim ('eccentric training including RDL reduces hamstring injury by 56.8-70%') plus precise EMG values (Coratella 2022, Mo 2023, Breed 2026), but the linked sources contain only the Kisner textbook and ACSM guidelines \u2014 none of the cited primary studies are attached.",
+   "severity": "medium",
+   "suggestedFix": "Link the cited primary sources (Coratella 2022, Mo 2023, Breed 2026, and the hamstring injury-prevention trial) or downgrade the evidence level to reflect the linked citations.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "side-plank",
+   "issue": "Rated 'strong' with precise EMG figures (QL 121.62% MVIC [Nam 2025]; rotational variant EO 62.8% / RA 43.9% [Youdas 2014]), but the only linked sources are Kisner and ACSM; the cited EMG studies are not attached.",
+   "severity": "medium",
+   "suggestedFix": "Attach Nam 2025 and Youdas 2014 as linked sources supporting the quantitative claims.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "front-plank",
+   "issue": "Rated 'strong' with specific EMG values (RA 46-48%, EO 77% with bracing [Garc\u00eda-Ja\u00e9n 2020]; scapular adduction+PPT highest overall [Cortell-Tormo 2017]; Calatayud 2019), yet the linked sources are only Kisner and ACSM.",
+   "severity": "low",
+   "suggestedFix": "Attach Garc\u00eda-Ja\u00e9n 2020, Cortell-Tormo 2017, and Calatayud 2019 to support the stated EMG figures.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "cat-cow",
+   "issue": "The multifidus activation figure '9.7-16.9% MVIC [Shah 2020]' appears in both emgNotes and the muscle note and underpins the multifidus 'primary' role, but Shah 2020 is not among the linked sources (only Kisner and ACSM).",
+   "severity": "low",
+   "suggestedFix": "Add Shah 2020 to the sources list, or remove the specific quantitative figure if it cannot be linked.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "pallof-press",
+   "issue": "The Pallof press is an isometric ANTI-rotation exercise (the trunk resists rotation and stays neutral), but the movements array lists active thoracic-rotation, lumbar-rotation, and lumbar-flexion as if produced \u2014 these are the directions resisted, not performed, which misrepresents the mechanics.",
+   "severity": "low",
+   "suggestedFix": "Model this as an anti-rotation/isometric demand (or annotate the listed movements as 'resisted') rather than as active rotation/flexion movements.",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "modified-curl-up-dead-bug",
+   "issue": "The sources list includes beales-slr-motor-control-2009 (active straight-leg-raise motor control) and marcolin-pushup-variants-2015 (push-up EMG), neither of which is relevant to the curl-up / dead-bug content \u2014 these appear to be mis-linked citations.",
+   "severity": "low",
+   "suggestedFix": "Remove or replace the unrelated SLR and push-up citations with sources that actually support the curl-up / dead-bug EMG claims (Calatayud 2019, Kim 2016, Juker 1998 are already linked).",
+   "region": "lumbar-spine"
+  },
+  {
+   "exerciseSlug": "side-bridge",
+   "issue": "emgNotes makes a quantitative claim ('>45% MVIC gluteus medius and external obliques [Ekstrom 2007]') but Ekstrom 2007 is not among the linked sources (only Kisner 2017 and ACSM 2021 are attached)",
+   "severity": "medium",
+   "suggestedFix": "Add Ekstrom RA et al. 2007 (J Orthop Sports Phys Ther, EMG of core/hip exercises) as a linked source node, or remove the bracketed inline citation",
+   "region": "pelvis"
+  },
+  {
+   "exerciseSlug": "side-bridge",
+   "issue": "All four cues cite 'McGill 2010, Strength Cond J \u2014 side-bridge core EMG', but McGill 2010 does not exist in the exercise's linked sources list",
+   "severity": "medium",
+   "suggestedFix": "Add McGill SM 2010 (Strength and Conditioning Journal, core training) to the sources list so the cue citations resolve to a real source node",
+   "region": "pelvis"
+  },
+  {
+   "exerciseSlug": "side-bridge",
+   "issue": "Quadratus lumborum is listed as 'secondary' even though the internal cue names it as a primary line-holder and McGill's EMG work (the cited cue source) identifies the side-bridge as the signature high-activation QL exercise (~50%+ MVIC)",
+   "severity": "low",
+   "suggestedFix": "Consider promoting quadratus-lumborum to 'primary' to be consistent with the cited McGill evidence and the cue text",
+   "region": "pelvis"
+  },
+  {
+   "exerciseSlug": "copenhagen-adduction",
+   "issue": "Evidence level is 'strong' and the record makes specific quantitative EMG/efficacy claims (108% MVIC adductor longus; 41% groin-problem reduction, OR 0.59, p=0.008; 1.54 vs 0.93 Nm/kg), but the linked sources array contains only the generic Kisner and ACSM textbooks \u2014 none of the cited primary studies (Serner 2014, Har\u00f8y 2019, D\u00e6hlin 2025) are attached.",
+   "severity": "medium",
+   "suggestedFix": "Add the named primary studies (Serner 2014, Har\u00f8y 2019, D\u00e6hlin 2025) to the sources array so the strong quantitative claims are actually cited.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "kettlebell-swing",
+   "issue": "Specific spinal-load safety claims ('spine compression ~3,200 N at 16 kg', 'unique posterior shear L4 on L5') are stated without any linked citation; the sources array holds only Kisner/ACSM and inline brackets cover only dosing (Falatic, Keilman).",
+   "severity": "medium",
+   "suggestedFix": "Attach the McGill kettlebell spine-load source for the compression/shear figures or soften the claim to a qualitative statement.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "lateral-step-up",
+   "issue": "Both 'vastus-medialis' and 'quadriceps' are listed as primary movers, double-counting the VM (a component of the quadriceps group) and inflating the quad contribution relative to how other exercises in the shard model the quadriceps.",
+   "severity": "low",
+   "suggestedFix": "Keep a single primary quadriceps entry (or scope VM as an emphasis note) rather than listing the group and one of its heads as separate primaries.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "a-skip-b-skip",
+   "issue": "Plantarflexor roles are inconsistent with the near-identical a-skip-drill node: here gastrocnemius is 'secondary' and soleus only a 'stabilizer', whereas a-skip-drill lists gastrocnemius 'primary' and soleus 'secondary' \u2014 for the same rapid ground-contact push-off the calf is under-weighted here.",
+   "severity": "low",
+   "suggestedFix": "Harmonize the gastrocnemius/soleus roles across the two A-skip nodes; the plantarflexors are prime movers of the push-off, not stabilizers.",
+   "region": "hip"
+  },
+  {
+   "exerciseSlug": "backwards-walking",
+   "issue": "evidenceLevel is set to \"strong\" but the supporting notes rest on a single small RCT (Alghadir 2019, VAS 1.8 vs 1.0); a single trial does not justify a 'strong' rating.",
+   "severity": "medium",
+   "suggestedFix": "Downgrade to \"moderate\" or cite additional corroborating trials/systematic reviews before labeling the evidence strong.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "hip-hinge-deadlift",
+   "issue": "Movement list includes \"lumbar-extension\", which contradicts the neutral-spine hinge cue and the erector spinae role (isometric neutral-spine maintenance, not active lumbar extension).",
+   "severity": "medium",
+   "suggestedFix": "Remove lumbar-extension from the movement list; the hinge is hip extension with the lumbar spine held neutral by isometric erector spinae.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "lateral-step-up",
+   "issue": "Lists both \"quadriceps\" (group) and \"vastus-medialis\" as separate primary muscles, double-counting the VMO which is a component of the quadriceps group; every other node models this as quadriceps alone.",
+   "severity": "low",
+   "suggestedFix": "Fold vastus-medialis into the quadriceps entry (note VMO emphasis in the role notes) rather than listing it as a second primary.",
+   "region": "knee"
+  },
+  {
+   "exerciseSlug": "farmers-carry",
+   "issue": "Lists ankle-plantarflexion as a movement but contains no plantarflexor (gastrocnemius/soleus) in its muscle set; the ankle graph edge has no muscular basis for a node placed in the ankle region.",
+   "severity": "low",
+   "suggestedFix": "Add gastrocnemius/soleus as stabilizers for gait push-off, or remove the ankle-plantarflexion movement tag.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "kettlebell-swing",
+   "issue": "Lists ankle-plantarflexion as a movement but no plantarflexor muscle is included among its muscles.",
+   "severity": "low",
+   "suggestedFix": "Add gastrocnemius/soleus as synergist/stabilizer for the terminal plantarflexion, or drop the ankle-plantarflexion movement tag.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "overhead-squat",
+   "issue": "Ankle dorsiflexion is the exercise's key stated ROM requirement and is tagged as a movement, yet no ankle musculature (gastrocnemius, soleus, tibialis anterior) is represented.",
+   "severity": "low",
+   "suggestedFix": "Add gastrocnemius/soleus (lengthened at depth) and tibialis anterior so the ankle-DF requirement is reflected in the muscle set.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "backwards-walking",
+   "issue": "evidenceLevel is 'strong' but the sources array contains only generic textbooks (Kisner, ACSM); the substantiating RCT (Alghadir 2019) is cited only inline and is absent from sources.",
+   "severity": "low",
+   "suggestedFix": "Add Alghadir 2019 (and any supporting trials) to the sources array or downgrade the evidence level.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "heel-raise-eccentric",
+   "issue": "evidenceLevel is 'strong' but no primary source is listed (sources = Kisner + ACSM only); the SMD figures attributed to Liang 2025 appear only in emgNotes.",
+   "severity": "low",
+   "suggestedFix": "Add Liang 2025 to the sources array or downgrade the evidence level.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "calf-raise-explosive",
+   "issue": "evidenceLevel is 'strong' but the sources array is only generic textbooks; the gait-speed effect attributed to Van Abbema 2015 is cited only inline.",
+   "severity": "low",
+   "suggestedFix": "Add Van Abbema 2015 to sources or downgrade the evidence level.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "heel-toe-tandem-walk",
+   "issue": "evidenceLevel is 'strong' but sources are only generic textbooks; the supporting fall-risk reference (Wolfson 1996) appears only as a cue citation, not in sources.",
+   "severity": "low",
+   "suggestedFix": "Add a primary balance/fall-prevention source to the sources array or downgrade the evidence level.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "single-leg-hop-tests",
+   "issue": "evidenceLevel is 'strong' and the notes make specific LSI/return-to-sport claims (West 2023, Schmitt 2022, Kotsifaki 2022) but the sources array contains only Kisner and ACSM.",
+   "severity": "low",
+   "suggestedFix": "Add the cited RTS/LSI studies to the sources array.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "single-leg-balance-star-excursion",
+   "issue": "Rated 'intermediate', yet its own progression 'Foam Pad Balance' corresponds to single-leg-stance-unstable, which is rated 'beginner' \u2014 an inverted difficulty ordering between a base exercise and its progression target.",
+   "severity": "low",
+   "suggestedFix": "Reconcile difficulty labels so the progression target is not rated easier than its base.",
+   "region": "ankle"
+  },
+  {
+   "exerciseSlug": "calf-stretch",
+   "issue": "Soleus is listed as a primary stretched muscle ('knee bent'), but all cues describe only the straight-back-knee gastrocnemius stretch and one cue explicitly says the back leg stays straight, so the soleus (bent-knee) stretch is uncued and effectively contradicted.",
+   "severity": "low",
+   "suggestedFix": "Add a bent-back-knee cue variation to actually load the soleus, or clarify that soleus is a secondary target.",
+   "region": "ankle"
+  }
+ ]
+}

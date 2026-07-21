@@ -11,25 +11,25 @@ export default async function RegionsPage() {
 
       <div className="grid gap-4">
         {regions.map((r) => (
-          <EntityLink key={r.slug} href={`/regions/${r.slug}`} className="block no-underline">
-            <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex items-start justify-between">
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-900">{r.name}</h2>
-                  {r.description && (
-                    <p className="mt-1 text-sm text-gray-500 line-clamp-2">{r.description}</p>
-                  )}
-                  <p className="mt-2 text-xs text-gray-400">
-                    {r._count.joints} joint{r._count.joints !== 1 ? "s" : ""}
-                  </p>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  <StatusBadge status={r.status} />
-                  <ConfidenceBadge confidence={r.confidence} />
-                </div>
+          <div key={r.slug} className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
+            <div className="flex items-start justify-between">
+              <div>
+                <h2 className="text-lg font-semibold">
+                  <EntityLink href={`/regions/${r.slug}`} className="text-gray-900 hover:text-indigo-700 no-underline">{r.name}</EntityLink>
+                </h2>
+                {r.description && (
+                  <p className="mt-1 text-sm text-gray-500 line-clamp-2">{r.description}</p>
+                )}
+                <p className="mt-2 text-xs text-gray-400">
+                  {r._count.joints} joint{r._count.joints !== 1 ? "s" : ""}
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <StatusBadge status={r.status} />
+                <ConfidenceBadge confidence={r.confidence} />
               </div>
             </div>
-          </EntityLink>
+          </div>
         ))}
       </div>
     </div>

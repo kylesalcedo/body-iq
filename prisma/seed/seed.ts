@@ -15,6 +15,23 @@ import { seedUseCaseEssentialsExtension } from "./extensions/use-case-essentials
 import { seedOccupationEssentialsExtension } from "./extensions/occupation-essentials";
 import { seedPrimitivesAndPfmExtension } from "./extensions/primitives-and-pfm";
 import { seedCueRewritesExtension } from "./extensions/cue-rewrites";
+import { seedHandGripFixesExtension } from "./extensions/hand-grip-fixes";
+import { seedSnomedCodesExtension } from "./extensions/snomed-codes";
+import { seedSnomedBodyStructuresExtension } from "./extensions/snomed-body-structures";
+import { seedCommonExercisesExtension } from "./extensions/common-exercises";
+import { seedHomeExercisesExtension } from "./extensions/home-exercises";
+import { seedCategoriesPositionsExtension } from "./extensions/categories-positions";
+import { seedBackfillLinksExtension } from "./extensions/backfill-links";
+import { seedNormalizeBodyPositionExtension } from "./extensions/normalize-body-position";
+import { seedMovementRomExtension } from "./extensions/movement-rom";
+import { seedFootToeMovementsExtension } from "./extensions/foot-toe-movements";
+import { seedCoverageExercisesExtension } from "./extensions/coverage-exercises";
+import { seedRegionExercisesExtension } from "./extensions/region-exercises";
+import { seedFunctionalTasksExpansionExtension } from "./extensions/functional-tasks-expansion";
+import { seedFunctionalTaskLinksExtension } from "./extensions/functional-task-links";
+import { seedGoalsTaxonomyExtension } from "./extensions/goals-taxonomy";
+import { seedGoalLinksExtension } from "./extensions/goal-links";
+import { seedApplyAuditExtension } from "./extensions/apply-audit";
 
 async function main() {
   console.log("🦴 Body IQ — Seeding knowledge graph...\n");
@@ -47,6 +64,23 @@ async function main() {
 
   // Cue rewrites run LAST so they override cues created by any earlier step.
   await seedCueRewritesExtension();
+  await seedHandGripFixesExtension();
+  await seedSnomedCodesExtension();
+  await seedSnomedBodyStructuresExtension(); // verified codes — supersede the scaffold above
+  await seedCommonExercisesExtension();
+  await seedHomeExercisesExtension();
+  await seedCategoriesPositionsExtension();
+  await seedBackfillLinksExtension();
+  await seedNormalizeBodyPositionExtension();
+  await seedMovementRomExtension();
+  await seedFootToeMovementsExtension();
+  await seedCoverageExercisesExtension();
+  await seedRegionExercisesExtension();
+  await seedFunctionalTasksExpansionExtension();
+  await seedFunctionalTaskLinksExtension();
+  await seedGoalsTaxonomyExtension();
+  await seedGoalLinksExtension();
+  await seedApplyAuditExtension(); // LAST: survives reg/prog recreation above
 
   // Summary
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);

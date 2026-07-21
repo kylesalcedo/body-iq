@@ -26,3 +26,12 @@
 .planner-scroll:active {
   cursor: grabbing !important;
 }
+
+/* Sidebar collapse — main content margin tracks the sidebar width.
+   The Sidebar component toggles `sidebar-collapsed` on <body>. */
+main {
+  transition: margin-left 200ms ease;
+}
+body.sidebar-collapsed main {
+  margin-left: 4rem; /* matches collapsed sidebar w-16 */
+}

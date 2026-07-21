@@ -11,18 +11,11 @@ export default async function JointsPage() {
 
       <div className="grid gap-4">
         {joints.map((j) => (
-          // Card is a plain div (not a link wrapper) so the joint-title link and
-          // the region link are siblings — nesting <a> inside <a> breaks hydration.
-          <div
-            key={j.slug}
-            className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow"
-          >
+          <div key={j.slug} className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-start justify-between">
               <div>
                 <h2 className="text-lg font-semibold">
-                  <EntityLink href={`/joints/${j.slug}`} className="no-underline">
-                    {j.name}
-                  </EntityLink>
+                  <EntityLink href={`/joints/${j.slug}`} className="text-gray-900 hover:text-indigo-700 no-underline">{j.name}</EntityLink>
                 </h2>
                 <p className="text-sm text-gray-500">
                   <EntityLink href={`/regions/${j.region.slug}`}>{j.region.name}</EntityLink>

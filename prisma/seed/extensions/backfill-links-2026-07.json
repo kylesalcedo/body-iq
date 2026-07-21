@@ -1,0 +1,1466 @@
+[
+ {
+  "slug": "active-hallux-extension",
+  "movementSlugs": [],
+  "muscleRoles": [
+   {
+    "muscleSlug": "extensor-hallucis-longus",
+    "role": "primary",
+    "notes": "Prime mover for great-toe extension at the first MTP (and IP) joint \u2014 the isolated hallux lift this drill trains."
+   },
+   {
+    "muscleSlug": "flexor-hallucis-longus",
+    "role": "lengthening",
+    "notes": "Direct antagonist to hallux extension; put on stretch/lengthened as the big toe lifts."
+   },
+   {
+    "muscleSlug": "flexor-digitorum-longus",
+    "role": "stabilizer",
+    "notes": "Actively holds the lesser four toes pressed into the floor so the hallux can be isolated."
+   }
+  ]
+ },
+ {
+  "slug": "arch-doming",
+  "movementSlugs": [
+   "foot-inversion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "tibialis-posterior",
+    "role": "primary",
+    "notes": "Prime mover of foot inversion (the tagged movement) and the leading extrinsic dynamic supporter of the medial longitudinal arch. The true short-foot primaries are the plantar intrinsics (abductor hallucis, etc.), which are absent from the roster, so tib posterior is the strongest defensible primary available."
+   },
+   {
+    "muscleSlug": "peroneus-longus",
+    "role": "synergist",
+    "notes": "Downgraded from secondary: it is an evertor, not an inverter, so it is not a secondary mover of an inversion-tagged action. Its first-ray plantarflexion and midfoot locking genuinely support the arch, which fits a synergist role."
+   },
+   {
+    "muscleSlug": "flexor-hallucis-longus",
+    "role": "synergist",
+    "notes": "Co-activates to support the hallux and medial arch. The cue to keep toes long deliberately minimizes its toe-curling contribution, consistent with a synergist rather than a prime mover."
+   },
+   {
+    "muscleSlug": "tibialis-anterior",
+    "role": "stabilizer",
+    "notes": "Dorsiflexor/invertor inserting at the medial cuneiform and first metatarsal base; helps control foot posture and support the medial arch while the toes stay long. Conservative stabilizer role is appropriate."
+   }
+  ]
+ },
+ {
+  "slug": "band-pull-apart",
+  "movementSlugs": [
+   "shoulder-horizontal-abduction",
+   "scapular-retraction",
+   "shoulder-external-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "posterior-deltoid",
+    "role": "primary",
+    "notes": "Prime mover of shoulder horizontal abduction, driving the arms out against band resistance."
+   },
+   {
+    "muscleSlug": "rhomboid-major",
+    "role": "primary",
+    "notes": "Prime scapular retractor, squeezing the shoulder blades together as cued."
+   },
+   {
+    "muscleSlug": "trapezius-middle",
+    "role": "primary",
+    "notes": "Prime scapular retractor and the intended target of the 'squeeze the blades, not the upper traps' cue."
+   },
+   {
+    "muscleSlug": "infraspinatus",
+    "role": "secondary",
+    "notes": "Posterior cuff assists horizontal abduction/extension of the humerus and dynamically stabilizes the GH joint."
+   },
+   {
+    "muscleSlug": "teres-minor",
+    "role": "secondary",
+    "notes": "Posterior cuff assists the posterior deltoid in horizontal abduction and stabilizes the humeral head."
+   },
+   {
+    "muscleSlug": "trapezius-lower",
+    "role": "secondary",
+    "notes": "Assists retraction and depresses/stabilizes the scapula, keeping the blades down away from the upper traps."
+   },
+   {
+    "muscleSlug": "pectoralis-major",
+    "role": "lengthening",
+    "notes": "Horizontal adductor antagonist; stretched eccentrically as the arms open to end-range horizontal abduction."
+   },
+   {
+    "muscleSlug": "anterior-deltoid",
+    "role": "lengthening",
+    "notes": "Horizontal adductor/flexor antagonist; lengthened as the humerus moves into horizontal abduction."
+   }
+  ]
+ },
+ {
+  "slug": "chin-tuck-with-overpressure",
+  "movementSlugs": [
+   "cervical-retraction",
+   "cervical-flexion-upper"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "deep-cervical-flexors",
+    "role": "primary",
+    "notes": "Longus colli/capitis are the agonists driving craniocervical flexion and the 'chin straight back' retraction \u2014 the muscle being trained; overpressure assists rather than replaces the contraction."
+   },
+   {
+    "muscleSlug": "suboccipitals",
+    "role": "lengthening",
+    "notes": "Upper-cervical extensors directly stretched as the base of the skull nods and the back of the neck lengthens under overpressure."
+   },
+   {
+    "muscleSlug": "semispinalis-capitis",
+    "role": "lengthening",
+    "notes": "Posterior cervical extensor lengthened by retraction/upper-cervical flexion."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "lengthening",
+    "notes": "Posterior cervical extensor stretched as the head glides back and nods."
+   },
+   {
+    "muscleSlug": "levator-scapulae",
+    "role": "lengthening",
+    "notes": "Upper cervical (C1-C4) attachment placed on stretch with retraction/flexion \u2014 a secondary stretch target."
+   },
+   {
+    "muscleSlug": "upper-trapezius",
+    "role": "lengthening",
+    "notes": "Posterior neck extensor lengthened as the cervical spine straightens and the chin tucks back \u2014 a secondary stretch target."
+   }
+  ]
+ },
+ {
+  "slug": "cook-hip-lift",
+  "movementSlugs": [
+   "hip-extension",
+   "posterior-pelvic-tilt"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Prime mover extending the stance (heel-on-floor) hip to lift the pelvis. The maximal contralateral knee-to-chest lock flattens the lumbar spine and shortens hamstring range, deliberately biasing the prime-mover load onto the glute rather than the hamstrings."
+   },
+   {
+    "muscleSlug": "adductor-magnus",
+    "role": "synergist",
+    "notes": "Posterior (ischiocondylar/extensor) fibers assist hip extension of the lifting leg."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "synergist",
+    "notes": "Assist hip extension but are deliberately de-emphasized in this drill (the point of the Cook lift is glute-over-hamstring bias); hamstring cramp on the lifting leg is the cue that the hip has lifted too high."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Keeps the single-leg pelvis level and prevents drop/rotation during the lift."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "stabilizer",
+    "notes": "Assists frontal/transverse-plane pelvic control on the stance leg."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Provides lumbopelvic bracing to keep the pelvis level and rotation-free."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "stabilizer",
+    "notes": "Helps hold the posterior pelvic tilt, guarding against lumbar hyperextension at the top."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Anti-rotation control so the pelvis stays square on the single-leg base."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Anti-rotation control paired with external oblique to keep the pelvis square."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Resists lateral pelvic drop and keeps the pelvis level on the single-leg base."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "stabilizer",
+    "notes": "On the held leg, isometrically sustains hip flexion that locks the opposite hemipelvis and helps maintain the posterior tilt."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Isometrically stabilizes the flexed knee of the loaded leg as the hip extends (marginal but not incorrect)."
+   }
+  ]
+ },
+ {
+  "slug": "glute-bridge-with-march",
+  "movementSlugs": [
+   "hip-extension",
+   "hip-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Prime mover holding isometric hip extension to maintain the bridge at the top throughout the marches \u2014 the headline demand of the exercise."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Assist gluteus maximus in sustaining hip extension of the supporting leg."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "secondary",
+    "notes": "Drives the march \u2014 concentric hip flexion lifting each knee toward the chest."
+   },
+   {
+    "muscleSlug": "rectus-femoris",
+    "role": "synergist",
+    "notes": "Assists hip flexion of the marching leg."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Keeps the pelvis level when weight shifts to a single support leg during each march (prevents drop/rock)."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "stabilizer",
+    "notes": "Works with gluteus medius for frontal-plane pelvic stability during single-leg loading."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Deep anti-rotation core control keeping the pelvis from rocking as legs alternate."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Resists pelvic/trunk rotation \u2014 the anti-rotation demand of alternating marches."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Resists pelvic/trunk rotation to hold the pelvis level."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Controls lateral pelvic tilt, keeping the hips level ('glass of water on each hip')."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "stabilizer",
+    "notes": "Braces the trunk and helps maintain a level pelvis during the bridge hold."
+   }
+  ]
+ },
+ {
+  "slug": "isometric-glute-squeeze",
+  "movementSlugs": [
+   "hip-extension",
+   "hip-external-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Target of the maximal isometric squeeze; prime hip extensor and external rotator being reactivated after prolonged sitting."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "synergist",
+    "notes": "Co-contracts during a maximal glute squeeze; posterior/upper fibers assist extension and external rotation and provide pelvic/hip control."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "stabilizer",
+    "notes": "Deep glute that co-activates with the squeeze; primarily a hip stabilizer rather than a force producer toward the target movements."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Assist hip extension as posterior-chain synergists during the maximal isometric contraction."
+   }
+  ]
+ },
+ {
+  "slug": "lateral-band-walk",
+  "movementSlugs": [
+   "hip-abduction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "primary",
+    "notes": "Prime hip abductor driving the sideways step against band resistance; the 'stay low' cue targets its work and it is the main pelvic stabilizer in single-limb loading"
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "secondary",
+    "notes": "Deep hip abductor/internal rotator that assists gluteus medius and helps stabilize the pelvis, but is a synergist rather than the prime mover"
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "secondary",
+    "notes": "Assists hip abduction with feet pointed forward and helps stabilize the pelvis"
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "secondary",
+    "notes": "Upper fibers assist hip abduction/external rotation and control the trailing leg's return step"
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Isometrically holds the quarter-squat (mini-squat) position throughout the walk"
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Braces the core to keep the hips level and prevent trunk sway during lateral stepping"
+   }
+  ]
+ },
+ {
+  "slug": "mindfulness-integrated-stretching",
+  "movementSlugs": [
+   "hip-flexion",
+   "hip-extension",
+   "hip-abduction",
+   "knee-flexion",
+   "ankle-dorsiflexion",
+   "lumbar-flexion",
+   "lumbar-lateral-flexion",
+   "thoracic-rotation",
+   "shoulder-flexion",
+   "shoulder-horizontal-abduction",
+   "shoulder-extension",
+   "cervical-lateral-flexion",
+   "cervical-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "hamstrings",
+    "role": "lengthening",
+    "notes": "Stretched in standing forward-fold / hip-flexion stretches."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Stretched with deep hip flexion in forward folds."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "lengthening",
+    "notes": "Stretched in standing quad stretch (knee flexion + hip extension)."
+   },
+   {
+    "muscleSlug": "rectus-femoris",
+    "role": "lengthening",
+    "notes": "Two-joint hip flexor stretched by combined knee flexion and hip extension."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "lengthening",
+    "notes": "Hip flexors stretched during standing hip-extension/lunge stretch."
+   },
+   {
+    "muscleSlug": "gastrocnemius",
+    "role": "lengthening",
+    "notes": "Stretched in standing calf stretch via ankle dorsiflexion with knee extended."
+   },
+   {
+    "muscleSlug": "soleus",
+    "role": "lengthening",
+    "notes": "Stretched in bent-knee dorsiflexion calf stretch."
+   },
+   {
+    "muscleSlug": "adductor-group",
+    "role": "lengthening",
+    "notes": "Stretched with hip abduction in wide-stance stretches."
+   },
+   {
+    "muscleSlug": "pectoralis-major",
+    "role": "lengthening",
+    "notes": "Stretched in chest opener via shoulder horizontal abduction/extension."
+   },
+   {
+    "muscleSlug": "anterior-deltoid",
+    "role": "lengthening",
+    "notes": "Stretched with shoulder extension/horizontal abduction chest openers."
+   },
+   {
+    "muscleSlug": "latissimus-dorsi",
+    "role": "lengthening",
+    "notes": "Stretched in overhead reach and side-bend stretches."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "lengthening",
+    "notes": "Stretched in forward-fold lumbar flexion."
+   },
+   {
+    "muscleSlug": "upper-trapezius",
+    "role": "lengthening",
+    "notes": "Stretched in cervical lateral-flexion neck stretches."
+   },
+   {
+    "muscleSlug": "levator-scapulae",
+    "role": "lengthening",
+    "notes": "Stretched in cervical lateral-flexion/rotation neck stretches."
+   },
+   {
+    "muscleSlug": "sternocleidomastoid",
+    "role": "lengthening",
+    "notes": "Stretched in cervical rotation/lateral-flexion stretches."
+   },
+   {
+    "muscleSlug": "scalenes",
+    "role": "lengthening",
+    "notes": "Stretched in lateral neck stretches."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "lengthening",
+    "notes": "Stretched in standing lateral side-bend."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Maintains trunk control and posture during slow standing transitions."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Segmental spinal stabilizer holding position between stretches."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Stabilizes pelvis/single-leg balance during standing stretches."
+   }
+  ]
+ },
+ {
+  "slug": "ninety-ninety-hip-ir-stretch",
+  "movementSlugs": [
+   "hip-internal-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "piriformis",
+    "role": "lengthening",
+    "notes": "Deep hip external rotator; key stretched target as the front hip is driven toward IR. Note its ER action diminishes/reverses past ~60-90 deg hip flexion, but it remains a stretched structure in the 90/90 position."
+   },
+   {
+    "muscleSlug": "obturator-internus",
+    "role": "lengthening",
+    "notes": "Deep external rotator of the front hip, lengthened by the toward-IR lean."
+   },
+   {
+    "muscleSlug": "obturator-externus",
+    "role": "lengthening",
+    "notes": "Deep external rotator of the front hip, lengthened toward internal rotation."
+   },
+   {
+    "muscleSlug": "gemelli",
+    "role": "lengthening",
+    "notes": "Gemellus superior/inferior, part of the deep-six external rotators being stretched toward IR."
+   },
+   {
+    "muscleSlug": "quadratus-femoris",
+    "role": "lengthening",
+    "notes": "Deep external rotator lengthened as the front hip moves toward IR."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Strong hip external rotator; posterior/deep fibers stretched by the toward-IR position combined with hip flexion."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "lengthening",
+    "notes": "Posterior fibers act as external rotators and are lengthened toward IR; secondary stretched structure."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Holds a tall, neutral spine during the forward lean (cue: sit tall, do not round the spine to reach the shin)."
+   }
+  ]
+ },
+ {
+  "slug": "prone-hip-extension-active",
+  "movementSlugs": [
+   "hip-extension"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Prime mover of hip extension against gravity in prone; directly targeted by the 'squeeze the glute first' cue with a 2 s end-range hold."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Major hip extensors, not a minor assist \u2014 upgraded synergist to secondary. Keeping the knee soft-straight shifts emphasis toward the glute but the hamstring group still contributes strongly. Group entry used; individual heads dropped to avoid double-counting."
+   },
+   {
+    "muscleSlug": "adductor-magnus",
+    "role": "synergist",
+    "notes": "Posterior (ischiocondylar) fibers are a true hip extensor and assist the glute through the lift."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Works isometrically to resist lumbar extension/arching \u2014 the 'if you feel the low back working, lower the leg' cue is about keeping this a stabilizer, not letting it become a mover."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Segmental lumbar stabilizer maintaining a neutral spine during the single-leg lift."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Anterior core bracing to prevent lumbar arching and anterior pelvic tilt."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Stabilizes the pelvis and lumbar spine against tilt/rotation during the single-leg lift."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Corrected rationale: this is a prone/non-weightbearing lift, so frontal-plane single-leg-stance control does not apply. Its real role here is resisting pelvic rotation and hip-abduction drift, with posterior fibers assisting extension."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "lengthening",
+    "notes": "Antagonist hip flexor placed on stretch as the hip moves from neutral into extension \u2014 appropriate use of the lengthening role."
+   }
+  ]
+ },
+ {
+  "slug": "scapular-clock",
+  "movementSlugs": [
+   "scapular-protraction",
+   "scapular-retraction",
+   "scapular-elevation",
+   "scapular-depression",
+   "scapular-upward-rotation",
+   "scapular-downward-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "serratus-anterior",
+    "role": "primary",
+    "notes": "True prime mover: drives protraction and upward rotation and holds the scapula flush to the rib cage throughout the entire circle. Sole primary."
+   },
+   {
+    "muscleSlug": "trapezius-middle",
+    "role": "secondary",
+    "notes": "Downgraded from primary \u2014 only drives the retraction (toward-spine) quarter of the clock face, not co-equal with serratus."
+   },
+   {
+    "muscleSlug": "trapezius-lower",
+    "role": "secondary",
+    "notes": "Depression and upward rotation during the lower/downward arc of the circle."
+   },
+   {
+    "muscleSlug": "trapezius-upper",
+    "role": "secondary",
+    "notes": "Elevation and upward-rotation assist at the top (12 o'clock) of the clock."
+   },
+   {
+    "muscleSlug": "rhomboid-major",
+    "role": "secondary",
+    "notes": "Retraction and downward rotation on the medial/lower portion of the arc."
+   },
+   {
+    "muscleSlug": "levator-scapulae",
+    "role": "secondary",
+    "notes": "Assists elevation (and downward rotation) at the top of the clock."
+   },
+   {
+    "muscleSlug": "subscapularis",
+    "role": "stabilizer",
+    "notes": "Rotator cuff; low-demand GH centration while the arm rests supported at shoulder height on the wall."
+   },
+   {
+    "muscleSlug": "supraspinatus",
+    "role": "stabilizer",
+    "notes": "Rotator cuff; light GH compression/centration with the wall bearing most of the arm's weight."
+   },
+   {
+    "muscleSlug": "infraspinatus",
+    "role": "stabilizer",
+    "notes": "Rotator cuff; assists glenohumeral centration during the supported circular motion."
+   },
+   {
+    "muscleSlug": "teres-minor",
+    "role": "stabilizer",
+    "notes": "Rotator cuff; assists GH stabilization of the wall-supported arm."
+   },
+   {
+    "muscleSlug": "anterior-deltoid",
+    "role": "stabilizer",
+    "notes": "Light horizontal-adduction pressure helping keep the forearm in contact with the wall; low demand given wall support."
+   },
+   {
+    "muscleSlug": "pectoralis-major",
+    "role": "stabilizer",
+    "notes": "Light isometric horizontal adduction pressing the forearm into the wall to maintain contact throughout the circle."
+   }
+  ]
+ },
+ {
+  "slug": "seated-figure-4-stretch",
+  "movementSlugs": [
+   "hip-flexion",
+   "hip-external-rotation",
+   "hip-abduction"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "piriformis",
+    "role": "lengthening",
+    "notes": "Primary target. Flexed/externally-rotated/abducted hip loaded by the forward hip hinge lengthens the piriformis \u2014 the classic figure-4 stretch. Correctly a lengthening role (passive stretch, no concentric primary mover)."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Hip extensor/external rotator lengthened as the flexed hip is driven further into flexion by the forward lean."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "lengthening",
+    "notes": "Posterior/deep gluteal fibers stretched in the loaded flexed figure-4 position."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "lengthening",
+    "notes": "Deep gluteal muscle lengthened along with medius in the loaded position; borderline but defensible for a deep-gluteal stretch."
+   },
+   {
+    "muscleSlug": "gemelli",
+    "role": "lengthening",
+    "notes": "Deep external rotator lengthened by hip flexion in the figure-4."
+   },
+   {
+    "muscleSlug": "obturator-internus",
+    "role": "lengthening",
+    "notes": "Deep external rotator stretched by the forward hip hinge in the crossed-leg position."
+   },
+   {
+    "muscleSlug": "obturator-externus",
+    "role": "lengthening",
+    "notes": "Deep external rotator lengthened as the hip flexes into the stretch."
+   },
+   {
+    "muscleSlug": "quadratus-femoris",
+    "role": "lengthening",
+    "notes": "Deep external rotator stretched by the loaded hip flexion of the figure-4."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Works isometrically to keep the spine tall and drive the motion from a hip hinge rather than lumbar flexion, per the cues \u2014 stabilizer, not stretched."
+   }
+  ]
+ },
+ {
+  "slug": "seated-trunk-rotation",
+  "movementSlugs": [
+   "thoracic-rotation",
+   "cervical-rotation",
+   "lumbar-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "external-oblique",
+    "role": "primary",
+    "notes": "Contralateral external oblique is a true prime mover of trunk rotation, pairing with the opposite internal oblique to turn the trunk toward the same side as the IO."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "primary",
+    "notes": "Ipsilateral internal oblique couples with the contralateral external oblique as the prime rotator of the trunk."
+   },
+   {
+    "muscleSlug": "rotatores-thoracis",
+    "role": "secondary",
+    "notes": "Downgraded from primary: rotatores are small deep segmental muscles producing minimal rotational torque and acting largely as proprioceptive/segmental stabilizers, not prime movers. The obliques drive rotation."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "secondary",
+    "notes": "Transversospinalis; contributes contralateral segmental rotation and spinal control."
+   },
+   {
+    "muscleSlug": "semispinalis-thoracis",
+    "role": "secondary",
+    "notes": "Transversospinalis group; assists contralateral thoracic rotation."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "secondary",
+    "notes": "Ipsilateral rotation contribution plus maintenance of the tall upright thoracic posture during the turn."
+   },
+   {
+    "muscleSlug": "splenius-cervicis",
+    "role": "synergist",
+    "notes": "Ipsilateral cervical rotator engaged by the eyes-follow cervical contribution cue; minor relative to the thoracic target."
+   },
+   {
+    "muscleSlug": "splenius-capitis",
+    "role": "synergist",
+    "notes": "Ipsilateral cervical rotation as the head follows the movement per the cue."
+   },
+   {
+    "muscleSlug": "sternocleidomastoid",
+    "role": "synergist",
+    "notes": "Contralateral cervical rotator assisting the head turn accompanying the trunk rotation."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Deep anti-rotation bracing to keep the trunk tall and hips/pelvis square through the turn."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Lumbopelvic stabilizer keeping the pelvis square while the trunk rotates above it."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "stabilizer",
+    "notes": "Anterior core support maintaining the upright seated posture during rotation."
+   }
+  ]
+ },
+ {
+  "slug": "standing-figure-4-stretch",
+  "movementSlugs": [
+   "hip-flexion",
+   "hip-external-rotation",
+   "hip-abduction",
+   "knee-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Primary stretch target of the lifted leg; deep hip flexion with external rotation lengthens the glute max."
+   },
+   {
+    "muscleSlug": "piriformis",
+    "role": "lengthening",
+    "notes": "Classic figure-4 target; in >~90 deg hip flexion the piriformis reverses toward internal rotation, so the flexed/externally-rotated position lengthens it."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "lengthening",
+    "notes": "Posterior fibers of the lifted hip are stretched by the flexion/external-rotation position."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "lengthening",
+    "notes": "Stretched with the other posterolateral hip muscles in the flexed, externally rotated lifted hip."
+   },
+   {
+    "muscleSlug": "gemelli",
+    "role": "lengthening",
+    "notes": "Deep external rotator stretched in the flexed figure-4 position (secondary target)."
+   },
+   {
+    "muscleSlug": "obturator-internus",
+    "role": "lengthening",
+    "notes": "Deep external rotator lengthened by the flexed, abducted, externally rotated hip (secondary target)."
+   },
+   {
+    "muscleSlug": "obturator-externus",
+    "role": "lengthening",
+    "notes": "Deep external rotator stretched in the figure-4 position (lower-confidence secondary target)."
+   },
+   {
+    "muscleSlug": "quadratus-femoris",
+    "role": "lengthening",
+    "notes": "Deep external rotator lengthened in the flexed figure-4 hip position (secondary target)."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Standing leg works isometrically/eccentrically to control the shallow partial squat that sets stretch depth; not a resisted mover, so stabilizer rather than secondary."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Holds the trunk upright while sitting back into the partial squat."
+   }
+  ]
+ },
+ {
+  "slug": "standing-hamstring-stretch-foot-on-step",
+  "movementSlugs": [
+   "hip-flexion",
+   "knee-extension"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "hamstrings",
+    "role": "lengthening",
+    "notes": "Primary target. Hip flexion of the elevated straight leg lengthens the hamstring group across the hip while maintained knee extension keeps them on maximal stretch. Static stretch, so lengthening (not primary) is the correct role."
+   },
+   {
+    "muscleSlug": "semitendinosus",
+    "role": "lengthening",
+    "notes": "Medial hamstring, biarticular \u2014 stretched by combined hip flexion and knee extension."
+   },
+   {
+    "muscleSlug": "semimembranosus",
+    "role": "lengthening",
+    "notes": "Medial hamstring, biarticular \u2014 stretched by combined hip flexion and knee extension."
+   },
+   {
+    "muscleSlug": "biceps-femoris-long",
+    "role": "lengthening",
+    "notes": "Lateral hamstring long head, biarticular \u2014 stretched over the hip and knee."
+   },
+   {
+    "muscleSlug": "biceps-femoris-short",
+    "role": "lengthening",
+    "notes": "Crosses only the knee (pure knee flexor); maintained knee extension places it on some stretch. Minor contributor since the hip-dominant stretch does not act on it, but defensible."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Hip extensor placed on stretch by the flexed-hip forward-hinge position."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Isometrically holds the elevated leg's knee in extension so the hamstrings stay lengthened; reciprocal contraction also aids the stretch."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Maintains the neutral flat-back hinge per the cue to stop before the spine rounds, preventing lumbar flexion."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Provides trunk/core control to keep the spine neutral during the forward hinge."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Stabilizes the pelvis on the weight-bearing standing leg during the single-limb loaded hinge."
+   }
+  ]
+ },
+ {
+  "slug": "standing-hip-circles",
+  "movementSlugs": [
+   "hip-flexion",
+   "hip-abduction",
+   "hip-extension",
+   "hip-adduction",
+   "hip-internal-rotation",
+   "hip-external-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "primary",
+    "notes": "Main sustained mover: lifts and holds the knee at hip height and drives the flexion arc of the circle."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "primary",
+    "notes": "Prime abductor for the abduction phase; anterior fibers assist internal rotation. Also chief stance-leg pelvic stabilizer."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "secondary",
+    "notes": "Assists abduction/internal rotation; synergist to glute medius, not an independent prime mover."
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "secondary",
+    "notes": "Assists flexion, abduction, and internal rotation through the circle; synergist, not primary."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "secondary",
+    "notes": "Extension phase (limited, low-load range behind the body) and external rotation; also contributes to stance-leg hip stability. Single deduped entry."
+   },
+   {
+    "muscleSlug": "adductor-group",
+    "role": "secondary",
+    "notes": "Adduction phase bringing the leg back toward/across midline; low-load and partly gravity-assisted."
+   },
+   {
+    "muscleSlug": "rectus-femoris",
+    "role": "secondary",
+    "notes": "Assists hip flexion during the flexion portion of the circle."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Hip extension during the extension portion; knee is held bent as the knee leads."
+   },
+   {
+    "muscleSlug": "sartorius",
+    "role": "secondary",
+    "notes": "Combined flexion, abduction, and external rotation \u2014 well suited to the circling path."
+   },
+   {
+    "muscleSlug": "pectineus",
+    "role": "secondary",
+    "notes": "Adduction with a flexion component during the adduction phase."
+   },
+   {
+    "muscleSlug": "gracilis",
+    "role": "secondary",
+    "notes": "Assists adduction of the moving hip."
+   },
+   {
+    "muscleSlug": "piriformis",
+    "role": "synergist",
+    "notes": "Deep external rotator active through the external-rotation portion of the circle."
+   },
+   {
+    "muscleSlug": "obturator-externus",
+    "role": "synergist",
+    "notes": "Deep external rotator assisting the rotational arc."
+   },
+   {
+    "muscleSlug": "obturator-internus",
+    "role": "synergist",
+    "notes": "Deep external rotator assisting the rotational arc."
+   },
+   {
+    "muscleSlug": "gemelli",
+    "role": "synergist",
+    "notes": "Deep external rotators assisting rotation control."
+   },
+   {
+    "muscleSlug": "quadratus-femoris",
+    "role": "synergist",
+    "notes": "Deep external rotation and hip control."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Core bracing to keep pelvis/lumbar spine still (cue: resist arching the low back)."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "stabilizer",
+    "notes": "Anti-extension trunk control resisting lumbar arching as the leg circles."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "stabilizer",
+    "notes": "Anti-rotation/anti-arch trunk control during the moving-leg circle."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "stabilizer",
+    "notes": "Anti-rotation/anti-arch trunk control during the moving-leg circle."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Maintains upright posture (cue: stand tall)."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Frontal-plane control keeping the pelvis level on the stance leg."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Stance-leg knee stability during supported single-leg balance."
+   }
+  ]
+ },
+ {
+  "slug": "standing-it-band-stretch",
+  "movementSlugs": [
+   "hip-adduction",
+   "lumbar-lateral-flexion",
+   "thoracic-lateral-flexion",
+   "shoulder-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "lengthening",
+    "notes": "Primary IT band tensor; crossing the back leg into hip adduction with the hip pushed laterally lengthens the TFL and loads the lateral chain. Chief target."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "lengthening",
+    "notes": "Lateral hip abductor lengthened as the stance/back hip moves into adduction."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "lengthening",
+    "notes": "Deep lateral hip abductor lengthened with the same hip-adduction component."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Upper fibers insert into the IT band and are placed under tension with lateral hip loading in adduction."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "lengthening",
+    "notes": "Lateral trunk lengthened from hip to ribs as the trunk laterally flexes away from the stretched side."
+   },
+   {
+    "muscleSlug": "latissimus-dorsi",
+    "role": "lengthening",
+    "notes": "Same-side arm overhead (shoulder flexion) plus the side lean lengthens the lat along the lateral trunk to the underarm."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "lengthening",
+    "notes": "Lateral abdominal wall stretched with lateral trunk flexion during the side lean."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "lengthening",
+    "notes": "Lateral abdominal wall stretched alongside the external oblique during the side lean."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Controls the trunk lean and keeps the spine long ('lengthen up first, then lean')."
+   }
+  ]
+ },
+ {
+  "slug": "standing-lumbar-extension-press-up",
+  "movementSlugs": [
+   "lumbar-extension",
+   "anterior-pelvic-tilt"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "primary",
+    "notes": "Prime lumbar extensor driving the backward lean into end-range extension"
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "synergist",
+    "notes": "Segmental extensor assisting and stabilizing intervertebral extension; supports but does not drive the movement (erector spinae is the prime mover), so downgraded from primary"
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "secondary",
+    "notes": "Assists lumbar extension and stabilizes the lumbar spine during the lean"
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "stabilizer",
+    "notes": "Stabilizes the pelvis and hips in standing as the trunk moves into extension"
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "lengthening",
+    "notes": "Anterior trunk flexor stretched as the lumbar spine extends"
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "lengthening",
+    "notes": "Anterolateral trunk flexor lengthened during the backward lean"
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "lengthening",
+    "notes": "Anterolateral trunk flexor lengthened during the backward lean"
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "lengthening",
+    "notes": "Hip flexor placed on stretch as the pelvis tilts anteriorly and the femur extends under the pelvis"
+   }
+  ]
+ },
+ {
+  "slug": "standing-quad-stretch",
+  "movementSlugs": [
+   "knee-flexion",
+   "hip-extension",
+   "posterior-pelvic-tilt"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "rectus-femoris",
+    "role": "lengthening",
+    "notes": "Two-joint quad crossing hip and knee; the primary target \u2014 stretched by combined knee flexion (heel to glute) plus hip extension/posterior pelvic tilt. Correctly lengthening, not primary, since this is a passive stretch."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "lengthening",
+    "notes": "Quadriceps group lengthened over the flexed knee as the heel is drawn toward the glute."
+   },
+   {
+    "muscleSlug": "vastus-lateralis",
+    "role": "lengthening",
+    "notes": "Mono-articular knee extensor stretched by deep knee flexion, independent of hip position."
+   },
+   {
+    "muscleSlug": "vastus-medialis",
+    "role": "lengthening",
+    "notes": "Mono-articular knee extensor stretched by deep knee flexion."
+   },
+   {
+    "muscleSlug": "vastus-intermedius",
+    "role": "lengthening",
+    "notes": "Mono-articular knee extensor stretched by deep knee flexion."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "lengthening",
+    "notes": "Primary hip flexor lengthened by hip extension and the posterior pelvic tilt cue ('tuck the pelvis to intensify the hip flexor component')."
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "lengthening",
+    "notes": "Anterior hip flexor mildly lengthened as the thigh moves toward neutral/extension with the pelvic tuck."
+   },
+   {
+    "muscleSlug": "sartorius",
+    "role": "lengthening",
+    "notes": "Two-joint hip flexor lengthened at the hip by extension with pelvis tucked (weak knee flexor, so net stretch is modest)."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "synergist",
+    "notes": "Knee flexors that actively assist (with the hand) drawing the heel toward the glute to seat the stretch."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "secondary",
+    "notes": "Produces the posterior pelvic tilt / hip extension cued to deepen the anterior-hip stretch."
+   },
+   {
+    "muscleSlug": "rectus-abdominis",
+    "role": "secondary",
+    "notes": "Assists the posterior pelvic tilt ('tuck the pelvis under') that intensifies the anterior hip stretch."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Stance-leg hip abductor stabilizing the pelvis during single-leg standing balance."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "stabilizer",
+    "notes": "Maintains upright trunk posture while balancing on one leg."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Provides core/pelvic stability during the tuck and single-leg balance."
+   }
+  ]
+ },
+ {
+  "slug": "supine-hamstring-stretch-strap",
+  "movementSlugs": [
+   "hip-flexion",
+   "knee-extension",
+   "ankle-dorsiflexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "hamstrings",
+    "role": "lengthening",
+    "notes": "Primary stretch target: strap-assisted straight-leg raise combines hip flexion with a near-extended knee, lengthening the biarticular hamstring group across both joints."
+   },
+   {
+    "muscleSlug": "semimembranosus",
+    "role": "lengthening",
+    "notes": "Medial hamstring lengthened by simultaneous hip flexion and knee extension."
+   },
+   {
+    "muscleSlug": "semitendinosus",
+    "role": "lengthening",
+    "notes": "Medial hamstring lengthened by simultaneous hip flexion and knee extension."
+   },
+   {
+    "muscleSlug": "biceps-femoris-long",
+    "role": "lengthening",
+    "notes": "Lateral hamstring (biarticular long head) lengthened across hip and knee; short head excluded since it crosses the knee only."
+   },
+   {
+    "muscleSlug": "gastrocnemius",
+    "role": "lengthening",
+    "notes": "Strap around the ball of the foot biases the ankle toward dorsiflexion, adding a mild posterior-chain calf stretch; the soft/slightly bent knee in this technique slackens the gastroc, so this is a secondary rather than a primary target."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "lengthening",
+    "notes": "Deep hip flexion of the raised leg places a mild stretch on the primary hip extensor."
+   },
+   {
+    "muscleSlug": "quadriceps",
+    "role": "stabilizer",
+    "notes": "Low-level knee-extensor activity keeps the knee near straight and, via reciprocal inhibition, helps the hamstrings relax into the stretch."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "stabilizer",
+    "notes": "Helps maintain the raised leg in hip flexion while the strap supplies the passive overpressure; low demand in the strap-supported position."
+   }
+  ]
+ },
+ {
+  "slug": "toe-yoga",
+  "movementSlugs": [],
+  "muscleRoles": [
+   {
+    "muscleSlug": "extensor-hallucis-longus",
+    "role": "primary",
+    "notes": "Prime mover extending/lifting the big toe in the big-toe-up phase."
+   },
+   {
+    "muscleSlug": "flexor-hallucis-longus",
+    "role": "primary",
+    "notes": "Prime mover flexing/pressing the big toe down in the big-toe-down phase."
+   },
+   {
+    "muscleSlug": "extensor-digitorum-longus",
+    "role": "primary",
+    "notes": "Prime mover extending/lifting the 4 lesser toes in the 4-toes-up phase."
+   },
+   {
+    "muscleSlug": "flexor-digitorum-longus",
+    "role": "primary",
+    "notes": "Prime mover flexing/pressing the 4 lesser toes into the floor in the 4-toes-down phase."
+   }
+  ]
+ },
+ {
+  "slug": "walking-lunges-with-rotation",
+  "movementSlugs": [
+   "hip-flexion",
+   "hip-extension",
+   "knee-flexion",
+   "knee-extension",
+   "ankle-dorsiflexion",
+   "thoracic-rotation"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "quadriceps",
+    "role": "primary",
+    "notes": "Extends the front knee to lower into and rise out of the lunge, with eccentric control on descent."
+   },
+   {
+    "muscleSlug": "gluteus-maximus",
+    "role": "primary",
+    "notes": "Primary hip extensor driving the front leg upward and forward out of the lunge."
+   },
+   {
+    "muscleSlug": "external-oblique",
+    "role": "primary",
+    "notes": "Contralateral trunk rotator; turns the trunk toward the front leg at the bottom of the lunge."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "primary",
+    "notes": "Ipsilateral trunk rotator working with the opposite external oblique to rotate toward the front leg."
+   },
+   {
+    "muscleSlug": "hamstrings",
+    "role": "secondary",
+    "notes": "Assist hip extension and provide eccentric control of knee flexion during the lunge."
+   },
+   {
+    "muscleSlug": "adductor-magnus",
+    "role": "secondary",
+    "notes": "Assists hip extension and stabilizes the loaded front hip in the split stance."
+   },
+   {
+    "muscleSlug": "gastrocnemius",
+    "role": "secondary",
+    "notes": "Plantarflexes to assist push-off, driving the back foot forward into the next step."
+   },
+   {
+    "muscleSlug": "soleus",
+    "role": "secondary",
+    "notes": "Ankle plantarflexion and stability during push-off and single-leg loading."
+   },
+   {
+    "muscleSlug": "rotatores-thoracis",
+    "role": "secondary",
+    "notes": "Deep segmental thoracic rotators contributing to the upper-back rotation."
+   },
+   {
+    "muscleSlug": "erector-spinae",
+    "role": "secondary",
+    "notes": "Extend and stabilize the trunk against forward-lunge flexion torque and assist rotation."
+   },
+   {
+    "muscleSlug": "gluteus-medius",
+    "role": "stabilizer",
+    "notes": "Controls frontal-plane pelvis position on the loaded stance leg."
+   },
+   {
+    "muscleSlug": "gluteus-minimus",
+    "role": "stabilizer",
+    "notes": "Assists gluteus medius in pelvic stabilization of the stance leg."
+   },
+   {
+    "muscleSlug": "tensor-fasciae-latae",
+    "role": "stabilizer",
+    "notes": "Helps stabilize the hip and pelvis during the split-stance load."
+   },
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "stabilizer",
+    "notes": "Provides intra-abdominal/core stability during the loaded rotation."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Segmental spinal stabilizer supporting controlled thoracic rotation."
+   },
+   {
+    "muscleSlug": "quadratus-lumborum",
+    "role": "stabilizer",
+    "notes": "Stabilizes the lumbopelvic region against rotational and lateral load."
+   },
+   {
+    "muscleSlug": "iliopsoas",
+    "role": "lengthening",
+    "notes": "Trailing-leg hip flexor is stretched as the rear hip moves into extension at the bottom of the lunge."
+   }
+  ]
+ },
+ {
+  "slug": "pfm-lengthening-positions",
+  "movementSlugs": [
+   "hip-abduction",
+   "hip-external-rotation",
+   "hip-flexion",
+   "ankle-dorsiflexion",
+   "lumbar-flexion"
+  ],
+  "muscleRoles": [
+   {
+    "muscleSlug": "diaphragm",
+    "role": "primary",
+    "notes": "Only actively-contracting muscle in this otherwise passive hold. The description states diaphragmatic breathing IS the release mechanism; diaphragm descent on inhalation reciprocally lengthens/relaxes the pelvic floor. No pelvic-floor slug exists in the roster, so the diaphragm is the legitimate primary driver."
+   },
+   {
+    "muscleSlug": "adductor-group",
+    "role": "lengthening",
+    "notes": "Hip abduction + external rotation of the modified butterfly (soles together, knees apart) and deep-squat positions passively elongate the medial adductors. Roster group slug already covers longus/brevis/magnus, so the individual adductor-longus and adductor-magnus entries were dropped to avoid double-counting the same muscles."
+   },
+   {
+    "muscleSlug": "gracilis",
+    "role": "lengthening",
+    "notes": "Two-joint medial thigh muscle, anatomically distinct from the adductor-group slug; stretched by the knees-apart hip abduction/ER of the butterfly hold. Passively elongated, not working, so lengthening is correct."
+   },
+   {
+    "muscleSlug": "pectineus",
+    "role": "lengthening",
+    "notes": "Distinct from the adductor-group slug; passively stretched by hip abduction/external rotation in the supported butterfly position."
+   }
+  ]
+ },
+ {
+  "slug": "pfm-quick-flick",
+  "movementSlugs": [],
+  "muscleRoles": [
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "synergist",
+    "notes": "Deep abdominal wall co-contracts automatically with pelvic floor contraction (well-documented PFM/TrA synergy); assists intra-abdominal pressure control during rapid flicks. Role appropriate: true prime mover is the levator ani/pelvic floor group, which has no roster slug, so no primary is assignable here."
+   },
+   {
+    "muscleSlug": "diaphragm",
+    "role": "stabilizer",
+    "notes": "Coordinates with pelvic floor as part of the abdominal canister; breath control paired with contraction/relaxation timing. Stabilizer role endorsed."
+   }
+  ]
+ },
+ {
+  "slug": "pfm-sustained-hold",
+  "movementSlugs": [],
+  "muscleRoles": [
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "synergist",
+    "notes": "Deep abdominal that reflexively co-activates with the pelvic floor as part of the deep-core canister during the perineal lift. Accessory synergist \u2014 the pelvic floor (levator ani) is the true prime mover but has no slug in the roster, so it cannot be listed."
+   },
+   {
+    "muscleSlug": "diaphragm",
+    "role": "synergist",
+    "notes": "Top of the canister with reciprocal timing to the pelvic floor; the 'breathe normally throughout the hold' cue targets diaphragm/pelvic-floor coordination and prevents breath-holding substitution. Synergist role appropriate."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "synergist",
+    "notes": "Lower fibers co-activate with TrA and the pelvic floor to maintain intra-abdominal/pelvic tension during the isometric hold. Reasonable accessory synergist."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Posterior wall of the deep-core canister; co-contracts to stabilize the lumbopelvic region during the sustained hold. Stabilizer role appropriate; not a mover here."
+   }
+  ]
+ },
+ {
+  "slug": "pfm-the-knack",
+  "movementSlugs": [],
+  "muscleRoles": [
+   {
+    "muscleSlug": "transversus-abdominis",
+    "role": "synergist",
+    "notes": "Deep abdominal that reflexively co-contracts with the pelvic floor; with the true prime mover (levator ani) absent from the roster, TrA is the key trainable co-activator for the anticipatory brace against pressure spikes."
+   },
+   {
+    "muscleSlug": "internal-oblique",
+    "role": "synergist",
+    "notes": "Lower fibers co-activate with TrA and the pelvic floor to raise intra-abdominal support during the anticipatory brace."
+   },
+   {
+    "muscleSlug": "diaphragm",
+    "role": "stabilizer",
+    "notes": "Top of the abdominal canister; coordinated activity with the pelvic floor manages intra-abdominal pressure during a cough/lift."
+   },
+   {
+    "muscleSlug": "multifidus",
+    "role": "stabilizer",
+    "notes": "Deep segmental stabilizer that co-contracts within the deep-core system to steady the spine and pelvis during the pressure spike."
+   }
+  ]
+ }
+]

@@ -1,0 +1,1154 @@
+[
+ {
+  "entityType": "muscle",
+  "slug": "abductor-digiti-minimi",
+  "name": "Abductor Digiti Minimi",
+  "system": "http://snomed.info/sct",
+  "code": "10245000",
+  "display": "Structure of abductor digiti minimi muscle of foot",
+  "score": 35
+ },
+ {
+  "entityType": "muscle",
+  "slug": "abductor-pollicis-brevis",
+  "name": "Abductor Pollicis Brevis",
+  "system": "http://snomed.info/sct",
+  "code": "32573001",
+  "display": "Structure of abductor pollicis brevis muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "abductor-pollicis-longus",
+  "name": "Abductor Pollicis Longus",
+  "system": "http://snomed.info/sct",
+  "code": "25541006",
+  "display": "Structure of abductor pollicis longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "adductor-brevis",
+  "name": "Adductor Brevis",
+  "system": "http://snomed.info/sct",
+  "code": "70770004",
+  "display": "Structure of adductor brevis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "adductor-longus",
+  "name": "Adductor Longus",
+  "system": "http://snomed.info/sct",
+  "code": "85629004",
+  "display": "Structure of adductor longus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "adductor-magnus",
+  "name": "Adductor Magnus",
+  "system": "http://snomed.info/sct",
+  "code": "23087007",
+  "display": "Structure of adductor magnus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "adductor-pollicis",
+  "name": "Adductor Pollicis",
+  "system": "http://snomed.info/sct",
+  "code": "60114005",
+  "display": "Structure of adductor pollicis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "anterior-deltoid",
+  "name": "Anterior Deltoid",
+  "system": "http://snomed.info/sct",
+  "code": "35259002",
+  "display": "Structure of deltoid muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "biceps-brachii",
+  "name": "Biceps Brachii",
+  "system": "http://snomed.info/sct",
+  "code": "16225001",
+  "display": "Structure of biceps brachii muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "biceps-femoris-long",
+  "name": "Biceps Femoris — Long Head",
+  "system": "http://snomed.info/sct",
+  "code": "55190004",
+  "display": "Structure of long head of biceps femoris muscle",
+  "score": 54
+ },
+ {
+  "entityType": "muscle",
+  "slug": "biceps-femoris-short",
+  "name": "Biceps Femoris — Short Head",
+  "system": "http://snomed.info/sct",
+  "code": "64568000",
+  "display": "Structure of short head of biceps femoris muscle",
+  "score": 54
+ },
+ {
+  "entityType": "muscle",
+  "slug": "brachialis",
+  "name": "Brachialis",
+  "system": "http://snomed.info/sct",
+  "code": "75915005",
+  "display": "Structure of brachialis muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "brachioradialis",
+  "name": "Brachioradialis",
+  "system": "http://snomed.info/sct",
+  "code": "72111005",
+  "display": "Structure of brachioradialis muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "diaphragm",
+  "name": "Diaphragm",
+  "system": "http://snomed.info/sct",
+  "code": "5798000",
+  "display": "Structure of diaphragm",
+  "score": 20
+ },
+ {
+  "entityType": "muscle",
+  "slug": "dorsal-interossei",
+  "name": "Dorsal Interossei (Hand)",
+  "system": "http://snomed.info/sct",
+  "code": "60618007",
+  "display": "Structure of dorsal interosseous muscle of hand",
+  "score": 25
+ },
+ {
+  "entityType": "muscle",
+  "slug": "erector-spinae",
+  "name": "Erector Spinae Group",
+  "system": "http://snomed.info/sct",
+  "code": "44947003",
+  "display": "Structure of erector spinae muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-carpi-radialis-brevis",
+  "name": "Extensor Carpi Radialis Brevis",
+  "system": "http://snomed.info/sct",
+  "code": "86172000",
+  "display": "Structure of extensor carpi radialis brevis muscle",
+  "score": 54
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-carpi-radialis-longus",
+  "name": "Extensor Carpi Radialis Longus",
+  "system": "http://snomed.info/sct",
+  "code": "39421004",
+  "display": "Structure of extensor carpi radialis longus muscle",
+  "score": 54
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-carpi-ulnaris",
+  "name": "Extensor Carpi Ulnaris",
+  "system": "http://snomed.info/sct",
+  "code": "113227003",
+  "display": "Structure of extensor carpi ulnaris muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-digitorum",
+  "name": "Extensor Digitorum",
+  "system": "http://snomed.info/sct",
+  "code": "50176000",
+  "display": "Structure of extensor digitorum muscle of hand",
+  "score": 25
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-digitorum-longus",
+  "name": "Extensor Digitorum Longus",
+  "system": "http://snomed.info/sct",
+  "code": "20497005",
+  "display": "Structure of extensor digitorum longus muscle of foot",
+  "score": 35
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-hallucis-longus",
+  "name": "Extensor Hallucis Longus",
+  "system": "http://snomed.info/sct",
+  "code": "90012003",
+  "display": "Structure of extensor hallucis longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-pollicis-brevis",
+  "name": "Extensor Pollicis Brevis",
+  "system": "http://snomed.info/sct",
+  "code": "38259003",
+  "display": "Structure of extensor pollicis brevis muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "extensor-pollicis-longus",
+  "name": "Extensor Pollicis Longus",
+  "system": "http://snomed.info/sct",
+  "code": "81440007",
+  "display": "Structure of extensor pollicis longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "external-intercostals",
+  "name": "External Intercostals",
+  "system": "http://snomed.info/sct",
+  "code": "53967007",
+  "display": "Structure of external intercostal muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "external-oblique",
+  "name": "External Oblique",
+  "system": "http://snomed.info/sct",
+  "code": "1179024003",
+  "display": "Structure of obliquus internus abdominis muscle",
+  "score": 25
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-carpi-radialis",
+  "name": "Flexor Carpi Radialis",
+  "system": "http://snomed.info/sct",
+  "code": "30339000",
+  "display": "Structure of flexor carpi radialis muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-carpi-ulnaris",
+  "name": "Flexor Carpi Ulnaris",
+  "system": "http://snomed.info/sct",
+  "code": "14437004",
+  "display": "Structure of flexor carpi ulnaris muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-digiti-minimi-brevis",
+  "name": "Flexor Digiti Minimi Brevis",
+  "system": "http://snomed.info/sct",
+  "code": "30741001",
+  "display": "Structure of flexor digiti minimi brevis muscle of foot",
+  "score": 45
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-digitorum-longus",
+  "name": "Flexor Digitorum Longus",
+  "system": "http://snomed.info/sct",
+  "code": "18010003",
+  "display": "Structure of flexor digitorum longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-digitorum-profundus",
+  "name": "Flexor Digitorum Profundus",
+  "system": "http://snomed.info/sct",
+  "code": "423541009",
+  "display": "Structure of flexor digitorum profundus muscle of hand",
+  "score": 35
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-digitorum-superficialis",
+  "name": "Flexor Digitorum Superficialis",
+  "system": "http://snomed.info/sct",
+  "code": "89895007",
+  "display": "Structure of flexor digitorum superficialis muscle of hand",
+  "score": 35
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-hallucis-longus",
+  "name": "Flexor Hallucis Longus",
+  "system": "http://snomed.info/sct",
+  "code": "471000",
+  "display": "Structure of flexor hallucis longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-pollicis-brevis",
+  "name": "Flexor Pollicis Brevis",
+  "system": "http://snomed.info/sct",
+  "code": "20588008",
+  "display": "Structure of flexor pollicis brevis muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "flexor-pollicis-longus",
+  "name": "Flexor Pollicis Longus",
+  "system": "http://snomed.info/sct",
+  "code": "82465007",
+  "display": "Structure of flexor pollicis longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "gastrocnemius",
+  "name": "Gastrocnemius",
+  "system": "http://snomed.info/sct",
+  "code": "35616000",
+  "display": "Structure of gastrocnemius muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "gemelli",
+  "name": "Gemellus Superior and Inferior",
+  "system": "http://snomed.info/sct",
+  "code": "28985004",
+  "display": "Structure of inferior gemellus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "gluteus-maximus",
+  "name": "Gluteus Maximus",
+  "system": "http://snomed.info/sct",
+  "code": "206007",
+  "display": "Structure of gluteus maximus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "gluteus-medius",
+  "name": "Gluteus Medius",
+  "system": "http://snomed.info/sct",
+  "code": "78333006",
+  "display": "Structure of gluteus medius muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "gluteus-minimus",
+  "name": "Gluteus Minimus",
+  "system": "http://snomed.info/sct",
+  "code": "75297007",
+  "display": "Structure of gluteus minimus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "gracilis",
+  "name": "Gracilis",
+  "system": "http://snomed.info/sct",
+  "code": "2577006",
+  "display": "Structure of gracilis muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "iliopsoas",
+  "name": "Iliopsoas",
+  "system": "http://snomed.info/sct",
+  "code": "68455001",
+  "display": "Structure of iliopsoas muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "infraspinatus",
+  "name": "Infraspinatus",
+  "system": "http://snomed.info/sct",
+  "code": "72573008",
+  "display": "Structure of infraspinatus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "internal-intercostals",
+  "name": "Internal Intercostals",
+  "system": "http://snomed.info/sct",
+  "code": "41313007",
+  "display": "Structure of internal intercostal muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "internal-oblique",
+  "name": "Internal Oblique",
+  "system": "http://snomed.info/sct",
+  "code": "1179024003",
+  "display": "Structure of obliquus internus abdominis muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "latissimus-dorsi",
+  "name": "Latissimus Dorsi",
+  "system": "http://snomed.info/sct",
+  "code": "15665001",
+  "display": "Structure of latissimus dorsi muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "levator-scapulae",
+  "name": "Levator Scapulae",
+  "system": "http://snomed.info/sct",
+  "code": "11327007",
+  "display": "Structure of levator scapulae muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "lumbricals",
+  "name": "Lumbricals (Hand)",
+  "system": "http://snomed.info/sct",
+  "code": "88229007",
+  "display": "Structure of lumbrical muscle of hand",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "middle-deltoid",
+  "name": "Middle Deltoid",
+  "system": "http://snomed.info/sct",
+  "code": "35259002",
+  "display": "Structure of deltoid muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "multifidus",
+  "name": "Multifidus",
+  "system": "http://snomed.info/sct",
+  "code": "5709001",
+  "display": "Structure of multifidus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "obturator-externus",
+  "name": "Obturator Externus",
+  "system": "http://snomed.info/sct",
+  "code": "245026009",
+  "display": "Entire obturator externus",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "obturator-internus",
+  "name": "Obturator Internus",
+  "system": "http://snomed.info/sct",
+  "code": "245025008",
+  "display": "Entire obturator internus",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "opponens-digiti-minimi",
+  "name": "Opponens Digiti Minimi",
+  "system": "http://snomed.info/sct",
+  "code": "1172721001",
+  "display": "Structure of opponens digiti minimi muscle of foot",
+  "score": 35
+ },
+ {
+  "entityType": "muscle",
+  "slug": "opponens-pollicis",
+  "name": "Opponens Pollicis",
+  "system": "http://snomed.info/sct",
+  "code": "79727005",
+  "display": "Structure of opponens pollicis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "palmar-interossei",
+  "name": "Palmar Interossei",
+  "system": "http://snomed.info/sct",
+  "code": "85212008",
+  "display": "Structure of palmar interosseous muscle of hand",
+  "score": 25
+ },
+ {
+  "entityType": "muscle",
+  "slug": "palmaris-longus",
+  "name": "Palmaris Longus",
+  "system": "http://snomed.info/sct",
+  "code": "49931003",
+  "display": "Structure of palmaris longus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "pectineus",
+  "name": "Pectineus",
+  "system": "http://snomed.info/sct",
+  "code": "71875009",
+  "display": "Structure of pectineus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "pectoralis-major",
+  "name": "Pectoralis Major",
+  "system": "http://snomed.info/sct",
+  "code": "60005003",
+  "display": "Structure of pectoralis major muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "peroneus-brevis",
+  "name": "Peroneus Brevis (Fibularis Brevis)",
+  "system": "http://snomed.info/sct",
+  "code": "60771004",
+  "display": "Structure of peroneus brevis muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "peroneus-longus",
+  "name": "Peroneus Longus (Fibularis Longus)",
+  "system": "http://snomed.info/sct",
+  "code": "59831009",
+  "display": "Structure of peroneus longus muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "piriformis",
+  "name": "Piriformis",
+  "system": "http://snomed.info/sct",
+  "code": "75699001",
+  "display": "Structure of piriformis muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "plantaris",
+  "name": "Plantaris",
+  "system": "http://snomed.info/sct",
+  "code": "25593008",
+  "display": "Structure of plantaris muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "popliteus",
+  "name": "Popliteus",
+  "system": "http://snomed.info/sct",
+  "code": "245032004",
+  "display": "Entire popliteus",
+  "score": 14
+ },
+ {
+  "entityType": "muscle",
+  "slug": "posterior-deltoid",
+  "name": "Posterior Deltoid",
+  "system": "http://snomed.info/sct",
+  "code": "35259002",
+  "display": "Structure of deltoid muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "pronator-quadratus",
+  "name": "Pronator Quadratus",
+  "system": "http://snomed.info/sct",
+  "code": "13869007",
+  "display": "Structure of pronator quadratus muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "pronator-teres",
+  "name": "Pronator Teres",
+  "system": "http://snomed.info/sct",
+  "code": "29376000",
+  "display": "Structure of pronator teres muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "quadratus-femoris",
+  "name": "Quadratus Femoris",
+  "system": "http://snomed.info/sct",
+  "code": "52595008",
+  "display": "Structure of quadratus femoris muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "quadratus-lumborum",
+  "name": "Quadratus Lumborum",
+  "system": "http://snomed.info/sct",
+  "code": "6001004",
+  "display": "Structure of quadratus lumborum muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "quadriceps",
+  "name": "Quadriceps Femoris",
+  "system": "http://snomed.info/sct",
+  "code": "21989003",
+  "display": "Structure of quadriceps femoris muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "rectus-abdominis",
+  "name": "Rectus Abdominis",
+  "system": "http://snomed.info/sct",
+  "code": "31243008",
+  "display": "Structure of rectus abdominis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "rectus-femoris",
+  "name": "Rectus Femoris",
+  "system": "http://snomed.info/sct",
+  "code": "72226001",
+  "display": "Structure of rectus femoris muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "rhomboid-major",
+  "name": "Rhomboid Major",
+  "system": "http://snomed.info/sct",
+  "code": "88530003",
+  "display": "Structure of rhomboid major muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "rotatores-thoracis",
+  "name": "Rotatores (Thoracis)",
+  "system": "http://snomed.info/sct",
+  "code": "28635006",
+  "display": "Structure of thoracic rotator muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "sartorius",
+  "name": "Sartorius",
+  "system": "http://snomed.info/sct",
+  "code": "12595009",
+  "display": "Structure of sartorius muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "scalenes",
+  "name": "Scalene Muscles",
+  "system": "http://snomed.info/sct",
+  "code": "50755001",
+  "display": "Structure of scalenus anterior muscle",
+  "score": 15
+ },
+ {
+  "entityType": "muscle",
+  "slug": "semimembranosus",
+  "name": "Semimembranosus",
+  "system": "http://snomed.info/sct",
+  "code": "84010001",
+  "display": "Structure of semimembranosus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "semispinalis-capitis",
+  "name": "Semispinalis Capitis",
+  "system": "http://snomed.info/sct",
+  "code": "2666009",
+  "display": "Structure of semispinalis capitis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "semispinalis-cervicis",
+  "name": "Semispinalis Cervicis",
+  "system": "http://snomed.info/sct",
+  "code": "44222009",
+  "display": "Structure of semispinalis cervicis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "semispinalis-thoracis",
+  "name": "Semispinalis Thoracis",
+  "system": "http://snomed.info/sct",
+  "code": "29385000",
+  "display": "Structure of semispinalis thoracis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "semitendinosus",
+  "name": "Semitendinosus",
+  "system": "http://snomed.info/sct",
+  "code": "50340007",
+  "display": "Structure of semitendinosus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "serratus-anterior",
+  "name": "Serratus Anterior",
+  "system": "http://snomed.info/sct",
+  "code": "18346003",
+  "display": "Structure of serratus anterior muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "soleus",
+  "name": "Soleus",
+  "system": "http://snomed.info/sct",
+  "code": "78376008",
+  "display": "Structure of soleus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "splenius-capitis",
+  "name": "Splenius Capitis",
+  "system": "http://snomed.info/sct",
+  "code": "1600003",
+  "display": "Structure of splenius capitis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "splenius-cervicis",
+  "name": "Splenius Cervicis",
+  "system": "http://snomed.info/sct",
+  "code": "61046001",
+  "display": "Structure of splenius cervicis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "sternocleidomastoid",
+  "name": "Sternocleidomastoid",
+  "system": "http://snomed.info/sct",
+  "code": "22823000",
+  "display": "Structure of sternocleidomastoid muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "suboccipitals",
+  "name": "Suboccipital Muscles",
+  "system": "http://snomed.info/sct",
+  "code": "244847002",
+  "display": "Structure of suboccipital muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "subscapularis",
+  "name": "Subscapularis",
+  "system": "http://snomed.info/sct",
+  "code": "90588001",
+  "display": "Structure of subscapularis muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "supinator",
+  "name": "Supinator",
+  "system": "http://snomed.info/sct",
+  "code": "40678005",
+  "display": "Structure of supinator muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "supraspinatus",
+  "name": "Supraspinatus",
+  "system": "http://snomed.info/sct",
+  "code": "6423006",
+  "display": "Structure of supraspinatus muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "tensor-fasciae-latae",
+  "name": "Tensor Fasciae Latae",
+  "system": "http://snomed.info/sct",
+  "code": "28190000",
+  "display": "Structure of tensor fasciae latae muscle",
+  "score": 44
+ },
+ {
+  "entityType": "muscle",
+  "slug": "teres-major",
+  "name": "Teres Major",
+  "system": "http://snomed.info/sct",
+  "code": "1193009",
+  "display": "Structure of teres major muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "teres-minor",
+  "name": "Teres Minor",
+  "system": "http://snomed.info/sct",
+  "code": "51159009",
+  "display": "Structure of teres minor muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "tibialis-anterior",
+  "name": "Tibialis Anterior",
+  "system": "http://snomed.info/sct",
+  "code": "73508007",
+  "display": "Structure of tibialis anterior muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "tibialis-posterior",
+  "name": "Tibialis Posterior",
+  "system": "http://snomed.info/sct",
+  "code": "74318005",
+  "display": "Structure of tibialis posterior muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "transversus-abdominis",
+  "name": "Transversus Abdominis",
+  "system": "http://snomed.info/sct",
+  "code": "86493009",
+  "display": "Structure of transversus abdominis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "trapezius-lower",
+  "name": "Lower Trapezius",
+  "system": "http://snomed.info/sct",
+  "code": "31764008",
+  "display": "Structure of trapezius muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "trapezius-middle",
+  "name": "Middle Trapezius",
+  "system": "http://snomed.info/sct",
+  "code": "31764008",
+  "display": "Structure of trapezius muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "trapezius-upper",
+  "name": "Upper Trapezius",
+  "system": "http://snomed.info/sct",
+  "code": "31764008",
+  "display": "Structure of trapezius muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "triceps-brachii",
+  "name": "Triceps Brachii",
+  "system": "http://snomed.info/sct",
+  "code": "40284004",
+  "display": "Structure of triceps brachii muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "upper-trapezius",
+  "name": "Upper Trapezius",
+  "system": "http://snomed.info/sct",
+  "code": "31764008",
+  "display": "Structure of trapezius muscle",
+  "score": 24
+ },
+ {
+  "entityType": "muscle",
+  "slug": "vastus-intermedius",
+  "name": "Vastus Intermedius",
+  "system": "http://snomed.info/sct",
+  "code": "57733007",
+  "display": "Structure of vastus intermedius muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "vastus-lateralis",
+  "name": "Vastus Lateralis",
+  "system": "http://snomed.info/sct",
+  "code": "1403006",
+  "display": "Structure of vastus lateralis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "muscle",
+  "slug": "vastus-medialis",
+  "name": "Vastus Medialis",
+  "system": "http://snomed.info/sct",
+  "code": "3478008",
+  "display": "Structure of vastus medialis muscle",
+  "score": 34
+ },
+ {
+  "entityType": "joint",
+  "slug": "acromioclavicular",
+  "name": "Acromioclavicular Joint",
+  "system": "http://snomed.info/sct",
+  "code": "85856004",
+  "display": "Structure of acromioclavicular joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "atlantoaxial",
+  "name": "Atlantoaxial Joint",
+  "system": "http://snomed.info/sct",
+  "code": "62555009",
+  "display": "Structure of atlantoaxial joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "atlantooccipital",
+  "name": "Atlantooccipital Joint",
+  "system": "http://snomed.info/sct",
+  "code": "20292002",
+  "display": "Structure of atlantooccipital joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "cervical-intervertebral",
+  "name": "Cervical Intervertebral Joints (C2-C7)",
+  "system": "http://snomed.info/sct",
+  "code": "68818006",
+  "display": "Structure of cervical intervertebral disc",
+  "score": 21
+ },
+ {
+  "entityType": "joint",
+  "slug": "costovertebral",
+  "name": "Costovertebral Joints",
+  "system": "http://snomed.info/sct",
+  "code": "81688003",
+  "display": "Structure of costovertebral joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "coxofemoral",
+  "name": "Hip Joint (Coxofemoral)",
+  "system": "http://snomed.info/sct",
+  "code": "24136001",
+  "display": "Structure of hip joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "dip",
+  "name": "Distal Interphalangeal Joints",
+  "system": "http://snomed.info/sct",
+  "code": "725412007",
+  "display": "Structure of distal interphalangeal joint",
+  "score": 34
+ },
+ {
+  "entityType": "joint",
+  "slug": "first-cmc",
+  "name": "First Carpometacarpal Joint",
+  "system": "http://snomed.info/sct",
+  "code": "782474003",
+  "display": "Structure of ligament of first carpometacarpal joint",
+  "score": 25
+ },
+ {
+  "entityType": "joint",
+  "slug": "glenohumeral",
+  "name": "Glenohumeral Joint",
+  "system": "http://snomed.info/sct",
+  "code": "85537004",
+  "display": "Structure of glenohumeral joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "humeroulnar",
+  "name": "Humeroulnar Joint",
+  "system": "http://snomed.info/sct",
+  "code": "44034005",
+  "display": "Structure of humeroulnar joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "lumbar-intervertebral",
+  "name": "Lumbar Intervertebral Joints",
+  "system": "http://snomed.info/sct",
+  "code": "23526008",
+  "display": "Structure of lumbar intervertebral disc",
+  "score": 21
+ },
+ {
+  "entityType": "joint",
+  "slug": "lumbosacral",
+  "name": "Lumbosacral Joint (L5-S1)",
+  "system": "http://snomed.info/sct",
+  "code": "714289001",
+  "display": "Structure of lumbosacral facet joint",
+  "score": 15
+ },
+ {
+  "entityType": "joint",
+  "slug": "mcp",
+  "name": "Metacarpophalangeal Joints",
+  "system": "http://snomed.info/sct",
+  "code": "56103003",
+  "display": "Structure of collateral ligaments of metacarpophalangeal joints",
+  "score": 12
+ },
+ {
+  "entityType": "joint",
+  "slug": "patellofemoral",
+  "name": "Patellofemoral Joint",
+  "system": "http://snomed.info/sct",
+  "code": "129160003",
+  "display": "Structure of patellofemoral joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "pip",
+  "name": "Proximal Interphalangeal Joints",
+  "system": "http://snomed.info/sct",
+  "code": "371232006",
+  "display": "Structure of proximal interphalangeal joint of finger",
+  "score": 25
+ },
+ {
+  "entityType": "joint",
+  "slug": "proximal-radioulnar",
+  "name": "Proximal Radioulnar Joint",
+  "system": "http://snomed.info/sct",
+  "code": "20903007",
+  "display": "Structure of proximal radioulnar joint",
+  "score": 34
+ },
+ {
+  "entityType": "joint",
+  "slug": "radiocarpal",
+  "name": "Radiocarpal Joint",
+  "system": "http://snomed.info/sct",
+  "code": "74670003",
+  "display": "Structure of radiocarpal joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "scapulothoracic",
+  "name": "Scapulothoracic Articulation",
+  "system": "http://snomed.info/sct",
+  "code": "264190008",
+  "display": "Structure of scapulothoracic joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "subtalar",
+  "name": "Subtalar Joint",
+  "system": "http://snomed.info/sct",
+  "code": "127863007",
+  "display": "Structure of subtalar joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "talocrural",
+  "name": "Talocrural Joint",
+  "system": "http://snomed.info/sct",
+  "code": "70258002",
+  "display": "Structure of ankle joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "thoracic-intervertebral",
+  "name": "Thoracic Intervertebral Joints",
+  "system": "http://snomed.info/sct",
+  "code": "5261000",
+  "display": "Structure of thoracic intervertebral disc",
+  "score": 21
+ },
+ {
+  "entityType": "joint",
+  "slug": "thumb-ip",
+  "name": "Thumb Interphalangeal Joint",
+  "system": "http://snomed.info/sct",
+  "code": "115955008",
+  "display": "Structure of interphalangeal joint of thumb",
+  "score": 34
+ },
+ {
+  "entityType": "joint",
+  "slug": "thumb-mcp",
+  "name": "Thumb Metacarpophalangeal Joint",
+  "system": "http://snomed.info/sct",
+  "code": "56310002",
+  "display": "Structure of metacarpophalangeal joint structure of thumb",
+  "score": 34
+ },
+ {
+  "entityType": "joint",
+  "slug": "tibiofemoral",
+  "name": "Tibiofemoral Joint",
+  "system": "http://snomed.info/sct",
+  "code": "129159008",
+  "display": "Structure of femorotibial joint",
+  "score": 24
+ },
+ {
+  "entityType": "joint",
+  "slug": "toe-mtp",
+  "name": "Metatarsophalangeal Joints (Toes)",
+  "system": "http://snomed.info/sct",
+  "code": "228964002",
+  "display": "Structure of collateral ligaments of metatarsophalangeal joints",
+  "score": 12
+ }
+]
