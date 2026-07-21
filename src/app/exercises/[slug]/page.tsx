@@ -454,7 +454,6 @@ export default async function ExerciseDetailPage({ params }: { params: { slug: s
                   <EntityLink
                     key={eg.id}
                     href={`/goals/${eg.goal.slug}`}
-                    title={eg.caution ? `Caution: ${eg.caution}` : undefined}
                     className={
                       essential
                         ? "rounded-md border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-800 hover:bg-emerald-100 transition-colors"
