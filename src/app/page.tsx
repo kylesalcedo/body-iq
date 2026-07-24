@@ -183,7 +183,7 @@ function FeatureCard({ href, title, desc, children }: {
   return (
     <Link
       href={href}
-      className="group relative flex min-h-[196px] flex-col gap-2.5 rounded-[5px] border border-[#dcdcdc] bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-[#232121] hover:shadow-[0_10px_28px_-20px_rgba(0,0,0,.45)]"
+      className="group relative flex min-h-[172px] flex-col gap-2 rounded-[5px] border border-[#dcdcdc] bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-[#232121] hover:shadow-[0_10px_28px_-20px_rgba(0,0,0,.45)]"
     >
       {/* pixel-square node marker */}
       <span className="absolute left-4 top-0 h-[7px] w-[7px] -translate-y-1/2" style={{ background: STRONG, boxShadow: `0 0 0 3px ${GROUND}` }} aria-hidden />
@@ -217,10 +217,10 @@ export default async function Home() {
   ] as const;
 
   return (
-    <div className="mx-auto max-w-5xl px-2 py-8 sm:px-4">
+    <div className="mx-auto max-w-5xl px-2 py-6 sm:px-4">
       {/* hero — no brand repeat, leads with the value */}
-      <section className="mb-9 flex flex-col gap-3">
-        <h1 className="max-w-2xl text-balance text-[clamp(20px,3vw,27px)] font-semibold leading-snug tracking-tight" style={{ color: INK }}>
+      <section className="mb-6 flex flex-col gap-2.5">
+        <h1 className="text-[clamp(14px,2vw,18px)] font-semibold tracking-tight" style={{ color: INK }}>
           Anatomy, movement, and exercise as one evidence-backed graph.
         </h1>
         <div className="flex flex-wrap gap-x-5 gap-y-1 font-mono text-xs" style={{ color: SUB }}>
