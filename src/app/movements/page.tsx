@@ -1,95 +1,97 @@
 import { getMovementsGroupedByRegion } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
-import { EntityLink, PageHeader } from "@/components/ui-helpers";
+import { PageHeader, MetaNum, UI } from "@/components/ui-helpers";
+import Link from "next/link";
+
+// ROM scaled to 180° so ranges compare at a glance across every movement.
+function RomCell({ min, max, unit }: { min: number | null; max: number | null; unit: string | null }) {
+  if (max == null) {
+    return <span className="font-mono text-xs" style={{ color: "#bdbdbd" }}>—</span>;
+  }
+  const suffix = !unit || unit === "degrees" ? "°" : ` ${unit}`;
+  const pct = Math.max(3, Math.round((max / 180) * 100));
+  return (
+    <div>
+      <div className="font-mono text-[12.5px] font-bold tabular-nums" style={{ color: UI.ink }}>
+        {min ?? 0}–{max}{suffix}
+      </div>
+      <div className="mt-1 h-[5px] overflow-hidden rounded-sm" style={{ background: UI.fill }}>
+        <div className="h-full rounded-sm" style={{ width: `${pct}%`, background: UI.acc }} />
+      </div>
+    </div>
+  );
+}
 
 export default async function MovementsPage() {
   const regions = await getMovementsGroupedByRegion();
 
-  const totalMovements = regions.reduce(
-    (sum, r) => sum + r.joints.reduce((js, j) => js + j.movements.length, 0),
-    0
-  );
+  let total = 0;
+  let withRom = 0;
+  for (const r of regions) {
+    for (const j of r.joints) {
+      for (const m of j.movements) {
+        total++;
+        if ((m as any).aromMax != null) withRom++;
+      }
+    }
+  }
 
   return (
     <div>
-      <PageHeader
-        title="Movements"
-        subtitle={`${totalMovements} movements across ${regions.length} regions`}
-      />
+      <PageHeader title="Movements" subtitle={`${total} movements · ${withRom} with measured range · grouped by region`} />
 
-      <div className="space-y-8">
+      <div className="space-y-6">
         {regions.map((region) => {
-          const movementCount = region.joints.reduce((s, j) => s + j.movements.length, 0);
-          if (movementCount === 0) return null;
+          const movements = region.joints
+            .flatMap((j) => j.movements.map((m) => ({ ...m, jointName: j.name })))
+            .sort((a, b) => a.name.localeCompare(b.name));
+          if (movements.length === 0) return null;
 
           return (
             <section key={region.slug}>
-              {/* Region header */}
-              <div className="flex items-baseline gap-3 mb-4">
-                <EntityLink href={`/regions/${region.slug}`} className="no-underline">
-                  <h2 className="text-xl font-bold text-gray-900 hover:text-indigo-700 transition-colors">
-                    {region.name}
-                  </h2>
-                </EntityLink>
-                <span className="text-sm text-gray-400">
-                  {movementCount} movement{movementCount !== 1 ? "s" : ""}
-                </span>
+              <div className="mb-2 flex items-baseline gap-2.5">
+                <h2 className="text-sm font-bold tracking-tight" style={{ color: UI.ink }}>{region.name}</h2>
+                <span className="font-mono text-[11px]" style={{ color: UI.sub }}>{movements.length} movements</span>
               </div>
 
-              {/* Joints within region */}
-              <div className="space-y-4 ml-1">
-                {region.joints.map((joint) => {
-                  if (joint.movements.length === 0) return null;
-
-                  return (
-                    <div key={joint.slug} className="rounded-lg border border-gray-200 bg-white shadow-sm overflow-hidden">
-                      {/* Joint header */}
-                      <div className="bg-gray-50 border-b border-gray-200 px-5 py-3">
-                        <EntityLink href={`/joints/${joint.slug}`} className="no-underline">
-                          <h3 className="text-sm font-semibold text-gray-700 hover:text-indigo-700 transition-colors">
-                            {joint.name}
-                            <span className="ml-2 font-normal text-gray-400">
-                              {joint.movements.length} movement{joint.movements.length !== 1 ? "s" : ""}
-                            </span>
-                          </h3>
-                        </EntityLink>
-                      </div>
-
-                      {/* Movements list */}
-                      <div className="divide-y divide-gray-100">
-                        {joint.movements.map((m) => (
-                          <EntityLink
-                            key={m.slug}
-                            href={`/movements/${m.slug}`}
-                            className="block no-underline"
-                          >
-                            <div className="px-5 py-3 hover:bg-indigo-50/40 transition-colors">
-                              <div className="flex items-center justify-between">
-                                <div className="min-w-0">
-                                  <span className="text-sm font-medium text-gray-900">
-                                    {m.name}
-                                  </span>
-                                  <span className="ml-3 text-xs text-gray-400">
-                                    {m._count.muscles} muscle{m._count.muscles !== 1 ? "s" : ""}
-                                    {" · "}
-                                    {m._count.exercises} exercise{m._count.exercises !== 1 ? "s" : ""}
-                                  </span>
-                                </div>
-                                <div className="flex flex-shrink-0 gap-2 ml-4">
-                                  <StatusBadge status={m.status} />
-                                  <ConfidenceBadge confidence={m.confidence} />
-                                </div>
-                              </div>
-                              {m.plane && (
-                                <p className="mt-0.5 text-xs text-gray-400">{m.plane} plane</p>
-                              )}
-                            </div>
-                          </EntityLink>
-                        ))}
+              <div className="overflow-hidden rounded-lg border" style={{ borderColor: UI.line }}>
+                {movements.map((m, i) => (
+                  <Link
+                    key={m.slug}
+                    href={`/movements/${m.slug}`}
+                    className="flex items-center gap-4 px-4 py-2.5 transition-colors hover:bg-[#ededed]"
+                    style={{ borderTop: i === 0 ? undefined : `1px solid ${UI.line}` }}
+                  >
+                    {/* name + joint / plane */}
+                    <div className="min-w-0 flex-1">
+                      <div className="text-[13.5px] font-semibold" style={{ color: UI.ink }}>{m.name}</div>
+                      <div className="mt-0.5 flex items-center gap-2 font-mono text-[10.5px]" style={{ color: UI.sub }}>
+                        {m.plane && (
+                          <span className="rounded-[3px] border px-1.5 py-px uppercase tracking-wide" style={{ borderColor: UI.line }}>
+                            {m.plane}
+                          </span>
+                        )}
+                        <span className="truncate">{m.jointName}</span>
                       </div>
                     </div>
-                  );
-                })}
+
+                    {/* ROM — fixed width so every row's values align */}
+                    <div className="w-[128px] shrink-0">
+                      <RomCell min={(m as any).aromMin} max={(m as any).aromMax} unit={(m as any).romUnit} />
+                    </div>
+
+                    {/* counts */}
+                    <div className="hidden w-[168px] shrink-0 text-right font-mono text-[10.5px] sm:block" style={{ color: UI.sub }}>
+                      <MetaNum>{m._count.muscles}</MetaNum> muscles · <MetaNum>{m._count.exercises}</MetaNum> exercises
+                    </div>
+
+                    {/* status — fixed width so the ROM and count columns stay aligned across rows */}
+                    <div className="hidden w-[150px] shrink-0 md:flex md:justify-end md:gap-1.5">
+                      <StatusBadge status={m.status} />
+                      <ConfidenceBadge confidence={m.confidence} />
+                    </div>
+                  </Link>
+                ))}
               </div>
             </section>
           );

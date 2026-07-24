@@ -18,7 +18,7 @@ export default async function GoalsPage() {
 
   return (
     <div className="max-w-4xl">
-      <PageHeader title="Goals" subtitle="What do you want to work on? Find the exercises that get you there — rehab, performance, prevention, and mobility." />
+      <PageHeader title="Goals" subtitle={`${goals.length} goals · rehab, performance, prevention, mobility`} />
       <div className="space-y-8">
         {ORDER.filter((t) => byType[t]?.length).map((type) => {
           const meta = TYPE_META[type];
