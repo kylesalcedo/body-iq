@@ -1,6 +1,6 @@
 import { getRegions } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
-import { PageHeader, EntityCard, CardGrid, MetaNum } from "@/components/ui-helpers";
+import { PageHeader, ListContainer, EntityRow, MetaNum } from "@/components/ui-helpers";
 
 export default async function RegionsPage() {
   const regions = await getRegions();
@@ -8,18 +8,19 @@ export default async function RegionsPage() {
   return (
     <div>
       <PageHeader title="Regions" subtitle={`${regions.length} anatomical regions grouping their joints`} />
-      <CardGrid>
-        {regions.map((r) => (
-          <EntityCard
+      <ListContainer>
+        {regions.map((r, i) => (
+          <EntityRow
             key={r.slug}
+            first={i === 0}
             href={`/regions/${r.slug}`}
             title={r.name}
-            description={r.description}
+            sub={r.description ? <span className="line-clamp-1">{r.description}</span> : undefined}
             badges={<><StatusBadge status={r.status} /><ConfidenceBadge confidence={r.confidence} /></>}
             meta={<><MetaNum>{r._count.joints}</MetaNum> joints</>}
           />
         ))}
-      </CardGrid>
+      </ListContainer>
     </div>
   );
 }

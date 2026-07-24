@@ -73,53 +73,49 @@ export function PageHeader({
   );
 }
 
+// A bordered container that holds a stack of EntityRow items.
+export function ListContainer({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="overflow-hidden rounded-lg border" style={{ borderColor: UI.line }}>
+      {children}
+    </div>
+  );
+}
+
 /**
- * The one grid card used by every list-of-entities page (muscles, regions,
- * joints, tasks…). One size, one structure, one hover — kills the p-4/p-5,
- * text-lg/text-xl drift that made the pages feel unrelated.
- * The whole card is a single link, so nothing interactive nests inside it.
+ * One information row — the shared spec for every list page (muscles, regions,
+ * joints, tasks, exercises…). Two sections only: a flexible content column that
+ * shrinks/truncates, and a shrink-0 badge cluster. They can never overlap.
  */
-export function EntityCard({
+export function EntityRow({
   href,
   title,
-  description,
-  region,
+  sub,
   meta,
   badges,
+  first,
 }: {
   href: string;
   title: string;
-  description?: string | null;
-  region?: React.ReactNode;
+  sub?: React.ReactNode;
   meta?: React.ReactNode;
   badges?: React.ReactNode;
+  first?: boolean;
 }) {
   return (
     <Link
       href={href}
-      className="group relative flex min-h-[112px] flex-col gap-1.5 rounded-[5px] border border-[#e4e4e4] bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-[#232121] hover:shadow-[0_10px_28px_-20px_rgba(0,0,0,.45)]"
+      className="flex items-start gap-4 px-4 py-3 transition-colors hover:bg-[#ededed]"
+      style={{ borderTop: first ? undefined : `1px solid ${UI.line}` }}
     >
-      <span
-        className="absolute left-4 top-0 h-1.5 w-1.5 -translate-y-1/2"
-        style={{ background: "#000", boxShadow: `0 0 0 3px ${UI.ground}` }}
-        aria-hidden
-      />
-      <div className="flex items-start justify-between gap-3">
-        <h3 className="text-sm font-semibold group-hover:underline" style={{ color: UI.ink }}>{title}</h3>
-        {badges && <div className="flex flex-shrink-0 flex-wrap gap-1.5">{badges}</div>}
+      <div className="min-w-0 flex-1">
+        <div className="text-[13.5px] font-semibold" style={{ color: UI.ink }}>{title}</div>
+        {sub && <div className="mt-0.5 text-xs" style={{ color: UI.sub }}>{sub}</div>}
+        {meta && <div className="mt-1 font-mono text-[10.5px]" style={{ color: UI.sub }}>{meta}</div>}
       </div>
-      {region && <div className="text-xs" style={{ color: UI.sub }}>{region}</div>}
-      {description && (
-        <p className="line-clamp-2 text-[11.5px] leading-snug" style={{ color: UI.sub }}>{description}</p>
-      )}
-      {meta && <div className="mt-auto pt-1 font-mono text-[10.5px]" style={{ color: UI.sub }}>{meta}</div>}
+      {badges && <div className="flex flex-shrink-0 gap-1.5 pt-0.5">{badges}</div>}
     </Link>
   );
-}
-
-// A uniform responsive grid for EntityCard lists.
-export function CardGrid({ children }: { children: React.ReactNode }) {
-  return <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">{children}</div>;
 }
 
 // Emphasised number for mono meta lines ("12 muscles · 31 exercises").

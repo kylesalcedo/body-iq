@@ -62,7 +62,7 @@ export default async function MovementsPage() {
                     className="flex items-center gap-4 px-4 py-2.5 transition-colors hover:bg-[#ededed]"
                     style={{ borderTop: i === 0 ? undefined : `1px solid ${UI.line}` }}
                   >
-                    {/* name + joint / plane */}
+                    {/* name + plane / joint + counts — the only flexible column */}
                     <div className="min-w-0 flex-1">
                       <div className="text-[13.5px] font-semibold" style={{ color: UI.ink }}>{m.name}</div>
                       <div className="mt-0.5 flex items-center gap-2 font-mono text-[10.5px]" style={{ color: UI.sub }}>
@@ -73,20 +73,18 @@ export default async function MovementsPage() {
                         )}
                         <span className="truncate">{m.jointName}</span>
                       </div>
+                      <div className="mt-1 font-mono text-[10.5px]" style={{ color: UI.sub }}>
+                        <MetaNum>{m._count.muscles}</MetaNum> muscles · <MetaNum>{m._count.exercises}</MetaNum> exercises
+                      </div>
                     </div>
 
                     {/* ROM — fixed width so every row's values align */}
-                    <div className="w-[128px] shrink-0">
+                    <div className="w-[112px] shrink-0">
                       <RomCell min={(m as any).aromMin} max={(m as any).aromMax} unit={(m as any).romUnit} />
                     </div>
 
-                    {/* counts */}
-                    <div className="hidden w-[168px] shrink-0 text-right font-mono text-[10.5px] sm:block" style={{ color: UI.sub }}>
-                      <MetaNum>{m._count.muscles}</MetaNum> muscles · <MetaNum>{m._count.exercises}</MetaNum> exercises
-                    </div>
-
-                    {/* status — fixed width so the ROM and count columns stay aligned across rows */}
-                    <div className="hidden w-[150px] shrink-0 md:flex md:justify-end md:gap-1.5">
+                    {/* status — fixed width so the ROM column stays aligned across rows */}
+                    <div className="hidden w-[148px] shrink-0 sm:flex sm:justify-end sm:gap-1.5">
                       <StatusBadge status={m.status} />
                       <ConfidenceBadge confidence={m.confidence} />
                     </div>
