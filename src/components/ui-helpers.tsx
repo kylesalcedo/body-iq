@@ -66,7 +66,7 @@ export function PageHeader({
   return (
     <div className="mb-6">
       <h1 className="text-2xl font-bold tracking-tight" style={{ color: UI.ink }}>{title}</h1>
-      {subtitle && <p className="mt-1 font-mono text-xs" style={{ color: UI.sub }}>{subtitle}</p>}
+      {subtitle && <p className="mt-1 text-sm" style={{ color: UI.sub }}>{subtitle}</p>}
       {badges && <div className="mt-2 flex flex-wrap gap-2">{badges}</div>}
       <div className="mt-4 h-px" style={{ background: UI.line }} />
     </div>
@@ -111,7 +111,7 @@ export function EntityRow({
       <div className="min-w-0 flex-1">
         <div className="text-[13.5px] font-semibold" style={{ color: UI.ink }}>{title}</div>
         {sub && <div className="mt-0.5 text-xs" style={{ color: UI.sub }}>{sub}</div>}
-        {meta && <div className="mt-1 font-mono text-[10.5px]" style={{ color: UI.sub }}>{meta}</div>}
+        {meta && <div className="mt-1 text-xs" style={{ color: UI.sub }}>{meta}</div>}
       </div>
       {badges && <div className="flex flex-shrink-0 gap-1.5 pt-0.5">{badges}</div>}
     </Link>

@@ -6,13 +6,13 @@ import Link from "next/link";
 // ROM scaled to 180° so ranges compare at a glance across every movement.
 function RomCell({ min, max, unit }: { min: number | null; max: number | null; unit: string | null }) {
   if (max == null) {
-    return <span className="font-mono text-xs" style={{ color: "#bdbdbd" }}>—</span>;
+    return <span className="text-sm" style={{ color: "#bdbdbd" }}>—</span>;
   }
   const suffix = !unit || unit === "degrees" ? "°" : ` ${unit}`;
   const pct = Math.max(3, Math.round((max / 180) * 100));
   return (
     <div>
-      <div className="font-mono text-[12.5px] font-bold tabular-nums" style={{ color: UI.ink }}>
+      <div className="text-sm font-semibold tabular-nums" style={{ color: UI.ink }}>
         {min ?? 0}–{max}{suffix}
       </div>
       <div className="mt-1 h-[5px] overflow-hidden rounded-sm" style={{ background: UI.fill }}>
@@ -51,7 +51,7 @@ export default async function MovementsPage() {
             <section key={region.slug}>
               <div className="mb-2 flex items-baseline gap-2.5">
                 <h2 className="text-sm font-bold tracking-tight" style={{ color: UI.ink }}>{region.name}</h2>
-                <span className="font-mono text-[11px]" style={{ color: UI.sub }}>{movements.length} movements</span>
+                <span className="text-xs" style={{ color: UI.sub }}>{movements.length} movements</span>
               </div>
 
               <div className="overflow-hidden rounded-lg border" style={{ borderColor: UI.line }}>
@@ -59,32 +59,32 @@ export default async function MovementsPage() {
                   <Link
                     key={m.slug}
                     href={`/movements/${m.slug}`}
-                    className="flex items-center gap-4 px-4 py-2.5 transition-colors hover:bg-[#ededed]"
+                    className="flex items-center gap-8 px-4 py-2.5 transition-colors hover:bg-[#ededed]"
                     style={{ borderTop: i === 0 ? undefined : `1px solid ${UI.line}` }}
                   >
                     {/* name + plane / joint + counts — the only flexible column */}
                     <div className="min-w-0 flex-1">
-                      <div className="text-[13.5px] font-semibold" style={{ color: UI.ink }}>{m.name}</div>
-                      <div className="mt-0.5 flex items-center gap-2 font-mono text-[10.5px]" style={{ color: UI.sub }}>
+                      <div className="text-sm font-semibold" style={{ color: UI.ink }}>{m.name}</div>
+                      <div className="mt-0.5 flex items-center gap-2 text-xs" style={{ color: UI.sub }}>
                         {m.plane && (
-                          <span className="rounded-[3px] border px-1.5 py-px uppercase tracking-wide" style={{ borderColor: UI.line }}>
+                          <span className="rounded-[3px] border px-1.5 py-px text-[10px] uppercase tracking-wide" style={{ borderColor: UI.line }}>
                             {m.plane}
                           </span>
                         )}
                         <span className="truncate">{m.jointName}</span>
                       </div>
-                      <div className="mt-1 font-mono text-[10.5px]" style={{ color: UI.sub }}>
+                      <div className="mt-1 text-xs" style={{ color: UI.sub }}>
                         <MetaNum>{m._count.muscles}</MetaNum> muscles · <MetaNum>{m._count.exercises}</MetaNum> exercises
                       </div>
                     </div>
 
                     {/* ROM — fixed width so every row's values align */}
-                    <div className="w-[112px] shrink-0">
+                    <div className="w-[104px] shrink-0">
                       <RomCell min={(m as any).aromMin} max={(m as any).aromMax} unit={(m as any).romUnit} />
                     </div>
 
                     {/* status — fixed width so the ROM column stays aligned across rows */}
-                    <div className="hidden w-[148px] shrink-0 sm:flex sm:justify-end sm:gap-1.5">
+                    <div className="hidden w-[150px] shrink-0 justify-end gap-1.5 sm:flex">
                       <StatusBadge status={m.status} />
                       <ConfidenceBadge confidence={m.confidence} />
                     </div>
