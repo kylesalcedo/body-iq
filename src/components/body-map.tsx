@@ -175,8 +175,7 @@ export function BodyMap({ regions }: { regions: BodyMapRegion[] }) {
           ) : (
             // Default: a useful whole-body summary rather than a placeholder line.
             <div>
-              <h2 className="text-lg font-bold text-gray-900">The whole body</h2>
-              <dl className="mt-3 flex flex-wrap gap-x-8 gap-y-2 text-sm">
+              <dl className="flex flex-wrap gap-x-8 gap-y-2 text-sm">
                 <div>
                   <dt className="text-xs uppercase tracking-wide text-gray-400">Regions</dt>
                   <dd className="font-semibold text-gray-900">{regions.length}</dd>

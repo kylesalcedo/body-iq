@@ -5,7 +5,7 @@ import Link from "next/link";
 
 // Movement | Joint | Plane | Range | Muscles | Exercises | Status.
 // Same template on the header and every row → columns line up across the page.
-const COLS = "minmax(150px,2.2fr) minmax(120px,1.6fr) 78px 132px 74px 84px 150px";
+const COLS = "minmax(150px,2.2fr) minmax(120px,1.6fr) 78px 132px 74px 84px 104px 64px";
 
 // ROM scaled to 180° so ranges compare at a glance across every movement.
 function RomCell({ min, max, unit }: { min: number | null; max: number | null; unit: string | null }) {
@@ -28,14 +28,14 @@ export default async function MovementsPage() {
   let total = 0, withRom = 0;
   for (const r of regions) for (const j of r.joints) for (const m of j.movements) { total++; if ((m as any).aromMax != null) withRom++; }
 
-  const header = ["Movement", "Joint", "Plane", "Range", "Muscles", "Exercises", "Status"];
+  const header = ["Movement", "Joint", "Plane", "Range", "Muscles", "Exercises", "Status", "Confidence"];
 
   return (
     <div>
       <PageHeader title="Movements" subtitle={`${total} movements · ${withRom} with measured range · grouped by region`} />
 
       <div className="overflow-x-auto">
-        <div className="min-w-[850px]">
+        <div className="min-w-[900px]">
           {/* column headings */}
           <div className="grid items-end gap-3 px-3 pb-2 text-[10px] font-semibold uppercase tracking-wider" style={{ gridTemplateColumns: COLS, color: "#a3a3a3" }}>
             {header.map((h, i) => (
@@ -76,10 +76,8 @@ export default async function MovementsPage() {
                       <RomCell min={(m as any).aromMin} max={(m as any).aromMax} unit={(m as any).romUnit} />
                       <span className="text-right text-sm tabular-nums" style={{ color: UI.ink }}>{m._count.muscles}</span>
                       <span className="text-right text-sm tabular-nums" style={{ color: UI.ink }}>{m._count.exercises}</span>
-                      <span className="flex gap-1.5">
-                        <StatusBadge status={m.status} />
-                        <ConfidenceBadge confidence={m.confidence} />
-                      </span>
+                      <span><StatusBadge status={m.status} /></span>
+                      <span><ConfidenceBadge confidence={m.confidence} /></span>
                     </Link>
                   ))}
                 </div>

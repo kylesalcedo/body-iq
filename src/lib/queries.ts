@@ -44,7 +44,7 @@ export async function getJoints() {
   return prisma.joint.findMany({
     orderBy: { name: "asc" },
     include: {
-      region: { select: { slug: true, name: true } },
+      region: { select: { slug: true, name: true, sortOrder: true } },
       _count: { select: { movements: true } },
     },
   });
