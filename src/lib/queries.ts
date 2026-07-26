@@ -126,11 +126,31 @@ export async function getMovement(slug: string) {
 // ─── Muscles ─────────────────────────────────────────────────────────────────
 
 export async function getMuscles() {
-  return prisma.muscle.findMany({
+  const muscles = await prisma.muscle.findMany({
     orderBy: { name: "asc" },
     include: {
       _count: { select: { movements: true, exercises: true } },
+      // reach each muscle's region(s) via the movements it drives
+      movements: {
+        select: { movement: { select: { joint: { select: { region: { select: { slug: true, name: true, sortOrder: true } } } } } } },
+      },
     },
+  });
+
+  // Derive a primary region per muscle = the region it acts on most often.
+  return muscles.map((m) => {
+    const tally = new Map<string, { slug: string; name: string; sortOrder: number; n: number }>();
+    for (const mm of m.movements) {
+      const r = mm.movement.joint?.region;
+      if (!r) continue;
+      const e = tally.get(r.slug) ?? { slug: r.slug, name: r.name, sortOrder: r.sortOrder, n: 0 };
+      e.n += 1;
+      tally.set(r.slug, e);
+    }
+    const region =
+      [...tally.values()].sort((a, b) => b.n - a.n || a.sortOrder - b.sortOrder)[0] ?? null;
+    const { movements: _movements, ...rest } = m;
+    return { ...rest, region: region ? { slug: region.slug, name: region.name, sortOrder: region.sortOrder } : null };
   });
 }
 
