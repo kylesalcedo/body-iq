@@ -1,20 +1,20 @@
 import { getMovementsGroupedByRegion } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge } from "@/components/badges";
-import { PageHeader, MetaNum, UI } from "@/components/ui-helpers";
+import { PageHeader, UI } from "@/components/ui-helpers";
 import Link from "next/link";
+
+// Movement | Joint | Plane | Range | Muscles | Exercises | Status.
+// Same template on the header and every row → columns line up across the page.
+const COLS = "minmax(150px,2.2fr) minmax(120px,1.6fr) 78px 132px 74px 84px 150px";
 
 // ROM scaled to 180° so ranges compare at a glance across every movement.
 function RomCell({ min, max, unit }: { min: number | null; max: number | null; unit: string | null }) {
-  if (max == null) {
-    return <span className="text-sm" style={{ color: "#bdbdbd" }}>—</span>;
-  }
+  if (max == null) return <span className="text-sm" style={{ color: "#bdbdbd" }}>—</span>;
   const suffix = !unit || unit === "degrees" ? "°" : ` ${unit}`;
   const pct = Math.max(3, Math.round((max / 180) * 100));
   return (
     <div>
-      <div className="text-sm font-semibold tabular-nums" style={{ color: UI.ink }}>
-        {min ?? 0}–{max}{suffix}
-      </div>
+      <div className="text-sm font-semibold tabular-nums" style={{ color: UI.ink }}>{min ?? 0}–{max}{suffix}</div>
       <div className="mt-1 h-[5px] overflow-hidden rounded-sm" style={{ background: UI.fill }}>
         <div className="h-full rounded-sm" style={{ width: `${pct}%`, background: UI.acc }} />
       </div>
@@ -25,75 +25,68 @@ function RomCell({ min, max, unit }: { min: number | null; max: number | null; u
 export default async function MovementsPage() {
   const regions = await getMovementsGroupedByRegion();
 
-  let total = 0;
-  let withRom = 0;
-  for (const r of regions) {
-    for (const j of r.joints) {
-      for (const m of j.movements) {
-        total++;
-        if ((m as any).aromMax != null) withRom++;
-      }
-    }
-  }
+  let total = 0, withRom = 0;
+  for (const r of regions) for (const j of r.joints) for (const m of j.movements) { total++; if ((m as any).aromMax != null) withRom++; }
+
+  const header = ["Movement", "Joint", "Plane", "Range", "Muscles", "Exercises", "Status"];
 
   return (
     <div>
       <PageHeader title="Movements" subtitle={`${total} movements · ${withRom} with measured range · grouped by region`} />
 
-      <div className="space-y-6">
-        {regions.map((region) => {
-          const movements = region.joints
-            .flatMap((j) => j.movements.map((m) => ({ ...m, jointName: j.name })))
-            .sort((a, b) => a.name.localeCompare(b.name));
-          if (movements.length === 0) return null;
+      <div className="overflow-x-auto">
+        <div className="min-w-[850px]">
+          {/* column headings */}
+          <div className="grid items-end gap-3 px-3 pb-2 text-[10px] font-semibold uppercase tracking-wider" style={{ gridTemplateColumns: COLS, color: "#a3a3a3" }}>
+            {header.map((h, i) => (
+              <div key={h} className={i === 4 || i === 5 ? "text-right" : ""}>{h}</div>
+            ))}
+          </div>
 
-          return (
-            <section key={region.slug}>
-              <div className="mb-2 flex items-baseline gap-2.5">
-                <h2 className="text-sm font-bold tracking-tight" style={{ color: UI.ink }}>{region.name}</h2>
-                <span className="text-xs" style={{ color: UI.sub }}>{movements.length} movements</span>
-              </div>
+          <div className="overflow-hidden rounded-lg border" style={{ borderColor: UI.line }}>
+            {regions.map((region) => {
+              const movements = region.joints
+                .flatMap((j) => j.movements.map((m) => ({ ...m, jointName: j.name })))
+                .sort((a, b) => a.name.localeCompare(b.name));
+              if (movements.length === 0) return null;
 
-              <div className="overflow-hidden rounded-lg border" style={{ borderColor: UI.line }}>
-                {movements.map((m, i) => (
-                  <Link
-                    key={m.slug}
-                    href={`/movements/${m.slug}`}
-                    className="flex items-center gap-8 px-4 py-2.5 transition-colors hover:bg-[#ededed]"
-                    style={{ borderTop: i === 0 ? undefined : `1px solid ${UI.line}` }}
-                  >
-                    {/* name + plane / joint + counts — the only flexible column */}
-                    <div className="min-w-0 flex-1">
-                      <div className="text-sm font-semibold" style={{ color: UI.ink }}>{m.name}</div>
-                      <div className="mt-0.5 flex items-center gap-2 text-xs" style={{ color: UI.sub }}>
+              return (
+                <div key={region.slug}>
+                  <div className="flex items-baseline gap-2.5 border-t px-3 py-1.5" style={{ borderColor: UI.line, background: "#f7f7f7" }}>
+                    <h2 className="text-xs font-bold tracking-tight" style={{ color: UI.ink }}>{region.name}</h2>
+                    <span className="text-[11px]" style={{ color: UI.sub }}>{movements.length} movements</span>
+                  </div>
+
+                  {movements.map((m) => (
+                    <Link
+                      key={m.slug}
+                      href={`/movements/${m.slug}`}
+                      className="group grid items-center gap-3 border-t px-3 py-2.5 transition-colors hover:bg-[#ededed]"
+                      style={{ gridTemplateColumns: COLS, borderColor: UI.line }}
+                    >
+                      <span className="truncate text-sm font-semibold group-hover:underline" style={{ color: UI.ink }}>{m.name}</span>
+                      <span className="truncate text-xs" style={{ color: UI.sub }}>{m.jointName}</span>
+                      <span>
                         {m.plane && (
-                          <span className="rounded-[3px] border px-1.5 py-px text-[10px] uppercase tracking-wide" style={{ borderColor: UI.line }}>
+                          <span className="rounded-[3px] border px-1.5 py-px text-[10px] uppercase tracking-wide" style={{ borderColor: UI.line, color: UI.sub }}>
                             {m.plane}
                           </span>
                         )}
-                        <span className="truncate">{m.jointName}</span>
-                      </div>
-                      <div className="mt-1 text-xs" style={{ color: UI.sub }}>
-                        <MetaNum>{m._count.muscles}</MetaNum> muscles · <MetaNum>{m._count.exercises}</MetaNum> exercises
-                      </div>
-                    </div>
-
-                    {/* ROM — fixed width so every row's values align */}
-                    <div className="w-[104px] shrink-0">
+                      </span>
                       <RomCell min={(m as any).aromMin} max={(m as any).aromMax} unit={(m as any).romUnit} />
-                    </div>
-
-                    {/* status — fixed width so the ROM column stays aligned across rows */}
-                    <div className="hidden w-[150px] shrink-0 justify-end gap-1.5 sm:flex">
-                      <StatusBadge status={m.status} />
-                      <ConfidenceBadge confidence={m.confidence} />
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          );
-        })}
+                      <span className="text-right text-sm tabular-nums" style={{ color: UI.ink }}>{m._count.muscles}</span>
+                      <span className="text-right text-sm tabular-nums" style={{ color: UI.ink }}>{m._count.exercises}</span>
+                      <span className="flex gap-1.5">
+                        <StatusBadge status={m.status} />
+                        <ConfidenceBadge confidence={m.confidence} />
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
