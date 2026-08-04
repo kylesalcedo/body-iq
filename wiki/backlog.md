@@ -14,7 +14,7 @@ open questions.
 
 ---
 
-## 4. Versioned public dataset export
+## 4. Versioned public dataset export  ✅ DONE (2026-08-04)
 
 **What.** Publish the knowledge graph as a downloadable, versioned artifact
 (JSON bundle + SQLite file) under a clear data license, attached to GitHub

@@ -25,7 +25,8 @@
     "score": "tsx scripts/score-exercises.ts",
     "ingest:citations": "tsx scripts/ingest-citations.ts",
     "citations:sync": "tsx scripts/ingest-citations.ts --apply && tsx scripts/score-exercises.ts --promote",
-    "validate:agent": "tsx scripts/validate-agent.ts"
+    "validate:agent": "tsx scripts/validate-agent.ts",
+    "export:dataset": "tsx scripts/export-dataset.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",

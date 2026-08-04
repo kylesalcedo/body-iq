@@ -1,0 +1,62 @@
+name: Publish dataset on release
+
+# On a version tag (v*), regenerate the full knowledge-graph dataset from a
+# freshly-seeded database and attach it to the GitHub Release, so every tagged
+# version ships a pinnable, Postgres-free data bundle (JSON + SQLite + schema).
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  dataset:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: bodyiq
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s --health-timeout 5s --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/bodyiq?schema=public
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm db:generate
+      - run: pnpm db:push
+      - run: pnpm db:seed
+
+      - name: Export dataset
+        run: pnpm export:dataset
+
+      - name: Package
+        run: |
+          cd exports/dataset
+          zip -j "../../body-iq-dataset.zip" body-iq-dataset.json manifest.json body-iq-dataset.schema.json body-iq.sql README.md
+
+      - name: Attach to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            body-iq-dataset.zip
+            exports/dataset/body-iq-dataset.json
+            exports/dataset/body-iq.sql
+            exports/dataset/manifest.json
