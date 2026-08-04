@@ -249,6 +249,7 @@ model Exercise {
   videos      ExerciseVideo[]
   gaitPhases  ExerciseGaitPhase[]
   tags        TagOnEntity[]
+  reviews     ReviewAction[]
   sources     SourceOnEntity[]
   codes       EntityCode[]
   // Difficulty-graph back-edges (this exercise is the target of another's progression/regression)
@@ -544,4 +545,46 @@ model TagOnEntity {
 
   @@index([entityType])
   @@index([tagId])
+}
+
+// ─── Clinician sign-off (feature 6) ──────────────────────────────────────────
+// A verified clinician who can move exercises reviewed → verified. Credentials
+// (NPI, legal name, email) are PRIVATE — used only for verification. What shows
+// publicly is controlled by `visibility`: nothing, an alias, or the real name.
+
+enum ReviewerVisibility {
+  private // never shown publicly — appears only as "Verified <profession>"
+  alias   // shown by a chosen handle (pseudonymous)
+  named   // shown by real name + credential (for credibility)
+}
+
+model Reviewer {
+  id           String             @id @default(cuid())
+  // Private — verification & identity only, never rendered publicly.
+  npi          String             @unique
+  taxonomy     String             // NPPES taxonomy, e.g. "Physical Therapist"
+  taxonomyCode String
+  credential   String?            // e.g. "PT, DPT"
+  legalName    String             // from NPPES
+  email        String?            @unique
+  // Public presentation (opt-in).
+  visibility   ReviewerVisibility @default(private)
+  alias        String?            @unique // leaderboard handle
+  reviewCount  Int                @default(0)
+  createdAt    DateTime           @default(now())
+  actions      ReviewAction[]
+}
+
+model ReviewAction {
+  id         String   @id @default(cuid())
+  action     String   // "verify" | "request_changes" | "dispute"
+  note       String?
+  createdAt  DateTime @default(now())
+  reviewerId String
+  reviewer   Reviewer @relation(fields: [reviewerId], references: [id], onDelete: Cascade)
+  exerciseId String
+  exercise   Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([exerciseId])
+  @@index([reviewerId])
 }
