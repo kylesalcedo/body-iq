@@ -11,10 +11,7 @@ export default async function BodyMapPage() {
 
   return (
     <div>
-      <PageHeader
-        title="Body Map"
-        subtitle="Explore the body region by region — click a marker to dive into its joints, movements, and exercises"
-      />
+      <PageHeader title="Body Map" subtitle="Explore the body by region." />
       <BodyMap regions={regions} />
     </div>
   );

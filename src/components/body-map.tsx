@@ -48,9 +48,10 @@ const HOTSPOTS: Record<string, Hotspot[]> = {
 
 export function BodyMap({ regions }: { regions: BodyMapRegion[] }) {
   const router = useRouter();
-  // Selection is sticky: hover/focus previews a region in the panel and stays.
-  // No clear-on-leave, so moving the pointer across markers never flashes an
-  // empty panel. Clicking a marker navigates to the region (same as the text).
+  // Hover/focus previews a region in the panel. Leaving the figure or the list
+  // clears it back to the whole-body summary, so an idle map always shows the
+  // general totals rather than whichever region was last touched. Sweeping
+  // across markers stays smooth because the clear only fires on container-leave.
   const [selected, setSelected] = useState<string | null>(null);
 
   const bySlug = new Map(regions.map((r) => [r.slug, r]));
@@ -74,6 +75,7 @@ export function BodyMap({ regions }: { regions: BodyMapRegion[] }) {
           className="mx-auto h-auto w-full max-w-[320px]"
           role="img"
           aria-label="Interactive anatomical body map"
+          onMouseLeave={() => setSelected(null)}
         >
           {/* Silhouette */}
           <g fill="#e5e7eb" stroke="#d1d5db" strokeWidth={1}>
@@ -136,9 +138,6 @@ export function BodyMap({ regions }: { regions: BodyMapRegion[] }) {
             );
           })}
         </svg>
-        <p className="mt-2 text-center text-xs text-gray-400">
-          Hover a marker to preview · click to open the region
-        </p>
       </div>
 
       {/* ── Detail panel + region list ── */}
@@ -200,7 +199,7 @@ export function BodyMap({ regions }: { regions: BodyMapRegion[] }) {
         </div>
 
         {/* Full region list — keyboard/touch fallback for the SVG hotspots */}
-        <div className="grid gap-2 sm:grid-cols-2">
+        <div className="flex flex-col gap-2" onMouseLeave={() => setSelected(null)}>
           {regions.map((r) => (
             <Link
               key={r.slug}
