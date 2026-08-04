@@ -31,6 +31,7 @@ import { seedFunctionalTasksExpansionExtension } from "./extensions/functional-t
 import { seedFunctionalTaskLinksExtension } from "./extensions/functional-task-links";
 import { seedGoalsTaxonomyExtension } from "./extensions/goals-taxonomy";
 import { seedGoalLinksExtension } from "./extensions/goal-links";
+import { seedDataIntegrityExtension } from "./extensions/data-integrity";
 import { seedApplyAuditExtension } from "./extensions/apply-audit";
 
 async function main() {
@@ -80,6 +81,7 @@ async function main() {
   await seedFunctionalTaskLinksExtension();
   await seedGoalsTaxonomyExtension();
   await seedGoalLinksExtension();
+  await seedDataIntegrityExtension();
   await seedApplyAuditExtension(); // LAST: survives reg/prog recreation above
 
   // Summary
