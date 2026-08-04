@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.3.0 — Engine for other apps (2026-08)
+
+Body IQ becomes consumable three ways, no consumer database required.
+
+### Added
+- **Versioned dataset export** (`pnpm export:dataset`) — the whole graph as a
+  normalized JSON bundle + SQLite-loadable dump + JSON-Schema contract + manifest;
+  auto-published to every version-tag GitHub Release.
+- **MCP server** (`pnpm mcp`) — dataset-backed, 7 tools returning validation
+  metadata; usable in any MCP client with no API-client code.
+- **API detail routes** for muscles / regions / joints; the /api-docs explorer now
+  lists the full (additive) surface.
+
+### Fixed
+- Data-integrity pass: prime movers for the 5 orphan movements, ROM for 9 more
+  (56 → 65 of 74), and the dip exercise↔joint slug collision (now parallel-bar-dip).
+
+### Notes
+- No breaking changes to the frozen v1 API contract. Follows the Next 16 / React 19
+  upgrade and the app-wide UI consistency work since 0.2.1.
+
 ## 0.2.1 — Framework upgrade & security (2026-07)
 
 - Upgraded Next.js 14.2.35 → 16, React 18 → 19, ESLint 8 → 9.

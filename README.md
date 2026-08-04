@@ -1,256 +1,160 @@
 # Body IQ — Movement Knowledge Engine
 
-A validation-first biomechanics and physical therapy knowledge system that structures movement knowledge into a queryable, reviewable knowledge graph.
+A validation-first biomechanics and physical-therapy **knowledge engine** — the
+movement chain modeled as a queryable, reviewable knowledge graph, built to
+*fuel other anatomy/PT applications*, not just to be browsed.
 
-## What It Does
+Consume it three ways, none of which need a database on the consumer's side: a
+**REST API**, a **versioned dataset bundle** (JSON + SQLite), and an **MCP
+server** for agents. Every entity carries validation metadata so downstream
+tools can reason about trust.
 
-Models the full biomechanics chain:
+## What it models
 
-**Region → Joint → Movement → Muscle (O/I/A/N/B) → Functional Task → Exercise (cues, regressions, progressions) → Evidence**
+**Region → Joint → Movement → Muscle (O/I/A/N/B) → Functional Task → Goal → Exercise (cues, dosing, positions, progressions) → Evidence**
 
-Every entity carries validation metadata (status, confidence, sources, editorial notes). Muscle-movement and muscle-exercise relationships are **weighted by role** (primary, secondary, stabilizer, synergist).
+Muscle↔movement and muscle↔exercise links are **weighted by role** (primary /
+secondary / stabilizer / synergist / lengthening / common-association). Every
+entity carries `status`, `confidence`, and sources; exercises also carry an
+automated `qualityScore` with a per-validator breakdown.
 
-## Quick Start
+## Knowledge graph (live counts)
 
-### Prerequisites
+| Entity | Count | | Links | Count |
+|---|---|---|---|---|
+| Regions | 11 | | Movement↔muscle | 315 |
+| Joints | 26 | | Exercise↔muscle | 2,027 |
+| Movements | 74 (65 with ROM) | | Cues | 1,097 |
+| Muscles | 107 (100% O/I/A/N/B) | | Regressions / progressions | 484 / 484 |
+| Functional tasks | 26 | | Exercise↔goal | 605 |
+| Goals (rehab/perf/prevention/mobility) | 37 | | Source attachments | 1,322 |
+| Exercises | 305 (all scored) | | SNOMED CT codes | 128 |
+| Research sources | 435 (334 PMID · 281 DOI) | | | |
 
-- Node.js 18+
-- PostgreSQL 14+ (running on localhost:5432)
-- pnpm
+## Consuming the engine
 
-### Setup
+### REST API
+JSON endpoints; interactive docs + "Try it" at `/api-docs`.
+
+| Endpoint | Description |
+|---|---|
+| `GET /api/stats`, `GET /api/search?q=` | Graph stats · cross-type search |
+| `GET /api/exercises` · `/exercises/:slug` · `/exercises/filters` | Filter, detail, facets |
+| `GET /api/exercises/:slug/fhir` | Live **FHIR R4 ActivityDefinition** |
+| `GET /api/muscles` · `/muscles/:slug` | List · full attachment anatomy + what it drives |
+| `GET /api/movements` · `/movements/:slug` | List (with ROM) · detail |
+| `GET /api/joints` · `/joints/:slug`, `/regions` · `/regions/:slug` | Anatomy detail (with SNOMED codes) |
+| `GET /api/goals` · `/goals/:slug`, `/tasks` · `/tasks/:slug` | Goals & functional tasks + their exercises |
+| `GET /api/sources` | Sources with fulltext/PDF filtering (`?format=rag` for ingestion) |
+
+The seven original routes are frozen as the v1 contract (`docs/api-v1.md`); the rest are additive.
+
+### Versioned dataset bundle — no Postgres required
+```bash
+pnpm export:dataset   # → exports/dataset/
+```
+Emits the whole graph as a normalized **JSON** bundle, a **SQLite-loadable dump**
+(`sqlite3 body-iq.db < body-iq.sql`), a **JSON-Schema contract**, and a manifest
+(version, git SHA, counts). Every version tag publishes it to a GitHub Release,
+so consumers pin a version and build without standing up a database.
+
+### MCP server — the graph as agent tools
+```bash
+pnpm mcp
+```
+A dataset-backed [Model Context Protocol server](mcp/README.md) exposing tools
+(`find_exercises`, `get_exercise`, `get_muscle`, `get_movement`, `find_by_goal`,
+`search`, `dataset_info`), each returning validation metadata. Drop the config
+snippet from `mcp/README.md` into any MCP client to query the graph in natural
+language — no API-client code.
+
+## Quick start
+
+**Prerequisites:** Node 20+, PostgreSQL 14+, pnpm.
 
 ```bash
-# Install dependencies
 pnpm install
-
-# Copy environment file and configure DATABASE_URL
-cp .env.example .env
-# Edit .env with your PostgreSQL connection string if different from default
-
-# Push schema to database
-pnpm db:push
-
-# Seed the knowledge graph
-pnpm db:seed
-
-# Start the dev server
-pnpm dev
+cp .env.example .env        # set DATABASE_URL
+pnpm db:push                # push schema
+pnpm db:seed                # seed the graph (idempotent)
+pnpm dev                    # explorer at localhost:3000
 ```
-
-Open [http://localhost:3000](http://localhost:3000) to view the explorer.
 
 ## Stack
 
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **ORM:** Prisma
-- **Database:** PostgreSQL
-- **Validation:** Zod
-- **Package Manager:** pnpm
-
-## Knowledge Graph
-
-### Seed Data Counts
-
-| Entity | Count |
-|--------|-------|
-| Regions | 10 |
-| Joints | 24 |
-| Movements | 66 |
-| Muscles | 107 |
-| Movement–Muscle Links | 301 |
-| Functional Tasks | 19 |
-| Exercises | 117 |
-| Exercise–Muscle Links | 466 |
-| Exercise–Movement Links | 287 |
-| Cues | 428 |
-| Regressions | 181 |
-| Progressions | 202 |
-| Research Sources | 309 |
-| Source–Entity Links | 765 |
-
-### Research Sources & Evidence
-
-- **309 research sources** — journal articles, systematic reviews, clinical practice guidelines, and textbooks
-- **274 with DOIs**, **192 with PubMed IDs**, **86 with PMC IDs**
-- **111 free fulltext articles** with direct links (86 with PDF URLs)
-- Sources resolved via PubMed, CrossRef, and Europe PMC APIs
-- Re-run resolution: `npx tsx scripts/resolve-sources.ts`
-
-### Regions Covered
-
-Cervical Spine, Thoracic Spine, Shoulder, Elbow, Wrist, Hand, Lumbar Spine, Hip, Knee, Ankle
-
-### Evidence-Based Exercise Coverage
-
-117 exercises across all 10 regions, each with research-backed muscle activation data, dosing recommendations, cues, regressions, progressions, and evidence notes with citations. Sources span 309 peer-reviewed references (1980–2026).
-
-### Muscle Role Weighting
-
-Every movement-muscle and exercise-muscle relationship includes a role:
-
-- **Primary** — main mover for this action
-- **Secondary** — significant contributor
-- **Stabilizer** — stabilizes the joint during the action
-- **Synergist** — assists the primary mover
-- **Common Association** — frequently associated but not a direct mover
+Next.js 16 (App Router) · React 19 · TypeScript · Prisma · PostgreSQL · Tailwind ·
+Zod · pnpm. Zero dependency vulnerabilities. Details in [`wiki/stack.md`](wiki/stack.md).
 
 ## Explorer UI
 
-The web explorer provides:
-
-- **Dashboard** — counts for all entity types with quick navigation
-- **Body Map** — interactive anatomical figure; click a region to explore its joints, movements, and exercises
-- **Progression Ladders** — every exercise flanked by its regressions (easier) and progressions (harder), with in-library steps linked
-- **Coverage Heatmap** — muscle- and movement-level exercise coverage, surfacing gaps at a glance
-- **Entity list pages** — all entity types with status badges and confidence indicators
-- **Entity detail pages** — full anatomy (O/I/A/N/B), weighted muscle roles, related entities, sources
-- **Exercise Finder** — filter by region, joint, movement, muscle, functional task, role, status, confidence
-- **Sources** — filter by free fulltext / PDF available, with direct download links
-- **Validation Queue** — lists draft items, low confidence entries, items flagged for review
-- **API Reference** — interactive API docs with live "Try it" explorer
-- **Global Search** — search across all entity types with debounced instant results
-- **Sidebar Navigation** — Regions, Joints, Movements, Muscles, Tasks, Exercises, Sources, API Reference, Validation Queue
-
-## API
-
-All endpoints return JSON. Interactive docs at [/api-docs](http://localhost:3000/api-docs).
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/stats` | Knowledge graph statistics |
-| `GET /api/search?q=` | Search across all entity types |
-| `GET /api/exercises` | List/filter exercises (region, muscle, movement, task, role, status, confidence) |
-| `GET /api/exercises/:slug` | Full exercise detail with muscles, movements, cues, sources |
-| `GET /api/exercises/filters` | Available filter options |
-| `GET /api/muscles` | List/search muscles |
-| `GET /api/sources` | Sources with fulltext/PDF filtering |
-
-### RAG Integration
-
-Get all sources with free PDF links for RAG ingestion:
-
-```
-GET /api/sources?filter=pdf&format=rag
-```
-
-Returns 75 sources with direct PMC PDF URLs, minimal payload (slug, title, authors, year, journal, doi, pmid, pmcid, fulltextUrl, pdfUrl).
+Landing feature grid · **Body Map** (interactive figure) · **Progression
+Ladders** (aligned easier→base→harder) · **Coverage Heatmap** · **Exercise
+Finder** · **Goals** · anatomy list/detail pages (columnar tables, region
+grouping) · **Data Model** (`/schema`) · **Validation Queue** · **API
+Reference**. The whole explorer also builds as a static GitHub Pages demo.
 
 ## Scripts
 
 ```bash
-pnpm dev              # Start dev server
-pnpm build            # Production build
-pnpm db:push          # Push Prisma schema to database
-pnpm db:seed          # Seed the knowledge graph (idempotent)
-pnpm db:studio        # Open Prisma Studio
-pnpm db:generate      # Regenerate Prisma client
-pnpm validate:schemas # Run Zod schema validation tests
-pnpm data:quality     # Run data quality checks
+pnpm dev / build            # dev server / production build (also the typecheck gate)
+pnpm db:push / db:seed      # schema / seed (idempotent)
+pnpm export:dataset         # versioned JSON + SQLite + schema bundle
+pnpm export:fhir            # FHIR R4 ActivityDefinition export
+pnpm mcp                    # dataset-backed MCP server
+pnpm score [--promote]      # multi-validator exercise quality scoring
+pnpm data:quality           # data-integrity checks
+pnpm cue:audit              # coaching-cue quality audit
+pnpm ingest:citations       # parse evidence-tool responses into sources
 ```
 
-### Source Resolution
+## Data pipeline & conventions
 
-```bash
-# Resolve DOIs, PMIDs, PMC IDs, and free fulltext URLs for all sources
-npx tsx scripts/resolve-sources.ts
-```
+- **New content flows through seed extensions** under `prisma/seed/extensions/`
+  (idempotent upserts, wired into `seed.ts`), not by editing the database.
+- **Don't break the v1 API contract** — documented fields are never renamed or
+  removed on v1; breaking changes go to `/api/v2`. See `docs/api-v1.md`.
+- **Confidence and evidence are not decoration** — follow the rubric; if unsure,
+  score low. Content is *educational* framing (anatomy, movement, evidence), not
+  diagnosis or treatment prescription.
 
-Uses PubMed, CrossRef, and Europe PMC APIs (no auth required). Results cached in `scripts/resolved-sources.json`.
+Agents and contributors should read [`CLAUDE.md`](CLAUDE.md) first.
 
-## Adding New Exercises
+## Validation framework
 
-The standard workflow for adding exercises:
+Every entity climbs a status ladder: `draft → needs_review → reviewed →
+verified` (or `disputed`). Exercises also carry a composite `qualityScore`
+(evidence 30 / coherence 30 / completeness 25 / review rigor 15) written by
+`pnpm score`; the coherence validator cross-checks that an exercise's primary
+muscles actually produce its linked movements. `pnpm data:quality` catches
+structural issues (orphans, missing sources, slug collisions).
 
-1. **Create a research prompt** in `prompts/` listing the exercises with specific questions about EMG data, dosing, clinical indications, and citations
-2. **Run the prompt** through a clinical evidence tool
-3. **Save the response** in `research/` for reference
-4. **Add exercises** to `prisma/seed/exercises.ts` following the existing format (slug, name, description, muscles, movements, cues, regressions, progressions, sources)
-5. **Add new sources** to `prisma/seed/sources.ts` with citation metadata
-6. **Resolve source identifiers**: `npx tsx scripts/resolve-sources.ts` — fetches DOIs, PMIDs, PMC IDs, and free fulltext/PDF links
-7. **Merge resolved data** back into sources.ts: `npx tsx scripts/merge-resolved-sources.ts`
-8. **Seed the database**: `pnpm db:seed`
-9. **Verify** in the explorer UI and update README counts
+## Interoperability
 
-Each exercise should include:
-- Target muscles with roles (primary, secondary, stabilizer)
-- Evidence-based dosing from RCTs or systematic reviews
-- 3-5 coaching cues
-- At least 2 regressions and 2 progressions
-- Linked research sources with citations
+- **FHIR R4** — every exercise renders as an `ActivityDefinition` (live route +
+  batch `export:fhir`).
+- **SNOMED CT** — 128 muscle/joint body-structure codes, fetched and verified
+  against a live terminology server (not generated), flowing into the FHIR
+  `bodySite` and muscle-involvement extensions.
 
-## Data Quality Checks
+## Documentation & wiki
 
-The `pnpm data:quality` script detects:
+Institutional memory lives in [`wiki/`](wiki/index.md) — the *why* and *how*
+behind the graph (modeling decisions, the content pipeline, the API contract),
+kept separate from the domain data. Start at
+[`wiki/overview.md`](wiki/overview.md); the wiki's own rules are in
+[`WIKI.md`](WIKI.md). Backlog and shipped work are tracked in
+[`wiki/backlog.md`](wiki/backlog.md).
 
-- Orphan movements (no muscle associations)
-- Orphan muscles (no movement or exercise associations)
-- Exercises without cues
-- Exercises without regressions/progressions
-- Entities missing research sources
-- Low confidence entries (< 50%)
-- Cross-type slug collisions
-
-## Validation Framework
-
-Every entity supports a 4-layer validation model:
-
-1. **Structural** — schema constraints, FK integrity, required fields
-2. **Editorial** — human reviewer judgment on accuracy and usefulness
-3. **Evidence** — linked research sources with confidence scoring
-4. **Product** — data completeness for downstream use (validation queue)
-
-Entity statuses: `draft` → `needs_review` → `reviewed` → `verified` (or `disputed`)
-
-## Documentation & Wiki
-
-Project **institutional memory** lives in [`wiki/`](wiki/index.md) — the *why*
-and *how* behind the graph (modeling decisions, the content pipeline, the API
-contract), kept separate from the domain data, which is the database's job.
-Start at [`wiki/overview.md`](wiki/overview.md). Agents and contributors should
-read [`CLAUDE.md`](CLAUDE.md) first; the wiki's own schema and rules are in
-[`WIKI.md`](WIKI.md). Planned features (dataset export, MCP server, stack
-builder, explainability view) are tracked in [`wiki/backlog.md`](wiki/backlog.md).
-
-## Project Structure
+## Repo map
 
 ```
-├── prisma/
-│   ├── schema.prisma          # Database schema
-│   └── seed/                  # Seed data scripts
-│       ├── seed.ts            # Orchestrator
-│       ├── regions.ts         # 10 anatomical regions
-│       ├── joints.ts          # 24 joints
-│       ├── movements.ts       # 66 movements
-│       ├── muscles.ts         # 107 muscles + 301 weighted links
-│       ├── functional-tasks.ts # 19 functional tasks
-│       ├── exercises.ts       # 117 exercises with full details
-│       └── sources.ts         # 309 research sources + evidence links
-├── scripts/
-│   ├── data-quality.ts        # Data quality checker
-│   ├── resolve-sources.ts     # DOI/PMID/fulltext resolver
-│   └── resolved-sources.json  # Cached resolution results
-├── src/
-│   ├── app/                   # Next.js App Router pages
-│   │   ├── page.tsx           # Dashboard
-│   │   ├── regions/           # Region list + detail
-│   │   ├── joints/            # Joint list + detail
-│   │   ├── movements/         # Movement list + detail
-│   │   ├── muscles/           # Muscle list + detail
-│   │   ├── tasks/             # Functional task list + detail
-│   │   ├── exercises/         # Exercise list + detail
-│   │   ├── sources/           # Source list + detail (fulltext/PDF filtering)
-│   │   ├── finder/            # Exercise finder with faceted filters
-│   │   ├── validation/        # Validation queue
-│   │   ├── api-docs/          # Interactive API reference
-│   │   └── api/               # REST API routes
-│   ├── components/            # Shared UI components
-│   └── lib/
-│       ├── prisma.ts          # Prisma client singleton
-│       ├── queries.ts         # Data access functions
-│       ├── utils.ts           # Utility functions
-│       └── schemas/           # Zod validation schemas
-└── agent-instructions.md      # Original project spec
+prisma/schema.prisma      the graph model
+prisma/seed/**            seed data (base modules + extensions/)
+src/app/**                Next.js routes (explorer pages + /api)
+src/lib/queries.ts        the Prisma query layer
+src/lib/fhir.ts           FHIR mapping (single source of truth)
+scripts/**                export, scoring, data-quality, citation tooling
+mcp/**                    dataset-backed MCP server
+docs/**                   frozen API contract + roadmap
+wiki/**                   institutional memory
 ```
