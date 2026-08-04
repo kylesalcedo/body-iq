@@ -86,6 +86,78 @@ const endpoints: Endpoint[] = [
     example: "/api/sources?filter=pdf&format=rag",
     notes: "Use filter=pdf&format=rag for RAG ingestion — returns 75 sources with direct PMC PDF links.",
   },
+  {
+    method: "GET",
+    path: "/api/muscles/:slug",
+    description: "A muscle with full attachments, the movements/exercises it drives (by role), codes, and sources",
+    example: "/api/muscles/gluteus-maximus",
+  },
+  {
+    method: "GET",
+    path: "/api/movements",
+    description: "List joint movements with ROM and prime movers",
+    params: [
+      { name: "region", type: "string", required: false, description: "Filter by region slug" },
+      { name: "plane", type: "string", required: false, description: "Filter by plane (sagittal/frontal/transverse)" },
+    ],
+    example: "/api/movements?region=shoulder",
+  },
+  {
+    method: "GET",
+    path: "/api/movements/:slug",
+    description: "A movement with ROM, muscles by role, and exercises",
+    example: "/api/movements/knee-external-rotation",
+  },
+  {
+    method: "GET",
+    path: "/api/joints",
+    description: "List joints, each with its SNOMED code",
+    params: [{ name: "region", type: "string", required: false, description: "Filter by region slug" }],
+    example: "/api/joints?region=knee",
+  },
+  {
+    method: "GET",
+    path: "/api/joints/:slug",
+    description: "A joint with its region, movements (and ROM), and codes",
+    example: "/api/joints/tibiofemoral",
+  },
+  {
+    method: "GET",
+    path: "/api/regions",
+    description: "Anatomical regions with joint counts",
+    example: "/api/regions",
+  },
+  {
+    method: "GET",
+    path: "/api/regions/:slug",
+    description: "A region with its joints",
+    example: "/api/regions/shoulder",
+  },
+  {
+    method: "GET",
+    path: "/api/goals",
+    description: "Goals — rehab, performance, prevention, mobility",
+    params: [{ name: "type", type: "string", required: false, description: "rehab | performance | prevention | mobility" }],
+    example: "/api/goals?type=performance",
+  },
+  {
+    method: "GET",
+    path: "/api/goals/:slug",
+    description: "A goal with its exercises, ranked essential-first",
+    example: "/api/goals/improve-squat",
+  },
+  {
+    method: "GET",
+    path: "/api/tasks",
+    description: "Functional (everyday / sport) tasks",
+    example: "/api/tasks",
+  },
+  {
+    method: "GET",
+    path: "/api/tasks/:slug",
+    description: "A functional task with the exercises that build it",
+    example: "/api/tasks/bathing-hygiene",
+  },
 ];
 
 export function ApiExplorer() {
