@@ -307,7 +307,7 @@ export async function getExercise(slug: string) {
       movements: {
         include: {
           movement: {
-            select: { slug: true, name: true, joint: { select: { slug: true, name: true } } },
+            select: { slug: true, name: true, joint: { select: { slug: true, name: true, region: { select: { slug: true, name: true } } } } },
           },
         },
       },

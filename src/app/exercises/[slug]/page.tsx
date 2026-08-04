@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { getExercise } from "@/lib/queries";
 import { StatusBadge, ConfidenceBadge, RoleBadge } from "@/components/badges";
 import { EntityLink, PageHeader, Card, SectionTitle, EmptyState } from "@/components/ui-helpers";
@@ -124,7 +125,13 @@ export default async function ExerciseDetailPage(props: { params: Promise<{ slug
         }
       />
       <QualityScore score={(exercise as any).qualityScore} breakdown={(exercise as any).scoreBreakdown} />
-      <div className="mb-6 flex items-center gap-2">
+      <div className="mb-6 flex flex-wrap items-center gap-2">
+        <Link
+          href={`/exercises/${exercise.slug}/why`}
+          className="inline-flex items-center gap-1.5 rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-800 transition-colors hover:border-gray-400 hover:bg-gray-50"
+        >
+          <span aria-hidden>◇</span> Evidence chain
+        </Link>
         <a
           href={`/api/exercises/${exercise.slug}/fhir`}
           target="_blank"
@@ -133,7 +140,7 @@ export default async function ExerciseDetailPage(props: { params: Promise<{ slug
         >
           <span aria-hidden>⚕</span> View FHIR resource
         </a>
-        <span className="text-xs text-gray-400">FHIR R4 ActivityDefinition — the interoperable form of this exercise</span>
+        <span className="text-xs text-gray-400">movements → muscles → citations · and the interoperable FHIR form</span>
       </div>
       {/* Why include it — clinical rationale */}
       {(exercise as any).rationale && (
