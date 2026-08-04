@@ -42,7 +42,7 @@ export shape alongside the v1 API contract.
 
 ---
 
-## 5. MCP server over the knowledge graph
+## 5. MCP server over the knowledge graph  ✅ DONE (2026-08-04)
 
 **What.** A thin Model Context Protocol server exposing the graph as tools
 ("find exercises targeting muscle X as primary with confidence ≥ N", "get the

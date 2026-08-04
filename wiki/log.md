@@ -2,6 +2,8 @@
 
 Append-only. `grep "^## \[" wiki/log.md | tail -10` for recent activity.
 
+## [2026-08-04] change | API detail routes (muscle/region/joint) + dataset-backed MCP server (7 tools)
+
 ## [2026-08-04] change | Data-integrity pass + versioned dataset export (JSON/SQLite/schema) + release CI
 
 ## [2026-07-04] decision | Adopt meta-layer wiki, commit it, gitignore raw/

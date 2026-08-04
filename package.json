@@ -26,10 +26,12 @@
     "ingest:citations": "tsx scripts/ingest-citations.ts",
     "citations:sync": "tsx scripts/ingest-citations.ts --apply && tsx scripts/score-exercises.ts --promote",
     "validate:agent": "tsx scripts/validate-agent.ts",
-    "export:dataset": "tsx scripts/export-dataset.ts"
+    "export:dataset": "tsx scripts/export-dataset.ts",
+    "mcp": "tsx mcp/server.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "@prisma/client": "^6.0.0",
     "@radix-ui/react-dialog": "^1.1.0",
     "@radix-ui/react-dropdown-menu": "^2.1.0",
