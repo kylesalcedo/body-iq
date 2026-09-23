@@ -27,7 +27,13 @@
     "citations:sync": "tsx scripts/ingest-citations.ts --apply && tsx scripts/score-exercises.ts --promote",
     "validate:agent": "tsx scripts/validate-agent.ts",
     "export:dataset": "tsx scripts/export-dataset.ts",
-    "mcp": "tsx mcp/server.ts"
+    "mcp": "tsx mcp/server.ts",
+    "triage": "tsx scripts/review-triage.ts",
+    "evidence:validate": "tsx scripts/evidence-validation.ts",
+    "research:intake": "tsx scripts/research-intake.ts",
+    "jev:audit": "tsx scripts/jev-audits.ts",
+    "sources:crosscheck": "tsx scripts/source-crosscheck.ts",
+    "sources:fix-proposals": "tsx scripts/identifier-fix-proposals.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",

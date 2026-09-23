@@ -2,6 +2,42 @@
 
 Append-only. `grep "^## \[" wiki/log.md | tail -10` for recent activity.
 
+## [2026-09-22] change | Identifier fix proposals + multi-engine intake
+`scripts/identifier-fix-proposals.ts` searches each conflicting corpus source's
+stored title in PubMed, Europe PMC, and OpenAlex. Of 19 flagged sources: 10
+strong proposals, 5 possible, 1 already correct, 3 with no match. Report only
+(docs/identifier-fix-proposals-2026-09-22.md). Intake gained `--engines
+pubmed,europepmc,openalex`: 125 goal candidates (60 found only outside the
+PubMed search), shortlist 18 -> 29, all corroborated. The 11 new ones are not attached.
+
+## [2026-09-22] change | Goal evidence attached, cross-source verification, Jev audits 3-5
+Kyle approved the 18-article intake shortlist and menu items 3-5. Added
+`scripts/source-crosscheck.ts` (PubMed, Europe PMC, OpenAlex, Crossref,
+Semantic Scholar; PEDro excluded by its fair-use terms): shortlist 18/18
+corroborated; corpus 280/305 corroborated, 19 conflicts including about 13
+stored identifiers that resolve to a different article. Added seed extension
+`goal-evidence` (18 sources, `needs_review`, linked via SourceOnEntity.goalId).
+Added `scripts/jev-audits.ts`: overclaim (153 exercises overstated by both
+checks, 81% agreement), freshness (14 refresh candidates), cue focus (60%
+agreement with stored labels, not applied). 1,450 Jev calls, $0.030481.
+See docs/jev-audits-2026-09-22.md.
+
+## [2026-09-22] change | Goal <-> Source link
+Added nullable `SourceOnEntity.goalId` (FK to Goal, cascade delete, indexed)
+and `Goal.sources`, so condition-level research articles can attach to goals
+with `entityType: "Goal"`. Additive only; `pnpm db:push` would apply it (not run). SQL in the ADR. See
+[[decisions/2026-09-22-goal-source-link]].
+
+## [2026-09-22] change | Jev research-article intake + improvement menu
+Added `scripts/research-intake.ts` (`pnpm research:intake`): PubMed candidate
+search per rehab goal or exercise, verbatim abstract conclusions as summaries,
+Jev relevance/design/finding/review-probability vetting, and a strict proposal
+gate. First live pass: 108 calls, $0.005655, 0 proposed under the strict gate,
+18-article shortlist across 10 rehab goals. Exercise-name search proved weak (23
+of 40 zero-hit). Jev calls now send a browser User-Agent (Cloudflare 1010 fix).
+See [[concepts/research-intake]], docs/research-intake-jev-2026-09-22.md, and
+docs/jev-improvement-menu-2026-09-22.md.
+
 ## [2026-08-14] fix | FHIR links 404'd on the static demo — two causes
 (1) The Pages workflow deletes `src/app/api/**` before the export build, so
 `/api/exercises/<slug>/fhir` was never deployed. (2) `/exercises/[slug]` used a

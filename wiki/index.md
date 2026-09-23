@@ -35,7 +35,11 @@ Institutional memory for **Body IQ**. Domain facts live in the database
 - [[decisions/2026-07-04-nav-and-discovery-ux]] — grouped nav + discovery-view UX refinements
 - [[decisions/2026-07-04-validator-agent]] — report-only, human-in-the-loop validation assistant
 - [[decisions/2026-08-05-progression-edges]] — progression/regression as typed FK edges with a mechanism
+- [[decisions/2026-09-22-goal-source-link]] — nullable Goal FK on SourceOnEntity for condition-level evidence
 
 ## Sources
 Third-party sources (PDFs, PRDs, threads) go in `raw/` (gitignored). File a
 `source-summary` page here when one is ingested. None yet.
+
+- [[concepts/evidence-validation]] — Jev agreement gate for article-backed MC evidence checks
+- [[concepts/research-intake]] — Jev-vetted PubMed article intake that grows the evidence base

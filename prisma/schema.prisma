@@ -384,6 +384,7 @@ model Goal {
   updatedAt   DateTime     @updatedAt
   // Relations
   exercises   ExerciseGoal[]
+  sources     SourceOnEntity[]
 }
 
 model ExerciseGoal {
@@ -476,7 +477,7 @@ model SourceOnEntity {
   id               String         @id @default(cuid())
   notes            String?
   // Polymorphic target
-  entityType       String         // "Region", "Joint", "Movement", "Muscle", "FunctionalTask", "Exercise"
+  entityType       String         // "Region", "Joint", "Movement", "Muscle", "FunctionalTask", "Exercise", "Goal"
   // Optional FKs — exactly one should be non-null
   regionId         String?
   region           Region?        @relation(fields: [regionId], references: [id], onDelete: Cascade)
@@ -490,12 +491,15 @@ model SourceOnEntity {
   functionalTask   FunctionalTask? @relation(fields: [functionalTaskId], references: [id], onDelete: Cascade)
   exerciseId       String?
   exercise         Exercise?      @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  goalId           String?        // condition-level evidence attached to a Goal (e.g. rehab goals)
+  goal             Goal?          @relation(fields: [goalId], references: [id], onDelete: Cascade)
   // Source
   sourceId         String
   source           ResearchSource @relation(fields: [sourceId], references: [id], onDelete: Cascade)
 
   @@index([entityType])
   @@index([sourceId])
+  @@index([goalId])
 }
 
 // ─── Tagging ─────────────────────────────────────────────────────────────────

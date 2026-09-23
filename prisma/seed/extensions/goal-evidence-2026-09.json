@@ -1,0 +1,577 @@
+[
+  {
+    "slug": "zhong-subacromial-pain-2024",
+    "goalSlug": "subacromial-pain",
+    "title": "Effect of scapular stabilization exercises on subacromial pain (impingement) syndrome: a systematic review and meta-analysis of randomized controlled trials.",
+    "authors": "Zhong Z, Zang W, Tang Z, Pan Q, Yang Z, Chen B.",
+    "year": 2024,
+    "journal": "Frontiers in neurology",
+    "doi": "10.3389/fneur.2024.1357763",
+    "pmid": "38497039",
+    "pmcid": "PMC10940535",
+    "fulltextUrl": "https://doi.org/10.3389/fneur.2024.1357763",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "Existing evidence moderately supports the efficacy of SSE for reducing pain and improving function in SAPS, without significant improvement in ROM. Future research should focus on larger, high-quality, standardized protocols to better understand SSE's effects across diverse SAPS populations, treatment, and outcome measures.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.89,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.44
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "yuksel-subacromial-pain-2024",
+    "goalSlug": "subacromial-pain",
+    "title": "Scapular stabilization exercise training improves treatment effectiveness on shoulder pain, scapular dyskinesis, muscle strength, and function in patients with subacromial pain syndrome: A randomized controlled trial.",
+    "authors": "Yuksel E, Yesilyaprak SS.",
+    "year": 2024,
+    "journal": "Journal of bodywork and movement therapies",
+    "doi": "10.1016/j.jbmt.2023.11.005",
+    "pmid": "38432789",
+    "pmcid": null,
+    "fulltextUrl": null,
+    "sourceType": "journal",
+    "design": "rct",
+    "description": "Scapular stabilization exercises added to the shoulder mobilization, stretching, and strengthening are effective in improving scapular dyskinesis, reducing pain, increasing muscle strength and shoulder function in patients with SPS accompanied by scapular dyskinesis.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.88,
+      "design": "rct",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.54
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "raposo-knee-osteoarthritis-2021",
+    "goalSlug": "knee-osteoarthritis",
+    "title": "Effects of exercise on knee osteoarthritis: A systematic review.",
+    "authors": "Raposo F, Ramos M, L\u00facia Cruz A.",
+    "year": 2021,
+    "journal": "Musculoskeletal care",
+    "doi": "10.1002/msc.1538",
+    "pmid": "33666347",
+    "pmcid": null,
+    "fulltextUrl": null,
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "Exercise programmes appear to be safe and effective in knee osteoarthritis patients, mainly regarding pain and strength improvement. Pilates, aerobic and strengthening exercise programmes performed for 8-12 weeks, 3-5 sessions per week; each session lasting 1 h appear to be effective. Both aquatic and land-based programmes show comparable and positive effects.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.87,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.55
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "runge-hip-osteoarthritis-2022",
+    "goalSlug": "hip-osteoarthritis",
+    "title": "The Benefits of Adding Manual Therapy to Exercise Therapy for Improving Pain and Function in Patients With Knee or Hip Osteoarthritis: A Systematic Review With Meta-analysis.",
+    "authors": "Runge N, Aina A, May S.",
+    "year": 2022,
+    "journal": "The Journal of orthopaedic and sports physical therapy",
+    "doi": "10.2519/jospt.2022.11062",
+    "pmid": "35881705",
+    "pmcid": null,
+    "fulltextUrl": null,
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "J Orthop Sports Phys Ther 2022;52(10):675-684. Epub: 27 July 2022. doi:10.2519/jospt.2022.11062.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.77,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "mixed-or-uncertain",
+      "humanReviewProbability": 0.57
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "bartels-hip-osteoarthritis-2016",
+    "goalSlug": "hip-osteoarthritis",
+    "title": "Aquatic exercise for the treatment of knee and hip osteoarthritis.",
+    "authors": "Bartels EM, Juhl CB, Christensen R, Hagen KB, Danneskiold-Sams\u00f8e B, Dagfinrud H, Lund H.",
+    "year": 2016,
+    "journal": "The Cochrane database of systematic reviews",
+    "doi": "10.1002/14651858.CD005523.pub3",
+    "pmid": "27007113",
+    "pmcid": "PMC9942938",
+    "fulltextUrl": null,
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "There is moderate quality evidence that aquatic exercise may have small, short-term, and clinically relevant effects on patient-reported pain, disability, and QoL in people with knee and hip OA. The conclusions of this review update does not change those of the previous published version of this Cochrane review.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.84,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.57
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 3,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "vuurberg-lateral-ankle-sprain-2018",
+    "goalSlug": "lateral-ankle-sprain",
+    "title": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline.",
+    "authors": "Vuurberg G, Hoorntje A, Wink LM, van der Doelen BFW, van den Bekerom MP, Dekker R, van Dijk CN, Krips R, Loogman MCM, Ridderikhof ML, Smithuis FF, Stufkens SAS, Verhagen EALM, de Bie RA, Kerkhoffs GMMJ.",
+    "year": 2018,
+    "journal": "British journal of sports medicine",
+    "doi": "10.1136/bjsports-2017-098106",
+    "pmid": "29514819",
+    "pmcid": null,
+    "fulltextUrl": "https://bjsm.bmj.com/content/bjsports/52/15/956.full.pdf",
+    "sourceType": "guideline",
+    "design": "guideline",
+    "description": "Surgery should be reserved for cases that do not respond to thorough and comprehensive exercise-based treatment. For the prevention of recurrent lateral ankle sprains, ankle braces should be considered as an efficacious option.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.95,
+      "design": "guideline",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.57
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "desmeules-rotator-cuff-tendinopathy-2025",
+    "goalSlug": "rotator-cuff-tendinopathy",
+    "title": "Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline.",
+    "authors": "Desmeules F, Roy JS, Lafrance S, Charron M, Dub\u00e9 MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA.",
+    "year": 2025,
+    "journal": "The Journal of orthopaedic and sports physical therapy",
+    "doi": "10.2519/jospt.2025.13182",
+    "pmid": "40165544",
+    "pmcid": null,
+    "fulltextUrl": null,
+    "sourceType": "guideline",
+    "design": "guideline",
+    "description": "J Orthop Sports Phys Ther 2025;55(4):235-274. Epub 30 January 2025. doi:10.2519/jospt.2025.13182.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.84,
+      "design": "guideline",
+      "finding": "not-reported",
+      "humanReviewProbability": 0.6
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "ijaz-carpal-tunnel-2022",
+    "goalSlug": "carpal-tunnel",
+    "title": "Comparative Efficacy of Routine Physical Therapy with and without Neuromobilization in the Treatment of Patients with Mild to Moderate Carpal Tunnel Syndrome.",
+    "authors": "Ijaz MJ, Karimi H, Ahmad A, Gillani SA, Anwar N, Chaudhary MA.",
+    "year": 2022,
+    "journal": "BioMed research international",
+    "doi": "10.1155/2022/2155765",
+    "pmid": "35782066",
+    "pmcid": "PMC9242805",
+    "fulltextUrl": "https://downloads.hindawi.com/journals/bmri/2022/2155765.pdf",
+    "sourceType": "journal",
+    "design": "rct",
+    "description": "The addition of neuromobilization in the rehabilitation program of carpal tunnel syndrome has better effects on treatment outcomes.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.84,
+      "design": "rct",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.62
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "abdolrazaghi-carpal-tunnel-2023",
+    "goalSlug": "carpal-tunnel",
+    "title": "Effectiveness of Tendon and Nerve Gliding Exercises in the Treatment of Patients With Mild Idiopathic Carpal Tunnel Syndrome: A Randomized Controlled Trial.",
+    "authors": "Abdolrazaghi HA, Khansari M, Mirshahi M, Ahmadi Pishkuhi M.",
+    "year": 2023,
+    "journal": "Hand (New York, N.Y.)",
+    "doi": "10.1177/15589447211006857",
+    "pmid": "33855879",
+    "pmcid": "PMC10035085",
+    "fulltextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10035085/pdf/10.1177_15589447211006857.pdf",
+    "sourceType": "journal",
+    "design": "rct",
+    "description": "Both gliding exercise and wrist splint groups showed some improvement in the severity of symptoms and functional status scores. However, the gliding exercises did not offer additional benefit compared with wrist splint alone.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.81,
+      "design": "rct",
+      "finding": "mixed-or-uncertain",
+      "humanReviewProbability": 0.64
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "li-low-back-pain-2023",
+    "goalSlug": "low-back-pain",
+    "title": "Exercise intervention for patients with chronic low back pain: a systematic review and network meta-analysis.",
+    "authors": "Li Y, Yan L, Hou L, Zhang X, Zhao H, Yan C, Li X, Li Y, Chen X, Ding X.",
+    "year": 2023,
+    "journal": "Frontiers in public health",
+    "doi": "10.3389/fpubh.2023.1155225",
+    "pmid": "38035307",
+    "pmcid": "PMC10687566",
+    "fulltextUrl": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1155225/pdf?isPublishedV2=False",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "Compared with conventional rehabilitation and no intervention provided, tai chi, toga, Pilates exercise, sling exercise, motor control exercise, and core or stabilization exercises significantly improved CLBP in patients. Compared with conventional rehabilitation and no intervention provided, yoga and core or stabilization exercises were statistically significant in improving physical function in patients with CLBP. Due to the limitations of the quality and quantity of the included studies, it is difficult to make a definitive recommendation before more large-scale and high-quality RCTs are co",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.98,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.66
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "hayden-low-back-pain-2021",
+    "goalSlug": "low-back-pain",
+    "title": "Exercise therapy for chronic low back pain.",
+    "authors": "Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW.",
+    "year": 2021,
+    "journal": "The Cochrane database of systematic reviews",
+    "doi": "10.1002/14651858.CD009790.pub2",
+    "pmid": "34580864",
+    "pmcid": "PMC8477273",
+    "fulltextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8477273",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "We found moderate-certainty evidence that exercise is probably effective for treatment of chronic low back pain compared to no treatment, usual care or placebo for pain. The observed treatment effect for the exercise compared to no treatment, usual care or placebo comparisons is small for functional limitations, not meeting our threshold for minimal clinically important difference. We also found exercise to have improved pain (low-certainty evidence) and functional limitations outcomes (moderate-certainty evidence) compared to other conservative treatments; however, these effects were small an",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.97,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "not-reported",
+      "humanReviewProbability": 0.67
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "landesapixfeiro-tennis-elbow-2022",
+    "goalSlug": "tennis-elbow",
+    "title": "Physiotherapy treatment of lateral epicondylitis: A systematic review.",
+    "authors": "Landesa-Pi\u00f1eiro L, Leir\u00f3s-Rodr\u00edguez R.",
+    "year": 2022,
+    "journal": "Journal of back and musculoskeletal rehabilitation",
+    "doi": "10.3233/BMR-210053",
+    "pmid": "34397403",
+    "pmcid": null,
+    "fulltextUrl": "https://content.iospress.com:443/download/journal-of-back-and-musculoskeletal-rehabilitation/bmr210053?id=journal-of-back-and-musculoskeletal-rehabilitation%2Fbmr210053",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "Manual therapy and eccentric strength training are the two physiotherapeutic treatment methods that have the greatest beneficial effects, and, furthermore, their cost-benefit ratio is very favorable. Its complementation with other techniques, such as shock waves, bandages or Kinesio&#xae; taping, among others, facilitates the achievement of therapeutic objectives, but entails an added cost.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.89,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.68
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "siriphorn-plantar-fasciitis-2020",
+    "goalSlug": "plantar-fasciitis",
+    "title": "Calf stretching and plantar fascia-specific stretching for plantar fasciitis: A systematic review and meta-analysis.",
+    "authors": "Siriphorn A, Eksakulkla S.",
+    "year": 2020,
+    "journal": "Journal of bodywork and movement therapies",
+    "doi": "10.1016/j.jbmt.2020.06.013",
+    "pmid": "33218515",
+    "pmcid": null,
+    "fulltextUrl": null,
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "There was moderate to very low-quality evidence of the effectiveness of stretching for PF. The treatment effect of stretching was large and comparable to other therapies. Future trials of higher quality are needed to clarify findings or to confirm findings.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.92,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "mixed-or-uncertain",
+      "humanReviewProbability": 0.7
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "zhi-achilles-tendinopathy-2021",
+    "goalSlug": "achilles-tendinopathy",
+    "title": "Nonoperative treatment of insertional Achilles tendinopathy: a systematic review.",
+    "authors": "Zhi X, Liu X, Han J, Xiang Y, Wu H, Wei S, Xu F.",
+    "year": 2021,
+    "journal": "Journal of orthopaedic surgery and research",
+    "doi": "10.1186/s13018-021-02370-0",
+    "pmid": "33785026",
+    "pmcid": "PMC8008511",
+    "fulltextUrl": "https://josr-online.biomedcentral.com/track/pdf/10.1186/s13018-021-02370-0",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "Current evidence for nonoperative treatment specific for insertional Achilles tendinopathy favors ESWT or the combined treatment of ESWT plus eccentric exercises.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.92,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.72
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "basson-carpal-tunnel-2017",
+    "goalSlug": "carpal-tunnel",
+    "title": "The Effectiveness of Neural Mobilization for Neuromusculoskeletal Conditions: A Systematic Review and Meta-analysis.",
+    "authors": "Basson A, Olivier B, Ellis R, Coppieters M, Stewart A, Mudzi W.",
+    "year": 2017,
+    "journal": "The Journal of orthopaedic and sports physical therapy",
+    "doi": "10.2519/jospt.2017.7117",
+    "pmid": "28704626",
+    "pmcid": null,
+    "fulltextUrl": "http://hdl.handle.net/10072/406607",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "J Orthop Sports Phys Ther 2017;47(9):593-615. Epub 13 Jul 2017. doi:10.2519/jospt.2017.7117.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.79,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "mixed-or-uncertain",
+      "humanReviewProbability": 0.72
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "sadaak-lateral-ankle-sprain-2024",
+    "goalSlug": "lateral-ankle-sprain",
+    "title": "Effect of aquatic versus conventional physical therapy program on ankle sprain grade III in elite athletes: randomized controlled trial.",
+    "authors": "Sadaak MM, AbdElMageed SF, Ibrahim MM.",
+    "year": 2024,
+    "journal": "Journal of orthopaedic surgery and research",
+    "doi": "10.1186/s13018-024-04855-0",
+    "pmid": "38992731",
+    "pmcid": "PMC11238378",
+    "fulltextUrl": "https://doi.org/10.1186/s13018-024-04855-0",
+    "sourceType": "journal",
+    "design": "rct",
+    "description": "Aquatic therapy is more effective than traditional protocols regarding early rehabilitation of acute ankle sprain grade III in Elite professional athletes for reducing pain intensity, improving dynamic balance and athletic performance and power and accelerating their return to sports time. Because aquatic therapy produces better outcomes, it is advised to be included in the rehabilitation programs of athletic patients with acute ankle sprains grade III.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.96,
+      "design": "rct",
+      "finding": "supports-exercise",
+      "humanReviewProbability": 0.73
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "huffer-plantar-fasciitis-2017",
+    "goalSlug": "plantar-fasciitis",
+    "title": "Strength training for plantar fasciitis and the intrinsic foot musculature: A systematic review.",
+    "authors": "Huffer D, Hing W, Newton R, Clair M.",
+    "year": 2017,
+    "journal": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine",
+    "doi": "10.1016/j.ptsp.2016.08.008",
+    "pmid": "27692740",
+    "pmcid": null,
+    "fulltextUrl": "https://pure.bond.edu.au/ws/files/32585564/accepted_manuscript.pdf",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "Despite no plantar fascia thickness changes being observed through high-load plantar fascia resistance training there are indications that it may aid in a reduction of pain and improvements in function. Further research should use standardised outcome measures to assess intrinsic foot musculature strength and plantar fasciitis symptoms.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.89,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "mixed-or-uncertain",
+      "humanReviewProbability": 0.77
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  },
+  {
+    "slug": "zhang-subacromial-pain-2025",
+    "goalSlug": "subacromial-pain",
+    "title": "Effects of seven types of exercise in the treatment of rotator cuff-related shoulder pain (RCRSP): a systematic review and Bayesian network meta-analysis.",
+    "authors": "Zhang W, Du M, Xia L, Hao F, Tian M.",
+    "year": 2025,
+    "journal": "Journal of orthopaedic surgery and research",
+    "doi": "10.1186/s13018-025-06514-4",
+    "pmid": "41276811",
+    "pmcid": "PMC12715924",
+    "fulltextUrl": "https://doi.org/10.1186/s13018-025-06514-4",
+    "sourceType": "journal",
+    "design": "systematic-review-or-meta-analysis",
+    "description": "CST performed best in improving both shoulder pain and shoulder dysfunction. When patients with rotator cuff-related shoulder pain are not suitable for CST, ECT and MCE can be used as alternatives for the treatment of RCRSP.",
+    "jev": {
+      "relevance": "direct",
+      "relevanceConfidence": 0.79,
+      "design": "systematic-review-or-meta-analysis",
+      "finding": "mixed-or-uncertain",
+      "humanReviewProbability": 0.77
+    },
+    "crosscheck": {
+      "verdict": "corroborated",
+      "foundIn": 4,
+      "sources": [
+        "pubmed",
+        "europepmc",
+        "openalex",
+        "crossref"
+      ]
+    }
+  }
+]
