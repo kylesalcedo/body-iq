@@ -1,16 +1,18 @@
 ---
 type: concept
 status: current
-updated: 2026-07-04
+updated: 2026-09-26
 links: [api-contract, knowledge-graph-model, decisions/2026-07-04-discovery-views]
 ---
 
 # Explorer UI
 
-Next.js 14 App Router. Entity pages are **async server components** that call
+Next.js App Router. Entity pages are **async server components** that call
 `src/lib/queries.ts` (→ Prisma) and render directly; no client data layer.
 Client components are used only where interaction demands it (search box,
-finder filters, planner grid, body map).
+finder filters, planner grid, body map). The live search box debounces input and
+ignores responses from an older query, including a response that returns after
+the visitor clears the field. The static demo disables API-backed search.
 
 ## Shared building blocks
 - `src/components/ui-helpers.tsx` — `PageHeader`, `Card`, `SectionTitle`,

@@ -33,6 +33,7 @@ export function SearchBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  const requestRef = useRef(0);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -48,6 +49,7 @@ export function SearchBar() {
   useEffect(() => {
     // Debounced search. Clearing on a too-short query is correct here; the
     // functional updates no-op when state is already empty/closed.
+    const request = ++requestRef.current;
     if (query.trim().length < 2) {
       /* eslint-disable react-hooks/set-state-in-effect */
       setResults((r) => (r.length ? [] : r));
@@ -70,16 +72,25 @@ export function SearchBar() {
           ...data.tasks,
           ...data.exercises,
         ];
+        if (request !== requestRef.current) return;
         setResults(all);
         setIsOpen(all.length > 0);
       } catch {
-        setResults([]);
+        if (request === requestRef.current) {
+          setResults([]);
+          setIsOpen(false);
+        }
       } finally {
-        setLoading(false);
+        if (request === requestRef.current) setLoading(false);
       }
     }, 300);
 
-    return () => clearTimeout(timerRef.current);
+    return () => {
+      clearTimeout(timerRef.current);
+      // Invalidate a response from this effect even after it has started.
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      if (requestRef.current === request) requestRef.current++;
+    };
   }, [query]);
 
   // The static GitHub Pages demo has no /api backend — live search would 404,

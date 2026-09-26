@@ -2,6 +2,9 @@
 
 Append-only. `grep "^## \[" wiki/log.md | tail -10` for recent activity.
 
+## [2026-09-26] fix | Search results follow the current query
+The live global search now ignores responses from an older query after a visitor types more or clears the field. A slow response can no longer repopulate a closed result list. The static demo still disables live search because it has no API. Source: `src/components/search.tsx`; ESLint for the changed component passes. Full TypeScript build remains unverified because fresh dependency installation was interrupted and Prisma-generated types were unavailable. See [[concepts/explorer-ui]].
+
 ## [2026-08-14] fix | FHIR links 404'd on the static demo — two causes
 (1) The Pages workflow deletes `src/app/api/**` before the export build, so
 `/api/exercises/<slug>/fhir` was never deployed. (2) `/exercises/[slug]` used a
